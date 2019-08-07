@@ -1,0 +1,34 @@
+{
+	"sEntity": "Theme",
+	"sId": "sap_belize_plus",
+	"sLabel": "SAP Belize Deep",
+	"sVendor": "SAP",
+	"oExtends": "Base.baseLib.sap_belize",
+	"aBundled": [
+		"sap_belize"
+	],
+	"sTextDirections": "LTR,RTL",
+	"sFallbackThemeId": "sap_bluecrystal",
+	"sType": "STANDARD",
+	"sThemability": "PRIVATE",
+	"mCssScopes": {
+		"css_variables": {
+			"sEmbeddingMethod": "APPEND",
+			"aScopes": [
+				{
+					"sLabel": "Contrast",
+					"sSelector": "sapContrastPlus",
+					"sThemeIdSuffix": "Contrast",
+					"sThemability": "PUBLIC",
+					"aThemabilityFilter": [
+						"Color"
+					],
+					"sEmbeddedFile": "css_variables",
+					"sEmbeddedCompareFile": "sap_belize.css_variables"
+				}
+			],
+			"sBaseFile": "sap_belize.css_variables"
+		}
+	},
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@sap-theming/theming-base-content",
+  "version": "11.1.9",
+  "description": "Theming Base Content",
+  "author": "SAP SE (https://www.sap.com)",
+  "license": "Apache-2.0",
+  "keywords": [
+    "theming",
+    "sap-theming",
+    "themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sap-theming/theming-base-content.git"
+  },
+  "dependencies": {}
+}

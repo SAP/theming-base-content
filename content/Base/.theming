@@ -1,0 +1,26 @@
+{
+	"sEntity": "Framework",
+	"sId": "Base",
+	"sLabel": "SAP Base",
+	"sVendor": "SAP",
+	"sVersion": "11.1.9",
+	"aBuildFiles": [
+		"preview",
+		"css_variables"
+	],
+	"aFiles": [
+		"base",
+		"preview",
+		"css_variables"
+	],
+	"sCompiler": "SapLess",
+	"sCompilerOptions": "FORCE_PARAMETER_RESOLUTION",
+	"sFallbackThemeId": "sap_bluecrystal",
+	"sSourcePathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.less",
+	"sRuntimePathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css",
+	"sRuntimeResourcePathPattern": "%../%%frameworkId%/%libId%/%themeId%",
+	"sBaseLibraryId": "baseLib",
+	"sBaseThemeId": "baseTheme",
+	"sBaseFileId": "base",
+	"sFileCheck": "ALL"
+}

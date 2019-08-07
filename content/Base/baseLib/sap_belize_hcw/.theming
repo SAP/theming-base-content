@@ -1,0 +1,17 @@
+{
+	"sEntity": "Theme",
+	"sId": "sap_belize_hcw",
+	"sLabel": "SAP High Contrast White",
+	"sVendor": "SAP",
+	"oExtends": "Base.baseLib.sap_belize_hcb",
+	"sTextDirections": "LTR,RTL",
+	"sFallbackThemeId": "sap_belize",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"aTags": [
+		"Fiori_2",
+		"Fiori_3",
+		"HighContrast"
+	],
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}

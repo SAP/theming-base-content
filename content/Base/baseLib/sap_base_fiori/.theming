@@ -1,0 +1,13 @@
+{
+	"sEntity": "Theme",
+	"sId": "sap_base_fiori",
+	"sLabel": "Base Fiori",
+	"sVendor": "SAP",
+	"oExtends": "Base.baseLib.baseTheme",
+	"sTextDirections": "LTR,RTL",
+	"sBuildOptions": "SKIP",
+	"sFallbackThemeId": "sap_belize",
+	"sType": "ABSTRACT",
+	"sThemability": "PUBLIC",
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}
