@@ -12,7 +12,10 @@ When a HTML based UI framework uses the exposed parameters,, it also benefits fr
 This repository contains all the source files and generated files a framework needs to connect to the theming infrastructure.
 There is no installation needed to consume the files.
 You can clone the repository or get wanted the ZIP/TAR from the release section of this repository.
-In a further step we intend to expose this repository as a NPM module. This is not yet released.
+You can also consume the `SAP theming Base Content` via [npm](https://docs.npmjs.com/getting-started/what-is-npm):
+```sh
+npm install @sap-theming/theming-base-content
+```
 
 ## Usage
 The SAP Theming Base Content is structured in the “content” of the project folder
