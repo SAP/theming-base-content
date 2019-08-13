@@ -572,7 +572,7 @@
   "sapButton_Emphasized_TextShadow": {
     "prefix": "sapButton_Emphasized_TextShadow",
     "body": "var(--sapButton_Emphasized_TextShadow)",
-    "description": "Emphasized Button Text Shadow (The text shadow color for emphasized buttons.) Value: rgba(255,255,255,0.5) #Base, #Button, #Color, #Font"
+    "description": "Emphasized Button Text Shadow (The text shadow color for emphasized buttons.) Value: rgba(0,0,0,0.5) #Base, #Button, #Color, #Font"
   },
   "sapButton_Emphasized_FontWeight": {
     "prefix": "sapButton_Emphasized_FontWeight",

@@ -1,12 +1,12 @@
 /**
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.43.2
-* data:{"sModified":"2019-08-08T08:27:20Z","sCheck":"H0.01-3b9c2a69"}
+* data:{"sModified":"2019-08-13T09:13:42Z","sCheck":"H0.01-184e797a"}
 */
 
 @import "base.less";
 
-/******************* FILE /Base/baseLib/baseTheme/css_variables.less (Version 11.1.10) *******************/
+/******************* FILE /Base/baseLib/baseTheme/css_variables.less (Version 11.1.11) *******************/
 
 
 :root {
@@ -332,6 +332,9 @@
   --sapChart_Sequence_10: @sapChart_Sequence_10;
   --sapChart_Sequence_11: @sapChart_Sequence_11;
   --sapChart_Sequence_Neutral: @sapChart_Sequence_Neutral;
+  --sapFontUrl_SAP-icons_ttf: @sapFontUrl_SAP-icons_ttf;
+  --sapFontUrl_SAP-icons_woff: @sapFontUrl_SAP-icons_woff;
+  --sapFontUrl_SAP-icons_woff2: @sapFontUrl_SAP-icons_woff2;
 }
 
 .background-image--sapCompanyLogo {
@@ -344,4 +347,9 @@
 
 .background-image--sapShell_BackgroundImage {
   background-image: var(--sapShell_BackgroundImage);
+}
+
+@font-face {
+  font-family: 'SAP-icons';
+  src: local('SAP-icons'),var(--sapFontUrl_SAP-icons_woff2) format('woff2'),var(--sapFontUrl_SAP-icons_woff) format('woff'),var(--sapFontUrl_SAP-icons_ttf) format('truetype');
 }
