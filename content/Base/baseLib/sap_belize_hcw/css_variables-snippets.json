@@ -1072,7 +1072,7 @@
   "sapList_TableGroupHeaderBackground": {
     "prefix": "sapList_TableGroupHeaderBackground",
     "body": "var(--sapList_TableGroupHeaderBackground)",
-    "description": "Table Group Header Background Color (The background color of table group headers.) Value: #b3b3b3 #Base, #List, #Color"
+    "description": "Table Group Header Background Color (The background color of table group headers.) Value: #ffffff #Base, #List, #Color"
   },
   "sapList_TableGroupHeaderBorderColor": {
     "prefix": "sapList_TableGroupHeaderBorderColor",
