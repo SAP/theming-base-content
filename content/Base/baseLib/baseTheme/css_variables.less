@@ -1,13 +1,14 @@
 /**
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 1.43.2
-* data:{"sModified":"2019-09-12T12:07:40Z","sCheck":"H0.01-5bb3699"}
+* Theming Engine 1.45.8
+* data:{"sModified":"2019-09-30T14:53:00Z","sCheck":"H0.01-5a26faa5"}
 */
 
 @import "base.less";
 
-/******************* FILE /Base/baseLib/baseTheme/css_variables.less (Version 11.1.12) *******************/
+/******************* FILE /Base/baseLib/baseTheme/css_variables.less (Version 11.1.13) *******************/
 
+/*!SAP_POSTPROCESS_REDUCE_START*/
 
 :root {
   --sapBrandColor: @sapBrandColor;
@@ -335,6 +336,14 @@
   --sapFontUrl_SAP-icons_ttf: @sapFontUrl_SAP-icons_ttf;
   --sapFontUrl_SAP-icons_woff: @sapFontUrl_SAP-icons_woff;
   --sapFontUrl_SAP-icons_woff2: @sapFontUrl_SAP-icons_woff2;
+  --sapFontUrl_72_Regular_woff2: @sapFontUrl_72_Regular_woff2;
+  --sapFontUrl_72_Regular_woff: @sapFontUrl_72_Regular_woff;
+  --sapFontUrl_72_Bold_woff2: @sapFontUrl_72_Bold_woff2;
+  --sapFontUrl_72_Bold_woff: @sapFontUrl_72_Bold_woff;
+  --sapFontUrl_72_Regular_full_woff2: @sapFontUrl_72_Regular_full_woff2;
+  --sapFontUrl_72_Regular_full_woff: @sapFontUrl_72_Regular_full_woff;
+  --sapFontUrl_72_Bold_full_woff2: @sapFontUrl_72_Bold_full_woff2;
+  --sapFontUrl_72_Bold_full_woff: @sapFontUrl_72_Bold_full_woff;
 }
 
 .background-image--sapCompanyLogo {
@@ -348,8 +357,4 @@
 .background-image--sapShell_BackgroundImage {
   background-image: var(--sapShell_BackgroundImage);
 }
-
-@font-face {
-  font-family: 'SAP-icons';
-  src: local('SAP-icons'),var(--sapFontUrl_SAP-icons_woff2) format('woff2'),var(--sapFontUrl_SAP-icons_woff) format('woff'),var(--sapFontUrl_SAP-icons_ttf) format('truetype');
-}
+/*!SAP_POSTPROCESS_REDUCE_END*/
