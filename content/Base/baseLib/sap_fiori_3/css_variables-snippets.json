@@ -232,7 +232,7 @@
   "sapContent_SearchHighlightColor": {
     "prefix": "sapContent_SearchHighlightColor",
     "body": "var(--sapContent_SearchHighlightColor)",
-    "description": "Search Result Highlight Color (The color of found search results in the content.) Value: #ebf5fe #Base, #Content, #Color"
+    "description": "Search Result Highlight Color (The color of found search results in the content.) Value: #d4f7db #Base, #Content, #Color"
   },
   "sapContent_HelpColor": {
     "prefix": "sapContent_HelpColor",
@@ -917,7 +917,7 @@
   "sapList_HeaderBorderColor": {
     "prefix": "sapList_HeaderBorderColor",
     "body": "var(--sapList_HeaderBorderColor)",
-    "description": "List Column Header Border Color (The color of the borders of the list column header area.) Value: #e5e5e5 #Base, #List, #Color"
+    "description": "List Column Header Border Color (The color of the borders of the list column header area.) Value: #e4e4e4 #Base, #List, #Color"
   },
   "sapList_HeaderTextColor": {
     "prefix": "sapList_HeaderTextColor",
@@ -927,7 +927,7 @@
   "sapList_BorderColor": {
     "prefix": "sapList_BorderColor",
     "body": "var(--sapList_BorderColor)",
-    "description": "List Border Color (The color of the border in a list separating the entries.) Value: #e5e5e5 #Base, #List, #Color"
+    "description": "List Border Color (The color of the border in a list separating the entries.) Value: #e4e4e4 #Base, #List, #Color"
   },
   "sapList_TextColor": {
     "prefix": "sapList_TextColor",
@@ -982,7 +982,7 @@
   "sapList_GroupHeaderBorderColor": {
     "prefix": "sapList_GroupHeaderBorderColor",
     "body": "var(--sapList_GroupHeaderBorderColor)",
-    "description": "List Group Header Border Color (The border color of list group headers.) Value: #d9d9d9 #Base, #List, #Color"
+    "description": "List Group Header Border Color (The border color of list group headers.) Value: #d8d8d8 #Base, #List, #Color"
   },
   "sapList_GroupHeaderTextColor": {
     "prefix": "sapList_GroupHeaderTextColor",
@@ -1007,7 +1007,7 @@
   "sapList_TableGroupHeaderBorderColor": {
     "prefix": "sapList_TableGroupHeaderBorderColor",
     "body": "var(--sapList_TableGroupHeaderBorderColor)",
-    "description": "Table Group Header Border Color (The border color of table group headers.) Value: #d9d9d9 #Base, #List, #Color"
+    "description": "Table Group Header Border Color (The border color of table group headers.) Value: #d8d8d8 #Base, #List, #Color"
   },
   "sapList_TableGroupHeaderTextColor": {
     "prefix": "sapList_TableGroupHeaderTextColor",
@@ -1017,12 +1017,12 @@
   "sapList_TableFooterBorder": {
     "prefix": "sapList_TableFooterBorder",
     "body": "var(--sapList_TableFooterBorder)",
-    "description": "Table Footer Border Color (The border color of table footers.) Value: #d9d9d9 #Base, #List, #Color"
+    "description": "Table Footer Border Color (The border color of table footers.) Value: #d8d8d8 #Base, #List, #Color"
   },
   "sapList_TableFixedBorderColor": {
     "prefix": "sapList_TableFixedBorderColor",
     "body": "var(--sapList_TableFixedBorderColor)",
-    "description": "Table Fixed Border Color (The border color of fixed columns and rows in tables.) Value: #d9d9d9 #Base, #List, #Color"
+    "description": "Table Fixed Border Color (The border color of fixed columns and rows in tables.) Value: #d8d8d8 #Base, #List, #Color"
   },
   "sapScrollBar_FaceColor": {
     "prefix": "sapScrollBar_FaceColor",

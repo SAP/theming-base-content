@@ -36,7 +36,7 @@ e.g. `Base/baseLib/sap_fiori_3/css_varables.css`
 
 After you have downloaded this file, you can use the calculated CSS parameter values.
 
-### Resource parameters
+### Resource Parameters
 CSS parameters which refer to an URL (e.g. `sapCompanyLogo`) are handled a bit different. The CSS variables are applied as a simple string token replacement in the browser. Therefore, there is no URL resolution based on the location of the parameter definition. As a workaround, we introduced a CSS class for each resource CSS parameter  that can be used by the consuming HTML.
 
 ```css
@@ -49,27 +49,36 @@ CSS parameters which refer to an URL (e.g. `sapCompanyLogo`) are handled a bit d
 
 The class selector contains the declaration type of the class property and the name of the CSS parameter.
 
-### SAP custom font parameters
-The custom fonts which have to be used for the specific theme are already declared by the font-face at-rule in the generated `css_variables.css`.
+### SAP Custom Font Parameters
+The custom fonts which have to be used for the specific theme are not declared by a font-face at-rule.
+There are CSS parameters pointing to the locations.
 
 ```css
-...
-@font-face {
-    font-family: '72';
-    font-style: normal;
-    font-weight: 400;
-    src: local('72'), url('../../../Base/baseLib/sap_fiori_3/../sap_base_fiori/fonts/72-Regular.woff2') ...
+:root {
+    ...
+    --sapFontUrl_72_Regular_woff2: url('../../../Base/baseLib/sap_base_fiori/fonts/72-Regular.woff2');
+    --sapFontUrl_72_Regular_woff: url('../../../Base/baseLib/sap_base_fiori/fonts/72-Regular.woff');
+    --sapFontUrl_72_...
 }
-
-@font-face {
-    font-family: '72';
-    font-style: normal;
-    font-weight: 700;
-...
 ```
+Unfortunately, these parameters cannot be used to define a font-face declaration. It seems that the font-face is not part of the “:root” scope. Therefore, it is necessary to define the font declaration you need in your own CSS.
 
-## Consumption of LESS parameters
+## Consumption of LESS Parameters
 Samples how to refer the parameters and integrate in theming infrastructure are documented in the module `@sap-theming/theming-examples-less` (not yet available).
+
+## Serve Resources in NodeJS (express Example)
+You can `require` the theming-base-content module to get the location of the resources.
+```js
+'use strict';
+
+const express = require("express");
+const app = express();
+const baseContentResourcePath = require('@sap-theming/theming-base-content').resourcePath;
+
+app.use(express.static(baseContentResourcePath));
+
+app.listen(3000, () => console.log('Try http://localhost:3000/Base/baseLib/sap_base_fiori/fonts/72-Regular.woff2'));
+```
 
 ## Contributing
 This repository is containing the SAP Open Source Theming Content releases build internally. It is a channel for external distribution. This repository is not open for external contributions.

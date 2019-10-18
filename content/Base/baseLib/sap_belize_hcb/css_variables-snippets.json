@@ -1272,7 +1272,7 @@
   "sapLegendColor5": {
     "prefix": "sapLegendColor5",
     "body": "var(--sapLegendColor5)",
-    "description": "Legend Color 5 (Color to associate or differentiate elements in collections.) Value: #e269C9 #Base, #Legend, #Color"
+    "description": "Legend Color 5 (Color to associate or differentiate elements in collections.) Value: #e269c9 #Base, #Legend, #Color"
   },
   "sapLegendColor6": {
     "prefix": "sapLegendColor6",
@@ -1282,7 +1282,7 @@
   "sapLegendColor7": {
     "prefix": "sapLegendColor7",
     "body": "var(--sapLegendColor7)",
-    "description": "Legend Color 7 (Color to associate or differentiate elements in collections.) Value: #7fc6C6 #Base, #Legend, #Color"
+    "description": "Legend Color 7 (Color to associate or differentiate elements in collections.) Value: #7fc6c6 #Base, #Legend, #Color"
   },
   "sapLegendColor8": {
     "prefix": "sapLegendColor8",

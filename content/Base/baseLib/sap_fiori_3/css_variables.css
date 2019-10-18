@@ -2,10 +2,10 @@
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 *
 * Theming Engine 1.45.8
-* data:{"Path": "Base.baseLib.sap_fiori_3.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_base_fiori","baseTheme"], "Tags": ["Fiori_3"], "FallbackThemeId": "sap_belize", "Version": { "Build":"11.1.13.20190930145302", "Source": "11.1.13", "Engine": "1.45.8"}}
+* data:{"Path": "Base.baseLib.sap_fiori_3.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_base_fiori","baseTheme"], "Tags": ["Fiori_3"], "FallbackThemeId": "sap_belize", "Version": { "Build":"11.1.14.20191018131713", "Source": "11.1.14", "Engine": "1.45.8"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_fiori_3.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_base_fiori","baseTheme"], "Tags": ["Fiori_3"], "FallbackThemeId": "sap_belize", "Version": { "Build":"11.1.13.20190930145302", "Source": "11.1.13", "Engine": "1.45.8"}}');}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_fiori_3.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_base_fiori","baseTheme"], "Tags": ["Fiori_3"], "FallbackThemeId": "sap_belize", "Version": { "Build":"11.1.14.20191018131713", "Source": "11.1.14", "Engine": "1.45.8"}}');}
 :root {
   --sapBrandColor: #0a6ed1;
   --sapHighlightColor: #0854a0;
@@ -102,7 +102,7 @@
   --sapContent_Shadow3: 0 0 0 0.0625rem rgba(0,0,0,0.15), 0 1.25rem 5rem 0 rgba(0,0,0,0.3);
   --sapContent_TextShadow: 0 0 0.125rem #fff;
   --sapContent_HeaderShadow: 0 0 0.25rem 0 rgba(0,0,0,0.15), inset 0 -0.0625rem 0 0 #d9d9d9;
-  --sapContent_SearchHighlightColor: #ebf5fe;
+  --sapContent_SearchHighlightColor: #d4f7db;
   --sapContent_HelpColor: #3f8600;
   --sapContent_LabelColor: #6a6d70;
   --sapContent_MonospaceFontFamily: lucida console, monospace;
@@ -224,9 +224,9 @@
   --sapToolbar_Background: transparent;
   --sapToolbar_SeparatorColor: #d9d9d9;
   --sapList_HeaderBackground: #f2f2f2;
-  --sapList_HeaderBorderColor: #e5e5e5;
+  --sapList_HeaderBorderColor: #e4e4e4;
   --sapList_HeaderTextColor: #32363a;
-  --sapList_BorderColor: #e5e5e5;
+  --sapList_BorderColor: #e4e4e4;
   --sapList_TextColor: #32363a;
   --sapList_Active_TextColor: #fff;
   --sapList_BorderWidth: .0625rem;
@@ -237,15 +237,15 @@
   --sapList_Background: #fff;
   --sapList_Hover_Background: #f5f5f5;
   --sapList_GroupHeaderBackground: #fff;
-  --sapList_GroupHeaderBorderColor: #d9d9d9;
+  --sapList_GroupHeaderBorderColor: #d8d8d8;
   --sapList_GroupHeaderTextColor: #32363a;
   --sapList_FooterBackground: #fafafa;
   --sapList_FooterTextColor: #32363a;
   --sapList_TableGroupHeaderBackground: #efefef;
-  --sapList_TableGroupHeaderBorderColor: #d9d9d9;
+  --sapList_TableGroupHeaderBorderColor: #d8d8d8;
   --sapList_TableGroupHeaderTextColor: #32363a;
-  --sapList_TableFooterBorder: #d9d9d9;
-  --sapList_TableFixedBorderColor: #d9d9d9;
+  --sapList_TableFooterBorder: #d8d8d8;
+  --sapList_TableFixedBorderColor: #d8d8d8;
   --sapList_Active_Background: #0854a0;
   --sapScrollBar_FaceColor: #949494;
   --sapScrollBar_TrackColor: #fff;

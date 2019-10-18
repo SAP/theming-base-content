@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.45.8
-* data:{"sModified":"2019-09-30T14:53:00Z","sCheck":"H0.01-68200f4e"}
+* data:{"sModified":"2019-10-18T13:17:11Z","sCheck":"H0.01-36525eae"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_belize/base.less (Version 11.1.13) *******************/
+/******************* FILE /Base/baseLib/sap_belize/base.less (Version 11.1.14) *******************/
 
 
 // [Tags "!Protected"]
@@ -1023,31 +1023,3 @@
 
 // [Tags "Protected", "Deprecated"]
 @sapField_Disabled_TextColor: fade(@sapField_TextColor, (100 - (@sapContent_DisabledOpacity * 100)));
-
-@font-face {
-  font-family: '72';
-  font-style: normal;
-  font-weight: 400;
-  src: local('72'),@sapFontUrl_72_Regular_woff2 format('woff2'),@sapFontUrl_72_Regular_woff format('woff');
-}
-
-@font-face {
-  font-family: '72';
-  font-style: normal;
-  font-weight: 700;
-  src: local('72-Bold'),@sapFontUrl_72_Bold_woff2 format('woff2'),@sapFontUrl_72_Bold_woff format('woff');
-}
-
-@font-face {
-  font-family: '72full';
-  font-style: normal;
-  font-weight: 400;
-  src: @sapFontUrl_72_Regular_full_woff2 format('woff2'),@sapFontUrl_72_Regular_full_woff format('woff');
-}
-
-@font-face {
-  font-family: '72full';
-  font-style: normal;
-  font-weight: 700;
-  src: @sapFontUrl_72_Bold_full_woff2 format('woff2'),@sapFontUrl_72_Bold_full_woff format('woff');
-}
