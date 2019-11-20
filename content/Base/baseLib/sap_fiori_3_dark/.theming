@@ -1,0 +1,28 @@
+{
+	"sEntity": "Theme",
+	"sId": "sap_fiori_3_dark",
+	"sLabel": "SAP Quartz Dark",
+	"sVendor": "SAP",
+	"oExtends": "Base.baseLib.sap_fiori_3",
+	"sTextDirections": "LTR,RTL",
+	"sFallbackThemeId": "sap_fiori_3",
+	"sType": "STANDARD",
+	"sThemability": "PRIVATE",
+	"mOverrides": {
+		"UI5.sap/ui/core": [
+			{
+				"[1.64.0,)": {
+					"sReleaseStage": "DEVELOPMENT"
+				}
+			}
+		],
+		"UR.baseLib": [
+			{
+				"[10.30.7.311165.0,)": {
+					"sReleaseStage": "DEVELOPMENT"
+				}
+			}
+		]
+	},
+	"sReleaseStage": "BETA"
+}

@@ -3,7 +3,7 @@
 	"sId": "Base",
 	"sLabel": "SAP Base",
 	"sVendor": "SAP",
-	"sVersion": "11.1.14",
+	"sVersion": "11.1.15",
 	"aBuildFiles": [
 		"preview",
 		"css_variables"
