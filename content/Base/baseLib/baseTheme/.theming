@@ -5,5 +5,14 @@
 	"sVendor": "SAP",
 	"sType": "ABSTRACT",
 	"sThemability": "PRIVATE",
-	"sReleaseStage": "GENERAL_AVAILABILITY"
+	"sReleaseStage": "GENERAL_AVAILABILITY",
+	"aBadgeParametersDef": [
+		"sapBrandColor",
+		"sapHighlightColor",
+		"sapBaseColor",
+		"sapShellColor",
+		"sapBackgroundColor",
+		"sapTextColor",
+		"sapLinkColor"
+	]
 }

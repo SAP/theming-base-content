@@ -1,48 +1,12 @@
 /**
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 1.45.8
-* data:{"sModified":"2019-11-19T11:28:58Z","sCheck":"H0.01-91e5f0d"}
+* Theming Engine 1.48.2
+* data:{"sModified":"2020-02-12T11:24:13Z","sCheck":"H0.01-1bffdefb"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.15) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.16) *******************/
 
-
-// [Tags "SapInternal", "Base", "Color", "Protected"]
-@sapDeprecated_Color: lime;
-
-// [Tags "SapInternal", "Base", "Dimension", "Protected"]
-@sapDeprecated_Dimension: 500px;
-
-// [Tags "SapInternal", "Base", "Color", "Protected"]
-@sapDefault_Color: #111;
-
-// [Tags "SapInternal", "Base", "Dimension", "Protected"]
-@sapDefault_Dimension: 111px;
-
-// [Tags "SapInternal", "Base", "URI", "Protected"]
-@sapDefault_URI: url('./111');
-
-// [Tags "SapInternal", "Base", "Font", "Protected"]
-@sapDefault_Font: "111";
-
-// [Tags "SapInternal", "Base", "Font", "Protected"]
-@sapDefault_FontWeight: bold;
-
-// [Tags "SapInternal", "Base", "Protected"]
-@sapDefault_Float: 111.111;
-
-// [Tags "SapInternal", "Base", "Protected"]
-@sapDefault_Boolean: false;
-
-// [Tags "SapInternal", "Base", "Protected"]
-@sapDefault_BorderStyle: solid;
-
-// [Tags "SapInternal", "Base", "Protected"]
-@sapDefault_Shadow: none;
-
-// [Tags "SapInternal", "Base", "Protected"]
-@sapToBeDefined: ~"To Be Defined";
 
 // [Label "Brand Color"]
 // [Description "The color which builds your brand"]
@@ -184,15 +148,15 @@
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
 @sapNegativeTextColor: @sapDefault_Color;
 
-// [Label "Positive Text Color"]
-// [Description "The color for text showing positive or success state."]
-// [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapPositiveTextColor: @sapDefault_Color;
-
 // [Label "Critical Text Color"]
 // [Description "The color for text showing critical or warning state."]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
 @sapCriticalTextColor: @sapDefault_Color;
+
+// [Label "Positive Text Color"]
+// [Description "The color for text showing positive or success state."]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapPositiveTextColor: @sapDefault_Color;
 
 // [Label "Infomative Text Color"]
 // [Description "The color for text showing an informative or information state."]
@@ -360,6 +324,18 @@
 // [Tags "Base", "Content", "Color", "Font", "Protected"]
 @sapContent_MarkerTextColor: @sapDefault_Color;
 
+// [Label "Content Placeholder Loading Background Color"]
+// [Description "The background color of placeholder loading"]
+// [TranslationKey "sapContent_PlaceholderloadBg"]
+// [Tags "Base", "Field", "Color", "Protected"]
+@sapContent_Placeholderloading_Background: @sapDefault_Color;
+
+// [Label "Content Placeholder Loading Gradient"]
+// [Description "The gradient values of placeholder loading"]
+// [TranslationKey "sapContent_PlaceholderloadGrad"]
+// [Tags "Base", "Field", "Color", "Protected"]
+@sapContent_Placeholderloading_Gradient: @sapDefault_Color;
+
 // [Label "Image Placeholder Background Color"]
 // [Description "The background color of image placeholders."]
 // [TranslationKey "sapContent_ImgPlaceholderBg"]
@@ -504,11 +480,87 @@
 // [Tags "Base", "Content", "Color", "Protected"]
 @sapContent_BadgeBackground: @sapDefault_Color;
 
+// [Label "Badge Text Color"]
+// [Description "The text color of badges (e.g. Shell Notifications)."]
+// [Tags "Base", "Content", "Color", "Font", "Protected"]
+@sapContent_BadgeTextColor: @sapDefault_Color;
+
 // [Label "Drag and Drop Active Color"]
 // [Description "The color used to indicate active drag and drop interaction."]
 // [TranslationKey "sapContent_DnDActiveColor"]
 // [Tags "Base", "Content", "Color", "Protected"]
 @sapContent_DragAndDropActiveColor: @sapDefault_Color;
+
+// [Label "Content Selected Text Color"]
+// [Description "The color of selected (toggled) text."]
+// [Tags "Base", "Content", "Color", "Font", "Protected"]
+@sapContent_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Content Selected Background Color"]
+// [Description "The background color of selected (toggled) elements."]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Selected_Background: @sapDefault_Color;
+
+// [Label "Content Selected Hover Background Color"]
+// [Description "The hover background color of selected (toggled) elements."]
+// [TranslationKey "sapContent_Selected_HoverBg"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Selected_Hover_Background: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 1"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color1: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 2"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color2: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 3"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color3: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 4"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color4: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 5"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color5: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 6"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color6: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 7"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color7: @sapDefault_Color;
+
+// [Label "Content Illustrative Color 8"]
+// [Description "The color of illustrated content"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Illustrative_Color8: @sapDefault_Color;
+
+// [Label "Light Font Family"]
+// [Description "The preferred light font family"]
+// [Tags "Base", "Content", "Font", "Protected"]
+@sapFontLightFamily: @sapDefault_Font;
+
+// [Label "Bold Font Family"]
+// [Description "The preferred bold font family of headers"]
+// [Tags "Base", "Content", "Font", "Protected"]
+@sapFontBoldFamily: @sapDefault_Font;
+
+// [Label "Header Font Family"]
+// [Description "The preferred font family of headers"]
+// [Tags "Base", "Content", "Font", "Protected"]
+@sapFontHeaderFamily: @sapDefault_Font;
 
 // [Label "Small Font Size"]
 // [Description "The font size for small texts"]
@@ -519,11 +571,6 @@
 // [Description "The font size for large texts"]
 // [Tags "Base", "Content", "Dimension", "Font", "Protected"]
 @sapFontLargeSize: @sapDefault_Dimension;
-
-// [Label "Header Font Family"]
-// [Description "The preferred font family of headers"]
-// [Tags "Base", "Content", "Font", "Protected"]
-@sapFontHeaderFamily: @sapDefault_Font;
 
 // [Label "Level 1 Header Font Size"]
 // [Description "A font size for headers."]
@@ -687,16 +734,6 @@
 // [Tags "Base", "Shell", "Protected"]
 @sapShell_Shadow: @sapDefault_Shadow;
 
-// [Label "Button Border Thickness"]
-// [Description "The thickness of button borders."]
-// [Tags "Base", "Button", "Dimension", "Protected"]
-@sapButton_BorderWidth: @sapDefault_Dimension;
-
-// [Label "Button Corner Radius"]
-// [Description "Defines whether a button has rounded corners."]
-// [Tags "Base", "Button", "Dimension", "Protected"]
-@sapButton_BorderCornerRadius: @sapDefault_Dimension;
-
 // [Label "Button Background Color"]
 // [Description "The background color of buttons."]
 // [Tags "Base", "Button", "Color", "Protected"]
@@ -707,25 +744,20 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_BorderColor: @sapDefault_Color;
 
+// [Label "Button Border Thickness"]
+// [Description "The thickness of button borders."]
+// [Tags "Base", "Button", "Dimension", "Protected"]
+@sapButton_BorderWidth: @sapDefault_Dimension;
+
+// [Label "Button Corner Radius"]
+// [Description "Defines whether a button has rounded corners."]
+// [Tags "Base", "Button", "Dimension", "Protected"]
+@sapButton_BorderCornerRadius: @sapDefault_Dimension;
+
 // [Label "Button Text Color"]
 // [Description "The color of texts on buttons."]
 // [Tags "Base", "Button", "Color", "Font", "Protected"]
 @sapButton_TextColor: @sapDefault_Color;
-
-// [Label "deprecated - Disabled Button Background Color"]
-// [Description "The background color of disabled buttons (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [Tags "Base", "Button", "Color", "Protected", "Deprecated"]
-@sapButton_Disabled_Background: @sapDeprecated_Color;
-
-// [Label "deprecated - Disabled Button Border Color"]
-// [Description "The color of the borders of disabled buttons (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [Tags "Base", "Button", "Color", "Protected", "Deprecated"]
-@sapButton_Disabled_BorderColor: @sapDeprecated_Color;
-
-// [Label "deprecated - Disabled Button Text Color"]
-// [Description "The color of texts on disabled buttons (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [Tags "Base", "Button", "Color", "Font", "Protected", "Deprecated"]
-@sapButton_Disabled_TextColor: @sapDeprecated_Color;
 
 // [Label "Button Hover Background Color"]
 // [Description "The background color of buttons on hover."]
@@ -828,6 +860,11 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Accept_BorderColor: @sapDefault_Color;
 
+// [Label "Accept Button Text Color"]
+// [Description "The text color of \"Accept\" buttons."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Accept_TextColor: @sapDefault_Color;
+
 // [Label "Accept Button Hover Background Color"]
 // [Description "The hover state background color of \"Accept\" buttons."]
 // [TranslationKey "sapButton_AcptHvrBg"]
@@ -858,10 +895,35 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Accept_Active_BorderColor: @sapDefault_Color;
 
-// [Label "Accept Button Text Color"]
-// [Description "The text color of \"Accept\" buttons."]
+// [Label "Accept Button Selected Background Color"]
+// [Description "The background color of selected (toggled) accept buttons."]
+// [TranslationKey "sapButton_AcptSelBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Accept_Selected_Background: @sapDefault_Color;
+
+// [Label "Accept Button Selected Border Color"]
+// [Description "The border color of selected (toggled) accept buttons."]
+// [TranslationKey "sapButton_AcptSelBrdCol"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Accept_Selected_BorderColor: @sapDefault_Color;
+
+// [Label "Accept Button Selected Text Color"]
+// [Description "The text color of selected (toggled) accept buttons."]
+// [TranslationKey "sapButton_AcptSelTxtCol"]
 // [Tags "Base", "Button", "Color", "Font", "Protected"]
-@sapButton_Accept_TextColor: @sapDefault_Color;
+@sapButton_Accept_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Accept Button Selected Hover Background Color"]
+// [Description "The hover background color of selected (toggled) accept buttons."]
+// [TranslationKey "sapButton_AcptSelHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Accept_Selected_Hover_Background: @sapDefault_Color;
+
+// [Label "Accept Button Selected Hover Border Color"]
+// [Description "The hover border color of selected (toggled) accept buttons."]
+// [TranslationKey "sapButton_AcptSelHvrBrdCol"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Accept_Selected_Hover_BorderColor: @sapDefault_Color;
 
 // [Label "Reject Button Background Color"]
 // [Description "The background color of \"Reject\" buttons."]
@@ -872,6 +934,11 @@
 // [Description "The border color of \"Reject\" buttons."]
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Reject_BorderColor: @sapDefault_Color;
+
+// [Label "Reject Button Text Color"]
+// [Description "The text color of \"Reject\" buttons."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Reject_TextColor: @sapDefault_Color;
 
 // [Label "Reject Button Hover Background Color"]
 // [Description "The hover state background color of \"Reject\" buttons."]
@@ -903,10 +970,35 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Reject_Active_BorderColor: @sapDefault_Color;
 
-// [Label "Reject Button Text Color"]
-// [Description "The text color of \"Reject\" buttons."]
+// [Label "Reject Button Selected Background Color"]
+// [Description "The background color of selected (toggled) reject buttons."]
+// [TranslationKey "sapButton_RjctSelBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Reject_Selected_Background: @sapDefault_Color;
+
+// [Label "Reject Button Selected Border Color"]
+// [Description "The border color of selected (toggled) reject buttons."]
+// [TranslationKey "sapButton_RjctSelBrdCol"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Reject_Selected_BorderColor: @sapDefault_Color;
+
+// [Label "Reject Button Selected Text Color"]
+// [Description "The text color of selected (toggled) reject buttons."]
+// [TranslationKey "sapButton_RjctSelTxtCol"]
 // [Tags "Base", "Button", "Color", "Font", "Protected"]
-@sapButton_Reject_TextColor: @sapDefault_Color;
+@sapButton_Reject_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Reject Button Selected Hover Background Color"]
+// [Description "The hover background color of selected (toggled) reject buttons."]
+// [TranslationKey "sapButton_RjctSelHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Reject_Selected_Hover_Background: @sapDefault_Color;
+
+// [Label "Reject Button Selected Hover Border Color"]
+// [Description "The hover border color of selected (toggled) reject buttons."]
+// [TranslationKey "sapButton_RjctSelHvrBrdCol"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Reject_Selected_Hover_BorderColor: @sapDefault_Color;
 
 // [Label "Lite Button Background Color"]
 // [Description "The background color of transparent (lite) buttons."]
@@ -979,6 +1071,296 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Selected_Hover_BorderColor: @sapDefault_Color;
 
+// [Label "Attention Button Background Color"]
+// [Description "The background color of attention buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Background: @sapDefault_Color;
+
+// [Label "Attention Button Border Color"]
+// [Description "The border color of attention buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_BorderColor: @sapDefault_Color;
+
+// [Label "Attention Button Text Color"]
+// [Description "The text color of attention buttons."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Attention_TextColor: @sapDefault_Color;
+
+// [Label "Attention Button Hover Background Color"]
+// [Description "The hover background color of attention buttons."]
+// [TranslationKey "sapButton_AttHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Hover_Background: @sapDefault_Color;
+
+// [Label "Attention Button Hover Border Color"]
+// [Description "The hover border color of attention buttons."]
+// [TranslationKey "sapButton_AttHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Attention Button Hover Text Color"]
+// [Description "The hover text color of attention buttons."]
+// [TranslationKey "sapButton_AttHvrTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Attention_Hover_TextColor: @sapDefault_Color;
+
+// [Label "Attention Button Active Background Color"]
+// [Description "The active state background color of attention buttons."]
+// [TranslationKey "sapButton_AttActBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Active_Background: @sapDefault_Color;
+
+// [Label "Attention Button Active Border Color"]
+// [Description "The active state border color of attention buttons."]
+// [TranslationKey "sapButton_AttActBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Attention Button Selected Background Color"]
+// [Description "The background color of selected (toggled) Attention buttons."]
+// [TranslationKey "sapButton_AttSelBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Selected_Background: @sapDefault_Color;
+
+// [Label "Attention Button Selected Border Color"]
+// [Description "The border color of selected (toggled) Attention buttons."]
+// [TranslationKey "sapButton_AttSelBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Selected_BorderColor: @sapDefault_Color;
+
+// [Label "Attention Button Selected Text Color"]
+// [Description "The text color of selected (toggled) Attention buttons."]
+// [TranslationKey "sapButton_AttSelTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Attention_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Attention Button Selected Hover Background Color"]
+// [Description "The hover background color of selected (toggled) Attention buttons."]
+// [TranslationKey "sapButton_AttSelHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Selected_Hover_Background: @sapDefault_Color;
+
+// [Label "Attention Button Selected Hover Border Color"]
+// [Description "The hover border color of selected (toggled) Attention buttons."]
+// [TranslationKey "sapButton_AttSelHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Attention_Selected_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Negative Button Background Color"]
+// [Description "The background color of negative buttons."]
+// [TranslationKey "sapButton_NegBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Negative_Background: @sapDefault_Color;
+
+// [Label "Negative Button Border Color"]
+// [Description "The border color of negative buttons."]
+// [TranslationKey "sapButton_NegBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Negative_BorderColor: @sapDefault_Color;
+
+// [Label "Negative Button Text & Icon Color"]
+// [Description "The text color of negative buttons."]
+// [TranslationKey "sapButton_NegTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Negative_TextColor: @sapDefault_Color;
+
+// [Label "Negative Button Hover Background Color"]
+// [Description "The hover state background color of negative buttons."]
+// [TranslationKey "sapButton_NegHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Negative_Hover_Background: @sapDefault_Color;
+
+// [Label "Negative Button Hover Border Color"]
+// [Description "The hover state border color of negative buttons."]
+// [TranslationKey "sapButton_NegHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Negative_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Negative Button Hover Text & Icon Color"]
+// [Description "The hover state text color of negative buttons."]
+// [TranslationKey "sapButton_NegHvrTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Negative_Hover_TextColor: @sapDefault_Color;
+
+// [Label "Negative Button Active Background Color"]
+// [Description "The active state background color of negative buttons."]
+// [TranslationKey "sapButton_NegActBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Negative_Active_Background: @sapDefault_Color;
+
+// [Label "Negative Button Active Border Color"]
+// [Description "The active state border color of negative buttons."]
+// [TranslationKey "sapButton_NegActBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Negative_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Critical Button Background Color"]
+// [Description "The background color of Critical buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Critical_Background: @sapDefault_Color;
+
+// [Label "Critical Button Border Color"]
+// [Description "The border color of Critical buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Critical_BorderColor: @sapDefault_Color;
+
+// [Label "Critical Button Text & Icon Color"]
+// [Description "The text color of Critical buttons."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Critical_TextColor: @sapDefault_Color;
+
+// [Label "Critical Button Hover Background Color"]
+// [Description "The hover state background color of Critical buttons."]
+// [TranslationKey "sapButton_CritHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Critical_Hover_Background: @sapDefault_Color;
+
+// [Label "Critical Button Hover Border Color"]
+// [Description "The hover state border color of Critical buttons."]
+// [TranslationKey "sapButton_CritHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Critical_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Critical Button Hover Text & Icon Color"]
+// [Description "The hover state text color of Critical buttons."]
+// [TranslationKey "sapButton_CritHvrTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Critical_Hover_TextColor: @sapDefault_Color;
+
+// [Label "Critical Button Active Background Color"]
+// [Description "The active state background color of Critical buttons."]
+// [TranslationKey "sapButton_CritActBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Critical_Active_Background: @sapDefault_Color;
+
+// [Label "Critical Button Active Border Color"]
+// [Description "The active state border color of Critical buttons."]
+// [TranslationKey "sapButton_CritActBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Critical_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Success Button Background Color"]
+// [Description "The background color of Success buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Success_Background: @sapDefault_Color;
+
+// [Label "Success Button Border Color"]
+// [Description "The border color of Success buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Success_BorderColor: @sapDefault_Color;
+
+// [Label "Success Button Text & Icon Color"]
+// [Description "The text color of Success buttons."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Success_TextColor: @sapDefault_Color;
+
+// [Label "Success Button Hover Background Color"]
+// [Description "The hover state background color of Success buttons."]
+// [TranslationKey "sapButton_SuccHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Success_Hover_Background: @sapDefault_Color;
+
+// [Label "Success Button Hover Border Color"]
+// [Description "The hover state border color of Success buttons."]
+// [TranslationKey "sapButton_SuccHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Success_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Success Button Hover Text & Icon Color"]
+// [Description "The hover state text color of Success buttons."]
+// [TranslationKey "sapButton_SuccHvrTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Success_Hover_TextColor: @sapDefault_Color;
+
+// [Label "Success Button Active Background Color"]
+// [Description "The active state background color of Success buttons."]
+// [TranslationKey "sapButton_SuccActBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Success_Active_Background: @sapDefault_Color;
+
+// [Label "Success Button Active Border Color"]
+// [Description "The active state border color of Success buttons."]
+// [TranslationKey "sapButton_SuccActBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Success_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Neutral Button Background Color"]
+// [Description "The background color of Neutral buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Neutral_Background: @sapDefault_Color;
+
+// [Label "Neutral Button Border Color"]
+// [Description "The border color of Neutral buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Neutral_BorderColor: @sapDefault_Color;
+
+// [Label "Neutral Button Text & Icon Color"]
+// [Description "The text color of Neutral buttons."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Neutral_TextColor: @sapDefault_Color;
+
+// [Label "Neutral Button Hover Background Color"]
+// [Description "The hover state background color of Neutral buttons."]
+// [TranslationKey "sapButton_NeutHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Neutral_Hover_Background: @sapDefault_Color;
+
+// [Label "Neutral Button Hover Border Color"]
+// [Description "The hover state border color of Neutral buttons."]
+// [TranslationKey "sapButton_NeutHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Neutral_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Neutral Button Hover Text & Icon Color"]
+// [Description "The hover state text color of Neutral buttons."]
+// [TranslationKey "sapButton_NeutHvrTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Neutral_Hover_TextColor: @sapDefault_Color;
+
+// [Label "Neutral Button Active Background Color"]
+// [Description "The active state background color of Neutral buttons."]
+// [TranslationKey "sapButton_NeutActBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Neutral_Active_Background: @sapDefault_Color;
+
+// [Label "Neutral Button Active Border Color"]
+// [Description "The active state border color of Neutral buttons."]
+// [TranslationKey "sapButton_NeutActBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Neutral_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Switch Button Selected Track Color"]
+// [Description "The background color for the selected track of button controls such as the switch."]
+// [TranslationKey "sapButton_TrackSelBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Track_Selected_Background: @sapDefault_Color;
+
+// [Label "Switch Button Selected Text Color"]
+// [Description "The text color for the selected track of button controls such as the switch."]
+// [TranslationKey "sapButton_TrackSelTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Track_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Switch Button Track Color"]
+// [Description "The background color for the track of button controls such as the switch."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Track_Background: @sapDefault_Color;
+
+// [Label "Switch Button Text Color"]
+// [Description "The text color for the track of button controls such as the switch."]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Track_TextColor: @sapDefault_Color;
+
+// [Label "Token Background Color"]
+// [Description "The background color of token buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_TokenBackground: @sapDefault_Color;
+
+// [Label "Token Background Color"]
+// [Description "The background color of token buttons."]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_TokenBorderColor: @sapDefault_Color;
+
 // [Label "Field Background Color"]
 // [Description "The background color of input fields."]
 // [Tags "Base", "Field", "Color", "Protected"]
@@ -1048,27 +1430,6 @@
 // [Description "The background color of a focused input field's value help icon."]
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_Focus_HelpBackground: @sapDefault_Color;
-
-// [Label "deprecated - Disabled Field Background Color"]
-// [Description "The background color of disabled input fields (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [Tags "Base", "Field", "Color", "Protected", "Deprecated"]
-@sapField_Disabled_Background: @sapDeprecated_Color;
-
-// [Label "deprecated - Disabled Field Text Color"]
-// [Description "The text color of disabled input fields (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [Tags "Base", "Field", "Color", "Font", "Protected", "Deprecated"]
-@sapField_Disabled_TextColor: @sapDeprecated_Color;
-
-// [Label "deprecated - Disabled Field Border Color"]
-// [Description "The color of a disabled input field's borders (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [Tags "Base", "Field", "Color", "Protected", "Deprecated"]
-@sapField_Disabled_BorderColor: @sapDeprecated_Color;
-
-// [Label "deprecated - Disabled Field Help Background Color"]
-// [Description "The background color of a disabled input field's value help icon (deprecated: use @sapContent_DisabledOpacity instead)."]
-// [TranslationKey "sapField_Disabled_HelpBackgrnd"]
-// [Tags "Base", "Field", "Color", "Protected", "Deprecated"]
-@sapField_Disabled_HelpBackground: @sapDeprecated_Color;
 
 // [Label "Read Only Field Background Color"]
 // [Description "The background color of a read-only input field."]
@@ -1206,6 +1567,11 @@
 // [Tags "Base", "List", "Color", "Protected"]
 @sapList_BorderColor: @sapDefault_Color;
 
+// [Label "List Grid Thickness"]
+// [Description "The thickness of the border in a list separating the entries."]
+// [Tags "Base", "List", "Dimension", "Protected"]
+@sapList_BorderWidth: @sapDefault_Dimension;
+
 // [Label "List Text Color"]
 // [Description "The main text color for lists and tables."]
 // [Tags "Base", "List", "Color", "Font", "Protected"]
@@ -1215,16 +1581,6 @@
 // [Description "The text color for active (down) list and table items."]
 // [Tags "Base", "List", "Color", "Font", "Protected"]
 @sapList_Active_TextColor: @sapDefault_Color;
-
-// [Label "List Grid Thickness"]
-// [Description "The thickness of the border in a list separating the entries."]
-// [Tags "Base", "List", "Dimension", "Protected"]
-@sapList_BorderWidth: @sapDefault_Dimension;
-
-// [Label "deprecated - List Highlight Color"]
-// [Description "The color of highlighted elements in lists (deprecated: not used anymore since Belize theme)."]
-// [Tags "Base", "List", "Color", "Protected", "Deprecated"]
-@sapList_HighlightColor: @sapDeprecated_Color;
 
 // [Label "List Active Background Color"]
 // [Description "The background color for active (down) list and table items."]
@@ -1258,6 +1614,11 @@
 // [Tags "Base", "List", "Color", "Protected"]
 @sapList_Hover_Background: @sapDefault_Color;
 
+// [Label "List Alternating Background Color"]
+// [Description "The background color of alternating list items."]
+// [Tags "Base", "List", "Color", "Protected"]
+@sapList_AlternatingBackground: @sapDefault_Color;
+
 // [Label "List Group Header Background Color"]
 // [Description "The background color of list group headers."]
 // [Tags "Base", "List", "Color", "Protected"]
@@ -1272,16 +1633,6 @@
 // [Description "The text color of list group headers."]
 // [Tags "Base", "List", "Color", "Font", "Protected"]
 @sapList_GroupHeaderTextColor: @sapList_TextColor;
-
-// [Label "List Footer Background Color"]
-// [Description "The background color of list footers."]
-// [Tags "Base", "List", "Color", "Protected"]
-@sapList_FooterBackground: @sapDefault_Color;
-
-// [Label "List Footer Text Color"]
-// [Description "The text color of list footers."]
-// [Tags "Base", "List", "Color", "Font", "Protected"]
-@sapList_FooterTextColor: @sapDefault_Color;
 
 // [Label "Table Group Header Background Color"]
 // [Description "The background color of table group headers."]
@@ -1300,6 +1651,16 @@
 // [TranslationKey "sapList_TblGrpHdrTextColor"]
 // [Tags "Base", "List", "Color", "Font", "Protected"]
 @sapList_TableGroupHeaderTextColor: @sapDefault_Color;
+
+// [Label "List Footer Background Color"]
+// [Description "The background color of list footers."]
+// [Tags "Base", "List", "Color", "Protected"]
+@sapList_FooterBackground: @sapDefault_Color;
+
+// [Label "List Footer Text Color"]
+// [Description "The text color of list footers."]
+// [Tags "Base", "List", "Color", "Font", "Protected"]
+@sapList_FooterTextColor: @sapDefault_Color;
 
 // [Label "Table Footer Border Color"]
 // [Description "The border color of table footers."]
@@ -1436,6 +1797,11 @@
 // [Tags "Base", "Tile", "Color", "Protected"]
 @sapTile_IconColor: @sapDefault_Color;
 
+// [Label "Tile/Card Border Color"]
+// [Description "The border or divider color of tile/ card headers."]
+// [Tags "Base", "Tile", "Color", "Protected"]
+@sapTile_SeparatorColor: @sapDefault_Color;
+
 // [Label "Accent Color 1"]
 // [Description "Secondary color to accentuate UI elements."]
 // [Tags "Base", "Accent", "Color", "Protected"]
@@ -1505,6 +1871,21 @@
 // [Label "Indication Color 5"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
 @sapIndicationColor_5: #0a6ed1;
+
+// [Label "Legend Working Background"]
+// [Description "The background color that represents working."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegend_WorkingBackground: @sapDefault_Color;
+
+// [Label "Legend Non-working Background"]
+// [Description "The background color that represents not working."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegend_NonWorkingBackground: @sapDefault_Color;
+
+// [Label "Legend Current Date Time"]
+// [Description "The color that represents the current date or time."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegend_CurrentDateTime: @sapDefault_Color;
 
 // [Label "Legend Color 1"]
 // [Description "Color to associate or differentiate elements in collections."]
@@ -1605,6 +1986,106 @@
 // [Description "Color to associate or differentiate elements in collections."]
 // [Tags "Base", "Legend", "Color", "Protected"]
 @sapLegendColor20: @sapDefault_Color;
+
+// [Label "Legend Background Color 1"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor1: @sapDefault_Color;
+
+// [Label "Legend Background Color 2"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor2: @sapDefault_Color;
+
+// [Label "Legend Background Color 3"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor3: @sapDefault_Color;
+
+// [Label "Legend Background Color 4"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor4: @sapDefault_Color;
+
+// [Label "Legend Background Color 5"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor5: @sapDefault_Color;
+
+// [Label "Legend Background Color 6"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor6: @sapDefault_Color;
+
+// [Label "Legend Background Color 7"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor7: @sapDefault_Color;
+
+// [Label "Legend Background Color 8"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor8: @sapDefault_Color;
+
+// [Label "Legend Background Color 9"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor9: @sapDefault_Color;
+
+// [Label "Legend Background Color 10"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor10: @sapDefault_Color;
+
+// [Label "Legend Background Color 11"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor11: @sapDefault_Color;
+
+// [Label "Legend Background Color 12"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor12: @sapDefault_Color;
+
+// [Label "Legend Background Color 13"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor13: @sapDefault_Color;
+
+// [Label "Legend Background Color 14"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor14: @sapDefault_Color;
+
+// [Label "Legend Background Color 15"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor15: @sapDefault_Color;
+
+// [Label "Legend Background Color 16"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor16: @sapDefault_Color;
+
+// [Label "Legend Background Color 17"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor17: @sapDefault_Color;
+
+// [Label "Legend Background Color 18"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor18: @sapDefault_Color;
+
+// [Label "Legend Background Color 19"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor19: @sapDefault_Color;
+
+// [Label "Legend Background Color 20"]
+// [Description "The background color that represents some legend elements."]
+// [Tags "Base", "Legend", "Color", "Protected"]
+@sapLegendBackgroundColor20: @sapDefault_Color;
 
 // [Label "Chart Ordered Color 1"]
 // [Description "This color is used as a ordered color of a sequence of 11 chart colors. It has a defined contrast to its predecessor and successor."]
@@ -1763,6 +2244,12 @@
 @sapFontUrl_72_Bold_woff: none;
 
 // [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Light_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Light_woff: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
 @sapFontUrl_72_Regular_full_woff2: none;
 
 // [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
@@ -1774,6 +2261,12 @@
 // [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
 @sapFontUrl_72_Bold_full_woff: none;
 
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Light_full_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Light_full_woff: none;
+
 // [Tags "SapInternal", "Base", "URI", "Protected"]
 @sapSvgLib_SAP-icons: none;
 
@@ -1782,6 +2275,90 @@
 
 // [Tags "SapInternal", "Base", "URI", "Protected"]
 @sapSvgLib_SAPWeb-icons: none;
+
+// [Label "deprecated - List Highlight Color"]
+// [Description "The color of highlighted elements in lists (deprecated: not used anymore since Belize theme)."]
+// [Tags "Base", "List", "Color", "Protected", "Deprecated"]
+@sapList_HighlightColor: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Button Background Color"]
+// [Description "The background color of disabled buttons (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [Tags "Base", "Button", "Color", "Protected", "Deprecated"]
+@sapButton_Disabled_Background: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Button Border Color"]
+// [Description "The color of the borders of disabled buttons (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [Tags "Base", "Button", "Color", "Protected", "Deprecated"]
+@sapButton_Disabled_BorderColor: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Button Text Color"]
+// [Description "The color of texts on disabled buttons (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [Tags "Base", "Button", "Color", "Font", "Protected", "Deprecated"]
+@sapButton_Disabled_TextColor: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Field Background Color"]
+// [Description "The background color of disabled input fields (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [Tags "Base", "Field", "Color", "Protected", "Deprecated"]
+@sapField_Disabled_Background: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Field Text Color"]
+// [Description "The text color of disabled input fields (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [Tags "Base", "Field", "Color", "Font", "Protected", "Deprecated"]
+@sapField_Disabled_TextColor: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Field Border Color"]
+// [Description "The color of a disabled input field's borders (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [Tags "Base", "Field", "Color", "Protected", "Deprecated"]
+@sapField_Disabled_BorderColor: @sapDeprecated_Color;
+
+// [Label "deprecated - Disabled Field Help Background Color"]
+// [Description "The background color of a disabled input field's value help icon (deprecated: use @sapContent_DisabledOpacity instead)."]
+// [TranslationKey "sapField_Disabled_HelpBackgrnd"]
+// [Tags "Base", "Field", "Color", "Protected", "Deprecated"]
+@sapField_Disabled_HelpBackground: @sapDeprecated_Color;
+
+// [Tags "SapInternal", "Base", "Color", "Protected"]
+@sapDeprecated_Color: lime;
+
+// [Tags "SapInternal", "Base", "Dimension", "Protected"]
+@sapDeprecated_Dimension: 500px;
+
+// [Tags "SapInternal", "Base", "Color", "Protected"]
+@sapDefault_Color: #111;
+
+// [Tags "SapInternal", "Base", "Dimension", "Protected"]
+@sapDefault_Dimension: 111px;
+
+// [Tags "SapInternal", "Base", "URI", "Protected"]
+@sapDefault_URI: url('./111');
+
+// [Tags "SapInternal", "Base", "Font", "Protected"]
+@sapDefault_Font: "111";
+
+// [Tags "SapInternal", "Base", "Font", "Protected"]
+@sapDefault_FontWeight: bold;
+
+// [Tags "SapInternal", "Base", "Protected"]
+@sapDefault_Float: 111.111;
+
+// [Tags "SapInternal", "Base", "Protected"]
+@sapDefault_Boolean: false;
+
+// [Tags "SapInternal", "Base", "Protected"]
+@sapDefault_BorderStyle: solid;
+
+// [Tags "SapInternal", "Base", "Protected"]
+@sapDefault_Shadow: none;
+
+// [Tags "SapInternal", "Base", "Protected"]
+@sapToBeDefined: ~"To Be Defined";
+
+@font-face {
+  font-family: '72';
+  font-style: normal;
+  font-weight: 300;
+  src: local('72-Light'), @sapFontUrl_72_Light_woff2 format('woff2'), @sapFontUrl_72_Light_woff format('woff');
+}
 
 @font-face {
   font-family: '72';
@@ -1800,6 +2377,13 @@
 @font-face {
   font-family: '72full';
   font-style: normal;
+  font-weight: 300;
+  src: @sapFontUrl_72_Light_full_woff2 format('woff2'), @sapFontUrl_72_Light_full_woff format('woff');
+}
+
+@font-face {
+  font-family: '72full';
+  font-style: normal;
   font-weight: 400;
   src: @sapFontUrl_72_Regular_full_woff2 format('woff2'), @sapFontUrl_72_Regular_full_woff format('woff');
 }
@@ -1808,6 +2392,26 @@
   font-family: '72full';
   font-style: normal;
   font-weight: 700;
+  src: @sapFontUrl_72_Bold_full_woff2 format('woff2'), @sapFontUrl_72_Bold_full_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Light';
+  src: local('72-Light'), @sapFontUrl_72_Light_woff2 format('woff2'), @sapFontUrl_72_Light_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Lighfull';
+  src: @sapFontUrl_72_Light_full_woff2 format('woff2'), @sapFontUrl_72_Light_full_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Bold';
+  src: local('72-Bold'), @sapFontUrl_72_Bold_woff2 format('woff2'), @sapFontUrl_72_Bold_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Boldfull';
   src: @sapFontUrl_72_Bold_full_woff2 format('woff2'), @sapFontUrl_72_Bold_full_woff format('woff');
 }
 

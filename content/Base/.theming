@@ -3,7 +3,7 @@
 	"sId": "Base",
 	"sLabel": "SAP Base",
 	"sVendor": "SAP",
-	"sVersion": "11.1.15",
+	"sVersion": "11.1.16",
 	"aBuildFiles": [
 		"preview",
 		"css_variables"
@@ -15,7 +15,7 @@
 	],
 	"sCompiler": "SapLess",
 	"sCompilerOptions": "FORCE_PARAMETER_RESOLUTION",
-	"sFallbackThemeId": "sap_bluecrystal",
+	"sFallbackThemeId": "sap_fiori_3",
 	"sSourcePathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.less",
 	"sRuntimePathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css",
 	"sRuntimeResourcePathPattern": "%../%%frameworkId%/%libId%/%themeId%",

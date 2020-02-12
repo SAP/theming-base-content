@@ -8,6 +8,10 @@
 	"sFallbackThemeId": "sap_fiori_3",
 	"sType": "STANDARD",
 	"sThemability": "PRIVATE",
+	"aTags": [
+		"Fiori_3",
+		"DarkColorScheme"
+	],
 	"mOverrides": {
 		"UI5.sap/ui/core": [
 			{
@@ -24,5 +28,49 @@
 			}
 		]
 	},
-	"sReleaseStage": "BETA"
+	"sReleaseStage": "BETA",
+	"aBadgeParameters": [
+		{
+			"Id": "sapBrandColor",
+			"CssValue": "#91c8f6",
+			"Label": "Brand Color",
+			"Tags": "Quick,Base,Color"
+		},
+		{
+			"Id": "sapHighlightColor",
+			"CssValue": "#91c8f6",
+			"Label": "Highlight Color",
+			"Tags": "Quick,Base,Content,Color"
+		},
+		{
+			"Id": "sapBaseColor",
+			"CssValue": "#29313a",
+			"Label": "Base Color",
+			"Tags": "Quick,Base,Color"
+		},
+		{
+			"Id": "sapShellColor",
+			"CssValue": "#354a5f",
+			"Label": "Shell Header Color",
+			"Tags": "Quick,Base,Base,Shell,Color"
+		},
+		{
+			"Id": "sapBackgroundColor",
+			"CssValue": "#1c2228",
+			"Label": "Background Color",
+			"Tags": "Quick,Base,Color"
+		},
+		{
+			"Id": "sapTextColor",
+			"CssValue": "#fafafa",
+			"Label": "Text Color",
+			"Tags": "Quick,Base,Content,Color,Font"
+		},
+		{
+			"Id": "sapLinkColor",
+			"CssValue": "#91c8f6",
+			"Label": "Link Color",
+			"Tags": "Quick,Base,Content,Color,Font,Link"
+		}
+	]
 }
