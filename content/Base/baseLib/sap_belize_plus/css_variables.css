@@ -2,13 +2,13 @@
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 *
 * Theming Engine 1.48.2
-* data:{"Path": "Base.baseLib.sap_belize_plus.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_belize","sap_base_fiori","baseTheme"], "Tags": ["Fiori_2","Fiori_3"], "FallbackThemeId": "sap_bluecrystal", "Version": { "Build":"11.1.16.20200212112413", "Source": "11.1.16", "Engine": "1.48.2"}}
+* data:{"Path": "Base.baseLib.sap_belize_plus.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_belize","sap_base_fiori","baseTheme"], "Tags": ["Fiori_2","Fiori_3"], "FallbackThemeId": "sap_bluecrystal", "Version": { "Build":"11.1.17.20200218073028", "Source": "11.1.17", "Engine": "1.48.2"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_belize_plus.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_belize","sap_base_fiori","baseTheme"], "Tags": ["Fiori_2","Fiori_3"], "FallbackThemeId": "sap_bluecrystal", "Version": { "Build":"11.1.16.20200212112413", "Source": "11.1.16", "Engine": "1.48.2"}}');}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_belize_plus.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_belize","sap_base_fiori","baseTheme"], "Tags": ["Fiori_2","Fiori_3"], "FallbackThemeId": "sap_bluecrystal", "Version": { "Build":"11.1.17.20200218073028", "Source": "11.1.17", "Engine": "1.48.2"}}');}
 
 /**
-* Base.baseLib.baseTheme.base (Version 11.1.16)
+* Base.baseLib.baseTheme.base (Version 11.1.17)
 */
 
 @font-face {
@@ -80,7 +80,7 @@
 }
 
 /**
-* Base.baseLib.baseTheme.css_variables (Version 11.1.16)
+* Base.baseLib.baseTheme.css_variables (Version 11.1.17)
 */
 
 /*!SAP_POSTPROCESS_REDUCE_START*/
@@ -256,7 +256,7 @@
   --sapButton_Accept_BorderColor: #2b7c2b;
   --sapButton_Accept_Hover_Background: #eaeaea;
   --sapButton_Accept_Hover_BorderColor: #2b7c2b;
-  --sapButton_Accept_Hover_TextColor: #346187;
+  --sapButton_Accept_Hover_TextColor: #2b7c2b;
   --sapButton_Accept_Active_Background: #2b7c2b;
   --sapButton_Accept_Active_BorderColor: #2b7c2b;
   --sapButton_Accept_TextColor: #2b7c2b;
@@ -269,7 +269,7 @@
   --sapButton_Reject_BorderColor: #bb0000;
   --sapButton_Reject_Hover_Background: #eaeaea;
   --sapButton_Reject_Hover_BorderColor: #bb0000;
-  --sapButton_Reject_Hover_TextColor: #346187;
+  --sapButton_Reject_Hover_TextColor: #b00;
   --sapButton_Reject_Active_Background: #bb0000;
   --sapButton_Reject_Active_BorderColor: #bb0000;
   --sapButton_Reject_TextColor: #b00;
@@ -537,22 +537,22 @@
 /*!SAP_POSTPROCESS_REDUCE_END*/
 
 /**
-* Base.baseLib.sap_base_fiori.base (Version 11.1.16)
+* Base.baseLib.sap_base_fiori.base (Version 11.1.17)
 */
 
 
 /**
-* Base.baseLib.sap_base_fiori.css_variables (Version 11.1.16)
+* Base.baseLib.sap_base_fiori.css_variables (Version 11.1.17)
 */
 
 
 /**
-* Base.baseLib.sap_belize.base (Version 11.1.16)
+* Base.baseLib.sap_belize.base (Version 11.1.17)
 */
 
 
 /**
-* Base.baseLib.sap_belize.css_variables (Version 11.1.16)
+* Base.baseLib.sap_belize.css_variables (Version 11.1.17)
 */
 
 
@@ -674,14 +674,13 @@
   --sapButton_Active_Background: #91c8f6;
   --sapButton_Active_BorderColor: #91c8f6;
   --sapButton_Active_TextColor: #2f3c48;
-  --sapButton_Emphasized_Hover_TextColor: #cae4fb;
   --sapButton_Emphasized_Active_Background: #91c8f6;
   --sapButton_Emphasized_Active_BorderColor: #91c8f6;
   --sapButton_Accept_Background: #435667;
   --sapButton_Accept_BorderColor: #abe2ab;
   --sapButton_Accept_Hover_Background: #4f657a;
   --sapButton_Accept_Hover_BorderColor: #abe2ab;
-  --sapButton_Accept_Hover_TextColor: #cae4fb;
+  --sapButton_Accept_Hover_TextColor: #abe2ab;
   --sapButton_Accept_Active_Background: #abe2ab;
   --sapButton_Accept_Active_BorderColor: #abe2ab;
   --sapButton_Accept_TextColor: #abe2ab;
@@ -694,7 +693,7 @@
   --sapButton_Reject_BorderColor: #ff8888;
   --sapButton_Reject_Hover_Background: #4f657a;
   --sapButton_Reject_Hover_BorderColor: #ff8888;
-  --sapButton_Reject_Hover_TextColor: #cae4fb;
+  --sapButton_Reject_Hover_TextColor: #f88;
   --sapButton_Reject_Active_Background: #ff8888;
   --sapButton_Reject_Active_BorderColor: #ff8888;
   --sapButton_Reject_TextColor: #f88;

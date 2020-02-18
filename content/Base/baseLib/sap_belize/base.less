@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.48.2
-* data:{"sModified":"2020-02-12T11:24:13Z","sCheck":"H0.01-75c21d50"}
+* data:{"sModified":"2020-02-18T07:30:27Z","sCheck":"H0.01-4954e42e"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_belize/base.less (Version 11.1.16) *******************/
+/******************* FILE /Base/baseLib/sap_belize/base.less (Version 11.1.17) *******************/
 
 
 // [Tags "ThemeSpecific", "Base", "Content", "Color", "Protected"]
@@ -404,7 +404,7 @@
 @sapButton_Hover_BorderColor: @sapButton_BorderColor;
 
 // [Tags "!Protected"]
-@sapButton_Hover_TextColor: contrast(@sapButton_Hover_Background, @sapButton_TextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapButton_Hover_TextColor: contrast(@sapButton_Hover_Background, darken(@sapHighlightColor, 10), @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 @sapButton_IconColor: @sapButton_TextColor;
@@ -434,7 +434,7 @@
 @sapButton_Emphasized_Hover_BorderColor: @sapButton_Emphasized_Hover_Background;
 
 // [Tags "!Protected"]
-@sapButton_Emphasized_Hover_TextColor: contrast( @sapButton_Emphasized_Hover_Background , @sapButton_TextColor , @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapButton_Emphasized_Hover_TextColor: contrast(@sapButton_Emphasized_Hover_Background, darken(@sapPrimary1, 8), @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 @sapButton_Emphasized_Active_Background: @sapActiveColor;
@@ -464,7 +464,7 @@
 @sapButton_Accept_Hover_BorderColor: @sapButton_Accept_BorderColor;
 
 // [Tags "!Protected"]
-@sapButton_Accept_Hover_TextColor: contrast( @sapButton_Accept_Hover_Background, @sapButton_TextColor , @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapButton_Accept_Hover_TextColor: contrast(@sapButton_Accept_Hover_Background, @sapPositiveTextColor , @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 @sapButton_Accept_Active_Background: @sapPositiveElementColor;
@@ -493,7 +493,7 @@
 @sapButton_Reject_Hover_BorderColor: @sapButton_Reject_BorderColor;
 
 // [Tags "!Protected"]
-@sapButton_Reject_Hover_TextColor: contrast( @sapButton_Reject_Hover_Background, @sapButton_TextColor , @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapButton_Reject_Hover_TextColor: contrast(@sapButton_Reject_Hover_Background, @sapNegativeTextColor , @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 @sapButton_Reject_Active_Background: @sapNegativeElementColor;

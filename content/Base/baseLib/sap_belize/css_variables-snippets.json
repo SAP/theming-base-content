@@ -607,7 +607,7 @@
   "sapButton_Accept_Hover_TextColor": {
     "prefix": "sapButton_Accept_Hover_TextColor",
     "body": "var(--sapButton_Accept_Hover_TextColor)",
-    "description": "Accept Button Hover Text Color (The hover state text color of \"Accept\" buttons.) Value: #346187 #Base, #Button, #Color"
+    "description": "Accept Button Hover Text Color (The hover state text color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
   },
   "sapButton_Accept_Active_Background": {
     "prefix": "sapButton_Accept_Active_Background",
@@ -647,7 +647,7 @@
   "sapButton_Reject_Hover_TextColor": {
     "prefix": "sapButton_Reject_Hover_TextColor",
     "body": "var(--sapButton_Reject_Hover_TextColor)",
-    "description": "Reject Button Hover Text Color (The hover state text color of \"Reject\" buttons.) Value: #346187 #Base, #Button, #Color"
+    "description": "Reject Button Hover Text Color (The hover state text color of \"Reject\" buttons.) Value: #b00 #Base, #Button, #Color"
   },
   "sapButton_Reject_Active_Background": {
     "prefix": "sapButton_Reject_Active_Background",

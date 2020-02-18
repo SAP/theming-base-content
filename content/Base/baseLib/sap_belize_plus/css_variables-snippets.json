@@ -209,6 +209,11 @@
     "body": "var(--sapButton_Hover_Background)",
     "description": "Button Hover Background Color (The background color of buttons on hover.) Value: #4f657a #Base, #Button, #Color"
   },
+  "sapButton_Hover_TextColor": {
+    "prefix": "sapButton_Hover_TextColor",
+    "body": "var(--sapButton_Hover_TextColor)",
+    "description": "Button Hover Text Color (The color of texts on buttons on hover.) Value: #cae4fb #Base, #Button, #Color, #Font"
+  },
   "sapButton_Emphasized_Background": {
     "prefix": "sapButton_Emphasized_Background",
     "body": "var(--sapButton_Emphasized_Background)",
@@ -223,6 +228,11 @@
     "prefix": "sapButton_Emphasized_TextColor",
     "body": "var(--sapButton_Emphasized_TextColor)",
     "description": "Emphasized Button Text Color (The color of texts on emphasized buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Emphasized_Hover_TextColor": {
+    "prefix": "sapButton_Emphasized_Hover_TextColor",
+    "body": "var(--sapButton_Emphasized_Hover_TextColor)",
+    "description": "Emphasized Button Hover Text Color (The hover state text color of emphasized buttons.) Value: #fff #Base, #Button, #Color"
   },
   "sapField_Background": {
     "prefix": "sapField_Background",
@@ -849,11 +859,6 @@
     "body": "var(--sapButton_Hover_BorderColor)",
     "description": "Button Hover Border Color (The color of a button's borders on hover.) Value: #a0b2c1 #Base, #Button, #Color"
   },
-  "sapButton_Hover_TextColor": {
-    "prefix": "sapButton_Hover_TextColor",
-    "body": "var(--sapButton_Hover_TextColor)",
-    "description": "Button Hover Text Color (The color of texts on buttons on hover.) Value: #cae4fb #Base, #Button, #Color, #Font"
-  },
   "sapButton_IconColor": {
     "prefix": "sapButton_IconColor",
     "body": "var(--sapButton_IconColor)",
@@ -883,11 +888,6 @@
     "prefix": "sapButton_Emphasized_Hover_BorderColor",
     "body": "var(--sapButton_Emphasized_Hover_BorderColor)",
     "description": "Emphasized Button Hover Border Color (The hover state border color of emphasized buttons.) Value: #408ac7 #Base, #Button, #Color"
-  },
-  "sapButton_Emphasized_Hover_TextColor": {
-    "prefix": "sapButton_Emphasized_Hover_TextColor",
-    "body": "var(--sapButton_Emphasized_Hover_TextColor)",
-    "description": "Emphasized Button Hover Text Color (The hover state text color of emphasized buttons.) Value: #cae4fb #Base, #Button, #Color"
   },
   "sapButton_Emphasized_Active_Background": {
     "prefix": "sapButton_Emphasized_Active_Background",
@@ -937,7 +937,7 @@
   "sapButton_Accept_Hover_TextColor": {
     "prefix": "sapButton_Accept_Hover_TextColor",
     "body": "var(--sapButton_Accept_Hover_TextColor)",
-    "description": "Accept Button Hover Text Color (The hover state text color of \"Accept\" buttons.) Value: #cae4fb #Base, #Button, #Color"
+    "description": "Accept Button Hover Text Color (The hover state text color of \"Accept\" buttons.) Value: #abe2ab #Base, #Button, #Color"
   },
   "sapButton_Accept_Active_Background": {
     "prefix": "sapButton_Accept_Active_Background",
@@ -977,7 +977,7 @@
   "sapButton_Reject_Hover_TextColor": {
     "prefix": "sapButton_Reject_Hover_TextColor",
     "body": "var(--sapButton_Reject_Hover_TextColor)",
-    "description": "Reject Button Hover Text Color (The hover state text color of \"Reject\" buttons.) Value: #cae4fb #Base, #Button, #Color"
+    "description": "Reject Button Hover Text Color (The hover state text color of \"Reject\" buttons.) Value: #f88 #Base, #Button, #Color"
   },
   "sapButton_Reject_Active_Background": {
     "prefix": "sapButton_Reject_Active_Background",
