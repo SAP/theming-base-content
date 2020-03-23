@@ -1,7 +1,7 @@
 {
 	"sEntity": "Theme",
 	"sId": "sap_belize_hcb",
-	"sLabel": "SAP High Contrast Black",
+	"sLabel": "SAP High Contrast Black (SAP Belize)",
 	"sVendor": "SAP",
 	"oExtends": "Base.baseLib.sap_belize",
 	"sTextDirections": "LTR,RTL",

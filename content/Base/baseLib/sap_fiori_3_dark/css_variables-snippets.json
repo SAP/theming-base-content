@@ -1174,6 +1174,21 @@
     "body": "var(--sapIndicationColor_5)",
     "description": "Indication Color 5 Value: #91c8f6 #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_6": {
+    "prefix": "sapIndicationColor_6",
+    "body": "var(--sapIndicationColor_6)",
+    "description": "Indication Color 6 Value: #7fc6c6 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_7": {
+    "prefix": "sapIndicationColor_7",
+    "body": "var(--sapIndicationColor_7)",
+    "description": "Indication Color 7 Value: #b995e0 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8": {
+    "prefix": "sapIndicationColor_8",
+    "body": "var(--sapIndicationColor_8)",
+    "description": "Indication Color 8 Value: #e269c9 #Base, #SemanticColor, #Color"
+  },
   "sapLegendColor1": {
     "prefix": "sapLegendColor1",
     "body": "var(--sapLegendColor1)",

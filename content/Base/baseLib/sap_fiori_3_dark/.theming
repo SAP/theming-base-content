@@ -7,7 +7,7 @@
 	"sTextDirections": "LTR,RTL",
 	"sFallbackThemeId": "sap_fiori_3",
 	"sType": "STANDARD",
-	"sThemability": "PRIVATE",
+	"sThemability": "PUBLIC",
 	"aTags": [
 		"Fiori_3",
 		"DarkColorScheme"
@@ -15,20 +15,20 @@
 	"mOverrides": {
 		"UI5.sap/ui/core": [
 			{
-				"[1.64.0,)": {
+				"[1.64.0,1.75.0)": {
 					"sReleaseStage": "DEVELOPMENT"
 				}
 			}
 		],
 		"UR.baseLib": [
 			{
-				"[10.30.7.311165.0,)": {
+				"[10.30.7.311165.0,10.30.7.322142.0)": {
 					"sReleaseStage": "DEVELOPMENT"
 				}
 			}
 		]
 	},
-	"sReleaseStage": "BETA",
+	"sReleaseStage": "GENERAL_AVAILABILITY",
 	"aBadgeParameters": [
 		{
 			"Id": "sapBrandColor",

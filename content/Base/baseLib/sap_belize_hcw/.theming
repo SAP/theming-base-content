@@ -1,7 +1,7 @@
 {
 	"sEntity": "Theme",
 	"sId": "sap_belize_hcw",
-	"sLabel": "SAP High Contrast White",
+	"sLabel": "SAP High Contrast White (SAP Belize)",
 	"sVendor": "SAP",
 	"oExtends": "Base.baseLib.sap_belize_hcb",
 	"sTextDirections": "LTR,RTL",
