@@ -2,6 +2,8 @@
 	"sEntity": "Theme",
 	"sId": "sap_belize_plus",
 	"sLabel": "SAP Belize Deep",
+	"sDescription": "The SAP Belize theme is a light theme, but has some dark contrast areas such as the footer bar and the notifications in the Fiori launchpad. SAP Belize Deep has more dominant contrast areas compared to SAP Belize.",
+	"sHelpLink": "https://experience.sap.com/fiori-design-web/theming",
 	"sVendor": "SAP",
 	"oExtends": "Base.baseLib.sap_belize",
 	"aBundled": [
@@ -31,6 +33,7 @@
 		}
 	},
 	"sReleaseStage": "GENERAL_AVAILABILITY",
+	"sReleaseDate": "2016-01-01T00:00:00Z",
 	"aBadgeParameters": [
 		{
 			"Id": "sapBrandColor",

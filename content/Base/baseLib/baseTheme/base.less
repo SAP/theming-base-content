@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 1.48.2
-* data:{"sModified":"2020-03-13T06:47:01Z","sCheck":"H0.01-75c063e2"}
+* Theming Engine 1.51.0
+* data:{"sModified":"2020-04-07T10:19:39Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.18) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.19) *******************/
 
 
 // [Label "Brand Color"]
@@ -621,6 +621,11 @@
 // [Description "The inverted color for links."]
 // [Tags "Base", "Content", "Color", "Font", "Link", "Protected"]
 @sapLink_InvertedColor: @sapDefault_Color;
+
+// [Label "Subtle link color"]
+// [Description "The text color of less prominent (subtle) links."]
+// [Tags "Base", "Content", "Color", "Font", "Link", "Protected"]
+@sapLink_SubtleColor: @sapDefault_Color;
 
 // [Label "Shell Background Color"]
 // [Description "The background color of the shell."]
@@ -1284,6 +1289,54 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Success_Active_BorderColor: @sapDefault_Color;
 
+// [Label "Information Button Background Color"]
+// [Description "The background color of Information buttons."]
+// [TranslationKey "sapButton_InfBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Information_Background: @sapDefault_Color;
+
+// [Label "Information Button Border Color"]
+// [Description "The border color of Information buttons."]
+// [TranslationKey "sapButton_InfBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Information_BorderColor: @sapDefault_Color;
+
+// [Label "Information Button Text & Icon Color"]
+// [Description "The text color of Information buttons."]
+// [TranslationKey "sapButton_InfTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Information_TextColor: @sapDefault_Color;
+
+// [Label "Information Button Hover Background Color"]
+// [Description "The hover state background color of Information buttons."]
+// [TranslationKey "sapButton_InfHvrBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Information_Hover_Background: @sapDefault_Color;
+
+// [Label "Information Button Hover Border Color"]
+// [Description "The hover state border color of Information buttons."]
+// [TranslationKey "sapButton_InfHvrBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Information_Hover_BorderColor: @sapDefault_Color;
+
+// [Label "Information Button Hover Text & Icon Color"]
+// [Description "The hover state text color of Information buttons."]
+// [TranslationKey "sapButton_InfHvrTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Information_Hover_TextColor: @sapDefault_Color;
+
+// [Label "Information Button Active Background Color"]
+// [Description "The active state background color of Information buttons."]
+// [TranslationKey "sapButton_InfActBg"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Information_Active_Background: @sapDefault_Color;
+
+// [Label "Information Button Active Border Color"]
+// [Description "The active state border color of Information buttons."]
+// [TranslationKey "sapButton_InfActBrdClr"]
+// [Tags "Base", "Button", "Color", "Protected"]
+@sapButton_Information_Active_BorderColor: @sapDefault_Color;
+
 // [Label "Neutral Button Background Color"]
 // [Description "The background color of Neutral buttons."]
 // [Tags "Base", "Button", "Color", "Protected"]
@@ -1854,35 +1907,147 @@
 
 // [Label "Indication Color 1"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_1: #880000;
+@sapIndicationColor_1: @sapDefault_Color;
+
+// [Label "Indication Color 1 Hover Background"]
+// [TranslationKey "sapIndication1HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_1_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 1 Active Background"]
+// [TranslationKey "sapIndication1ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_1_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 1 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_1_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 2"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_2: #bb0000;
+@sapIndicationColor_2: @sapDefault_Color;
+
+// [Label "Indication Color 2 Hover Background"]
+// [TranslationKey "sapIndication2HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_2_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 2 Active Background"]
+// [TranslationKey "sapIndication2ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_2_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 2 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_2_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 3"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_3: #e9730c;
+@sapIndicationColor_3: @sapDefault_Color;
+
+// [Label "Indication Color 3 Hover Background"]
+// [TranslationKey "sapIndication3HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_3_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 3 Active Background"]
+// [TranslationKey "sapIndication3ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_3_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 3 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_3_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 4"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_4: #107e3e;
+@sapIndicationColor_4: @sapDefault_Color;
+
+// [Label "Indication Color 4 Hover Background"]
+// [TranslationKey "sapIndication4HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_4_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 4 Active Background"]
+// [TranslationKey "sapIndication4ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_4_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 4 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_4_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 5"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_5: #0a6ed1;
+@sapIndicationColor_5: @sapDefault_Color;
+
+// [Label "Indication Color 5 Hover Background"]
+// [TranslationKey "sapIndication5HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_5_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 5 Active Background"]
+// [TranslationKey "sapIndication5ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_5_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 5 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_5_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 6"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_6: @sapAccentColor7;
+@sapIndicationColor_6: @sapDefault_Color;
+
+// [Label "Indication Color 6 Hover Background"]
+// [TranslationKey "sapIndication6HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_6_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 6 Active Background"]
+// [TranslationKey "sapIndication6ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_6_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 6 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_6_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 7"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_7: @sapAccentColor9;
+@sapIndicationColor_7: @sapDefault_Color;
+
+// [Label "Indication Color 7 Hover Background"]
+// [TranslationKey "sapIndication7HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_7_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 7 Active Background"]
+// [TranslationKey "sapIndication7ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_7_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 7 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_7_TextColor: @sapDefault_Color;
 
 // [Label "Indication Color 8"]
 // [Tags "Base", "SemanticColor", "Color", "Protected"]
-@sapIndicationColor_8: @sapAccentColor4;
+@sapIndicationColor_8: @sapDefault_Color;
+
+// [Label "Indication Color 8 Hover Background"]
+// [TranslationKey "sapIndication8HvrBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_8_Hover_Background: @sapDefault_Color;
+
+// [Label "Indication Color 8 Active Background"]
+// [TranslationKey "sapIndication8ActBg"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_8_Active_Background: @sapDefault_Color;
+
+// [Label "Indication Color 8 Text Color"]
+// [Tags "Base", "SemanticColor", "Color", "Protected"]
+@sapIndicationColor_8_TextColor: @sapDefault_Color;
 
 // [Label "Legend Working Background"]
 // [Description "The background color that represents working."]

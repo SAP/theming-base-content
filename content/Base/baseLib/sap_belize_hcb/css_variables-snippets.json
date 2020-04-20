@@ -362,7 +362,7 @@
   "sapContent_BadgeBackground": {
     "prefix": "sapContent_BadgeBackground",
     "body": "var(--sapContent_BadgeBackground)",
-    "description": "Badge Background Color (The background color of badges.) Value: #7a5100 #Base, #Content, #Color"
+    "description": "Badge Background Color (The background color of badges.) Value: #000000 #Base, #Content, #Color"
   },
   "sapContent_DragAndDropActiveColor": {
     "prefix": "sapContent_DragAndDropActiveColor",
@@ -433,6 +433,11 @@
     "prefix": "sapLink_InvertedColor",
     "body": "var(--sapLink_InvertedColor)",
     "description": "Inverted link color (The inverted color for links.) Value: #ffffff #Base, #Content, #Color, #Font, #Link"
+  },
+  "sapLink_SubtleColor": {
+    "prefix": "sapLink_SubtleColor",
+    "body": "var(--sapLink_SubtleColor)",
+    "description": "Subtle link color (The text color of less prominent (subtle) links.) Value: #ffffff #Base, #Content, #Color, #Font, #Link"
   },
   "sapShell_Background": {
     "prefix": "sapShell_Background",
@@ -1224,40 +1229,160 @@
     "body": "var(--sapIndicationColor_1)",
     "description": "Indication Color 1 Value: #ff5e5e #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_1_Hover_Background": {
+    "prefix": "sapIndicationColor_1_Hover_Background",
+    "body": "var(--sapIndicationColor_1_Hover_Background)",
+    "description": "Indication Color 1 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_1_Active_Background": {
+    "prefix": "sapIndicationColor_1_Active_Background",
+    "body": "var(--sapIndicationColor_1_Active_Background)",
+    "description": "Indication Color 1 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_1_TextColor": {
+    "prefix": "sapIndicationColor_1_TextColor",
+    "body": "var(--sapIndicationColor_1_TextColor)",
+    "description": "Indication Color 1 Text Color Value: #fff #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_2": {
     "prefix": "sapIndicationColor_2",
     "body": "var(--sapIndicationColor_2)",
     "description": "Indication Color 2 Value: #ff9191 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_2_Hover_Background": {
+    "prefix": "sapIndicationColor_2_Hover_Background",
+    "body": "var(--sapIndicationColor_2_Hover_Background)",
+    "description": "Indication Color 2 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_2_Active_Background": {
+    "prefix": "sapIndicationColor_2_Active_Background",
+    "body": "var(--sapIndicationColor_2_Active_Background)",
+    "description": "Indication Color 2 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_2_TextColor": {
+    "prefix": "sapIndicationColor_2_TextColor",
+    "body": "var(--sapIndicationColor_2_TextColor)",
+    "description": "Indication Color 2 Text Color Value: #fff #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_3": {
     "prefix": "sapIndicationColor_3",
     "body": "var(--sapIndicationColor_3)",
     "description": "Indication Color 3 Value: #ffab1d #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_3_Hover_Background": {
+    "prefix": "sapIndicationColor_3_Hover_Background",
+    "body": "var(--sapIndicationColor_3_Hover_Background)",
+    "description": "Indication Color 3 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_3_Active_Background": {
+    "prefix": "sapIndicationColor_3_Active_Background",
+    "body": "var(--sapIndicationColor_3_Active_Background)",
+    "description": "Indication Color 3 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_3_TextColor": {
+    "prefix": "sapIndicationColor_3_TextColor",
+    "body": "var(--sapIndicationColor_3_TextColor)",
+    "description": "Indication Color 3 Text Color Value: #fff #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_4": {
     "prefix": "sapIndicationColor_4",
     "body": "var(--sapIndicationColor_4)",
     "description": "Indication Color 4 Value: #99cc99 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_4_Hover_Background": {
+    "prefix": "sapIndicationColor_4_Hover_Background",
+    "body": "var(--sapIndicationColor_4_Hover_Background)",
+    "description": "Indication Color 4 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_4_Active_Background": {
+    "prefix": "sapIndicationColor_4_Active_Background",
+    "body": "var(--sapIndicationColor_4_Active_Background)",
+    "description": "Indication Color 4 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_4_TextColor": {
+    "prefix": "sapIndicationColor_4_TextColor",
+    "body": "var(--sapIndicationColor_4_TextColor)",
+    "description": "Indication Color 4 Text Color Value: #fff #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_5": {
     "prefix": "sapIndicationColor_5",
     "body": "var(--sapIndicationColor_5)",
     "description": "Indication Color 5 Value: #6bd3ff #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_5_Hover_Background": {
+    "prefix": "sapIndicationColor_5_Hover_Background",
+    "body": "var(--sapIndicationColor_5_Hover_Background)",
+    "description": "Indication Color 5 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_5_Active_Background": {
+    "prefix": "sapIndicationColor_5_Active_Background",
+    "body": "var(--sapIndicationColor_5_Active_Background)",
+    "description": "Indication Color 5 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_5_TextColor": {
+    "prefix": "sapIndicationColor_5_TextColor",
+    "body": "var(--sapIndicationColor_5_TextColor)",
+    "description": "Indication Color 5 Text Color Value: #fff #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_6": {
     "prefix": "sapIndicationColor_6",
     "body": "var(--sapIndicationColor_6)",
     "description": "Indication Color 6 Value: #7fc6c6 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_6_Hover_Background": {
+    "prefix": "sapIndicationColor_6_Hover_Background",
+    "body": "var(--sapIndicationColor_6_Hover_Background)",
+    "description": "Indication Color 6 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_6_Active_Background": {
+    "prefix": "sapIndicationColor_6_Active_Background",
+    "body": "var(--sapIndicationColor_6_Active_Background)",
+    "description": "Indication Color 6 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_6_TextColor": {
+    "prefix": "sapIndicationColor_6_TextColor",
+    "body": "var(--sapIndicationColor_6_TextColor)",
+    "description": "Indication Color 6 Text Color Value: #fff #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_7": {
     "prefix": "sapIndicationColor_7",
     "body": "var(--sapIndicationColor_7)",
     "description": "Indication Color 7 Value: #b995e0 #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_7_Hover_Background": {
+    "prefix": "sapIndicationColor_7_Hover_Background",
+    "body": "var(--sapIndicationColor_7_Hover_Background)",
+    "description": "Indication Color 7 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_7_Active_Background": {
+    "prefix": "sapIndicationColor_7_Active_Background",
+    "body": "var(--sapIndicationColor_7_Active_Background)",
+    "description": "Indication Color 7 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_7_TextColor": {
+    "prefix": "sapIndicationColor_7_TextColor",
+    "body": "var(--sapIndicationColor_7_TextColor)",
+    "description": "Indication Color 7 Text Color Value: #fff #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_8": {
     "prefix": "sapIndicationColor_8",
     "body": "var(--sapIndicationColor_8)",
     "description": "Indication Color 8 Value: #e269c9 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8_Hover_Background": {
+    "prefix": "sapIndicationColor_8_Hover_Background",
+    "body": "var(--sapIndicationColor_8_Hover_Background)",
+    "description": "Indication Color 8 Hover Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8_Active_Background": {
+    "prefix": "sapIndicationColor_8_Active_Background",
+    "body": "var(--sapIndicationColor_8_Active_Background)",
+    "description": "Indication Color 8 Active Background Value: #7a5100 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8_TextColor": {
+    "prefix": "sapIndicationColor_8_TextColor",
+    "body": "var(--sapIndicationColor_8_TextColor)",
+    "description": "Indication Color 8 Text Color Value: #fff #Base, #SemanticColor, #Color"
   },
   "sapLegendColor1": {
     "prefix": "sapLegendColor1",

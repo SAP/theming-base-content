@@ -164,6 +164,11 @@
     "body": "var(--sapLink_InvertedColor)",
     "description": "Inverted link color (The inverted color for links.) Value: #0070b1 #Base, #Content, #Color, #Font, #Link"
   },
+  "sapLink_SubtleColor": {
+    "prefix": "sapLink_SubtleColor",
+    "body": "var(--sapLink_SubtleColor)",
+    "description": "Subtle link color (The text color of less prominent (subtle) links.) Value: #e4f5ff #Base, #Content, #Color, #Font, #Link"
+  },
   "sapShell_Background": {
     "prefix": "sapShell_Background",
     "body": "var(--sapShell_Background)",
@@ -233,6 +238,21 @@
     "prefix": "sapButton_Emphasized_Hover_TextColor",
     "body": "var(--sapButton_Emphasized_Hover_TextColor)",
     "description": "Emphasized Button Hover Text Color (The hover state text color of emphasized buttons.) Value: #fff #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Active_Background": {
+    "prefix": "sapButton_Accept_Active_Background",
+    "body": "var(--sapButton_Accept_Active_Background)",
+    "description": "Accept Button Active Background Color (The active (down) state background of \"Accept\" buttons.) Value: #98db98 #Base, #Button, #Color"
+  },
+  "sapButton_Reject_Active_Background": {
+    "prefix": "sapButton_Reject_Active_Background",
+    "body": "var(--sapButton_Reject_Active_Background)",
+    "description": "Reject Button Active Background Color (The active (down) state background color of background of \"Reject\" buttons) Value: #ff6e6e #Base, #Button, #Color"
+  },
+  "sapButton_Selected_Hover_Background": {
+    "prefix": "sapButton_Selected_Hover_Background",
+    "body": "var(--sapButton_Selected_Hover_Background)",
+    "description": "Selected Button Background Color (The hover state background color of selected (toggled) buttons.) Value: #54a9f1 #Base, #Button, #Color"
   },
   "sapField_Background": {
     "prefix": "sapField_Background",
@@ -419,40 +439,160 @@
     "body": "var(--sapIndicationColor_1)",
     "description": "Indication Color 1 Value: #ff8888 #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_1_Hover_Background": {
+    "prefix": "sapIndicationColor_1_Hover_Background",
+    "body": "var(--sapIndicationColor_1_Hover_Background)",
+    "description": "Indication Color 1 Hover Background Value: #ffa2a2 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_1_Active_Background": {
+    "prefix": "sapIndicationColor_1_Active_Background",
+    "body": "var(--sapIndicationColor_1_Active_Background)",
+    "description": "Indication Color 1 Active Background Value: #fbb #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_1_TextColor": {
+    "prefix": "sapIndicationColor_1_TextColor",
+    "body": "var(--sapIndicationColor_1_TextColor)",
+    "description": "Indication Color 1 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_2": {
     "prefix": "sapIndicationColor_2",
     "body": "var(--sapIndicationColor_2)",
     "description": "Indication Color 2 Value: #ffbbbb #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_2_Hover_Background": {
+    "prefix": "sapIndicationColor_2_Hover_Background",
+    "body": "var(--sapIndicationColor_2_Hover_Background)",
+    "description": "Indication Color 2 Hover Background Value: #ffd5d5 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_2_Active_Background": {
+    "prefix": "sapIndicationColor_2_Active_Background",
+    "body": "var(--sapIndicationColor_2_Active_Background)",
+    "description": "Indication Color 2 Active Background Value: #fee #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_2_TextColor": {
+    "prefix": "sapIndicationColor_2_TextColor",
+    "body": "var(--sapIndicationColor_2_TextColor)",
+    "description": "Indication Color 2 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_3": {
     "prefix": "sapIndicationColor_3",
     "body": "var(--sapIndicationColor_3)",
     "description": "Indication Color 3 Value: #fabd64 #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_3_Hover_Background": {
+    "prefix": "sapIndicationColor_3_Hover_Background",
+    "body": "var(--sapIndicationColor_3_Hover_Background)",
+    "description": "Indication Color 3 Hover Background Value: #fac373 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_3_Active_Background": {
+    "prefix": "sapIndicationColor_3_Active_Background",
+    "body": "var(--sapIndicationColor_3_Active_Background)",
+    "description": "Indication Color 3 Active Background Value: #fbca82 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_3_TextColor": {
+    "prefix": "sapIndicationColor_3_TextColor",
+    "body": "var(--sapIndicationColor_3_TextColor)",
+    "description": "Indication Color 3 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_4": {
     "prefix": "sapIndicationColor_4",
     "body": "var(--sapIndicationColor_4)",
     "description": "Indication Color 4 Value: #abe2ab #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_4_Hover_Background": {
+    "prefix": "sapIndicationColor_4_Hover_Background",
+    "body": "var(--sapIndicationColor_4_Hover_Background)",
+    "description": "Indication Color 4 Hover Background Value: #bee9be #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_4_Active_Background": {
+    "prefix": "sapIndicationColor_4_Active_Background",
+    "body": "var(--sapIndicationColor_4_Active_Background)",
+    "description": "Indication Color 4 Active Background Value: #d1efd1 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_4_TextColor": {
+    "prefix": "sapIndicationColor_4_TextColor",
+    "body": "var(--sapIndicationColor_4_TextColor)",
+    "description": "Indication Color 4 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_5": {
     "prefix": "sapIndicationColor_5",
     "body": "var(--sapIndicationColor_5)",
     "description": "Indication Color 5 Value: #91c8f6 #Base, #SemanticColor, #Color"
   },
+  "sapIndicationColor_5_Hover_Background": {
+    "prefix": "sapIndicationColor_5_Hover_Background",
+    "body": "var(--sapIndicationColor_5_Hover_Background)",
+    "description": "Indication Color 5 Hover Background Value: #a9d4f8 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_5_Active_Background": {
+    "prefix": "sapIndicationColor_5_Active_Background",
+    "body": "var(--sapIndicationColor_5_Active_Background)",
+    "description": "Indication Color 5 Active Background Value: #c0e0fa #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_5_TextColor": {
+    "prefix": "sapIndicationColor_5_TextColor",
+    "body": "var(--sapIndicationColor_5_TextColor)",
+    "description": "Indication Color 5 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
+  },
   "sapIndicationColor_6": {
     "prefix": "sapIndicationColor_6",
     "body": "var(--sapIndicationColor_6)",
-    "description": "Indication Color 6 Value: #1a9898 #Base, #SemanticColor, #Color"
+    "description": "Indication Color 6 Value: #7fc6c6 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_6_Hover_Background": {
+    "prefix": "sapIndicationColor_6_Hover_Background",
+    "body": "var(--sapIndicationColor_6_Hover_Background)",
+    "description": "Indication Color 6 Hover Background Value: #91cece #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_6_Active_Background": {
+    "prefix": "sapIndicationColor_6_Active_Background",
+    "body": "var(--sapIndicationColor_6_Active_Background)",
+    "description": "Indication Color 6 Active Background Value: #a2d6d6 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_6_TextColor": {
+    "prefix": "sapIndicationColor_6_TextColor",
+    "body": "var(--sapIndicationColor_6_TextColor)",
+    "description": "Indication Color 6 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_7": {
     "prefix": "sapIndicationColor_7",
     "body": "var(--sapIndicationColor_7)",
-    "description": "Indication Color 7 Value: #925ace #Base, #SemanticColor, #Color"
+    "description": "Indication Color 7 Value: #b995e0 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_7_Hover_Background": {
+    "prefix": "sapIndicationColor_7_Hover_Background",
+    "body": "var(--sapIndicationColor_7_Hover_Background)",
+    "description": "Indication Color 7 Hover Background Value: #c6a9e6 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_7_Active_Background": {
+    "prefix": "sapIndicationColor_7_Active_Background",
+    "body": "var(--sapIndicationColor_7_Active_Background)",
+    "description": "Indication Color 7 Active Background Value: #d3bcec #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_7_TextColor": {
+    "prefix": "sapIndicationColor_7_TextColor",
+    "body": "var(--sapIndicationColor_7_TextColor)",
+    "description": "Indication Color 7 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
   },
   "sapIndicationColor_8": {
     "prefix": "sapIndicationColor_8",
     "body": "var(--sapIndicationColor_8)",
-    "description": "Indication Color 8 Value: #ab218e #Base, #SemanticColor, #Color"
+    "description": "Indication Color 8 Value: #e269c9 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8_Hover_Background": {
+    "prefix": "sapIndicationColor_8_Hover_Background",
+    "body": "var(--sapIndicationColor_8_Hover_Background)",
+    "description": "Indication Color 8 Hover Background Value: #e67ed1 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8_Active_Background": {
+    "prefix": "sapIndicationColor_8_Active_Background",
+    "body": "var(--sapIndicationColor_8_Active_Background)",
+    "description": "Indication Color 8 Active Background Value: #ea94d8 #Base, #SemanticColor, #Color"
+  },
+  "sapIndicationColor_8_TextColor": {
+    "prefix": "sapIndicationColor_8_TextColor",
+    "body": "var(--sapIndicationColor_8_TextColor)",
+    "description": "Indication Color 8 Text Color Value: #2f3c48 #Base, #SemanticColor, #Color"
   },
   "sapLegendColor1": {
     "prefix": "sapLegendColor1",
@@ -954,15 +1094,10 @@
     "body": "var(--sapButton_Accept_Hover_TextColor)",
     "description": "Accept Button Hover Text Color (The hover state text color of \"Accept\" buttons.) Value: #abe2ab #Base, #Button, #Color"
   },
-  "sapButton_Accept_Active_Background": {
-    "prefix": "sapButton_Accept_Active_Background",
-    "body": "var(--sapButton_Accept_Active_Background)",
-    "description": "Accept Button Active Background Color (The active (down) state background of \"Accept\" buttons.) Value: #abe2ab #Base, #Button, #Color"
-  },
   "sapButton_Accept_Active_BorderColor": {
     "prefix": "sapButton_Accept_Active_BorderColor",
     "body": "var(--sapButton_Accept_Active_BorderColor)",
-    "description": "Accept Button Active Border Color (The active (down) state border color of \"Accept\" buttons.) Value: #abe2ab #Base, #Button, #Color"
+    "description": "Accept Button Active Border Color (The active (down) state border color of \"Accept\" buttons.) Value: #98db98 #Base, #Button, #Color"
   },
   "sapButton_Reject_Background": {
     "prefix": "sapButton_Reject_Background",
@@ -994,15 +1129,10 @@
     "body": "var(--sapButton_Reject_Hover_TextColor)",
     "description": "Reject Button Hover Text Color (The hover state text color of \"Reject\" buttons.) Value: #f88 #Base, #Button, #Color"
   },
-  "sapButton_Reject_Active_Background": {
-    "prefix": "sapButton_Reject_Active_Background",
-    "body": "var(--sapButton_Reject_Active_Background)",
-    "description": "Reject Button Active Background Color (The active (down) state background color of background of \"Reject\" buttons) Value: #ff8888 #Base, #Button, #Color"
-  },
   "sapButton_Reject_Active_BorderColor": {
     "prefix": "sapButton_Reject_Active_BorderColor",
     "body": "var(--sapButton_Reject_Active_BorderColor)",
-    "description": "Reject Button Active Border Color (The active (down) state border color of \"Reject\" buttons.) Value: #ff8888 #Base, #Button, #Color"
+    "description": "Reject Button Active Border Color (The active (down) state border color of \"Reject\" buttons.) Value: #ff6e6e #Base, #Button, #Color"
   },
   "sapButton_Lite_Background": {
     "prefix": "sapButton_Lite_Background",
@@ -1059,15 +1189,10 @@
     "body": "var(--sapButton_Selected_TextColor)",
     "description": "Selected Button Text Color (The selected (toggled) state text color of buttons.) Value: #2f3c48 #Base, #Button, #Color, #Font"
   },
-  "sapButton_Selected_Hover_Background": {
-    "prefix": "sapButton_Selected_Hover_Background",
-    "body": "var(--sapButton_Selected_Hover_Background)",
-    "description": "Selected Button Background Color (The hover state background color of selected (toggled) buttons.) Value: #91c8f6 #Base, #Button, #Color"
-  },
   "sapButton_Selected_Hover_BorderColor": {
     "prefix": "sapButton_Selected_Hover_BorderColor",
     "body": "var(--sapButton_Selected_Hover_BorderColor)",
-    "description": "Selected Button Hover Border Color (The hover state border color of selected (toggled) buttons.) Value: #91c8f6 #Base, #Button, #Color"
+    "description": "Selected Button Hover Border Color (The hover state border color of selected (toggled) buttons.) Value: #54a9f1 #Base, #Button, #Color"
   },
   "sapField_HelpBackground": {
     "prefix": "sapField_HelpBackground",

@@ -1,7 +1,8 @@
 {
 	"sEntity": "Theme",
 	"sId": "baseTheme",
-	"sLabel": "Base",
+	"sLabel": "SAP Base Theme of the SAP Base Framework",
+	"sDescription": "The SAP Base Theme is the theme all other themes are derived from.",
 	"sVendor": "SAP",
 	"sType": "ABSTRACT",
 	"sThemability": "PRIVATE",
