@@ -167,7 +167,7 @@
   "sapLink_SubtleColor": {
     "prefix": "sapLink_SubtleColor",
     "body": "var(--sapLink_SubtleColor)",
-    "description": "Subtle link color (The text color of less prominent (subtle) links.) Value: #e4f5ff #Base, #Content, #Color, #Font, #Link"
+    "description": "Subtle link color (The text color of less prominent (subtle) links.) Value: #b1e3ff #Base, #Content, #Color, #Font, #Link"
   },
   "sapShell_Background": {
     "prefix": "sapShell_Background",

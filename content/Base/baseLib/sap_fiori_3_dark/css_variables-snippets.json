@@ -267,7 +267,7 @@
   "sapContent_ContrastTextThreshold": {
     "prefix": "sapContent_ContrastTextThreshold",
     "body": "var(--sapContent_ContrastTextThreshold)",
-    "description": "Text Contrast Threshold (The threshold to switch to alternative text color to keep contrast for texts) Value: 0.5 #Base, #Content, #Font"
+    "description": "Text Contrast Threshold (The threshold to switch to alternative text color to keep contrast for texts) Value: 0.55 #Base, #Content, #Font"
   },
   "sapContent_ContrastTextColor": {
     "prefix": "sapContent_ContrastTextColor",
@@ -367,7 +367,7 @@
   "sapLink_SubtleColor": {
     "prefix": "sapLink_SubtleColor",
     "body": "var(--sapLink_SubtleColor)",
-    "description": "Subtle link color (The text color of less prominent (subtle) links.) Value: #eff7fe #Base, #Content, #Color, #Font, #Link"
+    "description": "Subtle link color (The text color of less prominent (subtle) links.) Value: #c0e0fa #Base, #Content, #Color, #Font, #Link"
   },
   "sapShell_Background": {
     "prefix": "sapShell_Background",
@@ -562,7 +562,7 @@
   "sapButton_Emphasized_Hover_TextColor": {
     "prefix": "sapButton_Emphasized_Hover_TextColor",
     "body": "var(--sapButton_Emphasized_Hover_TextColor)",
-    "description": "Emphasized Button Hover Text Color (The hover state text color of emphasized buttons.) Value: #29313a #Base, #Button, #Color"
+    "description": "Emphasized Button Hover Text Color (The hover state text color of emphasized buttons.) Value: #fff #Base, #Button, #Color"
   },
   "sapButton_Emphasized_Active_Background": {
     "prefix": "sapButton_Emphasized_Active_Background",
@@ -1312,7 +1312,7 @@
   "sapIndicationColor_8_TextColor": {
     "prefix": "sapIndicationColor_8_TextColor",
     "body": "var(--sapIndicationColor_8_TextColor)",
-    "description": "Indication Color 8 Text Color Value: #29313a #Base, #SemanticColor, #Color"
+    "description": "Indication Color 8 Text Color Value: #fafafa #Base, #SemanticColor, #Color"
   },
   "sapLegendColor1": {
     "prefix": "sapLegendColor1",
