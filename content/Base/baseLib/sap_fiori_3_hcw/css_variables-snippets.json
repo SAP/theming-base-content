@@ -242,7 +242,7 @@
   "sapContent_UnratedColor": {
     "prefix": "sapContent_UnratedColor",
     "body": "var(--sapContent_UnratedColor)",
-    "description": "Unrated Color (Color for unrated content items.) Value: #888888 #Base, #Content, #Color"
+    "description": "Unrated Color (Color for unrated content items.) Value: #585858 #Base, #Content, #Color"
   },
   "sapContent_FocusColor": {
     "prefix": "sapContent_FocusColor",
