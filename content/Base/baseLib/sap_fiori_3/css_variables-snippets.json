@@ -452,27 +452,42 @@
   "sapShell_Navigation_Background": {
     "prefix": "sapShell_Navigation_Background",
     "body": "var(--sapShell_Navigation_Background)",
-    "description": "Shell Navigation Area Background (The background color for the shell navigation area.) Value: #fff #Base, #Shell, #Color"
+    "description": "Shell Navigation Area Background (The background color for the shell navigation area.) Value: #354a5f #Base, #Shell, #Color"
+  },
+  "sapShell_Navigation_Hover_Background": {
+    "prefix": "sapShell_Navigation_Hover_Background",
+    "body": "var(--sapShell_Navigation_Hover_Background)",
+    "description": "Shell Navigation Area Hover Background (The hover background color for the shell navigation area.) Value: #283848 #Base, #Shell, #Color"
   },
   "sapShell_Navigation_SelectedColor": {
     "prefix": "sapShell_Navigation_SelectedColor",
     "body": "var(--sapShell_Navigation_SelectedColor)",
-    "description": "Shell Navigation Selected Color (The color of selected shell content.) Value: #0854a0 #Base, #Shell, #Color"
+    "description": "Shell Navigation Selected Color (The color of selected shell content.) Value: #d1e8ff #Base, #Shell, #Color"
   },
   "sapShell_Navigation_Selected_TextColor": {
     "prefix": "sapShell_Navigation_Selected_TextColor",
     "body": "var(--sapShell_Navigation_Selected_TextColor)",
-    "description": "Shell Navigation Selected Text Color (The color of selected text in the shell.) Value: #0854a0 #Base, #Shell, #Color"
+    "description": "Shell Navigation Selected Text Color (The color of selected text in the shell.) Value: #d1e8ff #Base, #Shell, #Color"
   },
   "sapShell_Navigation_TextColor": {
     "prefix": "sapShell_Navigation_TextColor",
     "body": "var(--sapShell_Navigation_TextColor)",
-    "description": "Shell Navigation Text Color (The standard color of text in the shell.) Value: #32363a #Base, #Shell, #Color"
+    "description": "Shell Navigation Text Color (The standard color of text in the shell.) Value: #fff #Base, #Shell, #Color"
+  },
+  "sapShell_Navigation_Active_TextColor": {
+    "prefix": "sapShell_Navigation_Active_TextColor",
+    "body": "var(--sapShell_Navigation_Active_TextColor)",
+    "description": "Shell Navigation Active Text Color (Active text color of shell navigation area content.) Value: #fff #Base, #Shell, #Color"
+  },
+  "sapShell_Navigation_Active_Background": {
+    "prefix": "sapShell_Navigation_Active_Background",
+    "body": "var(--sapShell_Navigation_Active_Background)",
+    "description": "Shell Navigation Active Background (Active background color of the shell navigation area content.) Value: #23303e #Base, #Shell, #Color"
   },
   "sapShell_Shadow": {
     "prefix": "sapShell_Shadow",
     "body": "var(--sapShell_Shadow)",
-    "description": "Shell Shadow (The shadow of the shell on the content area.) Value: 0 0 0.25rem 0 rgba(0,0,0,0.15), inset 0 -0.0625rem 0 0 rgba(0,0,0,0.2) #Base, #Shell"
+    "description": "Shell Shadow (The shadow of the shell on the content area.) Value: 0 0 0.25rem 0 rgba(0,0,0,0.4), inset 0 -0.0625rem 0 0 rgba(0,0,0,0.2) #Base, #Shell"
   },
   "sapButton_Background": {
     "prefix": "sapButton_Background",
@@ -1104,10 +1119,25 @@
     "body": "var(--sapInfobar_Active_Background)",
     "description": "Info Bar Active Background Color (The background color for the active (down) state of info bar (contextual filter).) Value: #0a545c #Base, #Toolbar, #Color"
   },
+  "sapInfobar_NonInteractive_Background": {
+    "prefix": "sapInfobar_NonInteractive_Background",
+    "body": "var(--sapInfobar_NonInteractive_Background)",
+    "description": "Info Bar Non Interactive Background Color (The background color of info bars that are not interactive.) Value: #e6e6e6 #Base, #Toolbar, #Color"
+  },
+  "sapInfobar_TextColor": {
+    "prefix": "sapInfobar_TextColor",
+    "body": "var(--sapInfobar_TextColor)",
+    "description": "Info Bar Text Color (The text color of the interactive info bar.) Value: #fff #Base, #Toolbar, #Color, #Font"
+  },
   "sapObjectHeader_Background": {
     "prefix": "sapObjectHeader_Background",
     "body": "var(--sapObjectHeader_Background)",
     "description": "Object Header Background Color (The background color of object headers.) Value: #fff #Base, #Page, #Color"
+  },
+  "sapObjectHeader_Hover_Background": {
+    "prefix": "sapObjectHeader_Hover_Background",
+    "body": "var(--sapObjectHeader_Hover_Background)",
+    "description": "Object Header Hover Background Color (The hover background color of object headers.) Value: #f5f5f5 #Base, #Page, #Color"
   },
   "sapObjectHeader_BorderColor": {
     "prefix": "sapObjectHeader_BorderColor",
@@ -1153,6 +1183,16 @@
     "prefix": "sapTile_IconColor",
     "body": "var(--sapTile_IconColor)",
     "description": "Tile Icon Color (The color of icons on tiles.) Value: #5a7da0 #Base, #Tile, #Color"
+  },
+  "sapTile_SeparatorColor": {
+    "prefix": "sapTile_SeparatorColor",
+    "body": "var(--sapTile_SeparatorColor)",
+    "description": "Tile/Card Border Color (The border or divider color of tile/card headers.) Value: #ccc #Base, #Tile, #Color"
+  },
+  "sapTile_Interactive_BorderColor": {
+    "prefix": "sapTile_Interactive_BorderColor",
+    "body": "var(--sapTile_Interactive_BorderColor)",
+    "description": "Tile/Card Interactive Border Color (The interactive hover and active border color of tile and card controls.) Value: #b3b3b3 #Base, #Tile, #Color"
   },
   "sapIndicationColor_1": {
     "prefix": "sapIndicationColor_1",

@@ -434,6 +434,16 @@
     "body": "var(--sapTile_IconColor)",
     "description": "Tile Icon Color (The color of icons on tiles.) Value: #83c0f6 #Base, #Tile, #Color"
   },
+  "sapTile_SeparatorColor": {
+    "prefix": "sapTile_SeparatorColor",
+    "body": "var(--sapTile_SeparatorColor)",
+    "description": "Tile/Card Border Color (The border or divider color of tile/card headers.) Value: #577086 #Base, #Tile, #Color"
+  },
+  "sapTile_Interactive_BorderColor": {
+    "prefix": "sapTile_Interactive_BorderColor",
+    "body": "var(--sapTile_Interactive_BorderColor)",
+    "description": "Tile/Card Interactive Border Color (The interactive hover and active border color of tile and card controls.) Value: #889eb1 #Base, #Tile, #Color"
+  },
   "sapIndicationColor_1": {
     "prefix": "sapIndicationColor_1",
     "body": "var(--sapIndicationColor_1)",
@@ -979,6 +989,11 @@
     "body": "var(--sapShell_Navigation_Background)",
     "description": "Shell Navigation Area Background (The background color for the shell navigation area.) Value: transparent #Base, #Shell, #Color"
   },
+  "sapShell_Navigation_Hover_Background": {
+    "prefix": "sapShell_Navigation_Hover_Background",
+    "body": "var(--sapShell_Navigation_Hover_Background)",
+    "description": "Shell Navigation Area Hover Background (The hover background color for the shell navigation area.) Value: #5f95c2 #Base, #Shell, #Color"
+  },
   "sapShell_Navigation_SelectedColor": {
     "prefix": "sapShell_Navigation_SelectedColor",
     "body": "var(--sapShell_Navigation_SelectedColor)",
@@ -993,6 +1008,16 @@
     "prefix": "sapShell_Navigation_TextColor",
     "body": "var(--sapShell_Navigation_TextColor)",
     "description": "Shell Navigation Text Color (The standard color of text in the shell.) Value: #fafafa #Base, #Shell, #Color"
+  },
+  "sapShell_Navigation_Active_TextColor": {
+    "prefix": "sapShell_Navigation_Active_TextColor",
+    "body": "var(--sapShell_Navigation_Active_TextColor)",
+    "description": "Shell Navigation Active Text Color (Active text color of shell navigation area content.) Value: #2f3c48 #Base, #Shell, #Color"
+  },
+  "sapShell_Navigation_Active_Background": {
+    "prefix": "sapShell_Navigation_Active_Background",
+    "body": "var(--sapShell_Navigation_Active_Background)",
+    "description": "Shell Navigation Active Background (Active background color of the shell navigation area content.) Value: #91c8f6 #Base, #Shell, #Color"
   },
   "sapShell_Shadow": {
     "prefix": "sapShell_Shadow",
@@ -1157,7 +1182,7 @@
   "sapButton_Lite_Hover_BorderColor": {
     "prefix": "sapButton_Lite_Hover_BorderColor",
     "body": "var(--sapButton_Lite_Hover_BorderColor)",
-    "description": "Lite Button Hover Border Color (The hover state border of transparent (lite) buttons.) Value: transparent #Base, #Button, #Color"
+    "description": "Lite Button Hover Border Color (The hover state border of transparent (lite) buttons.) Value: rgba(35,45,54,0.5) #Base, #Button, #Color"
   },
   "sapButton_Lite_Hover_TextColor": {
     "prefix": "sapButton_Lite_Hover_TextColor",
@@ -1414,10 +1439,25 @@
     "body": "var(--sapInfobar_Active_Background)",
     "description": "Info Bar Active Background Color (The background color for the active (down) state of info bar (contextual filter).) Value: #427cac #Base, #Toolbar, #Color"
   },
+  "sapInfobar_NonInteractive_Background": {
+    "prefix": "sapInfobar_NonInteractive_Background",
+    "body": "var(--sapInfobar_NonInteractive_Background)",
+    "description": "Info Bar Non Interactive Background Color (The background color of info bars that are not interactive.) Value: #2b3742 #Base, #Toolbar, #Color"
+  },
+  "sapInfobar_TextColor": {
+    "prefix": "sapInfobar_TextColor",
+    "body": "var(--sapInfobar_TextColor)",
+    "description": "Info Bar Text Color (The text color of the interactive info bar.) Value: #fafafa #Base, #Toolbar, #Color, #Font"
+  },
   "sapObjectHeader_Background": {
     "prefix": "sapObjectHeader_Background",
     "body": "var(--sapObjectHeader_Background)",
     "description": "Object Header Background Color (The background color of object headers.) Value: #3f5161 #Base, #Page, #Color"
+  },
+  "sapObjectHeader_Hover_Background": {
+    "prefix": "sapObjectHeader_Hover_Background",
+    "body": "var(--sapObjectHeader_Hover_Background)",
+    "description": "Object Header Hover Background Color (The hover background color of object headers.) Value: #45596a #Base, #Page, #Color"
   },
   "sapObjectHeader_BorderColor": {
     "prefix": "sapObjectHeader_BorderColor",

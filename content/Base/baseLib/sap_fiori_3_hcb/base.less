@@ -1,11 +1,11 @@
 /**
-* Copyright (c) 2012-2019 SAP SE. All Rights Reserved Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+* Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.51.0
-* data:{"sModified":"2020-07-07T07:17:22Z"}
+* data:{"sModified":"2020-08-31T07:13:14Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_fiori_3_hcb/base.less (Version 11.1.21) *******************/
+/******************* FILE /Base/baseLib/sap_fiori_3_hcb/base.less (Version 11.1.22) *******************/
 
 @sapBackgroundColorDefault: @sapBackgroundColor;
 
@@ -390,16 +390,25 @@
 @sapShell_Favicon: none;
 
 // [Tags "!Protected"]
-@sapShell_Navigation_Background: @sapBackgroundColor;
+@sapShell_Navigation_Background: @sapShellColor;
 
 // [Tags "!Protected"]
-@sapShell_Navigation_SelectedColor: @sapShell_TextColor;
+@sapShell_Navigation_Hover_Background: @sapShell_Hover_Background;
 
 // [Tags "!Protected"]
-@sapShell_Navigation_Selected_TextColor: @sapShell_TextColor;
+@sapShell_Navigation_SelectedColor: @sapShell_Navigation_Selected_TextColor;
 
 // [Tags "!Protected"]
-@sapShell_Navigation_TextColor: @sapShell_GroupTitleTextColor;
+@sapShell_Navigation_Selected_TextColor: @sapShell_InteractiveTextColor;
+
+// [Tags "!Protected"]
+@sapShell_Navigation_TextColor: contrast(@sapShell_Navigation_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+@sapShell_Navigation_Active_TextColor: contrast(@sapShell_Navigation_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+@sapShell_Navigation_Active_Background: @sapShell_Active_Background;
 
 // [Tags "!Protected"]
 @sapShell_Shadow: 0 0.125rem 0 0 @sapShell_BorderColor;
@@ -853,7 +862,16 @@
 @sapInfobar_Active_Background: @sapActiveColor;
 
 // [Tags "!Protected"]
+@sapInfobar_NonInteractive_Background: @sapHC_ReducedBackground;
+
+// [Tags "!Protected"]
+@sapInfobar_TextColor: contrast(@sapInfobar_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
 @sapObjectHeader_Background: @sapBaseColor;
+
+// [Tags "!Protected"]
+@sapObjectHeader_Hover_Background: @sapHighlightColor;
 
 // [Tags "!Protected"]
 @sapObjectHeader_BorderColor: @sapHC_StandardForeground;
@@ -881,7 +899,12 @@
 
 // [Tags "!Protected"]
 @sapTile_IconColor: contrast(@sapTile_Background, @sapContent_IconColor, @sapContent_ContrastIconColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
 @sapTile_SeparatorColor: @sapTile_BorderColor;
+
+// [Tags "!Protected"]
+@sapTile_Interactive_BorderColor: @sapTile_BorderColor;
 @sapAccentColor1: #ffc847;
 @sapAccentColor2: #ed884a;
 @sapAccentColor3: #db9292;
