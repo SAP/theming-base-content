@@ -32,31 +32,31 @@
 		},
 		{
 			"Id": "sapBaseColor",
-			"CssValue": "#ffffff",
+			"CssValue": "#fff",
 			"Label": "Base Color",
 			"Tags": "Quick,Base,Color"
 		},
 		{
 			"Id": "sapShellColor",
-			"CssValue": "#ffffff",
+			"CssValue": "#fff",
 			"Label": "Shell Header Color",
-			"Tags": "Quick,Base,Base,Shell,Color"
+			"Tags": "Quick,Base,Shell,Color"
 		},
 		{
 			"Id": "sapBackgroundColor",
-			"CssValue": "#ffffff",
+			"CssValue": "#fff",
 			"Label": "Background Color",
 			"Tags": "Quick,Base,Color"
 		},
 		{
 			"Id": "sapTextColor",
-			"CssValue": "#000000",
+			"CssValue": "#000",
 			"Label": "Text Color",
 			"Tags": "Quick,Base,Content,Color,Font"
 		},
 		{
 			"Id": "sapLinkColor",
-			"CssValue": "#000000",
+			"CssValue": "#000",
 			"Label": "Link Color",
 			"Tags": "Quick,Base,Content,Color,Font,Link"
 		}
