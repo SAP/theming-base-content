@@ -71,7 +71,7 @@
 		},
 		{
 			"Id": "sapTextColor",
-			"CssValue": "#333333",
+			"CssValue": "#333",
 			"Label": "Text Color",
 			"Tags": "Quick,Base,Content,Color,Font"
 		},

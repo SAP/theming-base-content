@@ -2,7 +2,7 @@
   "sapShell_BackgroundPatternColor": {
     "prefix": "sapShell_BackgroundPatternColor",
     "body": "var(--sapShell_BackgroundPatternColor)",
-    "description": "Shell Background Pattern Color (The background pattern color of the shell. To turn off the pattern set the value to 'transparent') Value: rgba(255,255,255,0.08) #ThemeSpecific, #Base, #Shell, #Color"
+    "description": "Shell Background Pattern Color (The background pattern color of the shell. To turn off the pattern set the value to 'transparent'.) Value: rgba(255,255,255,0.08) #ThemeSpecific, #Base, #Shell, #Color"
   },
   "sapBrandColor": {
     "prefix": "sapBrandColor",
@@ -42,7 +42,7 @@
   "sapTextColor": {
     "prefix": "sapTextColor",
     "body": "var(--sapTextColor)",
-    "description": "Text Color (The preferred text color.) Value: #333333 #Quick, #Base, #Content, #Color, #Font"
+    "description": "Text Color (The preferred text color.) Value: #333 #Quick, #Base, #Content, #Color, #Font"
   },
   "sapLinkColor": {
     "prefix": "sapLinkColor",
@@ -87,7 +87,7 @@
   "sapTitleColor": {
     "prefix": "sapTitleColor",
     "body": "var(--sapTitleColor)",
-    "description": "Title Text Color (The text color of the application title.) Value: #333333 #Quick, #Base, #Color, #Font"
+    "description": "Title Text Color (The text color of the application title.) Value: #333 #Quick, #Base, #Color, #Font"
   },
   "sapNegativeColor": {
     "prefix": "sapNegativeColor",
@@ -114,6 +114,76 @@
     "body": "var(--sapNeutralColor)",
     "description": "Neutral Color (The color for elements showing neutral state.) Value: #5e696e #Base, #SemanticColor, #Color"
   },
+  "sapNegativeElementColor": {
+    "prefix": "sapNegativeElementColor",
+    "body": "var(--sapNegativeElementColor)",
+    "description": "Negative Foreground Element Color (The color for foreground elements showing negative state.) Value: #bb0000 #Base, #SemanticColor, #Color"
+  },
+  "sapCriticalElementColor": {
+    "prefix": "sapCriticalElementColor",
+    "body": "var(--sapCriticalElementColor)",
+    "description": "Critical Foreground Element Color (The color for foreground elements showing critical state.) Value: #e78c07 #Base, #SemanticColor, #Color"
+  },
+  "sapPositiveElementColor": {
+    "prefix": "sapPositiveElementColor",
+    "body": "var(--sapPositiveElementColor)",
+    "description": "Positive Foreground Element Color (The color for foreground elements showing positive state.) Value: #2b7c2b #Base, #SemanticColor, #Color"
+  },
+  "sapInformativeElementColor": {
+    "prefix": "sapInformativeElementColor",
+    "body": "var(--sapInformativeElementColor)",
+    "description": "Informative Foreground Element Color (The color for foreground elements showing informative state.) Value: #427cac #Base, #SemanticColor, #Color"
+  },
+  "sapNeutralElementColor": {
+    "prefix": "sapNeutralElementColor",
+    "body": "var(--sapNeutralElementColor)",
+    "description": "Neutral Foreground Element Color (The color for foreground elements showing neutral state.) Value: #5e696e #Base, #SemanticColor, #Color"
+  },
+  "sapNegativeTextColor": {
+    "prefix": "sapNegativeTextColor",
+    "body": "var(--sapNegativeTextColor)",
+    "description": "Negative Text Color (The color for text showing negative or error state.) Value: #bb0000 #Base, #SemanticColor, #Color, #Font"
+  },
+  "sapCriticalTextColor": {
+    "prefix": "sapCriticalTextColor",
+    "body": "var(--sapCriticalTextColor)",
+    "description": "Critical Text Color (The color for text showing critical or warning state.) Value: #e78c07 #Base, #SemanticColor, #Color, #Font"
+  },
+  "sapPositiveTextColor": {
+    "prefix": "sapPositiveTextColor",
+    "body": "var(--sapPositiveTextColor)",
+    "description": "Positive Text Color (The color for text showing positive or success state.) Value: #2b7c2b #Base, #SemanticColor, #Color, #Font"
+  },
+  "sapInformativeTextColor": {
+    "prefix": "sapInformativeTextColor",
+    "body": "var(--sapInformativeTextColor)",
+    "description": "Informative Text Color (The color for text showing an informative or information state.) Value: #427cac #Base, #SemanticColor, #Color, #Font"
+  },
+  "sapNeutralTextColor": {
+    "prefix": "sapNeutralTextColor",
+    "body": "var(--sapNeutralTextColor)",
+    "description": "Neutral Text Color (The color for text showing neutral state.) Value: #5e696e #Base, #SemanticColor, #Color, #Font"
+  },
+  "sapErrorColor": {
+    "prefix": "sapErrorColor",
+    "body": "var(--sapErrorColor)",
+    "description": "Error Color (The color for elements showing error state.) Value: #e00 #Base, #SemanticColor, #Color"
+  },
+  "sapWarningColor": {
+    "prefix": "sapWarningColor",
+    "body": "var(--sapWarningColor)",
+    "description": "Warning Color (The color for elements showing warning state.) Value: #f9a429 #Base, #SemanticColor, #Color"
+  },
+  "sapSuccessColor": {
+    "prefix": "sapSuccessColor",
+    "body": "var(--sapSuccessColor)",
+    "description": "Success Color (The color for elements showing success state.) Value: #38a238 #Base, #SemanticColor, #Color"
+  },
+  "sapInformationColor": {
+    "prefix": "sapInformationColor",
+    "body": "var(--sapInformationColor)",
+    "description": "Information Color (The color for elements showing information state.) Value: #427cac #Base, #SemanticColor, #Color"
+  },
   "sapErrorBackground": {
     "prefix": "sapErrorBackground",
     "body": "var(--sapErrorBackground)",
@@ -133,6 +203,36 @@
     "prefix": "sapInformationBackground",
     "body": "var(--sapInformationBackground)",
     "description": "Information Background Color (The color for backgrounds showing informative or information state.) Value: #ebf2f7 #Base, #SemanticColor, #Color"
+  },
+  "sapNeutralBackground": {
+    "prefix": "sapNeutralBackground",
+    "body": "var(--sapNeutralBackground)",
+    "description": "Neutral Background Color (The color for backgrounds showing neutral state.) Value: #f4f5f6 #Base, #SemanticColor, #Color"
+  },
+  "sapErrorBorderColor": {
+    "prefix": "sapErrorBorderColor",
+    "body": "var(--sapErrorBorderColor)",
+    "description": "Error Border Color (The color for borders showing negative or error state.) Value: #e00 #Base, #SemanticColor, #Color"
+  },
+  "sapWarningBorderColor": {
+    "prefix": "sapWarningBorderColor",
+    "body": "var(--sapWarningBorderColor)",
+    "description": "Warning Border Color (The color for borders showing critical or warning state.) Value: #f9a429 #Base, #SemanticColor, #Color"
+  },
+  "sapSuccessBorderColor": {
+    "prefix": "sapSuccessBorderColor",
+    "body": "var(--sapSuccessBorderColor)",
+    "description": "Success Border Color (The color for borders showing positive or success state.) Value: #38a238 #Base, #SemanticColor, #Color"
+  },
+  "sapInformationBorderColor": {
+    "prefix": "sapInformationBorderColor",
+    "body": "var(--sapInformationBorderColor)",
+    "description": "Information Border Color (The color for borders showing informative or information state.) Value: #427cac #Base, #SemanticColor, #Color"
+  },
+  "sapNeutralBorderColor": {
+    "prefix": "sapNeutralBorderColor",
+    "body": "var(--sapNeutralBorderColor)",
+    "description": "Neutral Border Color (The color for borders showing neutral state.) Value: #5e696e #Base, #SemanticColor, #Color"
   },
   "sapElement_BorderCornerRadius": {
     "prefix": "sapElement_BorderCornerRadius",
@@ -259,6 +359,11 @@
     "body": "var(--sapContent_TextShadow)",
     "description": "Text Shadow (The standard text shadow.) Value: 0 0 0.125rem #fff #Base, #Content, #Font"
   },
+  "sapContent_ContrastTextShadow": {
+    "prefix": "sapContent_ContrastTextShadow",
+    "body": "var(--sapContent_ContrastTextShadow)",
+    "description": "Text Contrast Shadow (The alternative text shadow.) Value: 0 0 0.0625rem rgba(0,0,0,0.7) #Base, #Content, #Font"
+  },
   "sapContent_HeaderShadow": {
     "prefix": "sapContent_HeaderShadow",
     "body": "var(--sapContent_HeaderShadow)",
@@ -358,6 +463,21 @@
     "prefix": "sapContent_Selected_Hover_Background",
     "body": "var(--sapContent_Selected_Hover_Background)",
     "description": "Selected Hover Background Color (The hover state background color of selected (toggled) elements.) Value: #4684b7 #Base, #Content, #Color"
+  },
+  "sapContent_Selected_ForegroundColor": {
+    "prefix": "sapContent_Selected_ForegroundColor",
+    "body": "var(--sapContent_Selected_ForegroundColor)",
+    "description": "Selected Foreground Color (The foreground color of selected (toggled) elements.) Value: #427cac #Base, #Content, #Color"
+  },
+  "sapFontLightFamily": {
+    "prefix": "sapFontLightFamily",
+    "body": "var(--sapFontLightFamily)",
+    "description": "Light Font Family (The preferred light font family.) Value: \"72-Light\", \"72-Lightfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif #Base, #Content, #Font"
+  },
+  "sapFontBoldFamily": {
+    "prefix": "sapFontBoldFamily",
+    "body": "var(--sapFontBoldFamily)",
+    "description": "Bold Font Family (The preferred bold font family of headers.) Value: \"72-Bold\", \"72-Boldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif #Base, #Content, #Font"
   },
   "sapFontHeaderFamily": {
     "prefix": "sapFontHeaderFamily",
@@ -472,7 +592,7 @@
   "sapShell_GroupTitleTextColor": {
     "prefix": "sapShell_GroupTitleTextColor",
     "body": "var(--sapShell_GroupTitleTextColor)",
-    "description": "Shell Group Title Text Color (The text color for shell group titles.) Value: #333333 #Base, #Shell, #Color, #Font"
+    "description": "Shell Group Title Text Color (The text color for shell group titles.) Value: #333 #Base, #Shell, #Color, #Font"
   },
   "sapShell_GroupTitleTextShadow": {
     "prefix": "sapShell_GroupTitleTextShadow",
@@ -537,7 +657,7 @@
   "sapShell_Navigation_TextColor": {
     "prefix": "sapShell_Navigation_TextColor",
     "body": "var(--sapShell_Navigation_TextColor)",
-    "description": "Shell Navigation Text Color (The standard color of text in the shell.) Value: #333333 #Base, #Shell, #Color, #Font"
+    "description": "Shell Navigation Text Color (The standard color of text in the shell.) Value: #333 #Base, #Shell, #Color, #Font"
   },
   "sapShell_Navigation_Active_TextColor": {
     "prefix": "sapShell_Navigation_Active_TextColor",
@@ -679,6 +799,11 @@
     "body": "var(--sapButton_Emphasized_Active_BorderColor)",
     "description": "Emphasized Button Active Border Color (The active (down) state border color of emphasized buttons.) Value: #427cac #Base, #Button, #Color"
   },
+  "sapButton_Emphasized_Active_TextColor": {
+    "prefix": "sapButton_Emphasized_Active_TextColor",
+    "body": "var(--sapButton_Emphasized_Active_TextColor)",
+    "description": "Emphasized Button Active Text Color (The active (down) state text color of emphasized buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
   "sapButton_Emphasized_TextShadow": {
     "prefix": "sapButton_Emphasized_TextShadow",
     "body": "var(--sapButton_Emphasized_TextShadow)",
@@ -688,71 +813,6 @@
     "prefix": "sapButton_Emphasized_FontWeight",
     "body": "var(--sapButton_Emphasized_FontWeight)",
     "description": "Emphasized Button Hover Font Weight (The hover state font weight of emphasized buttons.) Value: regular #Base, #Button, #Font"
-  },
-  "sapButton_Accept_Background": {
-    "prefix": "sapButton_Accept_Background",
-    "body": "var(--sapButton_Accept_Background)",
-    "description": "Accept Button Background Color (The background color of \"Accept\" buttons.) Value: #f7f7f7 #Base, #Button, #Color"
-  },
-  "sapButton_Accept_BorderColor": {
-    "prefix": "sapButton_Accept_BorderColor",
-    "body": "var(--sapButton_Accept_BorderColor)",
-    "description": "Accept Button Border Color (The border color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
-  },
-  "sapButton_Accept_TextColor": {
-    "prefix": "sapButton_Accept_TextColor",
-    "body": "var(--sapButton_Accept_TextColor)",
-    "description": "Accept Button Text Color (The text and icon color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color, #Font"
-  },
-  "sapButton_Accept_Hover_Background": {
-    "prefix": "sapButton_Accept_Hover_Background",
-    "body": "var(--sapButton_Accept_Hover_Background)",
-    "description": "Accept Button Hover Background Color (The hover state background color of \"Accept\" buttons.) Value: #eaeaea #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Hover_BorderColor": {
-    "prefix": "sapButton_Accept_Hover_BorderColor",
-    "body": "var(--sapButton_Accept_Hover_BorderColor)",
-    "description": "Accept Button Hover Border Color (The hover state border color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Hover_TextColor": {
-    "prefix": "sapButton_Accept_Hover_TextColor",
-    "body": "var(--sapButton_Accept_Hover_TextColor)",
-    "description": "Accept Button Hover Text Color (The hover state text and icon color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color, #Font"
-  },
-  "sapButton_Accept_Active_Background": {
-    "prefix": "sapButton_Accept_Active_Background",
-    "body": "var(--sapButton_Accept_Active_Background)",
-    "description": "Accept Button Active Background Color (The active (down) state background of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Active_BorderColor": {
-    "prefix": "sapButton_Accept_Active_BorderColor",
-    "body": "var(--sapButton_Accept_Active_BorderColor)",
-    "description": "Accept Button Active Border Color (The active (down) state border color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Selected_Background": {
-    "prefix": "sapButton_Accept_Selected_Background",
-    "body": "var(--sapButton_Accept_Selected_Background)",
-    "description": "Accept Button Selected Background Color (The background color of selected (toggled) \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Selected_BorderColor": {
-    "prefix": "sapButton_Accept_Selected_BorderColor",
-    "body": "var(--sapButton_Accept_Selected_BorderColor)",
-    "description": "Accept Button Selected Border Color (The border color of selected (toggled) \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Selected_TextColor": {
-    "prefix": "sapButton_Accept_Selected_TextColor",
-    "body": "var(--sapButton_Accept_Selected_TextColor)",
-    "description": "Accept Button Selected Text Color (The text and icon color of selected (toggled) \"Accept\" buttons.) Value: #fff #Base, #Button, #Color, #Font"
-  },
-  "sapButton_Accept_Selected_Hover_Background": {
-    "prefix": "sapButton_Accept_Selected_Hover_Background",
-    "body": "var(--sapButton_Accept_Selected_Hover_Background)",
-    "description": "Accept Button Selected Hover Background Color (The hover state background color of selected (toggled) \"Accept\" buttons.) Value: #328f32 #Base, #Button, #Color"
-  },
-  "sapButton_Accept_Selected_Hover_BorderColor": {
-    "prefix": "sapButton_Accept_Selected_Hover_BorderColor",
-    "body": "var(--sapButton_Accept_Selected_Hover_BorderColor)",
-    "description": "Accept Button Selected Hover Border Color (The hover state border color of selected (toggled) \"Accept\" buttons.) Value: #328f32 #Base, #Button, #Color"
   },
   "sapButton_Reject_Background": {
     "prefix": "sapButton_Reject_Background",
@@ -794,6 +854,11 @@
     "body": "var(--sapButton_Reject_Active_BorderColor)",
     "description": "Reject Button Active Border Color (The active (down) state border color of \"Reject\" buttons.) Value: #bb0000 #Base, #Button, #Color"
   },
+  "sapButton_Reject_Active_TextColor": {
+    "prefix": "sapButton_Reject_Active_TextColor",
+    "body": "var(--sapButton_Reject_Active_TextColor)",
+    "description": "Reject Button Active Text Color (The active (down) state text color of \"Reject\" buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
   "sapButton_Reject_Selected_Background": {
     "prefix": "sapButton_Reject_Selected_Background",
     "body": "var(--sapButton_Reject_Selected_Background)",
@@ -818,6 +883,76 @@
     "prefix": "sapButton_Reject_Selected_Hover_BorderColor",
     "body": "var(--sapButton_Reject_Selected_Hover_BorderColor)",
     "description": "Reject Button Selected Hover Border Color (The hover state border color of selected (toggled) \"Reject\" buttons.) Value: #d40000 #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Background": {
+    "prefix": "sapButton_Accept_Background",
+    "body": "var(--sapButton_Accept_Background)",
+    "description": "Accept Button Background Color (The background color of \"Accept\" buttons.) Value: #f7f7f7 #Base, #Button, #Color"
+  },
+  "sapButton_Accept_BorderColor": {
+    "prefix": "sapButton_Accept_BorderColor",
+    "body": "var(--sapButton_Accept_BorderColor)",
+    "description": "Accept Button Border Color (The border color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
+  },
+  "sapButton_Accept_TextColor": {
+    "prefix": "sapButton_Accept_TextColor",
+    "body": "var(--sapButton_Accept_TextColor)",
+    "description": "Accept Button Text Color (The text and icon color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Accept_Hover_Background": {
+    "prefix": "sapButton_Accept_Hover_Background",
+    "body": "var(--sapButton_Accept_Hover_Background)",
+    "description": "Accept Button Hover Background Color (The hover state background color of \"Accept\" buttons.) Value: #eaeaea #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Hover_BorderColor": {
+    "prefix": "sapButton_Accept_Hover_BorderColor",
+    "body": "var(--sapButton_Accept_Hover_BorderColor)",
+    "description": "Accept Button Hover Border Color (The hover state border color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Hover_TextColor": {
+    "prefix": "sapButton_Accept_Hover_TextColor",
+    "body": "var(--sapButton_Accept_Hover_TextColor)",
+    "description": "Accept Button Hover Text Color (The hover state text and icon color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Accept_Active_Background": {
+    "prefix": "sapButton_Accept_Active_Background",
+    "body": "var(--sapButton_Accept_Active_Background)",
+    "description": "Accept Button Active Background Color (The active (down) state background of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Active_BorderColor": {
+    "prefix": "sapButton_Accept_Active_BorderColor",
+    "body": "var(--sapButton_Accept_Active_BorderColor)",
+    "description": "Accept Button Active Border Color (The active (down) state border color of \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Active_TextColor": {
+    "prefix": "sapButton_Accept_Active_TextColor",
+    "body": "var(--sapButton_Accept_Active_TextColor)",
+    "description": "Accept Button Active Text Color (The active (down) state text color of \"Accept\" buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Accept_Selected_Background": {
+    "prefix": "sapButton_Accept_Selected_Background",
+    "body": "var(--sapButton_Accept_Selected_Background)",
+    "description": "Accept Button Selected Background Color (The background color of selected (toggled) \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Selected_BorderColor": {
+    "prefix": "sapButton_Accept_Selected_BorderColor",
+    "body": "var(--sapButton_Accept_Selected_BorderColor)",
+    "description": "Accept Button Selected Border Color (The border color of selected (toggled) \"Accept\" buttons.) Value: #2b7c2b #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Selected_TextColor": {
+    "prefix": "sapButton_Accept_Selected_TextColor",
+    "body": "var(--sapButton_Accept_Selected_TextColor)",
+    "description": "Accept Button Selected Text Color (The text and icon color of selected (toggled) \"Accept\" buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Accept_Selected_Hover_Background": {
+    "prefix": "sapButton_Accept_Selected_Hover_Background",
+    "body": "var(--sapButton_Accept_Selected_Hover_Background)",
+    "description": "Accept Button Selected Hover Background Color (The hover state background color of selected (toggled) \"Accept\" buttons.) Value: #328f32 #Base, #Button, #Color"
+  },
+  "sapButton_Accept_Selected_Hover_BorderColor": {
+    "prefix": "sapButton_Accept_Selected_Hover_BorderColor",
+    "body": "var(--sapButton_Accept_Selected_Hover_BorderColor)",
+    "description": "Accept Button Selected Hover Border Color (The hover state border color of selected (toggled) \"Accept\" buttons.) Value: #328f32 #Base, #Button, #Color"
   },
   "sapButton_Lite_Background": {
     "prefix": "sapButton_Lite_Background",
@@ -897,7 +1032,7 @@
   "sapButton_Attention_TextColor": {
     "prefix": "sapButton_Attention_TextColor",
     "body": "var(--sapButton_Attention_TextColor)",
-    "description": "Attention Button Text Color (The text and icon color of attention buttons.) Value: #e78c07 #Base, #Button, #Color, #Font"
+    "description": "Attention Button Text Color (The text and icon color of attention buttons.) Value: #333 #Base, #Button, #Color, #Font"
   },
   "sapButton_Attention_Hover_Background": {
     "prefix": "sapButton_Attention_Hover_Background",
@@ -912,7 +1047,7 @@
   "sapButton_Attention_Hover_TextColor": {
     "prefix": "sapButton_Attention_Hover_TextColor",
     "body": "var(--sapButton_Attention_Hover_TextColor)",
-    "description": "Attention Button Hover Text Color (The hover state text and icon color of attention buttons.) Value: #e78c07 #Base, #Button, #Color, #Font"
+    "description": "Attention Button Hover Text Color (The hover state text and icon color of attention buttons.) Value: #333 #Base, #Button, #Color, #Font"
   },
   "sapButton_Attention_Active_Background": {
     "prefix": "sapButton_Attention_Active_Background",
@@ -923,6 +1058,11 @@
     "prefix": "sapButton_Attention_Active_BorderColor",
     "body": "var(--sapButton_Attention_Active_BorderColor)",
     "description": "Attention Button Active Border Color (The active (down) state border color of attention buttons.) Value: #ce7d06 #Base, #Button, #Color"
+  },
+  "sapButton_Attention_Active_TextColor": {
+    "prefix": "sapButton_Attention_Active_TextColor",
+    "body": "var(--sapButton_Attention_Active_TextColor)",
+    "description": "Attention Button Active Text Color (The active (down) state text color of attention buttons.) Value: #fff #Base, #Button, #Color, #Font"
   },
   "sapButton_Attention_Selected_Background": {
     "prefix": "sapButton_Attention_Selected_Background",
@@ -989,6 +1129,11 @@
     "body": "var(--sapButton_Negative_Active_BorderColor)",
     "description": "Negative Button Active Border Color (The active (down) state border color of negative buttons.) Value: #800 #Base, #Button, #Color"
   },
+  "sapButton_Negative_Active_TextColor": {
+    "prefix": "sapButton_Negative_Active_TextColor",
+    "body": "var(--sapButton_Negative_Active_TextColor)",
+    "description": "Negative Button Active Text Color (The active (down) state text color of negative buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
   "sapButton_Critical_Background": {
     "prefix": "sapButton_Critical_Background",
     "body": "var(--sapButton_Critical_Background)",
@@ -1029,6 +1174,11 @@
     "body": "var(--sapButton_Critical_Active_BorderColor)",
     "description": "Critical Button Active Border Color (The active (down) state border color of critical buttons.) Value: #b66e06 #Base, #Button, #Color"
   },
+  "sapButton_Critical_Active_TextColor": {
+    "prefix": "sapButton_Critical_Active_TextColor",
+    "body": "var(--sapButton_Critical_Active_TextColor)",
+    "description": "Critical Button Active Text Color (The active (down) state text color of critical buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
   "sapButton_Success_Background": {
     "prefix": "sapButton_Success_Background",
     "body": "var(--sapButton_Success_Background)",
@@ -1068,6 +1218,11 @@
     "prefix": "sapButton_Success_Active_BorderColor",
     "body": "var(--sapButton_Success_Active_BorderColor)",
     "description": "Success Button Active Border Color (The active (down) state border color of success buttons.) Value: #1e561e #Base, #Button, #Color"
+  },
+  "sapButton_Success_Active_TextColor": {
+    "prefix": "sapButton_Success_Active_TextColor",
+    "body": "var(--sapButton_Success_Active_TextColor)",
+    "description": "Success Button Active Text Color (The active (down) state text color of success buttons.) Value: #fff #Base, #Button, #Color, #Font"
   },
   "sapButton_Information_Background": {
     "prefix": "sapButton_Information_Background",
@@ -1149,6 +1304,11 @@
     "body": "var(--sapButton_Neutral_Active_BorderColor)",
     "description": "Neutral Button Active Border Color (The active (down) state border color of neutral buttons.) Value: #474f53 #Base, #Button, #Color"
   },
+  "sapButton_Neutral_Active_TextColor": {
+    "prefix": "sapButton_Neutral_Active_TextColor",
+    "body": "var(--sapButton_Neutral_Active_TextColor)",
+    "description": "Neutral Button Active Text Color (The active (down) state text color of neutral buttons.) Value: #fff #Base, #Button, #Color, #Font"
+  },
   "sapButton_Track_Selected_Background": {
     "prefix": "sapButton_Track_Selected_Background",
     "body": "var(--sapButton_Track_Selected_Background)",
@@ -1182,7 +1342,7 @@
   "sapField_Background": {
     "prefix": "sapField_Background",
     "body": "var(--sapField_Background)",
-    "description": "Field Background Color (The background color of input fields.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Field Background Color (The background color of input fields.) Value: #fff #Base, #Field, #Color"
   },
   "sapField_TextColor": {
     "prefix": "sapField_TextColor",
@@ -1202,7 +1362,7 @@
   "sapField_HelpBackground": {
     "prefix": "sapField_HelpBackground",
     "body": "var(--sapField_HelpBackground)",
-    "description": "Field Help Background Color (The color of the value help icon.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Field Help Background Color (The color of the value help icon.) Value: #fff #Base, #Field, #Color"
   },
   "sapField_BorderWidth": {
     "prefix": "sapField_BorderWidth",
@@ -1217,7 +1377,7 @@
   "sapField_Hover_Background": {
     "prefix": "sapField_Hover_Background",
     "body": "var(--sapField_Hover_Background)",
-    "description": "Field Hover Background Color (The background color of input fields on hover.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Field Hover Background Color (The background color of input fields on hover.) Value: #fff #Base, #Field, #Color"
   },
   "sapField_Hover_BorderColor": {
     "prefix": "sapField_Hover_BorderColor",
@@ -1237,7 +1397,7 @@
   "sapField_Focus_Background": {
     "prefix": "sapField_Focus_Background",
     "body": "var(--sapField_Focus_Background)",
-    "description": "Focused Field Background Color (The background color of focused input fields.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Focused Field Background Color (The background color of focused input fields.) Value: #fff #Base, #Field, #Color"
   },
   "sapField_Focus_BorderColor": {
     "prefix": "sapField_Focus_BorderColor",
@@ -1247,7 +1407,7 @@
   "sapField_Focus_HelpBackground": {
     "prefix": "sapField_Focus_HelpBackground",
     "body": "var(--sapField_Focus_HelpBackground)",
-    "description": "Focused Field Help Background Color (The background color of a focused input field's value help icon.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Focused Field Help Background Color (The background color of a focused input field's value help icon.) Value: #fff #Base, #Field, #Color"
   },
   "sapField_ReadOnly_Background": {
     "prefix": "sapField_ReadOnly_Background",
@@ -1277,7 +1437,17 @@
   "sapField_InvalidBackground": {
     "prefix": "sapField_InvalidBackground",
     "body": "var(--sapField_InvalidBackground)",
-    "description": "Invalid Field Background Color (The background color of input fields with an invalid value.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Invalid Field Background Color (The background color of input fields with an invalid value.) Value: #fff #Base, #Field, #Color"
+  },
+  "sapField_InvalidBorderWidth": {
+    "prefix": "sapField_InvalidBorderWidth",
+    "body": "var(--sapField_InvalidBorderWidth)",
+    "description": "Invalid Field Border Thickness (The thickness of borders of an input field with invalid value.) Value: .125rem #Base, #Field, #Dimension"
+  },
+  "sapField_InvalidBorderStyle": {
+    "prefix": "sapField_InvalidBorderStyle",
+    "body": "var(--sapField_InvalidBorderStyle)",
+    "description": "Invalid Field Border Style (The style of borders of an input field with invalid value.) Value: solid #Base, #Field, #Color"
   },
   "sapField_WarningColor": {
     "prefix": "sapField_WarningColor",
@@ -1287,7 +1457,17 @@
   "sapField_WarningBackground": {
     "prefix": "sapField_WarningBackground",
     "body": "var(--sapField_WarningBackground)",
-    "description": "Warning Field Background Color (The background color of an input field indicating a warning.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Warning Field Background Color (The background color of an input field indicating a warning.) Value: #fff #Base, #Field, #Color"
+  },
+  "sapField_WarningBorderWidth": {
+    "prefix": "sapField_WarningBorderWidth",
+    "body": "var(--sapField_WarningBorderWidth)",
+    "description": "Warning Field Border Thickness (The thickness of borders of an input field indicating a warning.) Value: .125rem #Base, #Field, #Dimension"
+  },
+  "sapField_WarningBorderStyle": {
+    "prefix": "sapField_WarningBorderStyle",
+    "body": "var(--sapField_WarningBorderStyle)",
+    "description": "Warning Field Border Style (The style of borders of an input field indicatind a warning.) Value: solid #Base, #Field, #Color"
   },
   "sapField_SuccessColor": {
     "prefix": "sapField_SuccessColor",
@@ -1297,7 +1477,17 @@
   "sapField_SuccessBackground": {
     "prefix": "sapField_SuccessBackground",
     "body": "var(--sapField_SuccessBackground)",
-    "description": "Success Field Background Color (The background color of an input field indicating a successful user action.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Success Field Background Color (The background color of an input field indicating a successful user action.) Value: #fff #Base, #Field, #Color"
+  },
+  "sapField_SuccessBorderWidth": {
+    "prefix": "sapField_SuccessBorderWidth",
+    "body": "var(--sapField_SuccessBorderWidth)",
+    "description": "Success Field Border Thickness (The thickness of borders of an input field indicating a successful user action.) Value: .0625rem #Base, #Field, #Dimension"
+  },
+  "sapField_SuccessBorderStyle": {
+    "prefix": "sapField_SuccessBorderStyle",
+    "body": "var(--sapField_SuccessBorderStyle)",
+    "description": "Success Field Border Style (The style of borders of an input field indicatind a successful user action.) Value: solid #Base, #Field, #Color"
   },
   "sapField_InformationColor": {
     "prefix": "sapField_InformationColor",
@@ -1307,7 +1497,17 @@
   "sapField_InformationBackground": {
     "prefix": "sapField_InformationBackground",
     "body": "var(--sapField_InformationBackground)",
-    "description": "Information Field Background Color (The background color of an input field indicating an information status.) Value: #ffffff #Base, #Field, #Color"
+    "description": "Information Field Background Color (The background color of an input field indicating an information status.) Value: #fff #Base, #Field, #Color"
+  },
+  "sapField_InformationBorderWidth": {
+    "prefix": "sapField_InformationBorderWidth",
+    "body": "var(--sapField_InformationBorderWidth)",
+    "description": "Information Field Border Thickness (The thickness of borders of an input field indicating an information status.) Value: .125rem #Base, #Field, #Dimension"
+  },
+  "sapField_InformationBorderStyle": {
+    "prefix": "sapField_InformationBorderStyle",
+    "body": "var(--sapField_InformationBorderStyle)",
+    "description": "Information Field Border Style (The style of borders of an input field indicatind an information status.) Value: solid #Base, #Field, #Color"
   },
   "sapGroup_TitleBackground": {
     "prefix": "sapGroup_TitleBackground",
@@ -1323,11 +1523,6 @@
     "prefix": "sapGroup_TitleTextColor",
     "body": "var(--sapGroup_TitleTextColor)",
     "description": "Group Title Text Color (The text color of the group title.) Value: #333 #Base, #Group, #Color, #Font"
-  },
-  "sapGroup_Title_FontSize": {
-    "prefix": "sapGroup_Title_FontSize",
-    "body": "var(--sapGroup_Title_FontSize)",
-    "description": "deprecated - Group Title Font Size (The font size of the group title (deprecated).) Value: .875rem #Base, #Group, #Dimension, #Font, #Deprecated"
   },
   "sapGroup_ContentBackground": {
     "prefix": "sapGroup_ContentBackground",
@@ -1422,7 +1617,7 @@
   "sapList_Background": {
     "prefix": "sapList_Background",
     "body": "var(--sapList_Background)",
-    "description": "List Background Color (The background color of list and table items.) Value: #ffffff #Base, #List, #Color"
+    "description": "List Background Color (The background color of list and table items.) Value: #fff #Base, #List, #Color"
   },
   "sapList_Hover_Background": {
     "prefix": "sapList_Hover_Background",
@@ -1437,7 +1632,7 @@
   "sapList_GroupHeaderBackground": {
     "prefix": "sapList_GroupHeaderBackground",
     "body": "var(--sapList_GroupHeaderBackground)",
-    "description": "List Group Header Background Color (The background color of list group headers.) Value: #ffffff #Base, #List, #Color"
+    "description": "List Group Header Background Color (The background color of list group headers.) Value: #fff #Base, #List, #Color"
   },
   "sapList_GroupHeaderBorderColor": {
     "prefix": "sapList_GroupHeaderBorderColor",
@@ -1532,7 +1727,7 @@
   "sapPageFooter_Background": {
     "prefix": "sapPageFooter_Background",
     "body": "var(--sapPageFooter_Background)",
-    "description": "Page Footer Background Color (The background color of page footers.) Value: #ffffff #Base, #Page, #Color"
+    "description": "Page Footer Background Color (The background color of page footers.) Value: #fff #Base, #Page, #Color"
   },
   "sapPageFooter_BorderColor": {
     "prefix": "sapPageFooter_BorderColor",
@@ -1592,7 +1787,7 @@
   "sapTile_Background": {
     "prefix": "sapTile_Background",
     "body": "var(--sapTile_Background)",
-    "description": "Tile Background Color (The background color of tiles and cards.) Value: #ffffff #Base, #Tile, #Color"
+    "description": "Tile Background Color (The background color of tiles and cards.) Value: #fff #Base, #Tile, #Color"
   },
   "sapTile_Hover_Background": {
     "prefix": "sapTile_Hover_Background",
@@ -1633,6 +1828,16 @@
     "prefix": "sapTile_Interactive_BorderColor",
     "body": "var(--sapTile_Interactive_BorderColor)",
     "description": "Tile Interactive Border Color (The interactive hover and active state border color of tiles and cards.) Value: #b3b3b3 #Base, #Tile, #Color"
+  },
+  "sapTile_OverlayBackground": {
+    "prefix": "sapTile_OverlayBackground",
+    "body": "var(--sapTile_OverlayBackground)",
+    "description": "Tile Overlay Background Color (The overlay background color of tiles and cards.) Value: rgba(0,0,0,0.8) #Base, #Tile, #Color"
+  },
+  "sapTile_OverlayForegroundColor": {
+    "prefix": "sapTile_OverlayForegroundColor",
+    "body": "var(--sapTile_OverlayForegroundColor)",
+    "description": "Tile Overlay Foreground Color (The overlay foreground color of tiles and cards.) Value: #fff #Base, #Tile, #Color"
   },
   "sapIndicationColor_1": {
     "prefix": "sapIndicationColor_1",
@@ -2143,6 +2348,11 @@
     "prefix": "sapChart_Sequence_Neutral",
     "body": "var(--sapChart_Sequence_Neutral)",
     "description": "Chart Color Sequence 'Neutral' (This color is the base chart color of the sequence 'Neutral'.) Value: #848f94 #Base, #Chart, #Color"
+  },
+  "sapGroup_Title_FontSize": {
+    "prefix": "sapGroup_Title_FontSize",
+    "body": "var(--sapGroup_Title_FontSize)",
+    "description": "deprecated - Group Title Font Size (The font size of the group title (deprecated).) Value: .875rem #Base, #Group, #Dimension, #Font, #Deprecated"
   },
   "sapList_HighlightColor": {
     "prefix": "sapList_HighlightColor",

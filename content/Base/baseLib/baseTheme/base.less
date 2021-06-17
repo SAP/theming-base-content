@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.51.0
-* data:{"sModified":"2021-05-06T11:11:54Z"}
+* data:{"sModified":"2021-06-02T05:48:25Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.29) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.30) *******************/
 
 
 // [Label "Brand Color"]
@@ -403,6 +403,11 @@
 // [Tags "Base", "Content", "Font", "Protected"]
 @sapContent_TextShadow: @sapDefault_Shadow;
 
+// [Label "Text Contrast Shadow"]
+// [Description "The alternative text shadow."]
+// [Tags "Base", "Content", "Font", "Protected"]
+@sapContent_ContrastTextShadow: @sapDefault_Shadow;
+
 // [Label "Header Shadow"]
 // [Description "The standard header shadow."]
 // [Tags "Base", "Content", "Protected"]
@@ -507,6 +512,12 @@
 // [TranslationKey "sapContent_Selected_HoverBg"]
 // [Tags "Base", "Content", "Color", "Protected"]
 @sapContent_Selected_Hover_Background: @sapDefault_Color;
+
+// [Label "Selected Foreground Color"]
+// [Description "The foreground color of selected (toggled) elements."]
+// [TranslationKey "sapContent_Selected_Fg"]
+// [Tags "Base", "Content", "Color", "Protected"]
+@sapContent_Selected_ForegroundColor: @sapDefault_Color;
 
 // [Label "Illustrative Color 1"]
 // [Description "The color of illustrated content."]
@@ -896,6 +907,12 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Emphasized_Active_BorderColor: @sapDefault_Color;
 
+// [Label "Emphasized Button Active Text Color"]
+// [Description "The active (down) state text color of emphasized buttons."]
+// [TranslationKey "sapButton_EmpActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Emphasized_Active_TextColor: @sapDefault_Color;
+
 // [Label "Emphasized Button Text Shadow"]
 // [Description "The text and icon shadow color for emphasized buttons."]
 // [Tags "Base", "Button", "Color", "Font", "Protected"]
@@ -950,6 +967,12 @@
 // [TranslationKey "sapButton_RjctActBrdCol"]
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Reject_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Reject Button Active Text Color"]
+// [Description "The active (down) state text color of \"Reject\" buttons."]
+// [TranslationKey "sapButton_RjctActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Reject_Active_TextColor: @sapDefault_Color;
 
 // [Label "Reject Button Selected Background Color"]
 // [Description "The background color of selected (toggled) \"Reject\" buttons."]
@@ -1025,6 +1048,12 @@
 // [TranslationKey "sapButton_AcptActBrdCol"]
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Accept_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Accept Button Active Text Color"]
+// [Description "The active (down) state text color of \"Accept\" buttons."]
+// [TranslationKey "sapButton_AcptActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Accept_Active_TextColor: @sapDefault_Color;
 
 // [Label "Accept Button Selected Background Color"]
 // [Description "The background color of selected (toggled) \"Accept\" buttons."]
@@ -1172,6 +1201,12 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Attention_Active_BorderColor: @sapDefault_Color;
 
+// [Label "Attention Button Active Text Color"]
+// [Description "The active (down) state text color of attention buttons."]
+// [TranslationKey "sapButton_AttActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Attention_Active_TextColor: @sapDefault_Color;
+
 // [Label "Attention Button Selected Background Color"]
 // [Description "The background color of selected (toggled) attention buttons."]
 // [TranslationKey "sapButton_AttSelBg"]
@@ -1250,6 +1285,12 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Negative_Active_BorderColor: @sapDefault_Color;
 
+// [Label "Negative Button Active Text Color"]
+// [Description "The active (down) state text color of negative buttons."]
+// [TranslationKey "sapButton_NegActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Negative_Active_TextColor: @sapDefault_Color;
+
 // [Label "Critical Button Background Color"]
 // [Description "The background color of critical buttons."]
 // [Tags "Base", "Button", "Color", "Protected"]
@@ -1295,6 +1336,12 @@
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Critical_Active_BorderColor: @sapDefault_Color;
 
+// [Label "Critical Button Active Text Color"]
+// [Description "The active (down) state text color of critical buttons."]
+// [TranslationKey "sapButton_CritActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Critical_Active_TextColor: @sapDefault_Color;
+
 // [Label "Success Button Background Color"]
 // [Description "The background color of success buttons."]
 // [Tags "Base", "Button", "Color", "Protected"]
@@ -1339,6 +1386,12 @@
 // [TranslationKey "sapButton_SuccActBrdClr"]
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Success_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Success Button Active Text Color"]
+// [Description "The active (down) state text color of success buttons."]
+// [TranslationKey "sapButton_SuccActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Success_Active_TextColor: @sapDefault_Color;
 
 // [Label "Information Button Background Color"]
 // [Description "The background color of information buttons."]
@@ -1432,6 +1485,12 @@
 // [TranslationKey "sapButton_NeutActBrdClr"]
 // [Tags "Base", "Button", "Color", "Protected"]
 @sapButton_Neutral_Active_BorderColor: @sapDefault_Color;
+
+// [Label "Neutral Button Active Text Color"]
+// [Description "The active (down) state text color of neutral buttons."]
+// [TranslationKey "sapButton_NeutActTxtClr"]
+// [Tags "Base", "Button", "Color", "Font", "Protected"]
+@sapButton_Neutral_Active_TextColor: @sapDefault_Color;
 
 // [Label "Switch Button Selected Track Color"]
 // [Description "The background color for the selected track of button controls such as the switch."]
@@ -1566,6 +1625,16 @@
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_InvalidBackground: @sapDefault_Color;
 
+// [Label "Invalid Field Border Thickness"]
+// [Description "The thickness of borders of an input field with invalid value."]
+// [Tags "Base", "Field", "Dimension", "Protected"]
+@sapField_InvalidBorderWidth: @sapDefault_Dimension;
+
+// [Label "Invalid Field Border Style"]
+// [Description "The style of borders of an input field with invalid value."]
+// [Tags "Base", "Field", "Color", "Protected"]
+@sapField_InvalidBorderStyle: @sapDefault_BorderStyle;
+
 // [Label "Warning Field Color"]
 // [Description "The base color of an input field indicating a warning."]
 // [Tags "Base", "Field", "Color", "Protected"]
@@ -1575,6 +1644,16 @@
 // [Description "The background color of an input field indicating a warning."]
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_WarningBackground: @sapDefault_Color;
+
+// [Label "Warning Field Border Thickness"]
+// [Description "The thickness of borders of an input field indicating a warning."]
+// [Tags "Base", "Field", "Dimension", "Protected"]
+@sapField_WarningBorderWidth: @sapDefault_Dimension;
+
+// [Label "Warning Field Border Style"]
+// [Description "The style of borders of an input field indicatind a warning."]
+// [Tags "Base", "Field", "Color", "Protected"]
+@sapField_WarningBorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Success Field Color"]
 // [Description "The base color an input field indicating a successful user action."]
@@ -1586,6 +1665,16 @@
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_SuccessBackground: @sapDefault_Color;
 
+// [Label "Success Field Border Thickness"]
+// [Description "The thickness of borders of an input field indicating a successful user action."]
+// [Tags "Base", "Field", "Dimension", "Protected"]
+@sapField_SuccessBorderWidth: @sapDefault_Dimension;
+
+// [Label "Success Field Border Style"]
+// [Description "The style of borders of an input field indicatind a successful user action."]
+// [Tags "Base", "Field", "Color", "Protected"]
+@sapField_SuccessBorderStyle: @sapDefault_BorderStyle;
+
 // [Label "Information Field Color"]
 // [Description "The base color an input field indicating an information status."]
 // [Tags "Base", "Field", "Color", "Protected"]
@@ -1595,6 +1684,16 @@
 // [Description "The background color of an input field indicating an information status."]
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_InformationBackground: @sapDefault_Color;
+
+// [Label "Information Field Border Thickness"]
+// [Description "The thickness of borders of an input field indicating an information status."]
+// [Tags "Base", "Field", "Dimension", "Protected"]
+@sapField_InformationBorderWidth: @sapDefault_Dimension;
+
+// [Label "Information Field Border Style"]
+// [Description "The style of borders of an input field indicatind an information status."]
+// [Tags "Base", "Field", "Color", "Protected"]
+@sapField_InformationBorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Group Title Background Color"]
 // [Description "The background color of the group header area."]
@@ -1922,6 +2021,16 @@
 // [Description "The interactive hover and active state border color of tiles and cards."]
 // [Tags "Base", "Tile", "Color", "Protected"]
 @sapTile_Interactive_BorderColor: @sapDefault_Color;
+
+// [Label "Tile Overlay Background Color"]
+// [Description "The overlay background color of tiles and cards."]
+// [Tags "Base", "Tile", "Color", "Protected"]
+@sapTile_OverlayBackground: @sapDefault_Color;
+
+// [Label "Tile Overlay Foreground Color"]
+// [Description "The overlay foreground color of tiles and cards."]
+// [Tags "Base", "Tile", "Color", "Protected"]
+@sapTile_OverlayForegroundColor: @sapDefault_Color;
 
 // [Label "Accent Color 1"]
 // [Description "Secondary color to accentuate UI elements."]
@@ -2691,6 +2800,13 @@
 
 // [Tags "SapInternal", "Base", "Protected"]
 @sapToBeDefined: ~"To Be Defined";
+
+@font-face {
+  font-family: 'SAP-icons';
+  src: @sapFontUrl_SAP-icons_woff2 format('woff2'), @sapFontUrl_SAP-icons_woff format('woff'), @sapFontUrl_SAP-icons_ttf format('truetype'), local('SAP-icons');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: '72';
