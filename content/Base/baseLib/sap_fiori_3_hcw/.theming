@@ -9,7 +9,7 @@
 	"sTextDirections": "LTR,RTL",
 	"sFallbackThemeId": "sap_fiori_3",
 	"sType": "STANDARD",
-	"sThemability": "PRIVATE",
+	"sThemability": "PUBLIC",
 	"aTags": [
 		"Fiori_3",
 		"HighContrast",
@@ -31,7 +31,8 @@
 			}
 		]
 	},
-	"sReleaseStage": "BETA",
+	"sReleaseStage": "GENERAL_AVAILABILITY",
+	"sReleaseDate": "2021-08-26T00:00:00Z",
 	"aBadgeParameters": [
 		{
 			"Id": "sapBrandColor",

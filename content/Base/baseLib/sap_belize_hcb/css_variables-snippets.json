@@ -402,22 +402,22 @@
   "sapContent_Shadow0": {
     "prefix": "sapContent_Shadow0",
     "body": "var(--sapContent_Shadow0)",
-    "description": "Shadow Level 0 (Shadow for Card/Tile type controls.) Value: 0 0 1rem 0 rgba(255,255,255,0.5), 0 0 0 2px #fff #Base, #Content"
+    "description": "Shadow Level 0 (Shadow for Card/Tile type controls.) Value: 0 0 0 0.0625rem #fff #Base, #Content"
   },
   "sapContent_Shadow1": {
     "prefix": "sapContent_Shadow1",
     "body": "var(--sapContent_Shadow1)",
-    "description": "Shadow Level 1 (Shadow for Dropdowns/Floating/Footer/Menu type controls.) Value: 0 0.125rem 0.5rem 0 rgba(255,255,255,0.2), 0 0 1rem 0 rgba(255,255,255,0.5), 0 0 0 2px #fff #Base, #Content"
+    "description": "Shadow Level 1 (Shadow for Dropdowns/Floating/Footer/Menu type controls.) Value: 0 0 1rem 0 rgba(255,255,255,0.5), 0 0 0 0.125rem #fff #Base, #Content"
   },
   "sapContent_Shadow2": {
     "prefix": "sapContent_Shadow2",
     "body": "var(--sapContent_Shadow2)",
-    "description": "Shadow Level 2 (Shadow for Popovers and MessageToasts.) Value: 0 0.25rem 2rem 0 rgba(255,255,255,0.6), 0 0 0 2px #fff #Base, #Content"
+    "description": "Shadow Level 2 (Shadow for Popovers and MessageToasts.) Value: 0 0.25rem 2rem 0 rgba(255,255,255,0.6), 0 0 0 0.125rem #fff #Base, #Content"
   },
   "sapContent_Shadow3": {
     "prefix": "sapContent_Shadow3",
     "body": "var(--sapContent_Shadow3)",
-    "description": "Shadow Level 3 (Shadow for dialogs.) Value: 0 0.625rem 4rem 0 rgba(255,255,255,0.8), 0 0 0 2px #fff #Base, #Content"
+    "description": "Shadow Level 3 (Shadow for dialogs.) Value: 0 0.625rem 4rem 0 rgba(255,255,255,0.8), 0 0 0 0.125rem #fff #Base, #Content"
   },
   "sapContent_TextShadow": {
     "prefix": "sapContent_TextShadow",
@@ -1532,7 +1532,7 @@
   "sapField_WarningBorderStyle": {
     "prefix": "sapField_WarningBorderStyle",
     "body": "var(--sapField_WarningBorderStyle)",
-    "description": "Warning Field Border Style (The style of borders of an input field indicatind a warning.) Value: dashed #Base, #Field, #Color"
+    "description": "Warning Field Border Style (The style of borders of an input field indicating a warning.) Value: dashed #Base, #Field, #Color"
   },
   "sapField_SuccessColor": {
     "prefix": "sapField_SuccessColor",
@@ -1552,7 +1552,7 @@
   "sapField_SuccessBorderStyle": {
     "prefix": "sapField_SuccessBorderStyle",
     "body": "var(--sapField_SuccessBorderStyle)",
-    "description": "Success Field Border Style (The style of borders of an input field indicatind a successful user action.) Value: solid #Base, #Field, #Color"
+    "description": "Success Field Border Style (The style of borders of an input field indicating a successful user action.) Value: solid #Base, #Field, #Color"
   },
   "sapField_InformationColor": {
     "prefix": "sapField_InformationColor",
@@ -1572,7 +1572,7 @@
   "sapField_InformationBorderStyle": {
     "prefix": "sapField_InformationBorderStyle",
     "body": "var(--sapField_InformationBorderStyle)",
-    "description": "Information Field Border Style (The style of borders of an input field indicatind an information status.) Value: dashed #Base, #Field, #Color"
+    "description": "Information Field Border Style (The style of borders of an input field indicating an information status.) Value: dashed #Base, #Field, #Color"
   },
   "sapGroup_TitleBackground": {
     "prefix": "sapGroup_TitleBackground",
@@ -1767,7 +1767,7 @@
   "sapScrollBar_Dimension": {
     "prefix": "sapScrollBar_Dimension",
     "body": "var(--sapScrollBar_Dimension)",
-    "description": "Scrollbar Dimension (The size of the scrollbar.) Value: .7rem #Base, #Scrollbar, #Dimension"
+    "description": "Scrollbar Dimension (The size of the scrollbar.) Value: .75rem #Base, #Scrollbar, #Dimension"
   },
   "sapScrollBar_Hover_FaceColor": {
     "prefix": "sapScrollBar_Hover_FaceColor",
@@ -2413,16 +2413,6 @@
     "prefix": "sapChart_Sequence_Neutral",
     "body": "var(--sapChart_Sequence_Neutral)",
     "description": "Chart Color Sequence 'Neutral' (This color is the base chart color of the sequence 'Neutral'.) Value: #fff #Base, #Chart, #Color"
-  },
-  "sapGroup_Title_FontSize": {
-    "prefix": "sapGroup_Title_FontSize",
-    "body": "var(--sapGroup_Title_FontSize)",
-    "description": "deprecated - Group Title Font Size (The font size of the group title (deprecated).) Value: .875rem #Base, #Group, #Dimension, #Font, #Deprecated"
-  },
-  "sapList_HighlightColor": {
-    "prefix": "sapList_HighlightColor",
-    "body": "var(--sapList_HighlightColor)",
-    "description": "deprecated - List Highlight Color (The color of highlighted elements in lists (deprecated: not used anymore since Belize theme).) Value: #7a5100 #Base, #List, #Color, #Deprecated"
   },
   "sapDarkShadowColor": {
     "prefix": "sapDarkShadowColor",

@@ -158,7 +158,7 @@
 		"sapContent_Illustrative_Color8": "#dbdbdb",
 		"sapShell_Background": "#000",
 		"sapShell_BackgroundImage": "#000",
-		"sapShell_BackgroundGradient": "#000",
+		"sapShell_BackgroundGradient": "linear-gradient(to bottom, #000, #050505)",
 		"sapShell_BackgroundImageOpacity": "1.0",
 		"sapShell_BackgroundImageRepeat": "false",
 		"sapShell_BorderColor": "#fff",

@@ -1,15 +1,12 @@
 /**
 * Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.51.0
-* data:{"sModified":"2021-06-02T05:48:25Z"}
+* data:{"sModified":"2021-08-26T09:50:53Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_fiori_3/base.less (Version 11.1.30) *******************/
+/******************* FILE /Base/baseLib/sap_fiori_3/base.less (Version 11.1.31) *******************/
 
-
-// [Tags "ThemeSpecific", "Base", "Content", "Color", "Protected"]
-@sapBackgroundColorDefault: darken(@sapPrimary3, 3);
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
 @sapContent_GridSize: 1rem;
@@ -1012,7 +1009,7 @@
 @sapList_HeaderTextColor: contrast(@sapList_HeaderBackground, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
-@sapList_BorderColor: darken(@sapList_Background, 10.5);
+@sapList_BorderColor: darken(@sapList_Background, 10.2);
 
 // [Tags "!Protected"]
 @sapList_BorderWidth: @sapElement_BorderWidth;
@@ -1557,6 +1554,7 @@
 @sapSvgLib_SAP-icons: none;
 @sapSvgLib_SAPGUI-icons: url(./svg/libs/SAPGUI-icons.svg);
 @sapSvgLib_SAPWeb-icons: url(./svg/libs/SAPWeb-icons.svg);
-
-// [Tags "!Protected"]
+@sapBackgroundColorDefault: darken(@sapPrimary3, 3);
+@sapList_HighlightColor: @sapHighlightColor;
 @sapGroup_Title_FontSize: @sapFontSize;
+@sapShell_BackgroundGradient: linear-gradient(to bottom, darken(@sapShell_Background, 5), lighten(@sapShell_Background, 2));

@@ -989,11 +989,6 @@
     "body": "var(--sapChart_Neutral)",
     "description": "Chart Color 'Neutral' (This color is to visualize a 'Neutral' value.) Value: #9ea8ad #Base, #Chart, #Color"
   },
-  "sapList_HighlightColor": {
-    "prefix": "sapList_HighlightColor",
-    "body": "var(--sapList_HighlightColor)",
-    "description": "deprecated - List Highlight Color (The color of highlighted elements in lists (deprecated: not used anymore since Belize theme).) Value: #427cac #Base, #List, #Color, #Deprecated"
-  },
   "sapShell_BackgroundPatternColor": {
     "prefix": "sapShell_BackgroundPatternColor",
     "body": "var(--sapShell_BackgroundPatternColor)",
@@ -2017,7 +2012,7 @@
   "sapField_WarningBorderStyle": {
     "prefix": "sapField_WarningBorderStyle",
     "body": "var(--sapField_WarningBorderStyle)",
-    "description": "Warning Field Border Style (The style of borders of an input field indicatind a warning.) Value: solid #Base, #Field, #Color"
+    "description": "Warning Field Border Style (The style of borders of an input field indicating a warning.) Value: solid #Base, #Field, #Color"
   },
   "sapField_SuccessColor": {
     "prefix": "sapField_SuccessColor",
@@ -2037,7 +2032,7 @@
   "sapField_SuccessBorderStyle": {
     "prefix": "sapField_SuccessBorderStyle",
     "body": "var(--sapField_SuccessBorderStyle)",
-    "description": "Success Field Border Style (The style of borders of an input field indicatind a successful user action.) Value: solid #Base, #Field, #Color"
+    "description": "Success Field Border Style (The style of borders of an input field indicating a successful user action.) Value: solid #Base, #Field, #Color"
   },
   "sapField_InformationColor": {
     "prefix": "sapField_InformationColor",
@@ -2057,7 +2052,7 @@
   "sapField_InformationBorderStyle": {
     "prefix": "sapField_InformationBorderStyle",
     "body": "var(--sapField_InformationBorderStyle)",
-    "description": "Information Field Border Style (The style of borders of an input field indicatind an information status.) Value: solid #Base, #Field, #Color"
+    "description": "Information Field Border Style (The style of borders of an input field indicating an information status.) Value: solid #Base, #Field, #Color"
   },
   "sapGroup_TitleBackground": {
     "prefix": "sapGroup_TitleBackground",
@@ -2157,7 +2152,7 @@
   "sapScrollBar_Dimension": {
     "prefix": "sapScrollBar_Dimension",
     "body": "var(--sapScrollBar_Dimension)",
-    "description": "Scrollbar Dimension (The size of the scrollbar.) Value: .7rem #Base, #Scrollbar, #Dimension"
+    "description": "Scrollbar Dimension (The size of the scrollbar.) Value: .75rem #Base, #Scrollbar, #Dimension"
   },
   "sapPageHeader_Background": {
     "prefix": "sapPageHeader_Background",
@@ -2353,11 +2348,6 @@
     "prefix": "sapChart_Sequence_Neutral",
     "body": "var(--sapChart_Sequence_Neutral)",
     "description": "Chart Color Sequence 'Neutral' (This color is the base chart color of the sequence 'Neutral'.) Value: #9ea8ad #Base, #Chart, #Color"
-  },
-  "sapGroup_Title_FontSize": {
-    "prefix": "sapGroup_Title_FontSize",
-    "body": "var(--sapGroup_Title_FontSize)",
-    "description": "deprecated - Group Title Font Size (The font size of the group title (deprecated).) Value: .875rem #Base, #Group, #Dimension, #Font, #Deprecated"
   },
   "sapDarkShadowColor": {
     "prefix": "sapDarkShadowColor",

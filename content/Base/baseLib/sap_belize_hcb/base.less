@@ -1,15 +1,12 @@
 /**
 * Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.51.0
-* data:{"sModified":"2021-06-02T05:48:25Z"}
+* data:{"sModified":"2021-08-26T09:50:53Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_belize_hcb/base.less (Version 11.1.30) *******************/
+/******************* FILE /Base/baseLib/sap_belize_hcb/base.less (Version 11.1.31) *******************/
 
-
-// [Tags "ThemeSpecific", "Base", "Content", "Color", "Protected"]
-@sapBackgroundColorDefault: @sapBackgroundColor;
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
 @sapContent_GridSize: 1rem;
@@ -309,16 +306,16 @@
 @sapContent_ContrastShadowColor: @sapContent_ShadowColor;
 
 // [Tags "!Protected"]
-@sapContent_Shadow0: 0 0 1rem 0 fade(@sapContent_ContrastShadowColor, 50), 0 0 0 2px @sapContent_ShadowColor;
+@sapContent_Shadow0: 0 0 0 0.0625rem @sapContent_ShadowColor;
 
 // [Tags "!Protected"]
-@sapContent_Shadow1: 0 0.125rem 0.5rem 0 fade(@sapContent_ShadowColor, 20), @sapContent_Shadow0;
+@sapContent_Shadow1: 0 0 1rem 0 fade(@sapContent_ContrastShadowColor, 50), 0 0 0 0.125rem @sapContent_ShadowColor;
 
 // [Tags "!Protected"]
-@sapContent_Shadow2: 0 0.25rem 2rem 0 fade(@sapContent_ContrastShadowColor, 60), 0 0 0 2px @sapContent_ShadowColor;
+@sapContent_Shadow2: 0 0.25rem 2rem 0 fade(@sapContent_ContrastShadowColor, 60), 0 0 0 0.125rem @sapContent_ShadowColor;
 
 // [Tags "!Protected"]
-@sapContent_Shadow3: 0 0.625rem 4rem 0 fade(@sapContent_ContrastShadowColor, 80), 0 0 0 2px @sapContent_ShadowColor;
+@sapContent_Shadow3: 0 0.625rem 4rem 0 fade(@sapContent_ContrastShadowColor, 80), 0 0 0 0.125rem @sapContent_ShadowColor;
 
 // [Tags "!Protected"]
 @sapContent_TextShadow: -1px 0 @sapHC_StandardBackground, 0 1px @sapHC_StandardBackground, 1px 0 @sapHC_StandardBackground, 0 -1px @sapHC_StandardBackground;
@@ -938,7 +935,7 @@
 @sapField_BorderWidth: @sapElement_BorderWidth;
 
 // [Tags "!Protected"]
-@sapField_BorderCornerRadius: 0 * @sapContent_GridSize;
+@sapField_BorderCornerRadius: 0;
 
 // [Tags "!Protected"]
 @sapField_Hover_Background: @sapField_Background;
@@ -1136,7 +1133,7 @@
 @sapScrollBar_SymbolColor: @sapContent_IconColor;
 
 // [Tags "!Protected"]
-@sapScrollBar_Dimension: 0.7 * @sapContent_GridSize;
+@sapScrollBar_Dimension: 0.75 * @sapContent_GridSize;
 
 // [Tags "!Protected"]
 @sapScrollBar_Hover_FaceColor: @sapHC_StandardForeground;
@@ -1566,11 +1563,8 @@
 @sapSvgLib_SAP-icons: none;
 @sapSvgLib_SAPGUI-icons: url(./../sap_belize/svg/libs/SAPGUI-icons.svg);
 @sapSvgLib_SAPWeb-icons: url(./../sap_belize/svg/libs/SAPWeb-icons.svg);
-
-// [Tags "!Protected"]
-@sapGroup_Title_FontSize: @sapFontSize;
-
-// [Tags "!Protected"]
+@sapBackgroundColorDefault: @sapBackgroundColor;
 @sapList_HighlightColor: @sapHighlightColor;
+@sapGroup_Title_FontSize: @sapFontSize;
 @sapContent_ElementHeight: 1.37em;
 @sapContent_ElementHeight_PX: 22px;

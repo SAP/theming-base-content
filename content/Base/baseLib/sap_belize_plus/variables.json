@@ -386,7 +386,7 @@
 		"sapScrollBar_TrackColor": "#fff",
 		"sapScrollBar_BorderColor": "#b2b2b2",
 		"sapScrollBar_SymbolColor": "#346187",
-		"sapScrollBar_Dimension": ".7rem",
+		"sapScrollBar_Dimension": ".75rem",
 		"sapScrollBar_Hover_FaceColor": "#aaa",
 		"sapPageHeader_Background": "#eff4f9",
 		"sapPageHeader_BorderColor": "#d1e0ee",
