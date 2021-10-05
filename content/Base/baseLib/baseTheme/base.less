@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 * Theming Engine 1.51.0
-* data:{"sModified":"2021-08-26T09:50:53Z"}
+* data:{"sModified":"2021-09-23T09:53:45Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.31) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.32) *******************/
 
 
 // [Label "Brand Color"]
@@ -568,6 +568,11 @@
 // [Description "The preferred bold font family of headers."]
 // [Tags "Base", "Content", "Font", "Protected"]
 @sapFontBoldFamily: @sapDefault_Font;
+
+// [Label "Black Font Family"]
+// [Description "The preferred black font family of headers."]
+// [Tags "Base", "Content", "Font", "Protected"]
+@sapFontBlackFamily: @sapDefault_Font;
 
 // [Label "Header Font Family"]
 // [Description "The preferred font family of headers."]
@@ -2672,6 +2677,36 @@
 @sapFontUrl_72_Light_full_woff: none;
 
 // [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Black_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Black_woff: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_BoldItalic_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_BoldItalic_woff: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Condensed_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Condensed_woff: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_CondensedBold_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_CondensedBold_woff: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Italic_woff2: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
+@sapFontUrl_72_Italic_woff: none;
+
+// [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
 @sapFontUrl_72Mono_Regular_woff2: none;
 
 // [Tags "SapInternal", "Base", "URI", "Font", "Protected"]
@@ -2856,6 +2891,43 @@
 }
 
 @font-face {
+  font-family: '72';
+  font-style: normal;
+  font-weight: 900;
+  src: local('72-Black'), @sapFontUrl_72_Black_woff2 format('woff2'), @sapFontUrl_72_Black_woff format('woff');
+}
+
+@font-face {
+  font-family: '72';
+  font-style: italic;
+  font-weight: 700;
+  src: local('72-BoldItalic'), @sapFontUrl_72_BoldItalic_woff2 format('woff2'), @sapFontUrl_72_BoldItalic_woff format('woff');
+}
+
+@font-face {
+  font-family: '72';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: condensed;
+  src: local('72-Condensed'), @sapFontUrl_72_Condensed_woff2 format('woff2'), @sapFontUrl_72_Condensed_woff format('woff');
+}
+
+@font-face {
+  font-family: '72';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: condensed;
+  src: local('72-CondensedBold'), @sapFontUrl_72_CondensedBold_woff2 format('woff2'), @sapFontUrl_72_CondensedBold_woff format('woff');
+}
+
+@font-face {
+  font-family: '72';
+  font-style: italic;
+  font-weight: 400;
+  src: local('72-Italic'), @sapFontUrl_72_Italic_woff2 format('woff2'), @sapFontUrl_72_Italic_woff format('woff');
+}
+
+@font-face {
   font-family: '72-Light';
   src: local('72-Light'), @sapFontUrl_72_Light_woff2 format('woff2'), @sapFontUrl_72_Light_woff format('woff');
 }
@@ -2873,6 +2945,31 @@
 @font-face {
   font-family: '72-Boldfull';
   src: @sapFontUrl_72_Bold_full_woff2 format('woff2'), @sapFontUrl_72_Bold_full_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Black';
+  src: local('72-Black'), @sapFontUrl_72_Black_woff2 format('woff2'), @sapFontUrl_72_Black_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-BoldItalic';
+  src: local('72-BoldItalic'), @sapFontUrl_72_BoldItalic_woff2 format('woff2'), @sapFontUrl_72_BoldItalic_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Condensed';
+  src: local('72-Condensed'), @sapFontUrl_72_Condensed_woff2 format('woff2'), @sapFontUrl_72_Condensed_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-CondensedBold';
+  src: local('72-CondensedBold'), @sapFontUrl_72_CondensedBold_woff2 format('woff2'), @sapFontUrl_72_CondensedBold_woff format('woff');
+}
+
+@font-face {
+  font-family: '72-Italic';
+  src: local('72-Italic'), @sapFontUrl_72_Italic_woff2 format('woff2'), @sapFontUrl_72_Italic_woff format('woff');
 }
 
 @font-face {

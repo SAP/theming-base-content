@@ -17,7 +17,7 @@
 	"mOverrides": {
 		"UI5.sap/ui/core": [
 			{
-				"[1.64.0,1.75.0)": {
+				"[,1.75.0)": {
 					"sReleaseStage": "DEVELOPMENT"
 				}
 			}

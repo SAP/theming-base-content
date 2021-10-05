@@ -1244,6 +1244,11 @@
     "body": "var(--sapFontBoldFamily)",
     "description": "Bold Font Family (The preferred bold font family of headers.) Value: \"72-Bold\", \"72-Boldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif #Base, #Content, #Font"
   },
+  "sapFontBlackFamily": {
+    "prefix": "sapFontBlackFamily",
+    "body": "var(--sapFontBlackFamily)",
+    "description": "Black Font Family (The preferred black font family of headers.) Value: \"72-Black\", \"72\", \"72full\", Arial, Helvetica, sans-serif #Base, #Content, #Font"
+  },
   "sapFontHeaderFamily": {
     "prefix": "sapFontHeaderFamily",
     "body": "var(--sapFontHeaderFamily)",
