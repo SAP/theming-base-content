@@ -434,6 +434,41 @@
     "body": "var(--sapContent_HeaderShadow)",
     "description": "Header Shadow (The standard header shadow.) Value: inset 0 -0.125rem #000 #Base, #Content"
   },
+  "sapContent_Interaction_Shadow": {
+    "prefix": "sapContent_Interaction_Shadow",
+    "body": "var(--sapContent_Interaction_Shadow)",
+    "description": "Interaction Shadow (The standard interaction shadow.) Value: none #Base, #Content"
+  },
+  "sapContent_Selected_Shadow": {
+    "prefix": "sapContent_Selected_Shadow",
+    "body": "var(--sapContent_Selected_Shadow)",
+    "description": "Selected Shadow (The standard selected shadow.) Value: none #Base, #Content"
+  },
+  "sapContent_Negative_Shadow": {
+    "prefix": "sapContent_Negative_Shadow",
+    "body": "var(--sapContent_Negative_Shadow)",
+    "description": "Negative Shadow (The standard negative shadow.) Value: none #Base, #Content"
+  },
+  "sapContent_Critical_Shadow": {
+    "prefix": "sapContent_Critical_Shadow",
+    "body": "var(--sapContent_Critical_Shadow)",
+    "description": "Critical Shadow (The standard critical shadow.) Value: none #Base, #Content"
+  },
+  "sapContent_Positive_Shadow": {
+    "prefix": "sapContent_Positive_Shadow",
+    "body": "var(--sapContent_Positive_Shadow)",
+    "description": "Positive Shadow (The standard positive shadow.) Value: none #Base, #Content"
+  },
+  "sapContent_Informative_Shadow": {
+    "prefix": "sapContent_Informative_Shadow",
+    "body": "var(--sapContent_Informative_Shadow)",
+    "description": "Informative Shadow (The standard informative shadow.) Value: none #Base, #Content"
+  },
+  "sapContent_Neutral_Shadow": {
+    "prefix": "sapContent_Neutral_Shadow",
+    "body": "var(--sapContent_Neutral_Shadow)",
+    "description": "Neutral Shadow (The standard neutral shadow.) Value: none #Base, #Content"
+  },
   "sapContent_SearchHighlightColor": {
     "prefix": "sapContent_SearchHighlightColor",
     "body": "var(--sapContent_SearchHighlightColor)",
@@ -547,7 +582,7 @@
   "sapFontBlackFamily": {
     "prefix": "sapFontBlackFamily",
     "body": "var(--sapFontBlackFamily)",
-    "description": "Black Font Family (The preferred black font family of headers.) Value: \"72-Black\", \"72\", \"72full\", Arial, Helvetica, sans-serif #Base, #Content, #Font"
+    "description": "Black Font Family (The preferred black font family of headers.) Value: \"72Black\", \"72\", \"72full\", Arial, Helvetica, sans-serif #Base, #Content, #Font"
   },
   "sapFontHeaderFamily": {
     "prefix": "sapFontHeaderFamily",
@@ -627,7 +662,7 @@
   "sapShell_BackgroundImage": {
     "prefix": "sapShell_BackgroundImage",
     "body": "var(--sapShell_BackgroundImage)",
-    "description": "Shell Background Image/Gradient (The background image or gradient of the shell.) Value: #fff #Base, #Shell, #URI, #Image"
+    "description": "Shell Background Image/Gradient (The background image or gradient of the shell.) Value: linear-gradient(to bottom, #fff, #fff) #Base, #Shell, #URI, #Image"
   },
   "sapShell_BackgroundImageOpacity": {
     "prefix": "sapShell_BackgroundImageOpacity",
@@ -648,6 +683,11 @@
     "prefix": "sapShell_TextColor",
     "body": "var(--sapShell_TextColor)",
     "description": "Shell Text Color (The color of texts in the shell.) Value: #000 #Base, #Shell, #Color, #Font"
+  },
+  "sapShell_InteractiveBackground": {
+    "prefix": "sapShell_InteractiveBackground",
+    "body": "var(--sapShell_InteractiveBackground)",
+    "description": "Shell Interactive Background Color (The background color of interactive shell content.) Value: #fff #Base, #Shell, #Color"
   },
   "sapShell_InteractiveTextColor": {
     "prefix": "sapShell_InteractiveTextColor",
