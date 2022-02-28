@@ -11,7 +11,7 @@
 		"css_variables"
 	],
 	"sFallbackThemeId": "sap_fiori_3",
-	"sType": "GROUP",
+	"sType": "SET",
 	"sThemability": "PRIVATE",
 	"mCssScopes": {
 		"css_variables": {
@@ -30,8 +30,7 @@
 		"Fiori_3"
 	],
 	"sReleaseStage": "DEVELOPMENT",
-	"mGroup": {
-		"sType": "SELECT",
+	"mSet": {
 		"aThemes": [
 			{
 				"sId": "sap_fiori_3",
