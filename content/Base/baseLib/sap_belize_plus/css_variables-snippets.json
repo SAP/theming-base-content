@@ -389,21 +389,6 @@
     "body": "var(--sapButton_Neutral_Active_Background)",
     "description": "Neutral Button Active Background Color (The active (down) state background color of neutral buttons.) Value: #eef0f1 #Base, #Button, #Color"
   },
-  "sapButton_Track_Selected_Background": {
-    "prefix": "sapButton_Track_Selected_Background",
-    "body": "var(--sapButton_Track_Selected_Background)",
-    "description": "Switch Button Selected Track Color (The background color for the selected track of button controls such as the switch.) Value: #62b0f2 #Base, #Button, #Color"
-  },
-  "sapButton_Track_Background": {
-    "prefix": "sapButton_Track_Background",
-    "body": "var(--sapButton_Track_Background)",
-    "description": "Switch Button Track Color (The background color for the track of button controls such as the switch.) Value: #3f5161 #Base, #Button, #Color"
-  },
-  "sapButton_TokenBackground": {
-    "prefix": "sapButton_TokenBackground",
-    "body": "var(--sapButton_TokenBackground)",
-    "description": "Token Background Color (The background color of token buttons.) Value: #435667 #Base, #Button, #Color"
-  },
   "sapButton_TokenBorderColor": {
     "prefix": "sapButton_TokenBorderColor",
     "body": "var(--sapButton_TokenBorderColor)",
@@ -568,11 +553,6 @@
     "prefix": "sapTile_Background",
     "body": "var(--sapTile_Background)",
     "description": "Tile Background Color (The background color of tiles and cards.) Value: #3f5161 #Base, #Tile, #Color"
-  },
-  "sapTile_BorderColor": {
-    "prefix": "sapTile_BorderColor",
-    "body": "var(--sapTile_BorderColor)",
-    "description": "Tile Border Color (The border color of tiles and cards.) Value: transparent #Base, #Tile, #Color"
   },
   "sapTile_TitleTextColor": {
     "prefix": "sapTile_TitleTextColor",
@@ -1959,15 +1939,30 @@
     "body": "var(--sapButton_Neutral_Active_TextColor)",
     "description": "Neutral Button Active Text Color (The active (down) state text color of neutral buttons.) Value: #2f3c48 #Base, #Button, #Color, #Font"
   },
-  "sapButton_Track_Selected_TextColor": {
-    "prefix": "sapButton_Track_Selected_TextColor",
-    "body": "var(--sapButton_Track_Selected_TextColor)",
-    "description": "Switch Button Selected Text Color (The text and icon color for the selected track of button controls such as the switch.) Value: #2f3c48 #Base, #Button, #Color, #Font"
+  "sapButton_Track_Background": {
+    "prefix": "sapButton_Track_Background",
+    "body": "var(--sapButton_Track_Background)",
+    "description": "Switch Button Track Background Color (The background color for the track of button controls such as the switch.) Value: #495e70 #Base, #Button, #Color"
   },
   "sapButton_Track_TextColor": {
     "prefix": "sapButton_Track_TextColor",
     "body": "var(--sapButton_Track_TextColor)",
-    "description": "Switch Button Text Color (The text and icon color for the track of button controls such as the switch.) Value: #fafafa #Base, #Button, #Color, #Font"
+    "description": "Switch Button Track Text Color (The text and icon color for the track of button controls such as the switch.) Value: #fafafa #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Track_Selected_Background": {
+    "prefix": "sapButton_Track_Selected_Background",
+    "body": "var(--sapButton_Track_Selected_Background)",
+    "description": "Switch Button Selected Track Background Color (The background color for the selected track of button controls such as the switch.) Value: #62b0f2 #Base, #Button, #Color"
+  },
+  "sapButton_Track_Selected_TextColor": {
+    "prefix": "sapButton_Track_Selected_TextColor",
+    "body": "var(--sapButton_Track_Selected_TextColor)",
+    "description": "Switch Button Selected Track Text Color (The text and icon color for the selected track of button controls such as the switch.) Value: #2f3c48 #Base, #Button, #Color, #Font"
+  },
+  "sapButton_TokenBackground": {
+    "prefix": "sapButton_TokenBackground",
+    "body": "var(--sapButton_TokenBackground)",
+    "description": "Token Background Color (The background color of token buttons.) Value: #435667 #Base, #Button, #Color"
   },
   "sapField_HelpBackground": {
     "prefix": "sapField_HelpBackground",
@@ -2113,6 +2108,11 @@
     "prefix": "sapGroup_TitleTextColor",
     "body": "var(--sapGroup_TitleTextColor)",
     "description": "Group Title Text Color (The text color of the group title.) Value: #fafafa #Base, #Group, #Color, #Font"
+  },
+  "sapGroup_Title_FontSize": {
+    "prefix": "sapGroup_Title_FontSize",
+    "body": "var(--sapGroup_Title_FontSize)",
+    "description": "Group Title Font Size (The font size of the group title.) Value: 1.125rem #Base, #Group, #Dimension, #Font"
   },
   "sapGroup_BorderWidth": {
     "prefix": "sapGroup_BorderWidth",
@@ -2268,6 +2268,11 @@
     "prefix": "sapTile_Active_Background",
     "body": "var(--sapTile_Active_Background)",
     "description": "Tile Active Background Color (The active (down) state background color of tiles and cards.) Value: #45596a #Base, #Tile, #Color"
+  },
+  "sapTile_BorderColor": {
+    "prefix": "sapTile_BorderColor",
+    "body": "var(--sapTile_BorderColor)",
+    "description": "Tile Border Color (The border color of tiles and cards.) Value: transparent #Base, #Tile, #Color"
   },
   "sapTile_OverlayBackground": {
     "prefix": "sapTile_OverlayBackground",

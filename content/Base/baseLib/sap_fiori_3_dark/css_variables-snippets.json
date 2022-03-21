@@ -367,7 +367,7 @@
   "sapContent_HeaderShadow": {
     "prefix": "sapContent_HeaderShadow",
     "body": "var(--sapContent_HeaderShadow)",
-    "description": "Header Shadow (The standard header shadow.) Value: 0 0 0.25rem 0 rgba(0,0,0,0.8), inset 0 -0.0625rem 0 0 #3a4552 #Base, #Content"
+    "description": "Header Shadow (The standard header shadow.) Value: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.2), inset 0 -0.0625rem 0 0 #3a4552 #Base, #Content"
   },
   "sapContent_Interaction_Shadow": {
     "prefix": "sapContent_Interaction_Shadow",
@@ -717,7 +717,7 @@
   "sapShell_Shadow": {
     "prefix": "sapShell_Shadow",
     "body": "var(--sapShell_Shadow)",
-    "description": "Shell Shadow (The shadow of the shell on the content area.) Value: 0 0 0.5rem 0 rgba(0,0,0,0.8), inset 0 -0.0625rem 0 0 rgba(255,255,255,0.2) #Base, #Shell"
+    "description": "Shell Shadow (The shadow of the shell on the content area.) Value: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.8), inset 0 -0.0625rem 0 0 rgba(255,255,255,0.2) #Base, #Shell"
   },
   "sapShell_NegativeColor": {
     "prefix": "sapShell_NegativeColor",
@@ -1359,25 +1359,25 @@
     "body": "var(--sapButton_Neutral_Active_TextColor)",
     "description": "Neutral Button Active Text Color (The active (down) state text color of neutral buttons.) Value: #29313a #Base, #Button, #Color, #Font"
   },
-  "sapButton_Track_Selected_Background": {
-    "prefix": "sapButton_Track_Selected_Background",
-    "body": "var(--sapButton_Track_Selected_Background)",
-    "description": "Switch Button Selected Track Color (The background color for the selected track of button controls such as the switch.) Value: #062e4f #Base, #Button, #Color"
-  },
-  "sapButton_Track_Selected_TextColor": {
-    "prefix": "sapButton_Track_Selected_TextColor",
-    "body": "var(--sapButton_Track_Selected_TextColor)",
-    "description": "Switch Button Selected Text Color (The text and icon color for the selected track of button controls such as the switch.) Value: #fafafa #Base, #Button, #Color, #Font"
-  },
   "sapButton_Track_Background": {
     "prefix": "sapButton_Track_Background",
     "body": "var(--sapButton_Track_Background)",
-    "description": "Switch Button Track Color (The background color for the track of button controls such as the switch.) Value: #38434f #Base, #Button, #Color"
+    "description": "Switch Button Track Background Color (The background color for the track of button controls such as the switch.) Value: #38434f #Base, #Button, #Color"
   },
   "sapButton_Track_TextColor": {
     "prefix": "sapButton_Track_TextColor",
     "body": "var(--sapButton_Track_TextColor)",
-    "description": "Switch Button Text Color (The text and icon color for the track of button controls such as the switch.) Value: #fafafa #Base, #Button, #Color, #Font"
+    "description": "Switch Button Track Text Color (The text and icon color for the track of button controls such as the switch.) Value: #fafafa #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Track_Selected_Background": {
+    "prefix": "sapButton_Track_Selected_Background",
+    "body": "var(--sapButton_Track_Selected_Background)",
+    "description": "Switch Button Selected Track Background Color (The background color for the selected track of button controls such as the switch.) Value: #062e4f #Base, #Button, #Color"
+  },
+  "sapButton_Track_Selected_TextColor": {
+    "prefix": "sapButton_Track_Selected_TextColor",
+    "body": "var(--sapButton_Track_Selected_TextColor)",
+    "description": "Switch Button Selected Track Text Color (The text and icon color for the selected track of button controls such as the switch.) Value: #fafafa #Base, #Button, #Color, #Font"
   },
   "sapButton_TokenBackground": {
     "prefix": "sapButton_TokenBackground",
@@ -1573,6 +1573,11 @@
     "prefix": "sapGroup_TitleTextColor",
     "body": "var(--sapGroup_TitleTextColor)",
     "description": "Group Title Text Color (The text color of the group title.) Value: #fafafa #Base, #Group, #Color, #Font"
+  },
+  "sapGroup_Title_FontSize": {
+    "prefix": "sapGroup_Title_FontSize",
+    "body": "var(--sapGroup_Title_FontSize)",
+    "description": "Group Title Font Size (The font size of the group title.) Value: 1.125rem #Base, #Group, #Dimension, #Font"
   },
   "sapGroup_ContentBackground": {
     "prefix": "sapGroup_ContentBackground",

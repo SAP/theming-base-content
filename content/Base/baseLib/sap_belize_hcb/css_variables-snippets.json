@@ -1424,25 +1424,25 @@
     "body": "var(--sapButton_Neutral_Active_TextColor)",
     "description": "Neutral Button Active Text Color (The active (down) state text color of neutral buttons.) Value: #fff #Base, #Button, #Color, #Font"
   },
-  "sapButton_Track_Selected_Background": {
-    "prefix": "sapButton_Track_Selected_Background",
-    "body": "var(--sapButton_Track_Selected_Background)",
-    "description": "Switch Button Selected Track Color (The background color for the selected track of button controls such as the switch.) Value: #0f5d94 #Base, #Button, #Color"
-  },
-  "sapButton_Track_Selected_TextColor": {
-    "prefix": "sapButton_Track_Selected_TextColor",
-    "body": "var(--sapButton_Track_Selected_TextColor)",
-    "description": "Switch Button Selected Text Color (The text and icon color for the selected track of button controls such as the switch.) Value: #fff #Base, #Button, #Color, #Font"
-  },
   "sapButton_Track_Background": {
     "prefix": "sapButton_Track_Background",
     "body": "var(--sapButton_Track_Background)",
-    "description": "Switch Button Track Color (The background color for the track of button controls such as the switch.) Value: #000 #Base, #Button, #Color"
+    "description": "Switch Button Track Background Color (The background color for the track of button controls such as the switch.) Value: #000 #Base, #Button, #Color"
   },
   "sapButton_Track_TextColor": {
     "prefix": "sapButton_Track_TextColor",
     "body": "var(--sapButton_Track_TextColor)",
-    "description": "Switch Button Text Color (The text and icon color for the track of button controls such as the switch.) Value: #fff #Base, #Button, #Color, #Font"
+    "description": "Switch Button Track Text Color (The text and icon color for the track of button controls such as the switch.) Value: #fff #Base, #Button, #Color, #Font"
+  },
+  "sapButton_Track_Selected_Background": {
+    "prefix": "sapButton_Track_Selected_Background",
+    "body": "var(--sapButton_Track_Selected_Background)",
+    "description": "Switch Button Selected Track Background Color (The background color for the selected track of button controls such as the switch.) Value: #0f5d94 #Base, #Button, #Color"
+  },
+  "sapButton_Track_Selected_TextColor": {
+    "prefix": "sapButton_Track_Selected_TextColor",
+    "body": "var(--sapButton_Track_Selected_TextColor)",
+    "description": "Switch Button Selected Track Text Color (The text and icon color for the selected track of button controls such as the switch.) Value: #fff #Base, #Button, #Color, #Font"
   },
   "sapButton_TokenBackground": {
     "prefix": "sapButton_TokenBackground",
@@ -1638,6 +1638,11 @@
     "prefix": "sapGroup_TitleTextColor",
     "body": "var(--sapGroup_TitleTextColor)",
     "description": "Group Title Text Color (The text color of the group title.) Value: #fff #Base, #Group, #Color, #Font"
+  },
+  "sapGroup_Title_FontSize": {
+    "prefix": "sapGroup_Title_FontSize",
+    "body": "var(--sapGroup_Title_FontSize)",
+    "description": "Group Title Font Size (The font size of the group title.) Value: 1.125rem #Base, #Group, #Dimension, #Font"
   },
   "sapGroup_ContentBackground": {
     "prefix": "sapGroup_ContentBackground",
@@ -2122,7 +2127,7 @@
   "sapLegend_NonWorkingBackground": {
     "prefix": "sapLegend_NonWorkingBackground",
     "body": "var(--sapLegend_NonWorkingBackground)",
-    "description": "Legend Non-working Background (The background color that represents not working.) Value: #4d4d4d #Base, #Legend, #Color"
+    "description": "Legend Non-working Background (The background color that represents not working.) Value: #585858 #Base, #Legend, #Color"
   },
   "sapLegend_CurrentDateTime": {
     "prefix": "sapLegend_CurrentDateTime",
@@ -2367,7 +2372,7 @@
   "sapChart_OrderedColor_8": {
     "prefix": "sapChart_OrderedColor_8",
     "body": "var(--sapChart_OrderedColor_8)",
-    "description": "Chart Ordered Color 8 (This color is used as an ordered color of a sequence of 11 chart colors. It has a defined contrast to its predecessor and successor.) Value: #c63fa4 #Base, #Chart, #Color"
+    "description": "Chart Ordered Color 8 (This color is used as an ordered color of a sequence of 11 chart colors. It has a defined contrast to its predecessor and successor.) Value: #c53da4 #Base, #Chart, #Color"
   },
   "sapChart_OrderedColor_9": {
     "prefix": "sapChart_OrderedColor_9",
@@ -2442,7 +2447,7 @@
   "sapChart_Sequence_8": {
     "prefix": "sapChart_Sequence_8",
     "body": "var(--sapChart_Sequence_8)",
-    "description": "Chart Color Sequence 8 (This color is the base chart color of the sequence 8.) Value: #c63fa4 #Base, #Chart, #Color"
+    "description": "Chart Color Sequence 8 (This color is the base chart color of the sequence 8.) Value: #c53da4 #Base, #Chart, #Color"
   },
   "sapChart_Sequence_9": {
     "prefix": "sapChart_Sequence_9",
