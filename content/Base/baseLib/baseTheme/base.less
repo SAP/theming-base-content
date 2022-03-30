@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2020 SAP SE or an SAP affiliate company. All rights reserved.
-* Theming Engine 1.68.3
-* data:{"sModified":"2022-03-14T14:38:02Z"}
+* Theming Engine 1.69.2
+* data:{"sModified":"2022-03-29T12:54:32Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.36) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.1.37) *******************/
 
 
 // [Label "Brand Color"]
@@ -2036,7 +2036,7 @@
 
 // [Label "Field Background Image"]
 // [Description "The background style of input fields."]
-// [Tags "Base", "Field", "URI", "Image", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_BackgroundStyle: @sapDefault_URI;
 
 // [Label "Field Text Color"]
@@ -2066,7 +2066,7 @@
 
 // [Label "Field Border Style"]
 // [Description "The style of borders of an input field."]
-// [Tags "Base", "Field", "Color", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_BorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Field Corner Radius"]
@@ -2081,7 +2081,7 @@
 
 // [Label "Field Hover Background Image"]
 // [Description "The background style of input fields on hover."]
-// [Tags "Base", "Field", "URI", "Image", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_Hover_BackgroundStyle: @sapDefault_URI;
 
 // [Label "Field Hover Border Color"]
@@ -2119,10 +2119,21 @@
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_ReadOnly_Background: @sapDefault_Color;
 
+// [Label "Read Only Field Background Image"]
+// [Description "The background style of read-only input fields."]
+// [Tags "Base", "Field", "Protected"]
+// [TranslationKey "sapField_ReadOnly_BgStyle"]
+@sapField_ReadOnly_BackgroundStyle: @sapDefault_URI;
+
 // [Label "Read Only Field Border Color"]
 // [Description "The color of a read-only input field's borders."]
 // [Tags "Base", "Field", "Color", "Protected"]
 @sapField_ReadOnly_BorderColor: @sapDefault_Color;
+
+// [Label "Read Only Field Border Style"]
+// [Description "The border style of read-only input fields."]
+// [Tags "Base", "Field", "Protected"]
+@sapField_ReadOnly_BorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Read Only Field Help Color"]
 // [Description "The background color of a read-only input field's value help icon."]
@@ -2148,7 +2159,7 @@
 // [Label "Invalid Field Background Image"]
 // [Description "The background style of an input field with an invalid value."]
 // [TranslationKey "sapField_InvBgImg"]
-// [Tags "Base", "Field", "URI", "Image", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_InvalidBackgroundStyle: @sapDefault_URI;
 
 // [Label "Invalid Field Border Thickness"]
@@ -2158,7 +2169,7 @@
 
 // [Label "Invalid Field Border Style"]
 // [Description "The style of borders of an input field with invalid value."]
-// [Tags "Base", "Field", "Color", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_InvalidBorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Warning Field Color"]
@@ -2174,7 +2185,7 @@
 // [Label "Warning Field Background Image"]
 // [Description "The background style of an input field indicating a warning."]
 // [TranslationKey "sapField_WarnBgImg"]
-// [Tags "Base", "Field", "URI", "Image", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_WarningBackgroundStyle: @sapDefault_URI;
 
 // [Label "Warning Field Border Thickness"]
@@ -2184,7 +2195,7 @@
 
 // [Label "Warning Field Border Style"]
 // [Description "The style of borders of an input field indicating a warning."]
-// [Tags "Base", "Field", "Color", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_WarningBorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Success Field Color"]
@@ -2200,7 +2211,7 @@
 // [Label "Success Field Background Image"]
 // [Description "The background style of an input field indicating a successful user action."]
 // [TranslationKey "sapField_SucBgImg"]
-// [Tags "Base", "Field", "URI", "Image", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_SuccessBackgroundStyle: @sapDefault_URI;
 
 // [Label "Success Field Border Thickness"]
@@ -2210,7 +2221,7 @@
 
 // [Label "Success Field Border Style"]
 // [Description "The style of borders of an input field indicating a successful user action."]
-// [Tags "Base", "Field", "Color", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_SuccessBorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Information Field Color"]
@@ -2226,7 +2237,7 @@
 // [Label "Information Field Background Image"]
 // [Description "The background style of an input field indicating an information status."]
 // [TranslationKey "sapField_InfBgImg"]
-// [Tags "Base", "Field", "URI", "Image", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_InformationBackgroundStyle: @sapDefault_URI;
 
 // [Label "Information Field Border Thickness"]
@@ -2238,7 +2249,7 @@
 // [Label "Information Field Border Style"]
 // [Description "The style of borders of an input field indicating an information status."]
 // [TranslationKey "sapField_InfBrdSty"]
-// [Tags "Base", "Field", "Color", "Protected"]
+// [Tags "Base", "Field", "Protected"]
 @sapField_InformationBorderStyle: @sapDefault_BorderStyle;
 
 // [Label "Group Title Background Color"]

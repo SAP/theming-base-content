@@ -9,13 +9,14 @@
 	"sTextDirections": "LTR,RTL",
 	"sFallbackThemeId": "sap_horizon",
 	"sType": "STANDARD",
-	"sThemability": "PRIVATE",
+	"sThemability": "PUBLIC",
 	"aTags": [
 		"Fiori_3",
 		"HighContrast",
 		"DarkColorScheme"
 	],
-	"sReleaseStage": "ALPHA",
+	"sReleaseStage": "GENERAL_AVAILABILITY",
+	"sReleaseDate": "2022-04-19T00:00:00Z",
 	"aBadgeParameters": [
 		{
 			"Id": "sapBrandColor",

@@ -1,20 +1,21 @@
 {
 	"sEntity": "Theme",
 	"sId": "sap_horizon_dark",
-	"sLabel": "SAP Evening Horizon (experimental)",
-	"sDescription": "The SAP Evening Horizon theme is currently under construction.",
+	"sLabel": "SAP Evening Horizon",
+	"sDescription": "The SAP Horizon themes are recommended as basis for custom themes for Horizon.\nSAP Evening Horizon provides a color scheme suitable for low lighted types of environment.",
 	"sHelpLink": "https://experience.sap.com/fiori-design-web/theming",
 	"sVendor": "SAP",
 	"oExtends": "Base.baseLib.sap_horizon",
 	"sTextDirections": "LTR,RTL",
 	"sFallbackThemeId": "sap_horizon",
 	"sType": "STANDARD",
-	"sThemability": "PRIVATE",
+	"sThemability": "PUBLIC",
 	"aTags": [
 		"Fiori_3",
 		"DarkColorScheme"
 	],
-	"sReleaseStage": "ALPHA",
+	"sReleaseStage": "GENERAL_AVAILABILITY",
+	"sReleaseDate": "2022-04-19T00:00:00Z",
 	"aBadgeParameters": [
 		{
 			"Id": "sapBrandColor",

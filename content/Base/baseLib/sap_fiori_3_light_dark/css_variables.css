@@ -1,12 +1,12 @@
 /**
 * Copyright (c) 2012-2020 SAP SE or an SAP affiliate company. All rights reserved.
 *
-* Theming Engine 1.68.3
-* data:{"Path": "Base.baseLib.sap_fiori_3_light_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": [], "Tags": ["Fiori_3"], "Scopes": ["@media (prefers-color-scheme: dark)"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.68.3"}, "Version": { "Build": "11.1.36.20220314143804", "Source": "11.1.36"}}
+* Theming Engine 1.69.2
+* data:{"Path": "Base.baseLib.sap_fiori_3_light_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": [], "Tags": ["Fiori_3"], "Scopes": ["@media (prefers-color-scheme: dark)"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.69.2"}, "Version": { "Build": "11.1.37.20220329125434", "Source": "11.1.37"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_fiori_3_light_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": [], "Tags": ["Fiori_3"], "Scopes": ["@media (prefers-color-scheme: dark)"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.68.3"}, "Version": { "Build": "11.1.36.20220314143804", "Source": "11.1.36"}}');}
-:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_fiori_3_light_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": [], "Tags": ["Fiori_3"], "Scopes": ["@media (prefers-color-scheme: dark)"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.68.3"}, "Version": { "Build": "11.1.36.20220314143804", "Source": "11.1.36"}};}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_fiori_3_light_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": [], "Tags": ["Fiori_3"], "Scopes": ["@media (prefers-color-scheme: dark)"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.69.2"}, "Version": { "Build": "11.1.37.20220329125434", "Source": "11.1.37"}}');}
+:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_fiori_3_light_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": [], "Tags": ["Fiori_3"], "Scopes": ["@media (prefers-color-scheme: dark)"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.69.2"}, "Version": { "Build": "11.1.37.20220329125434", "Source": "11.1.37"}};}
 :root {
   --sapBrandColor: #0a6ed1;
   --sapHighlightColor: #0854a0;
@@ -451,7 +451,9 @@
   --sapField_Focus_BorderColor: #89919a;
   --sapField_Focus_HelpBackground: #fff;
   --sapField_ReadOnly_Background: rgba(242,242,242,0.5);
+  --sapField_ReadOnly_BackgroundStyle: none;
   --sapField_ReadOnly_BorderColor: #89919a;
+  --sapField_ReadOnly_BorderStyle: solid;
   --sapField_ReadOnly_HelpBackground: rgba(242,242,242,0.5);
   --sapField_RequiredColor: #ce3b3b;
   --sapField_InvalidColor: #bb0000;
@@ -1188,7 +1190,9 @@
   --sapField_Focus_BorderColor: #8696a9;
   --sapField_Focus_HelpBackground: #29313a;
   --sapField_ReadOnly_Background: rgba(58,69,82,0.5);
+  --sapField_ReadOnly_BackgroundStyle: none;
   --sapField_ReadOnly_BorderColor: #546375;
+  --sapField_ReadOnly_BorderStyle: solid;
   --sapField_ReadOnly_HelpBackground: rgba(58,69,82,0.5);
   --sapField_RequiredColor: #e7a1a1;
   --sapField_InvalidColor: #ff8888;
