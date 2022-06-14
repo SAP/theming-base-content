@@ -562,7 +562,7 @@
 		"sapPageHeader_BorderColor": "#000",
 		"sapPageHeader_TextColor": "#000",
 		"sapPageFooter_Background": "#fff",
-		"sapPageFooter_BorderColor": "#fff",
+		"sapPageFooter_BorderColor": "#000",
 		"sapPageFooter_TextColor": "#000",
 		"sapInfobar_Background": "#fff",
 		"sapInfobar_Hover_Background": "#e97624",
