@@ -1,12 +1,12 @@
 /**
 * Copyright (c) 2012-2022 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 *
-* Theming Engine 1.70.1
-* data:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.70.1"}, "Version": { "Build": "11.1.42.20220912092056", "Source": "11.1.42"}}
+* Theming Engine VERSION_UNKNOWN
+* data:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "VERSION_UNKNOWN"}, "Version": { "Build": "11.1.44.20221011121553", "Source": "11.1.44"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.70.1"}, "Version": { "Build": "11.1.42.20220912092056", "Source": "11.1.42"}}');}
-:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "1.70.1"}, "Version": { "Build": "11.1.42.20220912092056", "Source": "11.1.42"}};}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "VERSION_UNKNOWN"}, "Version": { "Build": "11.1.44.20221011121553", "Source": "11.1.44"}}');}
+:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "VERSION_UNKNOWN"}, "Version": { "Build": "11.1.44.20221011121553", "Source": "11.1.44"}};}
 :root {
   --sapBrandColor: #0070f2;
   --sapHighlightColor: #0070f2;
@@ -238,6 +238,70 @@
   --sapShell_PositiveColor: #256f3a;
   --sapShell_InformativeColor: #0070f2;
   --sapShell_NeutralColor: #1d2d3e;
+  --sapShell_Category_1_Background: #0057d2;
+  --sapShell_Category_1_BorderColor: #0057d2;
+  --sapShell_Category_1_TextColor: #fff;
+  --sapShell_Category_1_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_2_Background: #df1278;
+  --sapShell_Category_2_BorderColor: #df1278;
+  --sapShell_Category_2_TextColor: #fff;
+  --sapShell_Category_2_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_3_Background: #e76500;
+  --sapShell_Category_3_BorderColor: #e76500;
+  --sapShell_Category_3_TextColor: #fff;
+  --sapShell_Category_3_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_4_Background: #7800a4;
+  --sapShell_Category_4_BorderColor: #7800a4;
+  --sapShell_Category_4_TextColor: #fff;
+  --sapShell_Category_4_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_5_Background: #aa2608;
+  --sapShell_Category_5_BorderColor: #aa2608;
+  --sapShell_Category_5_TextColor: #fff;
+  --sapShell_Category_5_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_6_Background: #07838f;
+  --sapShell_Category_6_BorderColor: #07838f;
+  --sapShell_Category_6_TextColor: #fff;
+  --sapShell_Category_6_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_7_Background: #f31ded;
+  --sapShell_Category_7_BorderColor: #f31ded;
+  --sapShell_Category_7_TextColor: #fff;
+  --sapShell_Category_7_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_8_Background: #188918;
+  --sapShell_Category_8_BorderColor: #188918;
+  --sapShell_Category_8_TextColor: #fff;
+  --sapShell_Category_8_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_9_Background: #002a86;
+  --sapShell_Category_9_BorderColor: #002a86;
+  --sapShell_Category_9_TextColor: #fff;
+  --sapShell_Category_9_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_10_Background: #5b738b;
+  --sapShell_Category_10_BorderColor: #5b738b;
+  --sapShell_Category_10_TextColor: #fff;
+  --sapShell_Category_10_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_11_Background: #d20a0a;
+  --sapShell_Category_11_BorderColor: #d20a0a;
+  --sapShell_Category_11_TextColor: #fff;
+  --sapShell_Category_11_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_12_Background: #7858ff;
+  --sapShell_Category_12_BorderColor: #7858ff;
+  --sapShell_Category_12_TextColor: #fff;
+  --sapShell_Category_12_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_13_Background: #a00875;
+  --sapShell_Category_13_BorderColor: #a00875;
+  --sapShell_Category_13_TextColor: #fff;
+  --sapShell_Category_13_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_14_Background: #14565b;
+  --sapShell_Category_14_BorderColor: #14565b;
+  --sapShell_Category_14_TextColor: #fff;
+  --sapShell_Category_14_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_15_Background: #223548;
+  --sapShell_Category_15_BorderColor: #223548;
+  --sapShell_Category_15_TextColor: #fff;
+  --sapShell_Category_15_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+  --sapShell_Category_16_Background: #1e592f;
+  --sapShell_Category_16_BorderColor: #1e592f;
+  --sapShell_Category_16_TextColor: #fff;
+  --sapShell_Category_16_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
   --sapAvatar_1_Background: #fff3b8;
   --sapAvatar_1_BorderColor: #fff3b8;
   --sapAvatar_1_TextColor: #a45d00;
