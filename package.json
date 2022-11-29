@@ -1,8 +1,13 @@
 {
   "name": "@sap-theming/theming-base-content",
-  "version": "11.1.44",
+  "version": "${project.version}",
   "description": "Theming Base Content",
   "author": "SAP SE (https://www.sap.com)",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs",
+    "default": "./index.cjs"
+  },
   "license": "Apache-2.0",
   "keywords": [
     "theming",
