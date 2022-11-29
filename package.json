@@ -1,6 +1,6 @@
 {
   "name": "@sap-theming/theming-base-content",
-  "version": "${project.version}",
+  "version": "11.1.46",
   "description": "Theming Base Content",
   "author": "SAP SE (https://www.sap.com)",
   "exports": {
