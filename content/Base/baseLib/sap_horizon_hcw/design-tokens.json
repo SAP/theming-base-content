@@ -14564,15 +14564,15 @@
   },
   "Illustrative": {
     "_sapContent_Illustrative_Color20H": {
-      "value": "197.1428571428571",
+      "value": "195",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20S": {
-      "value": "9.333333333333337%",
+      "value": "6.557377049180327%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20L": {
-      "value": "29.411764705882355%",
+      "value": "76.07843137254902%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20A": {
@@ -14584,15 +14584,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color19H": {
-      "value": "195",
+      "value": "200",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19S": {
-      "value": "9.677419354838708%",
+      "value": "6.249999999999978%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19L": {
-      "value": "24.313725490196077%",
+      "value": "81.17647058823529%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19A": {
@@ -14604,15 +14604,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color18H": {
-      "value": "200",
+      "value": "192",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18S": {
-      "value": "9.090909090909088%",
+      "value": "7.042253521126778%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18L": {
-      "value": "19.411764705882355%",
+      "value": "86.07843137254902%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18A": {
@@ -14684,15 +14684,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color14H": {
-      "value": "202.8571428571429",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14S": {
-      "value": "10.344827586206904%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14L": {
-      "value": "60.196078431372555%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14A": {
@@ -14704,15 +14704,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color13H": {
-      "value": "203.07692307692298",
+      "value": "205.71428571428578",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13S": {
-      "value": "11.111111111111093%",
+      "value": "13.725490196078436%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13L": {
-      "value": "77.05882352941175%",
+      "value": "10%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13A": {

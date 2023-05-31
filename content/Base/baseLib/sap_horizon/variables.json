@@ -280,7 +280,7 @@
 		"sapAvatar_10_BorderColor": "#eaecee",
 		"sapAvatar_10_TextColor": "#556b82",
 		"sapButton_Background": "#eaecee",
-		"sapButton_BorderColor": "#eaecee",
+		"sapButton_BorderColor": "#bcc3ca",
 		"sapButton_BorderWidth": ".0625rem",
 		"sapButton_BorderCornerRadius": ".5rem",
 		"sapButton_TextColor": "#1d2d3e",

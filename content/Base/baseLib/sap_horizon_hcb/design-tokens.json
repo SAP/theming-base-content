@@ -14564,15 +14564,15 @@
   },
   "Illustrative": {
     "_sapContent_Illustrative_Color20H": {
-      "value": "195",
+      "value": "197.1428571428571",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20S": {
-      "value": "6.557377049180327%",
+      "value": "9.333333333333337%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20L": {
-      "value": "76.07843137254902%",
+      "value": "29.411764705882355%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20A": {
@@ -14584,15 +14584,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color19H": {
-      "value": "200",
+      "value": "195",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19S": {
-      "value": "6.249999999999978%",
+      "value": "9.677419354838708%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19L": {
-      "value": "81.17647058823529%",
+      "value": "24.313725490196077%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19A": {
@@ -14604,15 +14604,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color18H": {
-      "value": "192",
+      "value": "200",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18S": {
-      "value": "7.042253521126778%",
+      "value": "9.090909090909088%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18L": {
-      "value": "86.07843137254902%",
+      "value": "19.411764705882355%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18A": {
@@ -14664,15 +14664,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color15H": {
-      "value": "205.71428571428578",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color15S": {
-      "value": "12.5%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color15L": {
-      "value": "21.96078431372549%",
+      "value": "60%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color15A": {
@@ -14692,7 +14692,7 @@
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14L": {
-      "value": "0%",
+      "value": "60%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14A": {
@@ -14704,15 +14704,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color13H": {
-      "value": "200",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13S": {
-      "value": "9.090909090909092%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13L": {
-      "value": "6.470588235294117%",
+      "value": "80%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13A": {
@@ -14724,15 +14724,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color12H": {
-      "value": "205.26315789473688",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color12S": {
-      "value": "12.418300653594772%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color12L": {
-      "value": "30.000000000000004%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color12A": {
@@ -14744,15 +14744,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color11H": {
-      "value": "205.26315789473688",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color11S": {
-      "value": "12.418300653594772%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color11L": {
-      "value": "30.000000000000004%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color11A": {
@@ -14812,7 +14812,7 @@
       "type": "internal"
     },
     "_sapContent_Illustrative_Color8L": {
-      "value": "85.88235294117646%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color8A": {
@@ -14904,15 +14904,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color3H": {
-      "value": "200.76923076923072",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color3S": {
-      "value": "11.71171171171171%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color3L": {
-      "value": "43.529411764705884%",
+      "value": "80%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color3A": {
@@ -14924,15 +14924,15 @@
       "type": "color"
     },
     "_sapContent_Illustrative_Color2H": {
-      "value": "200.76923076923072",
+      "value": "0",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color2S": {
-      "value": "11.71171171171171%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color2L": {
-      "value": "43.529411764705884%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color2A": {
