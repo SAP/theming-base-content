@@ -9426,7 +9426,7 @@
         "type": "internal"
       },
       "_sapCriticalTextColorL": {
-        "value": "{Semantic._sapCriticalColorL} - 9%",
+        "value": "{Semantic._sapCriticalColorL} - 10%",
         "type": "internal"
       },
       "_sapCriticalTextColorA": {
@@ -12620,7 +12620,7 @@
         "type": "internal"
       },
       "_sapButton_BorderColorL": {
-        "value": "{Application._sapBackgroundColorL} - 20%",
+        "value": "{Application._sapBackgroundColorL} - 4%",
         "type": "internal"
       },
       "_sapButton_BorderColorA": {
