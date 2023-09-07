@@ -164,7 +164,7 @@
 		"sapShell_InteractiveTextColor": "#fff",
 		"sapShell_InteractiveBorderColor": "#fff",
 		"sapShell_GroupTitleTextColor": "#fff",
-		"sapShell_GroupTitleTextShadow": "-0.0625rem 0 #000,0 .0625rem #000,.0625rem 0 #000,0 -0.0625rem #000",
+		"sapShell_GroupTitleTextShadow": "-0.0625rem 0 #000, 0 0.0625rem #000, 0.0625rem 0 #000, 0 -0.0625rem #000",
 		"sapShell_Hover_Background": "#795100",
 		"sapShell_Active_Background": "#795100",
 		"sapShell_Active_TextColor": "#fff",

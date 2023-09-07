@@ -6,8 +6,13 @@
     },
     "Category": {
       "sapShell_Category_16_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_16_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -54,8 +59,13 @@
         "type": "color"
       },
       "sapShell_Category_15_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_15_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -102,8 +112,13 @@
         "type": "color"
       },
       "sapShell_Category_14_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_14_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -150,8 +165,13 @@
         "type": "color"
       },
       "sapShell_Category_13_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_13_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -198,8 +218,13 @@
         "type": "color"
       },
       "sapShell_Category_12_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_12_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -246,8 +271,13 @@
         "type": "color"
       },
       "sapShell_Category_11_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_11_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -294,8 +324,13 @@
         "type": "color"
       },
       "sapShell_Category_10_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_10_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -342,8 +377,13 @@
         "type": "color"
       },
       "sapShell_Category_9_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_9_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -390,8 +430,13 @@
         "type": "color"
       },
       "sapShell_Category_8_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_8_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -438,8 +483,13 @@
         "type": "color"
       },
       "sapShell_Category_7_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_7_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -486,8 +536,13 @@
         "type": "color"
       },
       "sapShell_Category_6_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_6_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -534,8 +589,13 @@
         "type": "color"
       },
       "sapShell_Category_5_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_5_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -582,8 +642,13 @@
         "type": "color"
       },
       "sapShell_Category_4_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_4_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -630,8 +695,13 @@
         "type": "color"
       },
       "sapShell_Category_3_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_3_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -678,8 +748,13 @@
         "type": "color"
       },
       "sapShell_Category_2_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_2_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -726,8 +801,13 @@
         "type": "color"
       },
       "sapShell_Category_1_TextShadow": {
-        "value": "none",
-        "type": "color"
+        "type": "boxShadow",
+        "value": [
+          {
+            "type": "dropShadow",
+            "spread": "0"
+          }
+        ]
       },
       "_sapShell_Category_1_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -1059,7 +1139,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.8)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (80) / 100)"
         },
         {
           "type": "innerShadow",
@@ -1067,7 +1147,7 @@
           "y": "-0.0625rem",
           "blur": "0",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.2)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (20) / 100)"
         }
       ]
     },
@@ -1276,9 +1356,9 @@
           "type": "dropShadow",
           "x": "0",
           "y": "0",
-          "blur": "0.125",
-          "spread": "*",
-          "color": "{Internal.sapContent_GridSize}"
+          "blur": "0.125rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, {Shadow._sapContent_ShadowColorA})"
         }
       ]
     },
@@ -2920,15 +3000,15 @@
     },
     "Ordered": {
       "_sapChart_OrderedColor_11H": {
-        "value": "209.56521739130437",
+        "value": "251.49700598802394",
         "type": "internal"
       },
       "_sapChart_OrderedColor_11S": {
-        "value": "62.727272727272734%",
+        "value": "100.00000000000003%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_11L": {
-        "value": "43.13725490196078%",
+        "value": "67.25490196078432%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_11A": {
@@ -2944,11 +3024,11 @@
         "type": "internal"
       },
       "_sapChart_OrderedColor_10S": {
-        "value": "89.69072164948454%",
+        "value": "80.74074074074075%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_10L": {
-        "value": "61.96078431372549%",
+        "value": "73.52941176470588%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_10A": {
@@ -2960,15 +3040,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_9H": {
-        "value": "209.18918918918916",
+        "value": "114.28571428571433",
         "type": "internal"
       },
       "_sapChart_OrderedColor_9S": {
-        "value": "17.535545023696685%",
+        "value": "10.047846889952144%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_9L": {
-        "value": "58.62745098039215%",
+        "value": "59.01960784313726%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_9A": {
@@ -2980,15 +3060,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_8H": {
-        "value": "295.63636363636374",
+        "value": "301.68224299065423",
         "type": "internal"
       },
       "_sapChart_OrderedColor_8S": {
-        "value": "100%",
+        "value": "89.91596638655462%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_8L": {
-        "value": "43.13725490196079%",
+        "value": "53.333333333333336%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_8A": {
@@ -3000,15 +3080,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_7H": {
-        "value": "212.23140495867767",
+        "value": "210.18633540372673",
         "type": "internal"
       },
       "_sapChart_OrderedColor_7S": {
-        "value": "100%",
+        "value": "70.3056768558952%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_7L": {
-        "value": "47.45098039215686%",
+        "value": "55.09803921568628%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_7A": {
@@ -3020,15 +3100,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_6H": {
-        "value": "178.10126582278485",
+        "value": "178.0645161290322",
         "type": "internal"
       },
       "_sapChart_OrderedColor_6S": {
-        "value": "95.18072289156628%",
+        "value": "95.09202453987731%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_6L": {
-        "value": "32.549019607843135%",
+        "value": "31.960784313725487%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_6A": {
@@ -3060,15 +3140,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_4H": {
-        "value": "341.94174757281553",
+        "value": "335.0877192982456",
         "type": "internal"
       },
       "_sapChart_OrderedColor_4S": {
-        "value": "91.96428571428572%",
+        "value": "94.47513812154693%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_4L": {
-        "value": "56.07843137254902%",
+        "value": "64.50980392156862%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_4A": {
@@ -3080,15 +3160,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_3H": {
-        "value": "159.6992481203008",
+        "value": "70.19607843137254",
         "type": "internal"
       },
       "_sapChart_OrderedColor_3S": {
-        "value": "74.30167597765363%",
+        "value": "60.95617529880477%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_3L": {
-        "value": "35.09803921568628%",
+        "value": "50.78431372549019%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_3A": {
@@ -3100,15 +3180,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_2H": {
-        "value": "19.81651376146789",
+        "value": "40",
         "type": "internal"
       },
       "_sapChart_OrderedColor_2S": {
-        "value": "89.34426229508195%",
+        "value": "99.99999999999999%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_2L": {
-        "value": "52.15686274509803%",
+        "value": "57.647058823529406%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_2A": {
@@ -3120,15 +3200,15 @@
         "type": "color"
       },
       "_sapChart_OrderedColor_1H": {
-        "value": "209.21052631578948",
+        "value": "212.23140495867767",
         "type": "internal"
       },
       "_sapChart_OrderedColor_1S": {
-        "value": "100.00000000000003%",
+        "value": "100%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_1L": {
-        "value": "55.294117647058826%",
+        "value": "47.45098039215686%",
         "type": "internal"
       },
       "_sapChart_OrderedColor_1A": {
@@ -5669,11 +5749,11 @@
       "type": "internal"
     },
     "_sapIndicationColor_1S": {
-      "value": "98.03921568627453%",
+      "value": "97.8835978835979%",
       "type": "internal"
     },
     "_sapIndicationColor_1L": {
-      "value": "60%",
+      "value": "62.94117647058823%",
       "type": "internal"
     },
     "_sapIndicationColor_1A": {
@@ -7241,7 +7321,7 @@
       "type": "internal"
     },
     "_sapTile_OverlayBackgroundA": {
-      "value": "0.96",
+      "value": "(96) / 100",
       "type": "internal"
     },
     "sapTile_OverlayBackground": {
@@ -7289,19 +7369,19 @@
       "type": "color"
     },
     "_sapTile_IconColorH": {
-      "value": "{Icon._sapContent_ContrastIconColorH}",
+      "value": "{Internal._sapPrimary7H}",
       "type": "internal"
     },
     "_sapTile_IconColorS": {
-      "value": "{Icon._sapContent_ContrastIconColorS}",
+      "value": "{Internal._sapPrimary7S}",
       "type": "internal"
     },
     "_sapTile_IconColorL": {
-      "value": "{Icon._sapContent_ContrastIconColorL}",
+      "value": "{Internal._sapPrimary7L}",
       "type": "internal"
     },
     "_sapTile_IconColorA": {
-      "value": "{Icon._sapContent_ContrastIconColorA}",
+      "value": "{Internal._sapPrimary7A}",
       "type": "internal"
     },
     "sapTile_IconColor": {
@@ -7309,19 +7389,19 @@
       "type": "color"
     },
     "_sapTile_TextColorH": {
-      "value": "{Text._sapContent_ContrastTextColorH}",
+      "value": "{Text._sapContent_LabelColorH}",
       "type": "internal"
     },
     "_sapTile_TextColorS": {
-      "value": "{Text._sapContent_ContrastTextColorS}",
+      "value": "{Text._sapContent_LabelColorS}",
       "type": "internal"
     },
     "_sapTile_TextColorL": {
-      "value": "{Text._sapContent_ContrastTextColorL}",
+      "value": "{Text._sapContent_LabelColorL}",
       "type": "internal"
     },
     "_sapTile_TextColorA": {
-      "value": "{Text._sapContent_ContrastTextColorA}",
+      "value": "{Text._sapContent_LabelColorA}",
       "type": "internal"
     },
     "sapTile_TextColor": {
@@ -7563,7 +7643,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.2)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (20) / 100)"
         },
         {
           "type": "innerShadow",
@@ -7598,19 +7678,19 @@
   },
   "ObjectHeader": {
     "_sapObjectHeader_Subtitle_TextColorH": {
-      "value": "{Text._sapContent_ContrastTextColorH}",
+      "value": "{Text._sapContent_LabelColorH}",
       "type": "internal"
     },
     "_sapObjectHeader_Subtitle_TextColorS": {
-      "value": "{Text._sapContent_ContrastTextColorS}",
+      "value": "{Text._sapContent_LabelColorS}",
       "type": "internal"
     },
     "_sapObjectHeader_Subtitle_TextColorL": {
-      "value": "{Text._sapContent_ContrastTextColorL}",
+      "value": "{Text._sapContent_LabelColorL}",
       "type": "internal"
     },
     "_sapObjectHeader_Subtitle_TextColorA": {
-      "value": "{Text._sapContent_ContrastTextColorA}",
+      "value": "{Text._sapContent_LabelColorA}",
       "type": "internal"
     },
     "sapObjectHeader_Subtitle_TextColor": {
@@ -9111,7 +9191,7 @@
             "y": "0",
             "blur": "0.125rem",
             "spread": "0",
-            "color": "hsla({Semantic._sapNeutralColorH}, {Semantic._sapNeutralColorS}, {Semantic._sapNeutralColorL}, 0.72)"
+            "color": "hsla({Semantic._sapNeutralColorH}, {Semantic._sapNeutralColorS}, {Semantic._sapNeutralColorL}, (72) / 100)"
           }
         ]
       },
@@ -9124,7 +9204,7 @@
             "y": "0",
             "blur": "0.125rem",
             "spread": "0",
-            "color": "hsla({Semantic._sapInformativeColorH}, {Semantic._sapInformativeColorS}, {Semantic._sapInformativeColorL}, 0.72)"
+            "color": "hsla({Semantic._sapInformativeColorH}, {Semantic._sapInformativeColorS}, {Semantic._sapInformativeColorL}, (72) / 100)"
           }
         ]
       },
@@ -9137,7 +9217,7 @@
             "y": "0",
             "blur": "0.125rem",
             "spread": "0",
-            "color": "hsla({Semantic._sapPositiveColorH}, {Semantic._sapPositiveColorS}, {Semantic._sapPositiveColorL}, 0.72)"
+            "color": "hsla({Semantic._sapPositiveColorH}, {Semantic._sapPositiveColorS}, {Semantic._sapPositiveColorL}, (72) / 100)"
           }
         ]
       },
@@ -9150,7 +9230,7 @@
             "y": "0",
             "blur": "0.125rem",
             "spread": "0",
-            "color": "hsla({Semantic._sapCriticalColorH}, {Semantic._sapCriticalColorS}, {Semantic._sapCriticalColorL}, 0.72)"
+            "color": "hsla({Semantic._sapCriticalColorH}, {Semantic._sapCriticalColorS}, {Semantic._sapCriticalColorL}, (72) / 100)"
           }
         ]
       },
@@ -9163,7 +9243,7 @@
             "y": "0",
             "blur": "0.125rem",
             "spread": "0",
-            "color": "hsla({Semantic._sapNegativeColorH}, {Semantic._sapNegativeColorS}, {Semantic._sapNegativeColorL}, 0.72)"
+            "color": "hsla({Semantic._sapNegativeColorH}, {Semantic._sapNegativeColorS}, {Semantic._sapNegativeColorL}, (72) / 100)"
           }
         ]
       }
@@ -9770,7 +9850,7 @@
       },
       "sapField_InformationBorderStyle": {
         "value": "none",
-        "type": "border"
+        "type": "borderStyle"
       },
       "sapField_InformationBorderWidth": {
         "value": "0.125 * {Internal.sapContent_GridSize}",
@@ -9842,7 +9922,7 @@
       },
       "sapField_SuccessBorderStyle": {
         "value": "none",
-        "type": "border"
+        "type": "borderStyle"
       },
       "sapField_SuccessBorderWidth": {
         "value": "0.0625 * {Internal.sapContent_GridSize}",
@@ -9914,7 +9994,7 @@
       },
       "sapField_WarningBorderStyle": {
         "value": "none",
-        "type": "border"
+        "type": "borderStyle"
       },
       "sapField_WarningBorderWidth": {
         "value": "0.125 * {Internal.sapContent_GridSize}",
@@ -9986,7 +10066,7 @@
       },
       "sapField_InvalidBorderStyle": {
         "value": "none",
-        "type": "border"
+        "type": "borderStyle"
       },
       "sapField_InvalidBorderWidth": {
         "value": "0.125 * {Internal.sapContent_GridSize}",
@@ -10123,7 +10203,7 @@
       },
       "sapField_BorderStyle": {
         "value": "none",
-        "type": "border"
+        "type": "borderStyle"
       },
       "sapField_BorderWidth": {
         "value": "{Internal.sapElement_BorderWidth}",
@@ -10353,7 +10433,7 @@
       },
       "sapField_ReadOnly_BorderStyle": {
         "value": "{Input.Standard.sapField_BorderStyle}",
-        "type": "border"
+        "type": "borderStyle"
       },
       "sapField_ReadOnly_BorderColor": {
         "value": "hsla({Input.Readonly._sapField_ReadOnly_BorderColorH}, {Input.Readonly._sapField_ReadOnly_BorderColorS}, {Input.Readonly._sapField_ReadOnly_BorderColorL}, {Input.Readonly._sapField_ReadOnly_BorderColorA})",
@@ -10474,7 +10554,7 @@
         "type": "internal"
       },
       "_sapButton_Handle_Positive_Hover_BorderColorA": {
-        "value": "0.5",
+        "value": "(50) / 100",
         "type": "internal"
       },
       "sapButton_Handle_Positive_Hover_BorderColor": {
@@ -10578,7 +10658,7 @@
         "type": "internal"
       },
       "_sapButton_Handle_Negative_Hover_BorderColorA": {
-        "value": "0.5",
+        "value": "(50) / 100",
         "type": "internal"
       },
       "sapButton_Handle_Negative_Hover_BorderColor": {
@@ -10682,7 +10762,7 @@
         "type": "internal"
       },
       "_sapButton_Handle_Selected_Hover_BorderColorA": {
-        "value": "0.5",
+        "value": "(50) / 100",
         "type": "internal"
       },
       "sapButton_Handle_Selected_Hover_BorderColor": {
@@ -10718,7 +10798,7 @@
         "type": "internal"
       },
       "_sapButton_Handle_Hover_BorderColorA": {
-        "value": "0.5",
+        "value": "(50) / 100",
         "type": "internal"
       },
       "sapButton_Handle_Hover_BorderColor": {
@@ -14302,7 +14382,7 @@
   "Image": {
     "sapShell_Favicon": {
       "value": "none",
-      "type": "asset"
+      "type": "image"
     },
     "sapShell_BackgroundImageRepeat": {
       "value": "false",
@@ -14322,11 +14402,11 @@
     },
     "sapBackgroundImage": {
       "value": "none",
-      "type": "asset"
+      "type": "image"
     },
     "sapCompanyLogo": {
       "value": "none",
-      "type": "asset"
+      "type": "image"
     }
   },
   "Link": {
@@ -14557,7 +14637,7 @@
       "type": "internal"
     },
     "_sapContent_DisabledTextColorA": {
-      "value": "NaN",
+      "value": "(100 - {Internal.sapContent_DisabledOpacity} * 100) / 100",
       "type": "internal"
     },
     "sapContent_DisabledTextColor": {
@@ -15187,7 +15267,7 @@
           "y": "0",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Interaction._sapSelectedColorH}, {Interaction._sapSelectedColorS}, {Interaction._sapSelectedColorL}, 0.72)"
+          "color": "hsla({Interaction._sapSelectedColorH}, {Interaction._sapSelectedColorS}, {Interaction._sapSelectedColorL}, (72) / 100)"
         }
       ]
     },
@@ -15200,7 +15280,7 @@
           "y": "0",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Semantic._sapNeutralColorH}, {Semantic._sapNeutralColorS}, {Semantic._sapNeutralColorL}, 0.72)"
+          "color": "hsla({Semantic._sapNeutralColorH}, {Semantic._sapNeutralColorS}, {Semantic._sapNeutralColorL}, (72) / 100)"
         }
       ]
     },
@@ -15589,7 +15669,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.35)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (35) / 100)"
         },
         {
           "type": "dropShadow",
@@ -15597,7 +15677,7 @@
           "y": "1.25rem",
           "blur": "5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
         }
       ]
     },
@@ -15610,7 +15690,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.35)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (35) / 100)"
         },
         {
           "type": "dropShadow",
@@ -15618,7 +15698,7 @@
           "y": "0.625rem",
           "blur": "1.875rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
         }
       ]
     },
@@ -15631,7 +15711,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.35)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (35) / 100)"
         },
         {
           "type": "dropShadow",
@@ -15639,7 +15719,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
         }
       ]
     },
@@ -15652,7 +15732,7 @@
           "y": "0",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.6)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (60) / 100)"
         },
         {
           "type": "dropShadow",
@@ -15660,7 +15740,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.2)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (20) / 100)"
         }
       ]
     },
@@ -15732,7 +15812,7 @@
     },
     "sapContent_FocusStyle": {
       "value": "solid",
-      "type": "border"
+      "type": "borderStyle"
     },
     "sapContent_FocusColor": {
       "value": "hsla({Focus._sapContent_FocusColorH}, {Focus._sapContent_FocusColorS}, {Focus._sapContent_FocusColorL}, {Focus._sapContent_FocusColorA})",
