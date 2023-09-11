@@ -357,19 +357,19 @@
       "type": "internal"
     },
     "_sapList_Hover_BackgroundH": {
-      "value": "{Main._sapHighlightColorH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundS": {
-      "value": "{Main._sapHighlightColorS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundL": {
-      "value": "{Main._sapHighlightColorL}",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundA": {
-      "value": "{Main._sapHighlightColorA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapList_BackgroundH": {
@@ -5669,19 +5669,19 @@
       "type": "internal"
     },
     "_sapTile_Hover_BackgroundH": {
-      "value": "{Main._sapHighlightColorH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapTile_Hover_BackgroundS": {
-      "value": "{Main._sapHighlightColorS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapTile_Hover_BackgroundL": {
-      "value": "{Main._sapHighlightColorL}",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapTile_Hover_BackgroundA": {
-      "value": "{Main._sapHighlightColorA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapTile_BackgroundH": {
@@ -5885,7 +5885,7 @@
       "type": "fontSizes"
     },
     "sapObjectHeader_Title_FontSize": {
-      "value": "{Text.sapFontHeader2Size}",
+      "value": "{Text.sapFontHeader3Size}",
       "type": "fontSizes"
     },
     "_sapObjectHeader_Title_TextColorH": {
@@ -5937,19 +5937,19 @@
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundH": {
-      "value": "{Main._sapHighlightColorH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundS": {
-      "value": "{Main._sapHighlightColorS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundL": {
-      "value": "{Main._sapHighlightColorL}",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundA": {
-      "value": "{Main._sapHighlightColorA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapObjectHeader_BackgroundH": {
@@ -10955,19 +10955,19 @@
         "type": "internal"
       },
       "_sapButton_Hover_BackgroundH": {
-        "value": "{Main._sapHighlightColorH}",
+        "value": "{Interaction._sapHoverColorH}",
         "type": "internal"
       },
       "_sapButton_Hover_BackgroundS": {
-        "value": "{Main._sapHighlightColorS}",
+        "value": "{Interaction._sapHoverColorS}",
         "type": "internal"
       },
       "_sapButton_Hover_BackgroundL": {
-        "value": "{Main._sapHighlightColorL}",
+        "value": "{Interaction._sapHoverColorL}",
         "type": "internal"
       },
       "_sapButton_Hover_BackgroundA": {
-        "value": "{Main._sapHighlightColorA}",
+        "value": "{Interaction._sapHoverColorA}",
         "type": "internal"
       },
       "_sapButton_BorderColorH": {
@@ -14968,7 +14968,7 @@
       "type": "internal"
     },
     "_sapContent_Illustrative_Color4L": {
-      "value": "1.1764705882352942%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color4A": {

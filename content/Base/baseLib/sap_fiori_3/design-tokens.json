@@ -1945,19 +1945,19 @@
       "type": "color"
     },
     "_sapList_Hover_BackgroundH": {
-      "value": "{List._sapList_BackgroundH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundS": {
-      "value": "{List._sapList_BackgroundS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundL": {
-      "value": "{List._sapList_BackgroundL} - 4%",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundA": {
-      "value": "{List._sapList_BackgroundA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "sapList_Hover_Background": {
@@ -7814,19 +7814,19 @@
       "type": "color"
     },
     "_sapObjectHeader_Hover_BackgroundH": {
-      "value": "{ObjectHeader._sapObjectHeader_BackgroundH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundS": {
-      "value": "{ObjectHeader._sapObjectHeader_BackgroundS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundL": {
-      "value": "{ObjectHeader._sapObjectHeader_BackgroundL} - 4%",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundA": {
-      "value": "{ObjectHeader._sapObjectHeader_BackgroundA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "sapObjectHeader_Hover_Background": {

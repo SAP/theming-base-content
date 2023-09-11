@@ -651,19 +651,19 @@
       "type": "internal"
     },
     "_sapList_Hover_BackgroundH": {
-      "value": "{Main._sapHighlightColorH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundS": {
-      "value": "{Main._sapHighlightColorS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundL": {
-      "value": "{Main._sapHighlightColorL}",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapList_Hover_BackgroundA": {
-      "value": "{Main._sapHighlightColorA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapList_BackgroundH": {
@@ -5945,19 +5945,19 @@
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundH": {
-      "value": "{Main._sapHighlightColorH}",
+      "value": "{Interaction._sapHoverColorH}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundS": {
-      "value": "{Main._sapHighlightColorS}",
+      "value": "{Interaction._sapHoverColorS}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundL": {
-      "value": "{Main._sapHighlightColorL}",
+      "value": "{Interaction._sapHoverColorL}",
       "type": "internal"
     },
     "_sapObjectHeader_Hover_BackgroundA": {
-      "value": "{Main._sapHighlightColorA}",
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapObjectHeader_BackgroundH": {
