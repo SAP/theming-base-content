@@ -959,7 +959,18 @@
 	"0xe07c": {
 		"names": ["network"],
 		"groups": ["actions"],
-		"tags": ["architecture", "enterprise", "infrastructure", "circle", "node"],
+		"tags": [
+			"architecture",
+			"enterprise",
+			"infrastructure",
+			"circle",
+			"node",
+			"onboarding",
+			"semantic",
+			"mesh",
+			"graph",
+			"network"
+		],
 		"rtl": "flip"
 	},
 	"0xe07d": {
@@ -1287,7 +1298,7 @@
 	"0xe108": {
 		"names": ["indicator-active"],
 		"groups": ["status"],
-		"tags": ["process, active"],
+		"tags": ["process", "active"],
 		"rtl": "flip"
 	},
 	"0xe109": {
@@ -1299,14 +1310,19 @@
 	"0xe10a": {
 		"names": ["task-done"],
 		"groups": ["status"],
-		"tags": ["process, complete"],
+		"tags": ["process", "complete"],
 		"rtl": "flip"
 	},
 	"0xe10b": {
 		"names": ["a1-1"],
 		"groups": ["status"],
 		"tags": [
-			"ai, artificial-intelligence, chat, large-language-model, conversation, co-pilot"
+			"ai",
+			"artificial-intelligence",
+			"chat",
+			"large-language-model",
+			"conversation",
+			"co-pilot"
 		],
 		"rtl": "flip"
 	},
@@ -1314,8 +1330,19 @@
 		"names": ["ai-2"],
 		"groups": ["status"],
 		"tags": [
-			"ai, artificial-intelligence, chat, large-language-model, conversation, co-pilot"
+			"ai",
+			"artificial-intelligence",
+			"chat",
+			"large-language-model",
+			"conversation",
+			"co-pilot"
 		],
+		"rtl": "flip"
+	},
+	"0xe10d": {
+		"names": ["bound-validation-rule"],
+		"groups": ["status"],
+		"tags": ["bound-validation-rule", "binding", "column"],
 		"rtl": "flip"
 	}
 }
