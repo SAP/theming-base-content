@@ -13118,6 +13118,370 @@
       "type": "internal"
     }
   },
+  "Assistant": {
+    "_sapAssistant_Answer_TextColorH": {
+      "value": "{Text._sapTextColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_TextColorS": {
+      "value": "{Text._sapTextColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_TextColorL": {
+      "value": "{Text._sapTextColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_TextColorA": {
+      "value": "{Text._sapTextColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_Answer_TextColor": {
+      "value": "hsla({Assistant._sapAssistant_Answer_TextColorH}, {Assistant._sapAssistant_Answer_TextColorS}, {Assistant._sapAssistant_Answer_TextColorL}, {Assistant._sapAssistant_Answer_TextColorA})",
+      "type": "color",
+      "description": "The answer text color used in the SAP assistant (Joule)."
+    },
+    "sapAssistant_Answer_BorderColor": {
+      "value": "hsla({Assistant._sapAssistant_Answer_BorderColorH}, {Assistant._sapAssistant_Answer_BorderColorS}, {Assistant._sapAssistant_Answer_BorderColorL}, {Assistant._sapAssistant_Answer_BorderColorA})",
+      "type": "color",
+      "description": "The answer border color used in the SAP assistant (Joule)."
+    },
+    "sapAssistant_Answer_Background": {
+      "value": "hsla({Assistant._sapAssistant_Answer_BackgroundH}, {Assistant._sapAssistant_Answer_BackgroundS}, {Assistant._sapAssistant_Answer_BackgroundL}, {Assistant._sapAssistant_Answer_BackgroundA})",
+      "type": "color",
+      "description": "The answer background color used in the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Question_TextColorH": {
+      "value": "{Text._sapTextColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_TextColorS": {
+      "value": "{Text._sapTextColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_TextColorL": {
+      "value": "{Text._sapTextColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_TextColorA": {
+      "value": "{Text._sapTextColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_Question_TextColor": {
+      "value": "hsla({Assistant._sapAssistant_Question_TextColorH}, {Assistant._sapAssistant_Question_TextColorS}, {Assistant._sapAssistant_Question_TextColorL}, {Assistant._sapAssistant_Question_TextColorA})",
+      "type": "color",
+      "description": "The question text color used in the SAP assistant (Joule)."
+    },
+    "sapAssistant_Question_BorderColor": {
+      "value": "hsla({Assistant._sapAssistant_Question_BorderColorH}, {Assistant._sapAssistant_Question_BorderColorS}, {Assistant._sapAssistant_Question_BorderColorL}, {Assistant._sapAssistant_Question_BorderColorA})",
+      "type": "color",
+      "description": "The question border color used in the SAP assistant (Joule)."
+    },
+    "sapAssistant_Question_Background": {
+      "value": "hsla({Assistant._sapAssistant_Question_BackgroundH}, {Assistant._sapAssistant_Question_BackgroundS}, {Assistant._sapAssistant_Question_BackgroundL}, {Assistant._sapAssistant_Question_BackgroundA})",
+      "type": "color",
+      "description": "The question background color used in the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Active_TextColorH": {
+      "value": "{Text._sapTextColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_TextColorS": {
+      "value": "{Text._sapTextColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_TextColorL": {
+      "value": "{Text._sapTextColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_TextColorA": {
+      "value": "{Text._sapTextColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_Active_TextColor": {
+      "value": "hsla({Assistant._sapAssistant_Active_TextColorH}, {Assistant._sapAssistant_Active_TextColorS}, {Assistant._sapAssistant_Active_TextColorL}, {Assistant._sapAssistant_Active_TextColorA})",
+      "type": "color",
+      "description": "The active state text color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Active_BorderColorH": {
+      "value": "{Button.Standard._sapButton_Active_BorderColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_BorderColorS": {
+      "value": "{Button.Standard._sapButton_Active_BorderColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_BorderColorL": {
+      "value": "{Button.Standard._sapButton_Active_BorderColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_BorderColorA": {
+      "value": "{Button.Standard._sapButton_Active_BorderColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_Active_BorderColor": {
+      "value": "hsla({Assistant._sapAssistant_Active_BorderColorH}, {Assistant._sapAssistant_Active_BorderColorS}, {Assistant._sapAssistant_Active_BorderColorL}, {Assistant._sapAssistant_Active_BorderColorA})",
+      "type": "color",
+      "description": "The active state border color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Active_BackgroundH": {
+      "value": "{Button.Standard._sapButton_Active_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_BackgroundS": {
+      "value": "{Button.Standard._sapButton_Active_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_BackgroundL": {
+      "value": "{Button.Standard._sapButton_Active_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Active_BackgroundA": {
+      "value": "{Button.Standard._sapButton_Active_BackgroundA}",
+      "type": "internal"
+    },
+    "sapAssistant_Active_Background": {
+      "value": "hsla({Assistant._sapAssistant_Active_BackgroundH}, {Assistant._sapAssistant_Active_BackgroundS}, {Assistant._sapAssistant_Active_BackgroundL}, {Assistant._sapAssistant_Active_BackgroundA})",
+      "type": "color",
+      "description": "The active state background color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Hover_TextColorH": {
+      "value": "{Text._sapTextColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_TextColorS": {
+      "value": "{Text._sapTextColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_TextColorL": {
+      "value": "{Text._sapTextColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_TextColorA": {
+      "value": "{Text._sapTextColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_Hover_TextColor": {
+      "value": "hsla({Assistant._sapAssistant_Hover_TextColorH}, {Assistant._sapAssistant_Hover_TextColorS}, {Assistant._sapAssistant_Hover_TextColorL}, {Assistant._sapAssistant_Hover_TextColorA})",
+      "type": "color",
+      "description": "The hover state text color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Hover_BorderColorH": {
+      "value": "{Button.Standard._sapButton_Hover_BorderColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_BorderColorS": {
+      "value": "{Button.Standard._sapButton_Hover_BorderColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_BorderColorL": {
+      "value": "{Button.Standard._sapButton_Hover_BorderColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_BorderColorA": {
+      "value": "{Button.Standard._sapButton_Hover_BorderColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_Hover_BorderColor": {
+      "value": "hsla({Assistant._sapAssistant_Hover_BorderColorH}, {Assistant._sapAssistant_Hover_BorderColorS}, {Assistant._sapAssistant_Hover_BorderColorL}, {Assistant._sapAssistant_Hover_BorderColorA})",
+      "type": "color",
+      "description": "The hover state border color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Hover_BackgroundH": {
+      "value": "{Button.Standard._sapButton_Hover_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_BackgroundS": {
+      "value": "{Button.Standard._sapButton_Hover_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_BackgroundL": {
+      "value": "{Button.Standard._sapButton_Hover_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Hover_BackgroundA": {
+      "value": "{Button.Standard._sapButton_Hover_BackgroundA}",
+      "type": "internal"
+    },
+    "sapAssistant_Hover_Background": {
+      "value": "hsla({Assistant._sapAssistant_Hover_BackgroundH}, {Assistant._sapAssistant_Hover_BackgroundS}, {Assistant._sapAssistant_Hover_BackgroundL}, {Assistant._sapAssistant_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The hover state background color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_TextColorH": {
+      "value": "{Text._sapTextColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_TextColorS": {
+      "value": "{Text._sapTextColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_TextColorL": {
+      "value": "{Text._sapTextColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_TextColorA": {
+      "value": "{Text._sapTextColorA}",
+      "type": "internal"
+    },
+    "sapAssistant_TextColor": {
+      "value": "hsla({Assistant._sapAssistant_TextColorH}, {Assistant._sapAssistant_TextColorS}, {Assistant._sapAssistant_TextColorL}, {Assistant._sapAssistant_TextColorA})",
+      "type": "color",
+      "description": "The text color of the SAP assistant (Joule)."
+    },
+    "sapAssistant_BorderColor": {
+      "value": "hsla({Assistant._sapAssistant_BorderColorH}, {Assistant._sapAssistant_BorderColorS}, {Assistant._sapAssistant_BorderColorL}, {Assistant._sapAssistant_BorderColorA})",
+      "type": "color",
+      "description": "The border color of the SAP assistant (Joule)."
+    },
+    "sapAssistant_Background": {
+      "value": "hsla({Assistant._sapAssistant_BackgroundH}, {Assistant._sapAssistant_BackgroundS}, {Assistant._sapAssistant_BackgroundL}, {Assistant._sapAssistant_BackgroundA})",
+      "type": "color",
+      "description": "The background color of the SAP assistant (Joule)."
+    },
+    "sapAssistant_BackgroundGradient": {
+      "value": "linear-gradient({Application.sapBackgroundColor}, {Application.sapBackgroundColor})",
+      "type": "linear-gradient",
+      "description": "The gradient of the SAP assistant (Joule)."
+    },
+    "sapAssistant_Color2": {
+      "value": "hsla({Assistant._sapAssistant_Color2H}, {Assistant._sapAssistant_Color2S}, {Assistant._sapAssistant_Color2L}, {Assistant._sapAssistant_Color2A})",
+      "type": "color",
+      "description": "Color 2 of the SAP assistant (Joule)."
+    },
+    "sapAssistant_Color1": {
+      "value": "hsla({Assistant._sapAssistant_Color1H}, {Assistant._sapAssistant_Color1S}, {Assistant._sapAssistant_Color1L}, {Assistant._sapAssistant_Color1A})",
+      "type": "color",
+      "description": "The color of the SAP assistant (Joule)."
+    },
+    "_sapAssistant_Answer_BorderColorH": {
+      "value": "{Assistant._sapAssistant_BorderColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BorderColorS": {
+      "value": "{Assistant._sapAssistant_BorderColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BorderColorL": {
+      "value": "{Assistant._sapAssistant_BorderColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BorderColorA": {
+      "value": "{Assistant._sapAssistant_BorderColorA}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BackgroundH": {
+      "value": "{HighContrast._sapHC_ReducedBackgroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BackgroundS": {
+      "value": "{HighContrast._sapHC_ReducedBackgroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BackgroundL": {
+      "value": "{HighContrast._sapHC_ReducedBackgroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Answer_BackgroundA": {
+      "value": "{HighContrast._sapHC_ReducedBackgroundA}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BorderColorH": {
+      "value": "{Assistant._sapAssistant_BorderColorH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BorderColorS": {
+      "value": "{Assistant._sapAssistant_BorderColorS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BorderColorL": {
+      "value": "{Assistant._sapAssistant_BorderColorL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BorderColorA": {
+      "value": "{Assistant._sapAssistant_BorderColorA}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BackgroundH": {
+      "value": "{Assistant._sapAssistant_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BackgroundS": {
+      "value": "{Assistant._sapAssistant_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BackgroundL": {
+      "value": "{Assistant._sapAssistant_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Question_BackgroundA": {
+      "value": "{Assistant._sapAssistant_BackgroundA}",
+      "type": "internal"
+    },
+    "_sapAssistant_BorderColorH": {
+      "value": "{HighContrast._sapHC_StandardForegroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_BorderColorS": {
+      "value": "{HighContrast._sapHC_StandardForegroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_BorderColorL": {
+      "value": "{HighContrast._sapHC_StandardForegroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_BorderColorA": {
+      "value": "{HighContrast._sapHC_StandardForegroundA}",
+      "type": "internal"
+    },
+    "_sapAssistant_BackgroundH": {
+      "value": "{HighContrast._sapHC_StandardBackgroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_BackgroundS": {
+      "value": "{HighContrast._sapHC_StandardBackgroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_BackgroundL": {
+      "value": "{HighContrast._sapHC_StandardBackgroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_BackgroundA": {
+      "value": "{HighContrast._sapHC_StandardBackgroundA}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color2H": {
+      "value": "{HighContrast._sapHC_StandardForegroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color2S": {
+      "value": "{HighContrast._sapHC_StandardForegroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color2L": {
+      "value": "{HighContrast._sapHC_StandardForegroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color2A": {
+      "value": "{HighContrast._sapHC_StandardForegroundA}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color1H": {
+      "value": "{HighContrast._sapHC_StandardForegroundH}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color1S": {
+      "value": "{HighContrast._sapHC_StandardForegroundS}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color1L": {
+      "value": "{HighContrast._sapHC_StandardForegroundL}",
+      "type": "internal"
+    },
+    "_sapAssistant_Color1A": {
+      "value": "{HighContrast._sapHC_StandardForegroundA}",
+      "type": "internal"
+    }
+  },
   "Shell": {
     "Category": {
       "sapShell_Category_16_TextShadow": {
@@ -14209,6 +14573,11 @@
         "type": "internal"
       }
     },
+    "sapShell_Assistant_ForegroundColor": {
+      "value": "hsla({Shell._sapShell_Assistant_ForegroundColorH}, {Shell._sapShell_Assistant_ForegroundColorS}, {Shell._sapShell_Assistant_ForegroundColorL}, {Shell._sapShell_Assistant_ForegroundColorA})",
+      "type": "color",
+      "description": "The foreground color of the SAP assistant (Joule) within the shell bar."
+    },
     "sapShell_NeutralColor": {
       "value": "hsla({Shell._sapShell_NeutralColorH}, {Shell._sapShell_NeutralColorS}, {Shell._sapShell_NeutralColorL}, {Shell._sapShell_NeutralColorA})",
       "type": "color",
@@ -14585,6 +14954,22 @@
       "value": "hsla({Shell._sapShellColorH}, {Shell._sapShellColorS}, {Shell._sapShellColorL}, {Shell._sapShellColorA})",
       "type": "color",
       "description": "The background color of the shell header bar."
+    },
+    "_sapShell_Assistant_ForegroundColorH": {
+      "value": "{Shell._sapShell_Selected_TextColorH}",
+      "type": "internal"
+    },
+    "_sapShell_Assistant_ForegroundColorS": {
+      "value": "{Shell._sapShell_Selected_TextColorS}",
+      "type": "internal"
+    },
+    "_sapShell_Assistant_ForegroundColorL": {
+      "value": "{Shell._sapShell_Selected_TextColorL}",
+      "type": "internal"
+    },
+    "_sapShell_Assistant_ForegroundColorA": {
+      "value": "{Shell._sapShell_Selected_TextColorA}",
+      "type": "internal"
     },
     "_sapShell_NeutralColorH": {
       "value": "{Semantic._sapNeutralColorH}",
