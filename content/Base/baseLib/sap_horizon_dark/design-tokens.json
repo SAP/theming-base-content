@@ -1150,7 +1150,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (80) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.8)"
         },
         {
           "type": "innerShadow",
@@ -1158,7 +1158,7 @@
           "y": "-0.0625rem",
           "blur": "0",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (20) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.2)"
         }
       ],
       "description": "The shadow of the shell on the content area."
@@ -7971,7 +7971,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (20) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.2)"
         },
         {
           "type": "innerShadow",
@@ -9599,7 +9599,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Semantic._sapNeutralColorH}, {Semantic._sapNeutralColorS}, {Semantic._sapNeutralColorL}, (30) / 100)"
+            "color": "hsla({Semantic._sapNeutralColorH}, {Semantic._sapNeutralColorS}, {Semantic._sapNeutralColorL}, 0.3)"
           }
         ],
         "description": "The standard neutral shadow."
@@ -9613,7 +9613,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Information._sapField_InformationColorH}, {Input.Information._sapField_InformationColorS}, {Input.Information._sapField_InformationColorL}, (30) / 100)"
+            "color": "hsla({Input.Information._sapField_InformationColorH}, {Input.Information._sapField_InformationColorS}, {Input.Information._sapField_InformationColorL}, 0.3)"
           }
         ],
         "description": "The standard informative shadow."
@@ -9627,7 +9627,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Success._sapField_SuccessColorH}, {Input.Success._sapField_SuccessColorS}, {Input.Success._sapField_SuccessColorL}, (18) / 100)"
+            "color": "hsla({Input.Success._sapField_SuccessColorH}, {Input.Success._sapField_SuccessColorS}, {Input.Success._sapField_SuccessColorL}, 0.18)"
           }
         ],
         "description": "The standard positive shadow."
@@ -9641,7 +9641,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Warning._sapField_WarningBackgroundH}, {Input.Warning._sapField_WarningBackgroundS}, {Input.Warning._sapField_WarningBackgroundL} + 15%, (50) / 100)"
+            "color": "hsla({Input.Warning._sapField_WarningBackgroundH}, {Input.Warning._sapField_WarningBackgroundS}, {Input.Warning._sapField_WarningBackgroundL} + 15%, 0.5)"
           }
         ],
         "description": "The standard critical shadow."
@@ -9655,7 +9655,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Invalid._sapField_InvalidColorH}, {Input.Invalid._sapField_InvalidColorS}, {Input.Invalid._sapField_InvalidColorL} - 12%, (30) / 100)"
+            "color": "hsla({Input.Invalid._sapField_InvalidColorH}, {Input.Invalid._sapField_InvalidColorS}, {Input.Invalid._sapField_InvalidColorL} - 12%, 0.3)"
           }
         ],
         "description": "The standard negative shadow."
@@ -10290,7 +10290,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Information._sapField_InformationColorH}, {Input.Information._sapField_InformationColorS}, {Input.Information._sapField_InformationColorL}, (30) / 100)"
+            "color": "hsla({Input.Information._sapField_InformationColorH}, {Input.Information._sapField_InformationColorS}, {Input.Information._sapField_InformationColorL}, 0.3)"
           }
         ],
         "description": "The shadow of an input field indicating an information status."
@@ -10368,7 +10368,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Success._sapField_SuccessColorH}, {Input.Success._sapField_SuccessColorS}, {Input.Success._sapField_SuccessColorL}, (18) / 100)"
+            "color": "hsla({Input.Success._sapField_SuccessColorH}, {Input.Success._sapField_SuccessColorS}, {Input.Success._sapField_SuccessColorL}, 0.18)"
           }
         ],
         "description": "The shadow of an input field indicating a successful user action."
@@ -10446,7 +10446,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Warning._sapField_WarningBackgroundH}, {Input.Warning._sapField_WarningBackgroundS}, {Input.Warning._sapField_WarningBackgroundL} + 15%, (50) / 100)"
+            "color": "hsla({Input.Warning._sapField_WarningBackgroundH}, {Input.Warning._sapField_WarningBackgroundS}, {Input.Warning._sapField_WarningBackgroundL} + 15%, 0.5)"
           }
         ],
         "description": "The shadow of an input field indicating a warning."
@@ -10524,7 +10524,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Invalid._sapField_InvalidColorH}, {Input.Invalid._sapField_InvalidColorS}, {Input.Invalid._sapField_InvalidColorL} - 12%, (30) / 100)"
+            "color": "hsla({Input.Invalid._sapField_InvalidColorH}, {Input.Invalid._sapField_InvalidColorS}, {Input.Invalid._sapField_InvalidColorL} - 12%, 0.3)"
           }
         ],
         "description": "The shadow of an input field with invalid value."
@@ -10643,7 +10643,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Standard._sapField_Hover_BorderColorH}, {Input.Standard._sapField_Hover_BorderColorS}, {Input.Standard._sapField_Hover_BorderColorL}, (30) / 100)"
+            "color": "hsla({Input.Standard._sapField_Hover_BorderColorH}, {Input.Standard._sapField_Hover_BorderColorS}, {Input.Standard._sapField_Hover_BorderColorL}, 0.3)"
           }
         ],
         "description": "The shadow of an input field on hover."
@@ -10677,7 +10677,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0.0625rem",
-            "color": "hsla({Input.Standard._sapField_BorderColorH}, {Input.Standard._sapField_BorderColorS}, {Input.Standard._sapField_BorderColorL}, (25) / 100)"
+            "color": "hsla({Input.Standard._sapField_BorderColorH}, {Input.Standard._sapField_BorderColorS}, {Input.Standard._sapField_BorderColorL}, 0.25)"
           }
         ],
         "description": "The shadow of an input field."
@@ -16406,7 +16406,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Interaction._sapSelectedColorH}, {Interaction._sapSelectedColorS}, {Interaction._sapSelectedColorL}, (30) / 100)"
+          "color": "hsla({Interaction._sapSelectedColorH}, {Interaction._sapSelectedColorS}, {Interaction._sapSelectedColorL}, 0.3)"
         }
       ],
       "description": "The standard selected shadow."
@@ -16420,7 +16420,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Input.Standard._sapField_BorderColorH}, {Input.Standard._sapField_BorderColorS}, {Input.Standard._sapField_BorderColorL}, (25) / 100)"
+          "color": "hsla({Input.Standard._sapField_BorderColorH}, {Input.Standard._sapField_BorderColorS}, {Input.Standard._sapField_BorderColorL}, 0.25)"
         }
       ],
       "description": "The standard interaction shadow."
@@ -16810,7 +16810,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (35) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.35)"
         },
         {
           "type": "dropShadow",
@@ -16818,7 +16818,7 @@
           "y": "1.25rem",
           "blur": "5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
         }
       ],
       "description": "Shadow for dialogs."
@@ -16832,7 +16832,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (35) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.35)"
         },
         {
           "type": "dropShadow",
@@ -16840,7 +16840,7 @@
           "y": "0.625rem",
           "blur": "1.875rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
         }
       ],
       "description": "Shadow for Popovers and MessageToasts."
@@ -16854,7 +16854,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (35) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.35)"
         },
         {
           "type": "dropShadow",
@@ -16862,7 +16862,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
         }
       ],
       "description": "Shadow for Dropdowns/Floating/Footer/Menu type controls."
@@ -16876,7 +16876,7 @@
           "y": "0",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.6)"
         },
         {
           "type": "dropShadow",
@@ -16884,7 +16884,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (20) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.2)"
         }
       ],
       "description": "Shadow for Card/Tile type controls."

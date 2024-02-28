@@ -6058,8 +6058,9 @@
           "type": "innerShadow",
           "x": "0",
           "y": "-0.125rem",
-          "blur": "{ObjectHeader.sapObjectHeader_BorderColor}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{ObjectHeader.sapObjectHeader_BorderColor}"
         }
       ],
       "description": "The standard header shadow."
@@ -14835,29 +14836,33 @@
           "type": "dropShadow",
           "x": "-0.0625rem",
           "y": "0",
-          "blur": "{Shell.sapShell_Background}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{Shell.sapShell_Background}"
         },
         {
           "type": "dropShadow",
           "x": "0",
           "y": "0.0625rem",
-          "blur": "{Shell.sapShell_Background}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{Shell.sapShell_Background}"
         },
         {
           "type": "dropShadow",
           "x": "0.0625rem",
           "y": "0",
-          "blur": "{Shell.sapShell_Background}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{Shell.sapShell_Background}"
         },
         {
           "type": "dropShadow",
           "x": "0",
           "y": "-0.0625rem",
-          "blur": "{Shell.sapShell_Background}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{Shell.sapShell_Background}"
         }
       ],
       "description": "Text shadow of shell group title."
@@ -15505,29 +15510,33 @@
           "type": "dropShadow",
           "x": "-0.0625rem",
           "y": "0",
-          "blur": "{HighContrast.sapHC_StandardBackground}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{HighContrast.sapHC_StandardBackground}"
         },
         {
           "type": "dropShadow",
           "x": "0",
           "y": "0.0625rem",
-          "blur": "{HighContrast.sapHC_StandardBackground}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{HighContrast.sapHC_StandardBackground}"
         },
         {
           "type": "dropShadow",
           "x": "0.0625rem",
           "y": "0",
-          "blur": "{HighContrast.sapHC_StandardBackground}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{HighContrast.sapHC_StandardBackground}"
         },
         {
           "type": "dropShadow",
           "x": "0",
           "y": "-0.0625rem",
-          "blur": "{HighContrast.sapHC_StandardBackground}",
-          "spread": "0"
+          "blur": "0",
+          "spread": "0",
+          "color": "{HighContrast.sapHC_StandardBackground}"
         }
       ],
       "description": "The standard text shadow."
@@ -16571,7 +16580,7 @@
           "y": "0.625rem",
           "blur": "4rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (80) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.8)"
         },
         {
           "type": "dropShadow",
@@ -16593,7 +16602,7 @@
           "y": "0.25rem",
           "blur": "2rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.6)"
         },
         {
           "type": "dropShadow",
@@ -16615,7 +16624,7 @@
           "y": "0",
           "blur": "{Internal.sapContent_GridSize}",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (50) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.5)"
         },
         {
           "type": "dropShadow",

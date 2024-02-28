@@ -15,7 +15,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 16. Ensures a defined contrast against sapShell_Category_16_TextColor."
@@ -76,7 +76,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 15. Ensures a defined contrast against sapShell_Category_15_TextColor."
@@ -137,7 +137,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 14. Ensures a defined contrast against sapShell_Category_14_TextColor."
@@ -198,7 +198,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 13. Ensures a defined contrast against sapShell_Category_13_TextColor."
@@ -259,7 +259,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 12. Ensures a defined contrast against sapShell_Category_12_TextColor."
@@ -320,7 +320,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 11. Ensures a defined contrast against sapShell_Category_11_TextColor."
@@ -381,7 +381,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 10. Ensures a defined contrast against sapShell_Category_10_TextColor."
@@ -442,7 +442,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 9. Ensures a defined contrast against sapShell_Category_9_TextColor."
@@ -503,7 +503,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 8. Ensures a defined contrast against sapShell_Category_8_TextColor."
@@ -564,7 +564,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 7. Ensures a defined contrast against sapShell_Category_7_TextColor."
@@ -625,7 +625,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 6. Ensures a defined contrast against sapShell_Category_6_TextColor."
@@ -686,7 +686,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 5. Ensures a defined contrast against sapShell_Category_5_TextColor."
@@ -747,7 +747,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 4. Ensures a defined contrast against sapShell_Category_4_TextColor."
@@ -808,7 +808,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 3. Ensures a defined contrast against sapShell_Category_3_TextColor."
@@ -869,7 +869,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 2. Ensures a defined contrast against sapShell_Category_2_TextColor."
@@ -930,7 +930,7 @@
             "y": "0",
             "blur": "0.0625rem",
             "spread": "0",
-            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, (70) / 100)"
+            "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL} - 100%, 0.7)"
           }
         ],
         "description": "The text shadow color of shell elements of category 1. Ensures a defined contrast against sapShell_Category_1_TextColor."
@@ -1374,7 +1374,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (8) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.08)"
         },
         {
           "type": "innerShadow",
@@ -1382,7 +1382,7 @@
           "y": "-0.0625rem",
           "blur": "0",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (18) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.18)"
         }
       ],
       "description": "The shadow of the shell on the content area."
@@ -8115,7 +8115,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (5) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.05)"
         },
         {
           "type": "innerShadow",
@@ -15804,7 +15804,7 @@
           "y": "0",
           "blur": "0.0625rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (70) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.7)"
         }
       ],
       "description": "The alternative text shadow."
@@ -16846,7 +16846,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (42) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.42)"
         },
         {
           "type": "dropShadow",
@@ -16854,7 +16854,7 @@
           "y": "1.25rem",
           "blur": "5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (30) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.3)"
         }
       ],
       "description": "Shadow for dialogs."
@@ -16868,7 +16868,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (42) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.42)"
         },
         {
           "type": "dropShadow",
@@ -16876,7 +16876,7 @@
           "y": "0.625rem",
           "blur": "1.875rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (30) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.3)"
         }
       ],
       "description": "Shadow for Popovers and MessageToasts."
@@ -16890,7 +16890,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (42) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.42)"
         },
         {
           "type": "dropShadow",
@@ -16898,7 +16898,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (30) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.3)"
         }
       ],
       "description": "Shadow for Dropdowns/Floating/Footer/Menu type controls."
@@ -16912,7 +16912,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (10) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.1)"
         },
         {
           "type": "dropShadow",
@@ -16920,7 +16920,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (10) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.1)"
         }
       ],
       "description": "Shadow for Card/Tile type controls."

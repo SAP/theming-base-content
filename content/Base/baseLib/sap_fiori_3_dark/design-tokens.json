@@ -1166,7 +1166,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (80) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.8)"
         },
         {
           "type": "innerShadow",
@@ -1174,7 +1174,7 @@
           "y": "-0.0625rem",
           "blur": "0",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (20) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.2)"
         }
       ],
       "description": "The shadow of the shell on the content area."
@@ -7971,7 +7971,7 @@
           "y": "0.125rem",
           "blur": "0.125rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (20) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.2)"
         },
         {
           "type": "innerShadow",
@@ -16693,7 +16693,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (50) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.5)"
         },
         {
           "type": "dropShadow",
@@ -16701,7 +16701,7 @@
           "y": "1.25rem",
           "blur": "5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
         }
       ],
       "description": "Shadow for dialogs."
@@ -16715,7 +16715,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (50) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.5)"
         },
         {
           "type": "dropShadow",
@@ -16723,7 +16723,7 @@
           "y": "0.625rem",
           "blur": "1.875rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
         }
       ],
       "description": "Shadow for Popovers and MessageToasts."
@@ -16737,7 +16737,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (50) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.5)"
         },
         {
           "type": "dropShadow",
@@ -16745,7 +16745,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (60) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.6)"
         }
       ],
       "description": "Shadow for Dropdowns/Floating/Footer/Menu type controls."
@@ -16759,7 +16759,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0.0625rem",
-          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, (20) / 100)"
+          "color": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, 0.2)"
         },
         {
           "type": "dropShadow",
@@ -16767,7 +16767,7 @@
           "y": "0.125rem",
           "blur": "0.5rem",
           "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, (30) / 100)"
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.3)"
         }
       ],
       "description": "Shadow for Card/Tile type controls."
