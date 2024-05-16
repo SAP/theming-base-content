@@ -1,14 +1,16 @@
 /**
-* Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 12.1.1
-* data:{"sModified":"2024-04-09T08:25:34Z"}
+* Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+* Theming Engine 1.23050.0-20230615114838+48b41017daabe3369028edc8539a00c12a880d68
+* data:{"sModified":"2023-06-19T09:58:03Z"}
 */
 
 @import "base.less";
 
-/******************* FILE /Base/baseLib/baseTheme/css_variables.less (Version 11.14.0) *******************/
+/******************* FILE /Base/baseLib/baseTheme/css_variables.less (Version 11.5.0) *******************/
 
-/*!SAP_POSTPROCESS_REDUCE_START*/
+@sapCss_SAP-icons: false;
+@sapCss_72: false;
+@sapCss_SvgIconBase: false;
 
 :root {
   --sapBrandColor: @sapBrandColor;
@@ -196,7 +198,6 @@
   --sapShell_PositiveColor: @sapShell_PositiveColor;
   --sapShell_InformativeColor: @sapShell_InformativeColor;
   --sapShell_NeutralColor: @sapShell_NeutralColor;
-  --sapShell_Assistant_ForegroundColor: @sapShell_Assistant_ForegroundColor;
   --sapShell_Category_1_Background: @sapShell_Category_1_Background;
   --sapShell_Category_1_BorderColor: @sapShell_Category_1_BorderColor;
   --sapShell_Category_1_TextColor: @sapShell_Category_1_TextColor;
@@ -261,24 +262,6 @@
   --sapShell_Category_16_BorderColor: @sapShell_Category_16_BorderColor;
   --sapShell_Category_16_TextColor: @sapShell_Category_16_TextColor;
   --sapShell_Category_16_TextShadow: @sapShell_Category_16_TextShadow;
-  --sapAssistant_Color1: @sapAssistant_Color1;
-  --sapAssistant_Color2: @sapAssistant_Color2;
-  --sapAssistant_BackgroundGradient: @sapAssistant_BackgroundGradient;
-  --sapAssistant_Background: @sapAssistant_Background;
-  --sapAssistant_BorderColor: @sapAssistant_BorderColor;
-  --sapAssistant_TextColor: @sapAssistant_TextColor;
-  --sapAssistant_Hover_Background: @sapAssistant_Hover_Background;
-  --sapAssistant_Hover_BorderColor: @sapAssistant_Hover_BorderColor;
-  --sapAssistant_Hover_TextColor: @sapAssistant_Hover_TextColor;
-  --sapAssistant_Active_Background: @sapAssistant_Active_Background;
-  --sapAssistant_Active_BorderColor: @sapAssistant_Active_BorderColor;
-  --sapAssistant_Active_TextColor: @sapAssistant_Active_TextColor;
-  --sapAssistant_Question_Background: @sapAssistant_Question_Background;
-  --sapAssistant_Question_BorderColor: @sapAssistant_Question_BorderColor;
-  --sapAssistant_Question_TextColor: @sapAssistant_Question_TextColor;
-  --sapAssistant_Answer_Background: @sapAssistant_Answer_Background;
-  --sapAssistant_Answer_BorderColor: @sapAssistant_Answer_BorderColor;
-  --sapAssistant_Answer_TextColor: @sapAssistant_Answer_TextColor;
   --sapAvatar_1_Background: @sapAvatar_1_Background;
   --sapAvatar_1_BorderColor: @sapAvatar_1_BorderColor;
   --sapAvatar_1_TextColor: @sapAvatar_1_TextColor;
@@ -937,23 +920,15 @@
   --sapFontUrl_72Mono_Bold_full_woff2: @sapFontUrl_72Mono_Bold_full_woff2;
   --sapFontUrl_72Mono_Bold_full_woff: @sapFontUrl_72Mono_Bold_full_woff;
 }
-/*<SAP_FREETEXT_LESS>*/
-.sapCss_BackgroundImage_sapCompanyLogo() {
+
 .background-image--sapCompanyLogo {
-background-image: var(--sapCompanyLogo);
+  background-image: var(--sapCompanyLogo);
 }
-}
-.sapCss_BackgroundImage_sapCompanyLogo();
-.sapCss_BackgroundImage_sapBackgroundImage() {
+
 .background-image--sapBackgroundImage {
-background-image: var(--sapBackgroundImage);
+  background-image: var(--sapBackgroundImage);
 }
-}
-.sapCss_BackgroundImage_sapBackgroundImage();
-.sapCss_BackgroundImage_sapShell_BackgroundImage() {
+
 .background-image--sapShell_BackgroundImage {
-background-image: var(--sapShell_BackgroundImage);
+  background-image: var(--sapShell_BackgroundImage);
 }
-}
-.sapCss_BackgroundImage_sapShell_BackgroundImage();
-/*</SAP_FREETEXT_LESS>*//*!SAP_POSTPROCESS_REDUCE_END*/
