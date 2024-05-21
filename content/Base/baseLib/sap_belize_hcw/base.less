@@ -1,11 +1,11 @@
 /**
-* Copyright (c) 2012-2020 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 1.23050.0-20230615114838+48b41017daabe3369028edc8539a00c12a880d68
-* data:{"sModified":"2023-06-19T09:58:03Z"}
+* Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+* Theming Engine 11.15.0
+* data:{"sModified":"2024-05-03T09:01:49Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_belize_hcw/base.less (Version 11.5.0) *******************/
+/******************* FILE /Base/baseLib/sap_belize_hcw/base.less (Version 11.15.0) *******************/
 
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
@@ -846,6 +846,10 @@
 // [Tags "!Protected"]
 // [Protected "!true"]
 @sapShell_NeutralColor: @sapNeutralColor;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapShell_Assistant_ForegroundColor: @sapShell_Selected_TextColor;
 @sapShell_Category_1_Background: @sapHC_StandardBackground;
 
 // [Tags "!Protected"]
@@ -958,6 +962,78 @@
 @sapShell_Category_16_BorderColor: #1e592f;
 @sapShell_Category_16_TextColor: contrast(@sapShell_Category_16_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 @sapShell_Category_16_TextShadow: none;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Color1: @sapHC_StandardForeground;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Color2: @sapHC_StandardForeground;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_BackgroundGradient: linear-gradient(@sapBackgroundColor, @sapBackgroundColor);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Background: @sapHC_StandardBackground;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_BorderColor: @sapHC_StandardForeground;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_TextColor: contrast(@sapAssistant_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Hover_Background: @sapButton_Hover_Background;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Hover_BorderColor: @sapButton_Hover_BorderColor;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Hover_TextColor: contrast(@sapAssistant_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Active_Background: @sapButton_Active_Background;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Active_BorderColor: @sapButton_Active_BorderColor;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Active_TextColor: contrast(@sapAssistant_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Question_Background: @sapAssistant_Background;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Question_BorderColor: @sapAssistant_BorderColor;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Question_TextColor: contrast(@sapAssistant_Question_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Answer_Background: @sapHC_ReducedBackground;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Answer_BorderColor: @sapAssistant_BorderColor;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
+@sapAssistant_Answer_TextColor: contrast(@sapAssistant_Answer_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -1681,7 +1757,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapButton_Handle_Negative_TextColor: contrast(@sapButton_Handle_Negative_Background, @sapNegativeElementColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapButton_Handle_Negative_TextColor: contrast(@sapButton_Handle_Negative_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -1721,7 +1797,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapButton_Handle_Positive_TextColor: contrast(@sapButton_Handle_Positive_Background, @sapPositiveTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapButton_Handle_Positive_TextColor: contrast(@sapButton_Handle_Positive_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -1792,10 +1868,10 @@
 // [Protected "!true"]
 @sapField_Hover_HelpBackground: @sapField_Background;
 @sapField_Hover_Shadow: none;
-@sapField_Hover_InvalidShadow: none;
-@sapField_Hover_WarningShadow: none;
-@sapField_Hover_SuccessShadow: none;
-@sapField_Hover_InformationShadow: none;
+@sapField_Hover_InvalidShadow: @sapField_InvalidShadow;
+@sapField_Hover_WarningShadow: @sapField_WarningShadow;
+@sapField_Hover_SuccessShadow: @sapField_SuccessShadow;
+@sapField_Hover_InformationShadow: @sapField_InformationShadow;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -2015,7 +2091,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapList_Hover_Background: @sapHighlightColor;
+@sapList_Hover_Background: @sapHoverColor;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -2331,7 +2407,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapObjectHeader_Hover_Background: @sapHighlightColor;
+@sapObjectHeader_Hover_Background: @sapHoverColor;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
