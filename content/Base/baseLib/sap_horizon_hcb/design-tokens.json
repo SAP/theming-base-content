@@ -15423,7 +15423,7 @@
       "description": "The font size for small texts."
     },
     "sapFontHeaderFamily": {
-      "value": "{Text.sapFontBoldFamily}",
+      "value": "{Text.sapFontFamily}",
       "type": "fontFamilies",
       "description": "The preferred font family of headers."
     },
