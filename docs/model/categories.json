@@ -1,0 +1,9 @@
+{
+  "Categories": {
+    "Main": "Main parameters are used throughout the theme; many component specific parameters are connected to the main parameters",
+    "Assistant": "Parameters for the Joule assistant",
+    "Image": "Image resources and properties",
+    "Shell": "Parameters for the SAP Build Workzone launchpad",
+    "Semantic": "Semantic colors convey meaning"
+  }
+}

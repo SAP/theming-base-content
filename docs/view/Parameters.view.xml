@@ -1,0 +1,87 @@
+<mvc:View
+  xmlns="sap.m"
+  xmlns:c="sap.ui.core"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  controllerName="tc.controller.Parameters"
+  displayBlock="true">
+  <f:DynamicPage>
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:actions>
+          <c:Fragment fragmentName="tc.fragment.ThemeSelect" type="XML"/>
+        </f:actions>
+        <f:heading>
+          <HBox alignItems="Center">
+            <c:Fragment fragmentName="tc.fragment.OverviewButton" type="XML"/>
+            <Title text="Parameters"/>
+          </HBox>
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+    <f:content>
+      <Table id="parameters"
+        sticky="ColumnHeaders,HeaderToolbar"
+        inset="false"
+        items="{
+          path: 'parameters>/Parameters',
+          sorter: [
+            {path: 'Category', group: '.getGroup', comparator: '.compareCategory'},
+            {path: 'Parameter', comparator: '.compareParameter'}
+          ],
+          filters: [
+            {path: 'Category', test: '.filterCategory'},
+            {path: 'Type', test: '.filterType'}
+          ],
+          groupHeaderFactory: '.getGroupHeader'
+        }"
+        growing="true"
+        growingScrollToLoad="true">
+        <headerToolbar>
+          <OverflowToolbar>
+            <SearchField value="{parameters>/Search}" width="17.5rem" search="onSearch"/>
+            <ToolbarSpacer/>
+            <Label text="Categories" labelFor="categories"/>
+            <MultiComboBox id="categories"
+              showSelectAll="true"
+              showClearIcon="true"
+              width="17.5rem"
+              items="{path: 'parameters>/Categories', sorter: {path: 'Category', comparator: '.compareCategory'}}"
+              selectedKeys="{parameters>/SelectedCategories}"
+              selectionChange=".onCategoriesSelectionChange"
+              selectionFinish=".onCategoriesSelectionFinish">
+              <c:Item key="{parameters>Category}" text="{parameters>Category}"/>
+            </MultiComboBox>
+            <Label text="Types" labelFor="types"/>
+            <MultiComboBox id="types"
+              showSelectAll="true"
+              showClearIcon="true"
+              width="17.5rem"
+              items="{path: 'parameters>/Types', sorter: {path: 'Type'}}"
+              selectedKeys="{parameters>/SelectedTypes}"
+              selectionChange=".onTypesSelectionChange"
+              selectionFinish=".onTypesSelectionFinish">
+              <c:Item key="{parameters>Type}" text="{parameters>Type}"/>
+            </MultiComboBox>
+          </OverflowToolbar>
+        </headerToolbar>
+        <columns>
+          <Column width="26em"><Text text="Parameter"/></Column>
+          <Column width="25em" hAlign="End"><Text text="Value"/></Column>
+          <Column width="10em" minScreenWidth="Medium" demandPopin="true"><Text text="Type"/></Column>
+          <Column width="auto" minScreenWidth="Large" demandPopin="true"><Text text="Description"/></Column>
+        </columns>
+        <items>
+          <ColumnListItem vAlign="Middle">
+            <cells>
+              <ObjectIdentifier title="{parameters>Parameter}" text="{parameters>Label}"/>
+              <c:HTML preferDOM="false" content="&lt;div class='tcParameter__value tcParameter__value--{parameters>Type}' style='--v: var(--{parameters>Parameter})'&gt;{parameters>Value}&lt;/div&gt;"/>
+              <Text text="{parameters>Type}"/>
+              <Text text="{parameters>Description}"/>
+            </cells>
+          </ColumnListItem>
+        </items>
+      </Table>
+    </f:content>
+  </f:DynamicPage>
+</mvc:View>

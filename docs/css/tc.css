@@ -1,0 +1,227 @@
+.tcGLI,
+.tcGLI.sapMLIBActive {
+  background-color: var(--tcGLI-background);
+  border-color: var(--tcGLI-border-color);
+  color: var(--tcGLI-text-color);
+
+  &:hover {
+    background-color: var(--tcGLI-hover-background);
+  }
+
+  &:active {
+    background-color: var(--tcGLI-active-background);
+    border-color: var(--tcGLI-active-border-color);
+    color: var(--tcGLI-active-text-color);
+  }
+
+  &.sapMLIBActive div,
+  .sapMTitle,
+  .sapMLabel {
+    color: inherit;
+  }
+}
+
+.tcGLI--1 {
+  --tcGLI-background: var(--sapIndicationColor_1_Background);
+  --tcGLI-border-color: var(--sapIndicationColor_1_BorderColor);
+  --tcGLI-text-color: var(--sapIndicationColor_1_TextColor);
+  --tcGLI-hover-background: var(--sapIndicationColor_1_Hover_Background);
+  --tcGLI-active-background: var(--sapIndicationColor_1_Active_Background);
+  --tcGLI-active-border-color: var(--sapIndicationColor_1_Active_BorderColor);
+  --tcGLI-active-text-color: var(--sapIndicationColor_1_Active_TextColor);
+}
+
+.tcGLI--2 {
+  --tcGLI-background: var(--sapIndicationColor_2_Background);
+  --tcGLI-border-color: var(--sapIndicationColor_2_BorderColor);
+  --tcGLI-text-color: var(--sapIndicationColor_2_TextColor);
+  --tcGLI-hover-background: var(--sapIndicationColor_2_Hover_Background);
+  --tcGLI-active-background: var(--sapIndicationColor_2_Active_Background);
+  --tcGLI-active-border-color: var(--sapIndicationColor_2_Active_BorderColor);
+  --tcGLI-active-text-color: var(--sapIndicationColor_2_Active_TextColor);
+}
+
+.tcGLI--3 {
+  --tcGLI-background: var(--sapIndicationColor_3_Background);
+  --tcGLI-border-color: var(--sapIndicationColor_3_BorderColor);
+  --tcGLI-text-color: var(--sapIndicationColor_3_TextColor);
+  --tcGLI-hover-background: var(--sapIndicationColor_3_Hover_Background);
+  --tcGLI-active-background: var(--sapIndicationColor_3_Active_Background);
+  --tcGLI-active-border-color: var(--sapIndicationColor_3_Active_BorderColor);
+  --tcGLI-active-text-color: var(--sapIndicationColor_3_Active_TextColor);
+}
+
+.tcGLI--4 {
+  --tcGLI-background: var(--sapIndicationColor_4_Background);
+  --tcGLI-border-color: var(--sapIndicationColor_4_BorderColor);
+  --tcGLI-text-color: var(--sapIndicationColor_4_TextColor);
+  --tcGLI-hover-background: var(--sapIndicationColor_4_Hover_Background);
+  --tcGLI-active-background: var(--sapIndicationColor_4_Active_Background);
+  --tcGLI-active-border-color: var(--sapIndicationColor_4_Active_BorderColor);
+  --tcGLI-active-text-color: var(--sapIndicationColor_4_Active_TextColor);
+}
+
+.tcGLI--5 {
+  --tcGLI-background: var(--sapIndicationColor_5_Background);
+  --tcGLI-border-color: var(--sapIndicationColor_5_BorderColor);
+  --tcGLI-text-color: var(--sapIndicationColor_5_TextColor);
+  --tcGLI-hover-background: var(--sapIndicationColor_5_Hover_Background);
+  --tcGLI-active-background: var(--sapIndicationColor_5_Active_Background);
+  --tcGLI-active-border-color: var(--sapIndicationColor_5_Active_BorderColor);
+  --tcGLI-active-text-color: var(--sapIndicationColor_5_Active_TextColor);
+}
+
+.tcParameter__value {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  word-break: break-all;
+
+  &::after {
+    display: inline-block;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+}
+
+.tcParameter__value--opacity {
+  opacity: var(--v);
+}
+
+.tcParameter__value--textDecoration {
+  text-decoration: var(--v);
+}
+
+.tcParameter__value--fontWeights {
+  font-weight: var(--v);
+}
+
+.tcParameter__value--fontSizes {
+  font-size: var(--v);
+}
+
+.tcParameter__value--fontSizes::after,
+.tcParameter__value--sizing::after {
+  --b: linear-gradient(var(--sapContent_ForegroundBorderColor), var(--sapContent_ForegroundBorderColor));
+  
+  content: '';
+  height: var(--v);
+  width: .5rem;
+  background: 0 0 / 100% .0625rem var(--b) no-repeat,
+    50% 0 / .0625rem 100% var(--b) no-repeat,
+    0 100% / 100% .0625rem var(--b) no-repeat;
+}
+
+.tcParameter__value--fontFamilies {
+  font-family: var(--v);
+}
+
+.tcParameter__value--color::after,
+.tcParameter__value--image::after,
+.tcParameter__value--borderRadius::after,
+.tcParameter__value--borderStyle::after,
+.tcParameter__value--borderWidth::after,
+.tcParameter__value--boxShadow::after {
+  content: '';
+  width: var(--sapElement_Height);
+  height: var(--sapElement_Height);
+}
+
+.tcParameter__value--borderRadius::after,
+.tcParameter__value--borderStyle::after,
+.tcParameter__value--borderWidth::after {
+  border: var(--sapElement_BorderWidth) solid var(--sapContent_ForegroundBorderColor);
+  border-radius: var(--sapButton_BorderCornerRadius);
+}
+
+.tcParameter__value--borderRadius::after {
+  border-radius: 0 var(--v);
+  border-left: none;
+  border-bottom: none;
+}
+
+.tcParameter__value--borderStyle::after {
+  border-style: var(--v);
+}
+
+.tcParameter__value--borderWidth::after {
+  border-width: var(--v);
+}
+
+.tcParameter__value--color::after,
+.tcParameter__value--image::after {
+  --d: linear-gradient(#bfbfbf, #bfbfbf);
+  --w: 25%;
+  border-radius: var(--sapButton_BorderCornerRadius);
+  background: center / cover no-repeat var(--c),
+    0 0 / var(--w) var(--w) no-repeat var(--d),
+    calc(var(--w) * 2.75) 0 / var(--w) var(--w) no-repeat var(--d),
+    calc(var(--w) * 1.375) calc(var(--w) * 1.375) / var(--w) var(--w) no-repeat var(--d),
+    calc(var(--w) * 4.125) calc(var(--w) * 1.375) / var(--w) var(--w) no-repeat var(--d),
+    0 calc(var(--w) * 2.75) / var(--w) var(--w) no-repeat var(--d),
+    calc(var(--w) * 2.75) calc(var(--w) * 2.75) / var(--w) var(--w) no-repeat var(--d),
+    calc(var(--w) * 1.375) calc(var(--w) * 4.125) / var(--w) var(--w) no-repeat var(--d),
+    calc(var(--w) * 4.125) calc(var(--w) * 4.125) / var(--w) var(--w) no-repeat var(--d),
+    #fff;
+  box-shadow: var(--sapContent_Shadow0);
+}
+
+.tcParameter__value--color::after {
+  --c: linear-gradient(var(--v), var(--v));
+}
+
+.tcParameter__value--image::after {
+  --c: var(--v);
+}
+
+.tcParameter__value--boxShadow::after {
+  border-radius: var(--sapButton_BorderCornerRadius);
+  box-shadow: var(--v);
+}
+
+
+.tcIcons--SAP-icons {
+  --tcIcon_FontFamily: var(--sapContent_IconFontFamily);
+}
+.tcIcons--SAP-icons-TNT {
+  --tcIcon_FontFamily: 'SAP-icons-TNT';
+}
+.tcIcons--SAP-icons-Business-Suite {
+  --tcIcon_FontFamily: 'SAP-icons-Business-Suite';
+}
+
+.tcIcon {
+  font-family: var(--tcIcon_FontFamily, var(--sapContent_IconFontFamily));
+  line-height: var(--sapContent_LineHeight);
+  color: var(--sapContent_IconColor);
+
+  &::after {
+    content: attr(data-tc-icon);
+    display: block;
+    text-align: center;
+  }
+}
+
+.tcIcon--xs {
+  font-size: var(--sapFontHeader6Size);
+}
+
+.tcIcon--s {
+  font-size: var(--sapFontHeader5Size);
+}
+
+.tcIcon--m {
+  font-size: var(--sapFontHeader4Size);
+}
+
+.tcIcon--l {
+  font-size: var(--sapFontHeader3Size);
+}
+
+.tcIcon--xl {
+  font-size: var(--sapFontHeader2Size);
+}
+
+.tcIcon--xxl {
+  font-size: var(--sapFontHeader1Size);
+}

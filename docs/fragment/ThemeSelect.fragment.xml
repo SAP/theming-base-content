@@ -1,0 +1,7 @@
+<c:FragmentDefinition xmlns="sap.m" xmlns:c="sap.ui.core">
+  <Select items="{path: 'themes>/Themes'}" selectedKey="{themes>/SelectedTheme}" change=".onThemeChange">
+    <items>
+      <c:ListItem text="{themes>Theme}" key="{themes>Theme}"/>
+    </items>
+  </Select>
+</c:FragmentDefinition>

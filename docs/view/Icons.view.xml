@@ -1,0 +1,60 @@
+<mvc:View
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:c="sap.ui.core"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:tnt="sap.tnt"
+  controllerName="tc.controller.Icons"
+  displayBlock="true">
+  <f:DynamicPage id="iconsPage">
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:actions>
+          <c:Fragment fragmentName="tc.fragment.ThemeSelect" type="XML"/>
+        </f:actions>
+        <f:heading>
+          <HBox alignItems="Center">
+            <c:Fragment fragmentName="tc.fragment.OverviewButton" type="XML"/>
+            <Title text="{icons>Library}"/>
+          </HBox>
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+    <f:content>
+      <f:GridList id="icons" items="{path: 'icons>Icons', templateShareable: false}" growing="true" growingScrollToLoad="true" growingThreshold="100">
+        <f:headerToolbar>
+          <Toolbar>
+            <SearchField width="17.5rem" search=".onSearch" value="{icons>Search}"/>
+            <ToolbarSpacer/>
+            <Label text="Group" showColon="true"/>
+            <Select selectedKey="{icons>SelectedGroup}" items="{path: 'icons>Groups'}" change=".onGroupChange">
+              <c:ListItem text="{icons>Group}" key="{icons>Group}"/>
+            </Select>
+          </Toolbar>
+        </f:headerToolbar>
+        <f:items>
+          <f:GridListItem>
+            <VBox class="sapUiSmallMargin sapUiTinyMarginBottom">
+              <c:HTML preferDOM="false" content="&lt;div class='tcIcon tcIcon--xs' data-tc-icon='{path: 'icons>Glyph', formatter: '.formatter.glyphToUnicode'}'&gt;&lt;/div&gt;
+  &lt;div class='tcIcon tcIcon--s' data-tc-icon='{path: 'icons>Glyph', formatter: '.formatter.glyphToUnicode'}'&gt;&lt;/div&gt;
+  &lt;div class='tcIcon tcIcon--m' data-tc-icon='{path: 'icons>Glyph', formatter: '.formatter.glyphToUnicode'}'&gt;&lt;/div&gt;
+  &lt;div class='tcIcon tcIcon--l' data-tc-icon='{path: 'icons>Glyph', formatter: '.formatter.glyphToUnicode'}'&gt;&lt;/div&gt;
+  &lt;div class='tcIcon tcIcon--xl' data-tc-icon='{path: 'icons>Glyph', formatter: '.formatter.glyphToUnicode'}'&gt;&lt;/div&gt;
+  &lt;div class='tcIcon tcIcon--xxl' data-tc-icon='{path: 'icons>Glyph', formatter: '.formatter.glyphToUnicode'}'&gt;&lt;/div&gt;"/>
+              <Title text="{icons>Name}"/>
+              <Label text="{icons>Glyph}"/>
+              <Label text="Groups" showColon="true" class="sapUiTinyMarginTop"/>
+              <HBox items="{path: 'icons>Groups', templateShareable: false}" wrap="Wrap">
+                <tnt:InfoLabel colorScheme="6" text="{icons>Group}" class="sapUiTinyMarginEnd sapUiTinyMarginBottom"/>
+              </HBox>
+              <Label text="Tags" showColon="true" class="sapUiTinyMarginTop"/>
+              <HBox items="{path: 'icons>Tags', templateShareable: false}" wrap="Wrap">
+                <tnt:InfoLabel colorScheme="1" text="{icons>Tag}" class="sapUiTinyMarginEnd sapUiTinyMarginBottom"/>
+              </HBox>
+            </VBox>
+          </f:GridListItem>
+        </f:items>
+      </f:GridList>
+    </f:content>
+  </f:DynamicPage>
+</mvc:View>

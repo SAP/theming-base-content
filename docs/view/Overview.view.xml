@@ -1,0 +1,63 @@
+<mvc:View
+  xmlns="sap.m"
+  xmlns:c="sap.ui.core"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:ce="sap.ui.codeeditor"
+  controllerName="tc.controller.Overview"
+  displayBlock="true">
+  <f:DynamicPage>
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:actions>
+          <c:Fragment fragmentName="tc.fragment.ThemeSelect" type="XML"/>
+        </f:actions>
+        <f:heading>
+          <HBox alignItems="Center">
+            <Button enabled="false" icon="sap-icon://home" type="Transparent" class="sapUiSmallMarginEnd"/>
+            <Title text="Theming base content"/>
+          </HBox>
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+    <f:content>
+      <VBox>
+        <FormattedText htmlText="{docs>/Overview}" class="sapUiMediumMarginBottom"/>
+        <f:GridList>
+          <f:items>
+            <f:GridListItem press=".navTo('parameters')" type="Active" class="tcGLI tcGLI--1">
+              <VBox class="sapUiSmallMargin">
+                <Title text="Parameters" wrapping="true"/>
+                <Label text="A list of all theming parameters." wrapping="true"/>
+              </VBox>
+            </f:GridListItem>
+            <f:GridListItem press=".navToIcons('SAP-icons')" type="Active" class="tcGLI tcGLI--2">
+              <VBox class="sapUiSmallMargin">
+                <Title text="SAP-icons" wrapping="true"/>
+                <Label text="The default icon set, designed for use across all SAP products." wrapping="true"/>
+              </VBox>
+            </f:GridListItem>
+            <f:GridListItem press=".navToIcons('SAP-icons-TNT')" type="Active" class="tcGLI tcGLI--3">
+              <VBox class="sapUiSmallMargin">
+                <Title text="SAP-icons-TNT" wrapping="true"/>
+                <Label text="Icons that are created for SAP BTP applications, but are also available for use in any SAP-built applications." wrapping="true"/>
+              </VBox>
+            </f:GridListItem>
+            <f:GridListItem press=".navToIcons('SAP-icons-Business-Suite')" type="Active" class="tcGLI tcGLI--4">
+              <VBox class="sapUiSmallMargin">
+                <Title text="SAP-icons-Business-Suite" wrapping="true"/>
+                <Label text="Icons that are tailored to SAP S/4 HANA scenarios, but are available for use in any SAP-built applications." wrapping="true"/>
+              </VBox>
+            </f:GridListItem>
+            <f:GridListItem press=".navTo('getting-started')" type="Active" class="tcGLI tcGLI--5">
+              <VBox class="sapUiSmallMargin">
+                <Title text="Getting started" wrapping="true"/>
+                <Label text="Use the theming base content in your application today!" wrapping="true"/>
+              </VBox>
+            </f:GridListItem>
+          </f:items>
+        </f:GridList>
+      </VBox>
+    </f:content>
+  </f:DynamicPage>
+</mvc:View>

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "AMD",
+    "lib": ["DOM", "ESNext"],
+    "typeRoots": ["./types/sap.ui.define.d.ts"]
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "include": ["controller/*.js", "model/*.js", "*.js", "util/*.js", "./types/*.d.ts"]
+}

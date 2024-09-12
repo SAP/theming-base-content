@@ -1,0 +1,37 @@
+<mvc:View
+  xmlns="sap.m"
+  xmlns:c="sap.ui.core"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:ce="sap.ui.codeeditor"
+  controllerName="tc.controller.GettingStarted"
+  displayBlock="true">
+  <f:DynamicPage>
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:actions>
+          <c:Fragment fragmentName="tc.fragment.ThemeSelect" type="XML"/>
+        </f:actions>
+        <f:heading>
+          <HBox alignItems="Center">
+            <c:Fragment fragmentName="tc.fragment.OverviewButton" type="XML"/>
+            <Title text="Getting started"/>
+          </HBox>
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+    <f:content>
+      <VBox>
+        <Text wrapping="true" text="Implementing the Fiori design guidelines and being open to custom branding has never been easier:"/>
+
+        <Title wrapping="true" titleStyle="H3" class="sapUiSmallMarginTop sapUiTinyMarginBottom" text="#1: Use the parameters"/>
+        <Text wrapping="true" text="Parameters are available as CSS Custom Properties, JSON, Less and SASS."/>
+        <ce:CodeEditor type="css" editable="false" lineNumbers="false" height="48px" class="sapUiTinyMarginTop sapUiTinyMarginBottom" value=".myButton \{&#10;  background-color: var(--sapButton_Background);&#10;}"/>
+        
+        <Title wrapping="true" titleStyle="H3" class="sapUiSmallMarginTop sapUiTinyMarginBottom" text="#2: React on the sap-theme URL parameter"/>
+        <Text wrapping="true" text="If you use a UI framework like SAPUI5, UI5 Web Components or Unified Rendering, you already have access to the parameters. Only if you have an application built on a different technology stack, you have to react on the sap-theme URL parameter yourselves:"/>
+        <ce:CodeEditor type="js" editable="false" lineNumbers="false" height="80px" class="sapUiTinyMarginTop sapUiTinyMarginBottom" value="const [themeid, themeroot = 'https://unpkg.com/@sap-theming/theming-base-content/content'] = (new URLSearchParams(location.search).get('sap-theme') || 'sap_horizon').split('@');&#10;const styleref = document.createElement('style');&#10;styleref.rel = 'stylesheet';&#10;styleref.href = `$\{themeroot.replace(/\/$/, '')}/Base/baseLib/$\{themeid}/css_variables.css`;&#10;document.head.appendChild(styleref);"/>
+      </VBox>
+    </f:content>
+  </f:DynamicPage>
+</mvc:View>

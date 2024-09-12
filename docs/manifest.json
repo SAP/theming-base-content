@@ -1,0 +1,89 @@
+{
+  "_version": "1.64.0",
+  "sap.app": {
+    "id": "tc"
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.127.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "rootView": {
+      "viewName": "tc.view.Main",
+      "type": "XML",
+      "id": "app"
+    },
+    "models": {
+      "categories": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "./model/categories.json"
+      },
+      "docs": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "./model/docs.json"
+      }
+    },
+    "resources": {
+      "css": [{
+        "uri": "./css/tc.css"
+      }]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "type": "View",
+        "viewType": "XML",
+        "path": "tc.view",
+        "controlId": "app",
+        "controlAggregation": "pages"
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "overview",
+          "target": "overview"
+        },
+        {
+          "pattern": "parameters:?query:",
+          "name": "parameters",
+          "target": "parameters"
+        },
+        {
+          "pattern": "icons/{library}:?query:",
+          "name": "icons",
+          "target": "icons"
+        },
+        {
+          "pattern": "getting-started",
+          "name": "getting-started",
+          "target": "getting-started"
+        }
+      ],
+      "targets": {
+        "overview": {
+          "id": "overview",
+          "name": "Overview",
+          "level": 0
+        },
+        "parameters": {
+          "id": "parameters",
+          "name": "Parameters",
+          "level": 1
+        },
+        "icons": {
+          "id": "icons",
+          "name": "Icons",
+          "level": 1
+        },
+        "getting-started": {
+          "id": "getting-started",
+          "name": "GettingStarted",
+          "level": 1
+        }
+      }
+    }
+  }
+}
