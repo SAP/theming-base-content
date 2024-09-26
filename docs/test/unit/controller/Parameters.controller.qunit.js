@@ -4,7 +4,7 @@ sap.ui.define([
 ], (GroupHeaderListItem, ParametersController) => {
   QUnit.module('Parameters.controller');
 
-  QUnit.test('compareCategory()', assert => {
+  QUnit.test('compareCategory() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     for (const [a, b, expected] of [
@@ -20,7 +20,7 @@ sap.ui.define([
     }
   });
 
-  QUnit.test('selectedCategories()', assert => {
+  QUnit.test('selectedCategories() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let calls = 0;
@@ -40,7 +40,7 @@ sap.ui.define([
     assert.equal(calls, 1, 'should cache the getProperty() result');
   });
 
-  QUnit.test('filterType()', assert => {
+  QUnit.test('filterType() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     parametersController.selectedTypes = () => ['button'];
@@ -49,7 +49,7 @@ sap.ui.define([
     assert.ok(!parametersController.filterType('Standard'), 'should return false if type is not in selectedTypes()');
   });
 
-  QUnit.test('compareParameter()', assert => {
+  QUnit.test('compareParameter() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     assert.equal(parametersController.compareParameter('sapButton_Background', 'sapField_Background'), -1, 'should compare parameters by string');
@@ -57,13 +57,13 @@ sap.ui.define([
     assert.equal(parametersController.compareParameter('sapAvatar_1_Background', 'sapAvatar_1_BorderColor'), -1, 'should compare parameters of same namespace and number by string');
   });
 
-  QUnit.test('getGroup()', assert => {
+  QUnit.test('getGroup() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     assert.equal(parametersController.getGroup({getProperty: _ => _ === 'Category' ? 'Group' : null}), 'Group', 'should return the Category of the context');
   });
 
-  QUnit.test('getGroupHeader()', assert => {
+  QUnit.test('getGroupHeader() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     const groupHeader = parametersController.getGroupHeader({key: 'Group'});
@@ -72,7 +72,7 @@ sap.ui.define([
     assert.equal(groupHeader.getProperty('title'), 'Group', 'should set the title to the group key');
   });
 
-  QUnit.test('pushState()', assert => {
+  QUnit.test('pushState() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let nav = null;
@@ -113,7 +113,7 @@ sap.ui.define([
     }, 'should use the passed values');
   });
 
-  QUnit.test('onInit()', assert => {
+  QUnit.test('onInit() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let matchedHandler = null;
@@ -128,7 +128,7 @@ sap.ui.define([
     assert.equal(matchedHandler.ctx, parametersController, 'should attach onRouteMatched with the controller as context');
   });
 
-  QUnit.test('onSearch()', assert => {
+  QUnit.test('onSearch() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let state = null;
@@ -138,7 +138,7 @@ sap.ui.define([
     assert.deepEqual(state, {search: 'query'}, 'should push the search query');
   });
 
-  QUnit.test('onCategoriesSelectionChange()', assert => {
+  QUnit.test('onCategoriesSelectionChange() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let state = null;
@@ -173,7 +173,7 @@ sap.ui.define([
     assert.deepEqual(state, {categories: ['Main']}, 'should deselect a category');
   });
 
-  QUnit.test('onCategoriesSelectionFinish()', assert => {
+  QUnit.test('onCategoriesSelectionFinish() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let state = null;
@@ -185,7 +185,7 @@ sap.ui.define([
     assert.deepEqual(state, {categories: ['Main']}, 'should push the selected categories');
   });
 
-  QUnit.test('onTypesSelectionChange()', assert => {
+  QUnit.test('onTypesSelectionChange() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let state = null;
@@ -221,7 +221,7 @@ sap.ui.define([
     assert.deepEqual(state, {types: ['color']}, 'should deselect a type');
   });
 
-  QUnit.test('onTypesSelectionFinish()', assert => {
+  QUnit.test('onTypesSelectionFinish() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let state = null;
@@ -233,7 +233,7 @@ sap.ui.define([
     assert.deepEqual(state, {types: ['color']}, 'should push the selected types');
   });
 
-  QUnit.test('onRouteMatched()', assert => {
+  QUnit.test('onRouteMatched() (UITD2-2840, UITD2-3069)', assert => {
     const parametersController = new ParametersController();
 
     let state = null;

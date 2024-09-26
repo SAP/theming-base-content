@@ -66,7 +66,7 @@ sap.ui.define([
   for (const [test, {}] of Object.entries({
     'theming-base-content from UI5': {}
   }))
-  QUnit.test(test, async assert => {
+  QUnit.test(`${test} (UITD2-2840, UITD2-3069)`, async assert => {
     // before
     sap.ui.loader._.unloadResources('tc/model/Parameters.model.js', false, true, true);
 

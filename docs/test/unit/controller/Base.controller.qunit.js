@@ -5,7 +5,7 @@ sap.ui.define([
 ], (Theming, UIComponent, BaseController) => {
   QUnit.module('Base.controller');
 
-  QUnit.test('getRouter()', assert => {
+  QUnit.test('getRouter() (UITD2-2840, UITD2-3069)', assert => {
     const ROUTER = Symbol('router');
     const getRouterFor = UIComponent.getRouterFor;
     UIComponent.getRouterFor = () => ROUTER;
@@ -13,7 +13,7 @@ sap.ui.define([
     UIComponent.getRouterFor = getRouterFor;
   });
 
-  QUnit.test('onThemeChange()', assert => {
+  QUnit.test('onThemeChange() (UITD2-2840, UITD2-3069)', assert => {
     const THEME = 'my_theme';
     
     let actualTheme = null;
@@ -40,7 +40,7 @@ sap.ui.define([
     assert.equal(actualTheme, THEME, 'should call Theming.setTheme()');
   });
 
-  QUnit.test('navTo()', assert => {
+  QUnit.test('navTo() (UITD2-2840, UITD2-3069)', assert => {
     let target = null;
     const getRouterFor = UIComponent.getRouterFor;
     UIComponent.getRouterFor = () => ({

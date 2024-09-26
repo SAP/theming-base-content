@@ -1,7 +1,7 @@
 sap.ui.define(['sap/ui/core/Theming'], Theming => {
   QUnit.module('Themes.model');
 
-  QUnit.test('constructor()', async assert => {
+  QUnit.test('constructor() (UITD2-2840, UITD2-3069)', async assert => {
     // before
     sap.ui.loader._.unloadResources('tc/model/Themes.model.js', false, true, true);
 

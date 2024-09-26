@@ -5,7 +5,7 @@ sap.ui.define([
 ], (Theming, Parameters, parametersGet) => {
   QUnit.module('parametersGet()');
 
-  QUnit.test('should resolve with the requested parameters', async assert => {
+  QUnit.test('should resolve with the requested parameters (UITD2-2840, UITD2-3069)', async assert => {
     const get = Parameters.get;
 
     Parameters.get = () => ({sapBrandColor: 'lime'});

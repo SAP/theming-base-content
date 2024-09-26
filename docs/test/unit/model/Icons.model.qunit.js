@@ -127,7 +127,7 @@ sap.ui.define([
       }
     }
   })) {
-    QUnit.test(test, async assert => {
+    QUnit.test(`${test} (UITD2-2840, UITD2-3069)`, async assert => {
       sap.ui.loader._.unloadResources('tc/model/Icons.model.js', false, true, true);
 
       const windowFetch = window.fetch;

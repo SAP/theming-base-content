@@ -1,12 +1,12 @@
 /**
 * Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 *
-* Theming Engine 14.0.15
-* data:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "14.0.15"}, "Version": { "Build": "11.18.1.20240904084535", "Source": "11.18.1"}}
+* Theming Engine 14.0.20
+* data:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "14.0.20"}, "Version": { "Build": "11.18.2.20240916112803", "Source": "11.18.2"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "14.0.15"}, "Version": { "Build": "11.18.1.20240904084535", "Source": "11.18.1"}}');}
-:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "14.0.15"}, "Version": { "Build": "11.18.1.20240904084535", "Source": "11.18.1"}};}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "14.0.20"}, "Version": { "Build": "11.18.2.20240916112803", "Source": "11.18.2"}}');}
+:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["baseTheme"], "Tags": ["Fiori_3","LightColorScheme"], "FallbackThemeId": "sap_fiori_3", "Engine": {"Name": "theming-engine", "Version": "14.0.20"}, "Version": { "Build": "11.18.2.20240916112803", "Source": "11.18.2"}};}
 :root {
   --sapBrandColor: #0070f2;
   --sapHighlightColor: #0064d9;

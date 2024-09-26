@@ -47,7 +47,7 @@ sap.ui.define([
     }
   });
 
-  QUnit.test('init()', async assert => {
+  QUnit.test('init() (UITD2-2840, UITD2-3069)', async assert => {
     ['Icons', 'Parameters', 'Themes'].forEach(_ =>
       sap.ui.loader._.unloadResources(`tc/model/${_}.model.js`, false, true, true)
     );

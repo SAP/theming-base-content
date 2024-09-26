@@ -3,7 +3,7 @@ sap.ui.define([
 ], IconsController => {
   QUnit.module('Icons.controller');
 
-  QUnit.test('onInit()', assert => {
+  QUnit.test('onInit() (UITD2-2840, UITD2-3069)', assert => {
     const iconsController = new IconsController();
     const MATCHED_HANDLER = [];
     iconsController.getRouter = () => ({
@@ -17,7 +17,7 @@ sap.ui.define([
     assert.equal(MATCHED_HANDLER[0].ctx, iconsController, 'should register the iconsController');
   });
 
-  QUnit.test('onRouteMatched()', assert => {
+  QUnit.test('onRouteMatched() (UITD2-2840, UITD2-3069)', assert => {
     const iconsPage = {
       styleClass: ['tcIcons--SAP-icons-TNT']
     };
@@ -83,7 +83,7 @@ sap.ui.define([
     assert.equal(filter.length, 2, '"?library=SAP-icons-TNT#search=arrow&group=arrows" should filter the items binding');
   });
 
-  QUnit.test('pushState()', assert => {
+  QUnit.test('pushState() (UITD2-2840, UITD2-3069)', assert => {
     let route = null;
     const iconsController = new IconsController();
     iconsController.getRouter = () => ({
@@ -124,7 +124,7 @@ sap.ui.define([
     }}, 'pushState({search: "mysearch", group: "mygroup"}) should use the given values');
   });
 
-  QUnit.test('onSearch()', assert => {
+  QUnit.test('onSearch() (UITD2-2840, UITD2-3069)', assert => {
     let state = null;
     const iconsController = new IconsController();
     iconsController.pushState = _ => state = _;
@@ -135,7 +135,7 @@ sap.ui.define([
     assert.deepEqual(state, {search: 'mysearch'}, 'should push the search to the state');
   });
 
-  QUnit.test('onGroupChange()', assert => {
+  QUnit.test('onGroupChange() (UITD2-2840, UITD2-3069)', assert => {
     let state = null;
     const iconsController = new IconsController();
     iconsController.pushState = _ => state = _;
