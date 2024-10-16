@@ -1,7 +1,7 @@
 {
 	"0xe000": {
 		"names": ["accidental-leave"],
-		"groups": ["med", "status"],
+		"groups": ["medical", "status"],
 		"tags": [
 			"accidental",
 			"leave",
@@ -71,7 +71,7 @@
 	},
 	"0xe008": {
 		"names": ["temperature"],
-		"groups": ["charts", "med", "status", "thing", "objects"],
+		"groups": ["charts", "medical", "status", "thing", "objects"],
 		"tags": [
 			"temperature",
 			"hot",
@@ -132,13 +132,13 @@
 	},
 	"0xe00e": {
 		"names": ["sales-document"],
-		"groups": ["money", "doc"],
+		"groups": ["money", "documents"],
 		"tags": ["document", "page", "file", "text", "sales", "money"],
 		"rtl": "none"
 	},
 	"0xe00f": {
 		"names": ["retail-store"],
-		"groups": ["shop", "place"],
+		"groups": ["shopping", "place"],
 		"tags": ["shop", "store", "retail", "market"],
 		"rtl": "flip"
 	},
@@ -169,7 +169,7 @@
 	},
 	"0xe013": {
 		"names": ["ppt-attachment"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "ppt", "powerpoint"],
 		"rtl": "flip"
 	},
@@ -227,7 +227,7 @@
 	},
 	"0xe01a": {
 		"names": ["pdf-attachment"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "pdf"],
 		"rtl": "none"
 	},
@@ -401,13 +401,13 @@
 	},
 	"0xe033": {
 		"names": ["expense-report"],
-		"groups": ["money", "doc"],
+		"groups": ["money", "documents"],
 		"tags": ["expense", "report", "documents", "money", "dollar"],
 		"rtl": "none"
 	},
 	"0xe034": {
 		"names": ["excel-attachment"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": [
 			"document",
 			"page",
@@ -471,7 +471,7 @@
 	},
 	"0xe03b": {
 		"names": ["doc-attachment"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "word", "text"],
 		"rtl": "flip"
 	},
@@ -534,7 +534,7 @@
 	},
 	"0xe043": {
 		"names": ["cart"],
-		"groups": ["shop", "thing"],
+		"groups": ["shopping", "thing"],
 		"tags": ["cart", "trolley", "basket", "shopping"],
 		"rtl": "flip"
 	},
@@ -572,7 +572,7 @@
 	},
 	"0xe048": {
 		"names": ["basket"],
-		"groups": ["shop", "thing"],
+		"groups": ["shopping", "thing"],
 		"tags": ["basket", "shopping"],
 		"rtl": "flip"
 	},
@@ -835,7 +835,7 @@
 	},
 	"0xe062": {
 		"names": ["bed"],
-		"groups": ["med", "travel", "thing", "objects"],
+		"groups": ["medical", "travel", "thing", "objects"],
 		"tags": [
 			"bed",
 			"sleep",
@@ -961,7 +961,7 @@
 	},
 	"0xe06e": {
 		"names": ["inspection"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["search", "document", "inspect"],
 		"rtl": "flip"
 	},
@@ -1068,7 +1068,7 @@
 	},
 	"0xe079": {
 		"names": ["endoscopy"],
-		"groups": ["med", "objects"],
+		"groups": ["medical", "objects"],
 		"tags": ["endoscopy", "medical", "procedure"],
 		"rtl": "flip"
 	},
@@ -1108,13 +1108,13 @@
 	},
 	"0xe07d": {
 		"names": ["electrocardiogram"],
-		"groups": ["med"],
+		"groups": ["medical"],
 		"tags": ["electrocardiogram", "heart", "scan", "monitor", "medical"],
 		"rtl": "flip"
 	},
 	"0xe07e": {
 		"names": ["documents"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "documents"],
 		"rtl": "flip"
 	},
@@ -1185,7 +1185,7 @@
 	},
 	"0xe084": {
 		"names": ["create-entry-time"],
-		"groups": ["time", "doc", "action"],
+		"groups": ["time", "documents", "action"],
 		"tags": [
 			"document",
 			"page",
@@ -1240,7 +1240,7 @@
 	},
 	"0xe087": {
 		"names": ["clinical-order"],
-		"groups": ["med", "doc"],
+		"groups": ["medical", "documents"],
 		"tags": ["document", "page", "file", "text", "medical", "clinical"],
 		"rtl": "flip"
 	},
@@ -1294,7 +1294,7 @@
 	},
 	"0xe08d": {
 		"names": ["bar-code"],
-		"groups": ["doc", "objects"],
+		"groups": ["documents", "objects"],
 		"tags": ["bar code", "document", "file", "scan", "verify"],
 		"rtl": "flip"
 	},
@@ -1381,7 +1381,7 @@
 	},
 	"0xe097": {
 		"names": ["course-program"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": [
 			"document",
 			"page",
@@ -1467,7 +1467,7 @@
 	},
 	"0xe09f": {
 		"names": ["pushpin-on"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": [
 			"document",
 			"page",
@@ -1540,7 +1540,7 @@
 	},
 	"0xe0a3": {
 		"names": ["timesheet"],
-		"groups": ["time", "doc"],
+		"groups": ["time", "documents"],
 		"tags": [
 			"document",
 			"page",
@@ -1749,7 +1749,7 @@
 	},
 	"0xe0b8": {
 		"names": ["permission"],
-		"groups": ["doc", "status", "message"],
+		"groups": ["documents", "status", "message"],
 		"tags": [
 			"document",
 			"page",
@@ -1877,7 +1877,7 @@
 	},
 	"0xe0c2": {
 		"names": ["sales-order-item"],
-		"groups": ["money", "doc"],
+		"groups": ["money", "documents"],
 		"tags": [
 			"document",
 			"page",
@@ -1892,7 +1892,7 @@
 	},
 	"0xe0c3": {
 		"names": ["sales-order"],
-		"groups": ["money", "doc"],
+		"groups": ["money", "documents"],
 		"tags": [
 			"document",
 			"page",
@@ -1907,7 +1907,7 @@
 	},
 	"0xe0c4": {
 		"names": ["request"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": [
 			"document",
 			"page",
@@ -2016,7 +2016,7 @@
 	},
 	"0xe0ce": {
 		"names": ["pdf-reader"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["pdf reader", "document", "display", "file"],
 		"rtl": "none"
 	},
@@ -2061,7 +2061,7 @@
 	},
 	"0xe0d4": {
 		"names": ["my-sales-order"],
-		"groups": ["people", "doc"],
+		"groups": ["people", "documents"],
 		"tags": [
 			"document",
 			"page",
@@ -2097,7 +2097,7 @@
 	},
 	"0xe0d7": {
 		"names": ["order-status"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "order", "status"],
 		"rtl": "none"
 	},
@@ -2250,7 +2250,7 @@
 	},
 	"0xe0e6": {
 		"names": ["create"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["document", "page", "file", "attachment", "create", "new"],
 		"rtl": "flip"
 	},
@@ -2297,13 +2297,13 @@
 	},
 	"0xe0eb": {
 		"names": ["x-ray"],
-		"groups": ["med"],
+		"groups": ["medical"],
 		"tags": ["x ray", "procedure", "scan", "medical"],
 		"rtl": "flip"
 	},
 	"0xe0ec": {
 		"names": ["wounds-doc"],
-		"groups": ["people", "med"],
+		"groups": ["people", "medical"],
 		"tags": [
 			"wounds",
 			"doc",
@@ -2468,7 +2468,7 @@
 	},
 	"0xe0fd": {
 		"names": ["stethoscope"],
-		"groups": ["med", "thing"],
+		"groups": ["medical", "thing"],
 		"tags": ["stethoscope", "medical", "health", "doctor", "hospital", "nurse"],
 		"rtl": "flip"
 	},
@@ -2480,7 +2480,7 @@
 	},
 	"0xe0ff": {
 		"names": ["sonography"],
-		"groups": ["med"],
+		"groups": ["medical"],
 		"tags": ["sonography", "medical", "ultrasound", "ultrasonography"],
 		"rtl": "flip"
 	},
@@ -2493,13 +2493,13 @@
 	},
 	"0xe101": {
 		"names": ["physical-activity"],
-		"groups": ["people", "med", "travel"],
+		"groups": ["people", "medical", "travel"],
 		"tags": ["physical activity", "running", "run", "jogging"],
 		"rtl": "flip"
 	},
 	"0xe102": {
 		"names": ["pharmacy"],
-		"groups": ["med", "thing"],
+		"groups": ["medical", "thing"],
 		"tags": ["medicine", "pills", "drugs", "pharmacy", "pain", "medication"],
 		"rtl": "flip"
 	},
@@ -2525,13 +2525,13 @@
 	},
 	"0xe105": {
 		"names": ["nutrition-activity"],
-		"groups": ["med", "thing", "objects"],
+		"groups": ["medical", "thing", "objects"],
 		"tags": ["apple", "nutrition", "activity", "health", "fruit"],
 		"rtl": "flip"
 	},
 	"0xe106": {
 		"names": ["newspaper"],
-		"groups": ["doc", "objects"],
+		"groups": ["documents", "objects"],
 		"tags": ["newspaper", "headlines", "latest", "updates"],
 		"rtl": "flip"
 	},
@@ -2567,7 +2567,7 @@
 	},
 	"0xe10a": {
 		"names": ["mri-scan"],
-		"groups": ["med"],
+		"groups": ["medical"],
 		"tags": ["mri", "scan", "medical"],
 		"rtl": "flip"
 	},
@@ -2591,7 +2591,7 @@
 	},
 	"0xe10d": {
 		"names": ["customer-financial-fact-sheet"],
-		"groups": ["money", "doc"],
+		"groups": ["money", "documents"],
 		"tags": [
 			"document",
 			"page",
@@ -2606,7 +2606,7 @@
 	},
 	"0xe10e": {
 		"names": ["retail-store-manager"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": ["retail store manager"],
 		"rtl": "flip"
 	},
@@ -2618,7 +2618,7 @@
 	},
 	"0xe110": {
 		"names": ["electronic-medical-record"],
-		"groups": ["med", "objects"],
+		"groups": ["medical", "objects"],
 		"tags": [
 			"electronic medical record",
 			"medical",
@@ -2709,7 +2709,7 @@
 	"0xe118": {
 		"names": ["clinical-task-tracker"],
 		"deprecatedNames": ["clinical-tast-tracker"],
-		"groups": ["med"],
+		"groups": ["medical"],
 		"tags": [
 			"clinical",
 			"task",
@@ -2741,7 +2741,7 @@
 	},
 	"0xe11a": {
 		"names": ["cart-approval"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": [
 			"cart",
 			"trolley",
@@ -2867,7 +2867,7 @@
 	},
 	"0xe126": {
 		"names": ["accounting-document-verification"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "approve", "verify", "accounting", "money", "coins"],
 		"rtl": "none"
 	},
@@ -2909,13 +2909,13 @@
 	},
 	"0xe12a": {
 		"names": ["cart-5"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": ["cart", "trolley", "basket", "shopping", "item", "sap"],
 		"rtl": "flip"
 	},
 	"0xe12b": {
 		"names": ["cart-4"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": [
 			"cart",
 			"trolley",
@@ -3071,7 +3071,7 @@
 	},
 	"0xe138": {
 		"names": ["syringe"],
-		"groups": ["med", "action"],
+		"groups": ["medical", "action"],
 		"tags": [
 			"medical",
 			"emergency",
@@ -3146,7 +3146,7 @@
 	},
 	"0xe13e": {
 		"names": ["sales-quote"],
-		"groups": ["money", "doc"],
+		"groups": ["money", "documents"],
 		"tags": [
 			"document",
 			"page",
@@ -3248,7 +3248,7 @@
 	},
 	"0xe146": {
 		"names": ["nurse"],
-		"groups": ["people", "med"],
+		"groups": ["people", "medical"],
 		"tags": ["nurse", "medical", "cross", "emergency", "hospital"],
 		"rtl": "flip"
 	},
@@ -3309,7 +3309,7 @@
 	},
 	"0xe14f": {
 		"names": ["measurement-document"],
-		"groups": ["doc", "calendar", "objects"],
+		"groups": ["documents", "calendar", "objects"],
 		"tags": [
 			"measure",
 			"weight",
@@ -3478,19 +3478,19 @@
 	},
 	"0xe15e": {
 		"names": ["insurance-house"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "insurance", "house"],
 		"rtl": "flip"
 	},
 	"0xe15f": {
 		"names": ["insurance-life"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "insurance", "life"],
 		"rtl": "flip"
 	},
 	"0xe160": {
 		"names": ["insurance-car"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "insurance", "car"],
 		"rtl": "flip"
 	},
@@ -3629,13 +3629,13 @@
 	},
 	"0xe172": {
 		"names": ["document"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "blank", "new"],
 		"rtl": "flip"
 	},
 	"0xe173": {
 		"names": ["doctor"],
-		"groups": ["people", "med", "travel", "place"],
+		"groups": ["people", "medical", "travel", "place"],
 		"tags": ["doctor", "medical", "cross", "emergency", "hospital"],
 		"rtl": "flip"
 	},
@@ -3934,7 +3934,7 @@
 	},
 	"0xe195": {
 		"names": ["cart-3"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": [
 			"cart",
 			"trolley",
@@ -3951,7 +3951,7 @@
 	},
 	"0xe196": {
 		"names": ["cart-2"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": [
 			"cart",
 			"trolley",
@@ -4026,13 +4026,13 @@
 	},
 	"0xe19d": {
 		"names": ["attachment-audio"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "audio", "sound"],
 		"rtl": "flip"
 	},
 	"0xe19e": {
 		"names": ["attachment-video"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": [
 			"document",
 			"page",
@@ -4046,7 +4046,7 @@
 	},
 	"0xe19f": {
 		"names": ["attachment-html"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": [
 			"document",
 			"page",
@@ -4060,13 +4060,13 @@
 	},
 	"0xe1a0": {
 		"names": ["attachment-photo"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "attachment", "photo", "image"],
 		"rtl": "flip"
 	},
 	"0xe1a1": {
 		"names": ["attachment-e-pub"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": [
 			"document",
 			"page",
@@ -4079,13 +4079,13 @@
 	},
 	"0xe1a2": {
 		"names": ["attachment-zip-file"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "zip", "compressed"],
 		"rtl": "flip"
 	},
 	"0xe1a3": {
 		"names": ["attachment-text-file"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "text"],
 		"rtl": "flip"
 	},
@@ -4257,7 +4257,7 @@
 	},
 	"0xe1b0": {
 		"names": ["cart-full"],
-		"groups": ["shop"],
+		"groups": ["shopping"],
 		"tags": [
 			"cart",
 			"trolley",
@@ -4297,7 +4297,7 @@
 	},
 	"0xe1b4": {
 		"names": ["document-text"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": ["document", "page", "file", "text"],
 		"rtl": "flip"
 	},
@@ -4333,7 +4333,7 @@
 	},
 	"0xe1ba": {
 		"names": ["vds-file"],
-		"groups": ["doc"],
+		"groups": ["documents"],
 		"tags": [
 			"document",
 			"page",
@@ -4537,25 +4537,25 @@
 	},
 	"0xe1cd": {
 		"names": ["sys-prev-page"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["system", "previous", "page", "up", "arrows"],
 		"rtl": "flip"
 	},
 	"0xe1ce": {
 		"names": ["sys-first-page"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["system", "first", "page", "up", "top", "arrows"],
 		"rtl": "flip"
 	},
 	"0xe1cf": {
 		"names": ["sys-next-page"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["system", "next", "page", "down", "arrows"],
 		"rtl": "flip"
 	},
 	"0xe1d0": {
 		"names": ["sys-last-page"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": ["system", "last", "page", "down", "bottom", "arrows"],
 		"rtl": "flip"
 	},
@@ -5371,7 +5371,7 @@
 	},
 	"0xe23c": {
 		"names": ["write-new-document"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": [
 			"document",
 			"page",
@@ -5500,7 +5500,7 @@
 	},
 	"0xe24d": {
 		"names": ["add-document"],
-		"groups": ["doc", "action"],
+		"groups": ["documents", "action"],
 		"tags": [
 			"document",
 			"page",
@@ -6339,7 +6339,9 @@
       "unite",
       "aggregate",
       "interflow",
-      "arrows-right"
+      "arrows-right",
+			"runtime adaptation",
+			"ui adaptation"
 		],
 		"rtl": "flip"
 	},
@@ -6357,7 +6359,9 @@
       "break",
       "cleave",
       "clove",
-      "cut up"
+      "cut up",
+			"runtime adaptation",
+			"ui adaptation"
     ],
 		"rtl": "flip"
 	},
@@ -6775,7 +6779,8 @@
 			"intelligence",
 			"contextual understanding",
 			"artificial",
-			"machine"
+			"machine",
+			"robot"
 		],
     "rtl": "none"
 	},

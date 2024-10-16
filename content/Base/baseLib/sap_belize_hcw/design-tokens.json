@@ -20333,6 +20333,11 @@
   },
   "Input": {
     "Information": {
+      "sapField_Selector_InformationBorderStyle": {
+        "value": "dashed",
+        "type": "borderStyle",
+        "description": "The border style of selector fields (e.g. Checkboxes) indicating an information status."
+      },
       "sapField_InformationShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -20402,6 +20407,11 @@
       }
     },
     "Success": {
+      "sapField_Selector_SuccessBorderStyle": {
+        "value": "solid",
+        "type": "borderStyle",
+        "description": "The border style of selector fields (e.g. Checkboxes) indicating a successful user action."
+      },
       "sapField_SuccessShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -20471,6 +20481,11 @@
       }
     },
     "Warning": {
+      "sapField_Selector_WarningBorderStyle": {
+        "value": "dashed",
+        "type": "borderStyle",
+        "description": "The border style of selector fields (e.g. Checkboxes) indicating a warning."
+      },
       "sapField_WarningShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -20540,6 +20555,11 @@
       }
     },
     "Invalid": {
+      "sapField_Selector_InvalidBorderStyle": {
+        "value": "dashed",
+        "type": "borderStyle",
+        "description": "The border style of selector fields (e.g. Checkboxes) with an invalid value."
+      },
       "sapField_InvalidShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -20608,7 +20628,92 @@
         "type": "internal"
       }
     },
+    "Readonly": {
+      "sapField_Selector_ReadOnly_BorderStyle": {
+        "value": "solid",
+        "type": "borderStyle",
+        "description": "The border style of read-only selector fields (e.g. Checkboxes)."
+      },
+      "sapField_ReadOnly_HelpBackground": {
+        "value": "hsla({Input.Readonly._sapField_ReadOnly_HelpBackgroundH}, {Input.Readonly._sapField_ReadOnly_HelpBackgroundS}, {Input.Readonly._sapField_ReadOnly_HelpBackgroundL}, {Input.Readonly._sapField_ReadOnly_HelpBackgroundA})",
+        "type": "color",
+        "description": "The background color of a read-only input field's value help icon."
+      },
+      "sapField_ReadOnly_BorderStyle": {
+        "value": "{Input.Standard.sapField_BorderStyle}",
+        "type": "borderStyle",
+        "description": "The border style of read-only input fields."
+      },
+      "sapField_ReadOnly_BorderColor": {
+        "value": "hsla({Input.Readonly._sapField_ReadOnly_BorderColorH}, {Input.Readonly._sapField_ReadOnly_BorderColorS}, {Input.Readonly._sapField_ReadOnly_BorderColorL}, {Input.Readonly._sapField_ReadOnly_BorderColorA})",
+        "type": "color",
+        "description": "The color of a read-only input field's borders."
+      },
+      "sapField_ReadOnly_BackgroundStyle": {
+        "value": "none",
+        "type": "asset",
+        "description": "The background style of read-only input fields."
+      },
+      "sapField_ReadOnly_Background": {
+        "value": "hsla({Input.Readonly._sapField_ReadOnly_BackgroundH}, {Input.Readonly._sapField_ReadOnly_BackgroundS}, {Input.Readonly._sapField_ReadOnly_BackgroundL}, {Input.Readonly._sapField_ReadOnly_BackgroundA})",
+        "type": "color",
+        "description": "The background color of a read-only input field."
+      },
+      "_sapField_ReadOnly_HelpBackgroundH": {
+        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_HelpBackgroundS": {
+        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_HelpBackgroundL": {
+        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_HelpBackgroundA": {
+        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundA}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BorderColorH": {
+        "value": "{HighContrast._sapHC_ReducedAltForegroundH}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BorderColorS": {
+        "value": "{HighContrast._sapHC_ReducedAltForegroundS}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BorderColorL": {
+        "value": "{HighContrast._sapHC_ReducedAltForegroundL}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BorderColorA": {
+        "value": "{HighContrast._sapHC_ReducedAltForegroundA}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BackgroundH": {
+        "value": "{HighContrast._sapHC_ReducedBackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BackgroundS": {
+        "value": "{HighContrast._sapHC_ReducedBackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BackgroundL": {
+        "value": "{HighContrast._sapHC_ReducedBackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_ReadOnly_BackgroundA": {
+        "value": "{HighContrast._sapHC_ReducedBackgroundA}",
+        "type": "internal"
+      }
+    },
     "Standard": {
+      "sapField_Selector_BorderStyle": {
+        "value": "solid",
+        "type": "borderStyle",
+        "description": "The border style of selector fields (e.g. Checkboxes)."
+      },
       "sapField_RequiredColor": {
         "value": "hsla({Input.Standard._sapField_RequiredColorH}, {Input.Standard._sapField_RequiredColorS}, {Input.Standard._sapField_RequiredColorL}, {Input.Standard._sapField_RequiredColorA})",
         "type": "color",
@@ -20915,81 +21020,6 @@
       },
       "_sapField_BackgroundA": {
         "value": "{Application._sapBackgroundColorA}",
-        "type": "internal"
-      }
-    },
-    "Readonly": {
-      "sapField_ReadOnly_HelpBackground": {
-        "value": "hsla({Input.Readonly._sapField_ReadOnly_HelpBackgroundH}, {Input.Readonly._sapField_ReadOnly_HelpBackgroundS}, {Input.Readonly._sapField_ReadOnly_HelpBackgroundL}, {Input.Readonly._sapField_ReadOnly_HelpBackgroundA})",
-        "type": "color",
-        "description": "The background color of a read-only input field's value help icon."
-      },
-      "sapField_ReadOnly_BorderStyle": {
-        "value": "{Input.Standard.sapField_BorderStyle}",
-        "type": "borderStyle",
-        "description": "The border style of read-only input fields."
-      },
-      "sapField_ReadOnly_BorderColor": {
-        "value": "hsla({Input.Readonly._sapField_ReadOnly_BorderColorH}, {Input.Readonly._sapField_ReadOnly_BorderColorS}, {Input.Readonly._sapField_ReadOnly_BorderColorL}, {Input.Readonly._sapField_ReadOnly_BorderColorA})",
-        "type": "color",
-        "description": "The color of a read-only input field's borders."
-      },
-      "sapField_ReadOnly_BackgroundStyle": {
-        "value": "none",
-        "type": "asset",
-        "description": "The background style of read-only input fields."
-      },
-      "sapField_ReadOnly_Background": {
-        "value": "hsla({Input.Readonly._sapField_ReadOnly_BackgroundH}, {Input.Readonly._sapField_ReadOnly_BackgroundS}, {Input.Readonly._sapField_ReadOnly_BackgroundL}, {Input.Readonly._sapField_ReadOnly_BackgroundA})",
-        "type": "color",
-        "description": "The background color of a read-only input field."
-      },
-      "_sapField_ReadOnly_HelpBackgroundH": {
-        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_HelpBackgroundS": {
-        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_HelpBackgroundL": {
-        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundL}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_HelpBackgroundA": {
-        "value": "{Input.Readonly._sapField_ReadOnly_BackgroundA}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BorderColorH": {
-        "value": "{HighContrast._sapHC_ReducedAltForegroundH}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BorderColorS": {
-        "value": "{HighContrast._sapHC_ReducedAltForegroundS}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BorderColorL": {
-        "value": "{HighContrast._sapHC_ReducedAltForegroundL}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BorderColorA": {
-        "value": "{HighContrast._sapHC_ReducedAltForegroundA}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BackgroundH": {
-        "value": "{HighContrast._sapHC_ReducedBackgroundH}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BackgroundS": {
-        "value": "{HighContrast._sapHC_ReducedBackgroundS}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BackgroundL": {
-        "value": "{HighContrast._sapHC_ReducedBackgroundL}",
-        "type": "internal"
-      },
-      "_sapField_ReadOnly_BackgroundA": {
-        "value": "{HighContrast._sapHC_ReducedBackgroundA}",
         "type": "internal"
       }
     }
@@ -23257,6 +23287,11 @@
         "type": "color",
         "description": "The background color of buttons on hover."
       },
+      "sapButton_FontFamily": {
+        "value": "{Text.sapFontFamily}",
+        "type": "fontFamilies",
+        "description": "The font family of buttons."
+      },
       "_sapButton_TextColorH": {
         "value": "{Text._sapTextColorH}",
         "type": "internal"
@@ -24310,6 +24345,11 @@
         "type": "color",
         "description": "The hover state background color of emphasized buttons."
       },
+      "sapButton_Emphasized_FontFamily": {
+        "value": "{Text.sapFontBoldFamily}",
+        "type": "fontFamilies",
+        "description": "The font family of emphasized buttons."
+      },
       "_sapButton_Emphasized_TextColorH": {
         "value": "{Text._sapTextColorH}",
         "type": "internal"
@@ -24330,6 +24370,11 @@
         "value": "hsla({Button.Emphasized._sapButton_Emphasized_TextColorH}, {Button.Emphasized._sapButton_Emphasized_TextColorS}, {Button.Emphasized._sapButton_Emphasized_TextColorL}, {Button.Emphasized._sapButton_Emphasized_TextColorA})",
         "type": "color",
         "description": "The color of texts and icons on emphasized buttons."
+      },
+      "sapButton_Emphasized_BorderWidth": {
+        "value": ".125 * {Internal.sapContent_GridSize}",
+        "type": "borderWidth",
+        "description": "The border width of emphasized buttons."
       },
       "sapButton_Emphasized_BorderColor": {
         "value": "hsla({Button.Emphasized._sapButton_Emphasized_BorderColorH}, {Button.Emphasized._sapButton_Emphasized_BorderColorS}, {Button.Emphasized._sapButton_Emphasized_BorderColorL}, {Button.Emphasized._sapButton_Emphasized_BorderColorA})",
@@ -24440,6 +24485,11 @@
     }
   },
   "Avatar": {
+    "sapAvatar_10_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_10_Hover_BackgroundH}, {Avatar._sapAvatar_10_Hover_BackgroundS}, {Avatar._sapAvatar_10_Hover_BackgroundL}, {Avatar._sapAvatar_10_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-10 avatars."
+    },
     "_sapAvatar_10_TextColorH": {
       "value": "{Text._sapTextColorH}",
       "type": "internal"
@@ -24486,6 +24536,11 @@
       "value": "hsla({Avatar._sapAvatar_10_BackgroundH}, {Avatar._sapAvatar_10_BackgroundS}, {Avatar._sapAvatar_10_BackgroundL}, {Avatar._sapAvatar_10_BackgroundA})",
       "type": "color",
       "description": "The background color of type-10 avatars."
+    },
+    "sapAvatar_9_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_9_Hover_BackgroundH}, {Avatar._sapAvatar_9_Hover_BackgroundS}, {Avatar._sapAvatar_9_Hover_BackgroundL}, {Avatar._sapAvatar_9_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-9 avatars."
     },
     "_sapAvatar_9_TextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -24534,6 +24589,11 @@
       "type": "color",
       "description": "The background color of type-9 avatars."
     },
+    "sapAvatar_8_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_8_Hover_BackgroundH}, {Avatar._sapAvatar_8_Hover_BackgroundS}, {Avatar._sapAvatar_8_Hover_BackgroundL}, {Avatar._sapAvatar_8_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-8 avatars."
+    },
     "_sapAvatar_8_TextColorH": {
       "value": "{Text._sapTextColorH}",
       "type": "internal"
@@ -24580,6 +24640,11 @@
       "value": "hsla({Avatar._sapAvatar_8_BackgroundH}, {Avatar._sapAvatar_8_BackgroundS}, {Avatar._sapAvatar_8_BackgroundL}, {Avatar._sapAvatar_8_BackgroundA})",
       "type": "color",
       "description": "The background color of type-8 avatars."
+    },
+    "sapAvatar_7_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_7_Hover_BackgroundH}, {Avatar._sapAvatar_7_Hover_BackgroundS}, {Avatar._sapAvatar_7_Hover_BackgroundL}, {Avatar._sapAvatar_7_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-7 avatars."
     },
     "_sapAvatar_7_TextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -24628,6 +24693,11 @@
       "type": "color",
       "description": "The background color of type-7 avatars."
     },
+    "sapAvatar_6_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_6_Hover_BackgroundH}, {Avatar._sapAvatar_6_Hover_BackgroundS}, {Avatar._sapAvatar_6_Hover_BackgroundL}, {Avatar._sapAvatar_6_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-6 avatars."
+    },
     "_sapAvatar_6_TextColorH": {
       "value": "{Text._sapTextColorH}",
       "type": "internal"
@@ -24674,6 +24744,11 @@
       "value": "hsla({Avatar._sapAvatar_6_BackgroundH}, {Avatar._sapAvatar_6_BackgroundS}, {Avatar._sapAvatar_6_BackgroundL}, {Avatar._sapAvatar_6_BackgroundA})",
       "type": "color",
       "description": "The background color of type-6 avatars."
+    },
+    "sapAvatar_5_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_5_Hover_BackgroundH}, {Avatar._sapAvatar_5_Hover_BackgroundS}, {Avatar._sapAvatar_5_Hover_BackgroundL}, {Avatar._sapAvatar_5_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-5 avatars."
     },
     "_sapAvatar_5_TextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -24722,6 +24797,11 @@
       "type": "color",
       "description": "The background color of type-5 avatars."
     },
+    "sapAvatar_4_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_4_Hover_BackgroundH}, {Avatar._sapAvatar_4_Hover_BackgroundS}, {Avatar._sapAvatar_4_Hover_BackgroundL}, {Avatar._sapAvatar_4_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-4 avatars."
+    },
     "_sapAvatar_4_TextColorH": {
       "value": "{Text._sapTextColorH}",
       "type": "internal"
@@ -24768,6 +24848,11 @@
       "value": "hsla({Avatar._sapAvatar_4_BackgroundH}, {Avatar._sapAvatar_4_BackgroundS}, {Avatar._sapAvatar_4_BackgroundL}, {Avatar._sapAvatar_4_BackgroundA})",
       "type": "color",
       "description": "The background color of type-4 avatars."
+    },
+    "sapAvatar_3_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_3_Hover_BackgroundH}, {Avatar._sapAvatar_3_Hover_BackgroundS}, {Avatar._sapAvatar_3_Hover_BackgroundL}, {Avatar._sapAvatar_3_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-3 avatars."
     },
     "_sapAvatar_3_TextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -24816,6 +24901,11 @@
       "type": "color",
       "description": "The background color of type-3 avatars."
     },
+    "sapAvatar_2_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_2_Hover_BackgroundH}, {Avatar._sapAvatar_2_Hover_BackgroundS}, {Avatar._sapAvatar_2_Hover_BackgroundL}, {Avatar._sapAvatar_2_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-2 avatars."
+    },
     "_sapAvatar_2_TextColorH": {
       "value": "{Text._sapTextColorH}",
       "type": "internal"
@@ -24862,6 +24952,11 @@
       "value": "hsla({Avatar._sapAvatar_2_BackgroundH}, {Avatar._sapAvatar_2_BackgroundS}, {Avatar._sapAvatar_2_BackgroundL}, {Avatar._sapAvatar_2_BackgroundA})",
       "type": "color",
       "description": "The background color of type-2 avatars."
+    },
+    "sapAvatar_1_Hover_Background": {
+      "value": "hsla({Avatar._sapAvatar_1_Hover_BackgroundH}, {Avatar._sapAvatar_1_Hover_BackgroundS}, {Avatar._sapAvatar_1_Hover_BackgroundL}, {Avatar._sapAvatar_1_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background color of hovered type-1 avatars."
     },
     "_sapAvatar_1_TextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -24910,6 +25005,22 @@
       "type": "color",
       "description": "The background color of type-1 avatars."
     },
+    "_sapAvatar_10_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_10_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_10_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_10_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
+      "type": "internal"
+    },
     "_sapAvatar_10_BackgroundH": {
       "value": "{Application._sapBackgroundColorH}",
       "type": "internal"
@@ -24924,6 +25035,22 @@
     },
     "_sapAvatar_10_BackgroundA": {
       "value": "{Application._sapBackgroundColorA}",
+      "type": "internal"
+    },
+    "_sapAvatar_9_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_9_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_9_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_9_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapAvatar_9_BackgroundH": {
@@ -24942,6 +25069,22 @@
       "value": "{Application._sapBackgroundColorA}",
       "type": "internal"
     },
+    "_sapAvatar_8_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_8_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_8_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_8_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
+      "type": "internal"
+    },
     "_sapAvatar_8_BackgroundH": {
       "value": "{Application._sapBackgroundColorH}",
       "type": "internal"
@@ -24956,6 +25099,22 @@
     },
     "_sapAvatar_8_BackgroundA": {
       "value": "{Application._sapBackgroundColorA}",
+      "type": "internal"
+    },
+    "_sapAvatar_7_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_7_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_7_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_7_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapAvatar_7_BackgroundH": {
@@ -24974,6 +25133,22 @@
       "value": "{Application._sapBackgroundColorA}",
       "type": "internal"
     },
+    "_sapAvatar_6_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_6_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_6_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_6_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
+      "type": "internal"
+    },
     "_sapAvatar_6_BackgroundH": {
       "value": "{Application._sapBackgroundColorH}",
       "type": "internal"
@@ -24988,6 +25163,22 @@
     },
     "_sapAvatar_6_BackgroundA": {
       "value": "{Application._sapBackgroundColorA}",
+      "type": "internal"
+    },
+    "_sapAvatar_5_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_5_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_5_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_5_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapAvatar_5_BackgroundH": {
@@ -25006,6 +25197,22 @@
       "value": "{Application._sapBackgroundColorA}",
       "type": "internal"
     },
+    "_sapAvatar_4_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_4_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_4_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_4_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
+      "type": "internal"
+    },
     "_sapAvatar_4_BackgroundH": {
       "value": "{Application._sapBackgroundColorH}",
       "type": "internal"
@@ -25020,6 +25227,22 @@
     },
     "_sapAvatar_4_BackgroundA": {
       "value": "{Application._sapBackgroundColorA}",
+      "type": "internal"
+    },
+    "_sapAvatar_3_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_3_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_3_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_3_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapAvatar_3_BackgroundH": {
@@ -25038,6 +25261,22 @@
       "value": "{Application._sapBackgroundColorA}",
       "type": "internal"
     },
+    "_sapAvatar_2_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_2_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_2_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_2_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
+      "type": "internal"
+    },
     "_sapAvatar_2_BackgroundH": {
       "value": "{Application._sapBackgroundColorH}",
       "type": "internal"
@@ -25052,6 +25291,22 @@
     },
     "_sapAvatar_2_BackgroundA": {
       "value": "{Application._sapBackgroundColorA}",
+      "type": "internal"
+    },
+    "_sapAvatar_1_Hover_BackgroundH": {
+      "value": "{Interaction._sapHoverColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_1_Hover_BackgroundS": {
+      "value": "{Interaction._sapHoverColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_1_Hover_BackgroundL": {
+      "value": "{Interaction._sapHoverColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_1_Hover_BackgroundA": {
+      "value": "{Interaction._sapHoverColorA}",
       "type": "internal"
     },
     "_sapAvatar_1_BackgroundH": {
@@ -26526,6 +26781,27 @@
         "type": "internal"
       }
     },
+    "_sapShell_SubBrand_TextColorH": {
+      "value": "{Text._sapTextColorH}",
+      "type": "internal"
+    },
+    "_sapShell_SubBrand_TextColorS": {
+      "value": "{Text._sapTextColorS}",
+      "type": "internal"
+    },
+    "_sapShell_SubBrand_TextColorL": {
+      "value": "{Text._sapTextColorL}",
+      "type": "internal"
+    },
+    "_sapShell_SubBrand_TextColorA": {
+      "value": "{Text._sapTextColorA}",
+      "type": "internal"
+    },
+    "sapShell_SubBrand_TextColor": {
+      "value": "hsla({Shell._sapShell_SubBrand_TextColorH}, {Shell._sapShell_SubBrand_TextColorS}, {Shell._sapShell_SubBrand_TextColorL}, {Shell._sapShell_SubBrand_TextColorA})",
+      "type": "color",
+      "description": "The text color of brand text (such as a product name) in the Shell."
+    },
     "sapShell_Assistant_ForegroundColor": {
       "value": "hsla({Shell._sapShell_Assistant_ForegroundColorH}, {Shell._sapShell_Assistant_ForegroundColorS}, {Shell._sapShell_Assistant_ForegroundColorL}, {Shell._sapShell_Assistant_ForegroundColorA})",
       "type": "color",
@@ -27616,16 +27892,247 @@
     }
   },
   "Illustrative": {
+    "_sapContent_Illustrative_Color31H": {
+      "value": "13.76146788990826",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color31S": {
+      "value": "100%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color31L": {
+      "value": "78.62745098039215%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color31A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color31": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color31H}, {Illustrative._sapContent_Illustrative_Color31S}, {Illustrative._sapContent_Illustrative_Color31L}, {Illustrative._sapContent_Illustrative_Color31A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color30H": {
+      "value": "9.230769230769226",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color30S": {
+      "value": "100.00000000000003%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color30L": {
+      "value": "10.196078431372548%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color30A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color30": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color30H}, {Illustrative._sapContent_Illustrative_Color30S}, {Illustrative._sapContent_Illustrative_Color30L}, {Illustrative._sapContent_Illustrative_Color30A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color29H": {
+      "value": "9.565217391304373",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color29S": {
+      "value": "100.00000000000003%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color29L": {
+      "value": "13.529411764705882%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color29A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color29": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color29H}, {Illustrative._sapContent_Illustrative_Color29S}, {Illustrative._sapContent_Illustrative_Color29L}, {Illustrative._sapContent_Illustrative_Color29A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color28H": {
+      "value": "22.011834319526656",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color28S": {
+      "value": "100%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color28L": {
+      "value": "33.13725490196078%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color28A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color28": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color28H}, {Illustrative._sapContent_Illustrative_Color28S}, {Illustrative._sapContent_Illustrative_Color28L}, {Illustrative._sapContent_Illustrative_Color28A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color27H": {
+      "value": "49.756097560975604",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color27S": {
+      "value": "100.00000000000007%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color27L": {
+      "value": "91.9607843137255%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color27A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color27": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color27H}, {Illustrative._sapContent_Illustrative_Color27S}, {Illustrative._sapContent_Illustrative_Color27L}, {Illustrative._sapContent_Illustrative_Color27A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color26H": {
+      "value": "46.38297872340422",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color26S": {
+      "value": "100%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color26L": {
+      "value": "72.35294117647058%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color26A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color26": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color26H}, {Illustrative._sapContent_Illustrative_Color26S}, {Illustrative._sapContent_Illustrative_Color26L}, {Illustrative._sapContent_Illustrative_Color26A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color25H": {
+      "value": "331.4285714285714",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color25S": {
+      "value": "99.99999999999987%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color25L": {
+      "value": "95.88235294117646%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color25A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color25": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color25H}, {Illustrative._sapContent_Illustrative_Color25S}, {Illustrative._sapContent_Illustrative_Color25L}, {Illustrative._sapContent_Illustrative_Color25A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color24H": {
+      "value": "335.06493506493507",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color24S": {
+      "value": "100%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color24L": {
+      "value": "84.90196078431373%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color24A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color24": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color24H}, {Illustrative._sapContent_Illustrative_Color24S}, {Illustrative._sapContent_Illustrative_Color24L}, {Illustrative._sapContent_Illustrative_Color24A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color23H": {
+      "value": "0",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color23S": {
+      "value": "90.90909090909092%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color23L": {
+      "value": "43.13725490196078%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color23A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color23": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color23H}, {Illustrative._sapContent_Illustrative_Color23S}, {Illustrative._sapContent_Illustrative_Color23L}, {Illustrative._sapContent_Illustrative_Color23A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color22H": {
+      "value": "223.78378378378375",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color22S": {
+      "value": "99.99999999999997%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color22L": {
+      "value": "14.50980392156863%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color22A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color22": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color22H}, {Illustrative._sapContent_Illustrative_Color22S}, {Illustrative._sapContent_Illustrative_Color22L}, {Illustrative._sapContent_Illustrative_Color22A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
+    "_sapContent_Illustrative_Color21H": {
+      "value": "209.21052631578948",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color21S": {
+      "value": "100.00000000000003%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color21L": {
+      "value": "55.294117647058826%",
+      "type": "internal"
+    },
+    "_sapContent_Illustrative_Color21A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_Illustrative_Color21": {
+      "value": "hsla({Illustrative._sapContent_Illustrative_Color21H}, {Illustrative._sapContent_Illustrative_Color21S}, {Illustrative._sapContent_Illustrative_Color21L}, {Illustrative._sapContent_Illustrative_Color21A})",
+      "type": "color",
+      "description": "The color of illustrated content."
+    },
     "_sapContent_Illustrative_Color20H": {
-      "value": "195",
+      "value": "203.38983050847457",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20S": {
-      "value": "6.557377049180327%",
+      "value": "99.99999999999997%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20L": {
-      "value": "76.07843137254902%",
+      "value": "76.86274509803921%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color20A": {
@@ -27638,19 +28145,19 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color19H": {
-      "value": "200",
+      "value": "{Illustrative._sapContent_Illustrative_Color20H}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19S": {
-      "value": "6.249999999999978%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20S}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19L": {
-      "value": "81.17647058823529%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20L} + 5%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color19A": {
-      "value": "1",
+      "value": "{Illustrative._sapContent_Illustrative_Color20A}",
       "type": "internal"
     },
     "sapContent_Illustrative_Color19": {
@@ -27659,19 +28166,19 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color18H": {
-      "value": "192",
+      "value": "{Illustrative._sapContent_Illustrative_Color20H}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18S": {
-      "value": "7.042253521126778%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20S}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18L": {
-      "value": "86.07843137254902%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20L} + 10%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color18A": {
-      "value": "1",
+      "value": "{Illustrative._sapContent_Illustrative_Color20A}",
       "type": "internal"
     },
     "sapContent_Illustrative_Color18": {
@@ -27680,15 +28187,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color17H": {
-      "value": "200",
+      "value": "188",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color17S": {
-      "value": "11.602209944751381%",
+      "value": "93.75%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color17L": {
-      "value": "35.49019607843137%",
+      "value": "25.098039215686274%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color17A": {
@@ -27701,15 +28208,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color16H": {
-      "value": "200",
+      "value": "17.87234042553189",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color16S": {
-      "value": "11.602209944751381%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color16L": {
-      "value": "35.49019607843137%",
+      "value": "27.647058823529413%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color16A": {
@@ -27722,15 +28229,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color15H": {
-      "value": "205.71428571428578",
+      "value": "26.153846153846132",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color15S": {
-      "value": "12.5%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color15L": {
-      "value": "21.96078431372549%",
+      "value": "38.23529411764706%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color15A": {
@@ -27743,15 +28250,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color14H": {
-      "value": "0",
+      "value": "218.18181818181824",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14S": {
-      "value": "0%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14L": {
-      "value": "0%",
+      "value": "34.509803921568626%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color14A": {
@@ -27764,15 +28271,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color13H": {
-      "value": "205.71428571428578",
+      "value": "212.23140495867767",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13S": {
-      "value": "13.725490196078436%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13L": {
-      "value": "10%",
+      "value": "47.45098039215686%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color13A": {
@@ -27785,15 +28292,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color12H": {
-      "value": "199.09090909090912",
+      "value": "120",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color12S": {
-      "value": "10.185185185185187%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color12L": {
-      "value": "57.647058823529406%",
+      "value": "32.94117647058823%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color12A": {
@@ -27806,15 +28313,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color11H": {
-      "value": "199.09090909090912",
+      "value": "330.1463414634146",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color11S": {
-      "value": "10.185185185185187%",
+      "value": "85.06224066390043%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color11L": {
-      "value": "57.647058823529406%",
+      "value": "47.25490196078431%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color11A": {
@@ -27827,19 +28334,19 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color10H": {
-      "value": "202.5000000000001",
+      "value": "{Illustrative._sapContent_Illustrative_Color20H}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color10S": {
-      "value": "10.52631578947369%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20S}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color10L": {
-      "value": "85.09803921568628%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20L} + 16%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color10A": {
-      "value": "1",
+      "value": "{Illustrative._sapContent_Illustrative_Color20A}",
       "type": "internal"
     },
     "sapContent_Illustrative_Color10": {
@@ -27848,15 +28355,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color9H": {
-      "value": "200.76923076923072",
+      "value": "185.2830188679245",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color9S": {
-      "value": "11.71171171171171%",
+      "value": "90.85714285714286%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color9L": {
-      "value": "43.529411764705884%",
+      "value": "34.31372549019608%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color9A": {
@@ -27890,19 +28397,19 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color7H": {
-      "value": "200",
+      "value": "{Illustrative._sapContent_Illustrative_Color20H}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color7S": {
-      "value": "6.666666666666641%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20S}",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color7L": {
-      "value": "91.17647058823529%",
+      "value": "{Illustrative._sapContent_Illustrative_Color20L} + 16%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color7A": {
-      "value": "1",
+      "value": "{Illustrative._sapContent_Illustrative_Color20A}",
       "type": "internal"
     },
     "sapContent_Illustrative_Color7": {
@@ -27911,15 +28418,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color6H": {
-      "value": "210.0000000000001",
+      "value": "202.5000000000001",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color6S": {
-      "value": "7.5471698113207575%",
+      "value": "10.52631578947369%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color6L": {
-      "value": "79.2156862745098%",
+      "value": "85.09803921568628%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color6A": {
@@ -27932,15 +28439,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color5H": {
-      "value": "207.69230769230762",
+      "value": "208.57142857142856",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color5S": {
-      "value": "7.10382513661201%",
+      "value": "13.907284768211925%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color5L": {
-      "value": "64.11764705882352%",
+      "value": "70.3921568627451%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color5A": {
@@ -27953,15 +28460,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color4H": {
-      "value": "0",
+      "value": "223.78378378378375",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color4S": {
-      "value": "0%",
+      "value": "99.99999999999997%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color4L": {
-      "value": "1.1764705882352942%",
+      "value": "14.50980392156863%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color4A": {
@@ -27974,15 +28481,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color3H": {
-      "value": "200.76923076923072",
+      "value": "17.094972067039123",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color3S": {
-      "value": "11.71171171171171%",
+      "value": "100%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color3L": {
-      "value": "43.529411764705884%",
+      "value": "64.90196078431373%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color3A": {
@@ -27995,15 +28502,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color2H": {
-      "value": "205.26315789473688",
+      "value": "203.43195266272187",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color2S": {
-      "value": "12.418300653594772%",
+      "value": "100.00000000000003%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color2L": {
-      "value": "30.000000000000004%",
+      "value": "66.86274509803923%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color2A": {
@@ -28016,15 +28523,15 @@
       "description": "The color of illustrated content."
     },
     "_sapContent_Illustrative_Color1H": {
-      "value": "197.1428571428571",
+      "value": "324.15584415584414",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color1S": {
-      "value": "9.589041095890407%",
+      "value": "98.71794871794873%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color1L": {
-      "value": "14.313725490196077%",
+      "value": "30.588235294117645%",
       "type": "internal"
     },
     "_sapContent_Illustrative_Color1A": {
@@ -28260,20 +28767,25 @@
     }
   },
   "Badge": {
+    "sapContent_BadgeBorderColor": {
+      "value": "hsla({Badge._sapContent_BadgeBorderColorH}, {Badge._sapContent_BadgeBorderColorS}, {Badge._sapContent_BadgeBorderColorL}, {Badge._sapContent_BadgeBorderColorA})",
+      "type": "color",
+      "description": "The border color of badges (e.g. Shell Notifications)."
+    },
     "_sapContent_BadgeTextColorH": {
-      "value": "{Text._sapTextColorH}",
+      "value": "{Main._sapBaseColorH}",
       "type": "internal"
     },
     "_sapContent_BadgeTextColorS": {
-      "value": "{Text._sapTextColorS}",
+      "value": "{Main._sapBaseColorS}",
       "type": "internal"
     },
     "_sapContent_BadgeTextColorL": {
-      "value": "{Text._sapTextColorL}",
+      "value": "{Main._sapBaseColorL}",
       "type": "internal"
     },
     "_sapContent_BadgeTextColorA": {
-      "value": "{Text._sapTextColorA}",
+      "value": "{Main._sapBaseColorA}",
       "type": "internal"
     },
     "sapContent_BadgeTextColor": {
@@ -28286,20 +28798,36 @@
       "type": "color",
       "description": "The background color of badges."
     },
+    "_sapContent_BadgeBorderColorH": {
+      "value": "{Main._sapBaseColorH}",
+      "type": "internal"
+    },
+    "_sapContent_BadgeBorderColorS": {
+      "value": "{Main._sapBaseColorS}",
+      "type": "internal"
+    },
+    "_sapContent_BadgeBorderColorL": {
+      "value": "{Main._sapBaseColorL}",
+      "type": "internal"
+    },
+    "_sapContent_BadgeBorderColorA": {
+      "value": "{Main._sapBaseColorA}",
+      "type": "internal"
+    },
     "_sapContent_BadgeBackgroundH": {
-      "value": "{Application._sapBackgroundColorH}",
+      "value": "{HighContrast._sapHC_StandardForegroundH}",
       "type": "internal"
     },
     "_sapContent_BadgeBackgroundS": {
-      "value": "{Application._sapBackgroundColorS}",
+      "value": "{HighContrast._sapHC_StandardForegroundS}",
       "type": "internal"
     },
     "_sapContent_BadgeBackgroundL": {
-      "value": "{Application._sapBackgroundColorL}",
+      "value": "{HighContrast._sapHC_StandardForegroundL}",
       "type": "internal"
     },
     "_sapContent_BadgeBackgroundA": {
-      "value": "{Application._sapBackgroundColorA}",
+      "value": "{HighContrast._sapHC_StandardForegroundA}",
       "type": "internal"
     }
   },
