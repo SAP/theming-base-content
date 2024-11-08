@@ -28,6 +28,26 @@
       "value": "{sapDeprecated_Color}",
       "type": "color"
     },
+    "sapBreakpoint_XL_Min": {
+      "value": "1440px",
+      "type": "sizing",
+      "description": "Minimal width of extra large devices."
+    },
+    "sapBreakpoint_L_Min": {
+      "value": "1024px",
+      "type": "sizing",
+      "description": "Minimal width of large devices."
+    },
+    "sapBreakpoint_M_Min": {
+      "value": "600px",
+      "type": "sizing",
+      "description": "Minimal width of medium devices."
+    },
+    "sapBreakpoint_S_Min": {
+      "value": "0",
+      "type": "sizing",
+      "description": "Minimal width of small devices."
+    },
     "sapContent_ElementHeight_PX": {
       "value": "22px",
       "type": "sizing",
@@ -278,6 +298,61 @@
       "value": "url(./../baseTheme/fonts/SAP-icons.ttf)",
       "type": "file"
     },
+    "sapContent_Padding_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The value of padding used on medium devices."
+    },
+    "sapContent_Gap": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The value of the gap between content."
+    },
+    "sapContent_Margin_Large": {
+      "value": "1rem 3rem",
+      "type": "sizing",
+      "description": "The large value of the four-sided margin used for content."
+    },
+    "sapContent_Margin_Medium": {
+      "value": "1rem 2rem",
+      "type": "sizing",
+      "description": "The medium value of the four-sided margin used for content."
+    },
+    "sapContent_Margin_Small": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The small value of the four-sided margin used for content."
+    },
+    "sapContent_Margin_Tiny": {
+      "value": "0 0 1rem",
+      "type": "sizing",
+      "description": "The tiny value of the four-sided margin used for content."
+    },
+    "sapContent_Space_Large": {
+      "value": "3rem",
+      "type": "sizing",
+      "description": "The large value of space used for content."
+    },
+    "sapContent_Space_Medium": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The medium value of space used for content."
+    },
+    "sapContent_Space_Small": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The small value of space used for content."
+    },
+    "sapContent_Space_Tiny": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The tiny value of space used for content."
+    },
+    "sapContent_Space_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The responsive content container space on medium devices."
+    },
     "sapContent_DisabledOpacity": {
       "value": "0.5",
       "type": "opacity",
@@ -503,6 +578,11 @@
         "type": "borderStyle",
         "description": "The border style of selector fields (e.g. Checkboxes) indicating an information status."
       },
+      "sapField_Selector_Hover_InformationBackground": {
+        "value": "hsla({Input.Information._sapField_Selector_Hover_InformationBackgroundH}, {Input.Information._sapField_Selector_Hover_InformationBackgroundS}, {Input.Information._sapField_Selector_Hover_InformationBackgroundL}, {Input.Information._sapField_Selector_Hover_InformationBackgroundA})",
+        "type": "color",
+        "description": "The background color of selector fields (e.g. Checkboxes) with an information value on hover."
+      },
       "sapField_InformationShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -537,6 +617,22 @@
         "value": "{Input.Information.sapField_InformationShadow}",
         "type": "boxShadow",
         "description": "The shadow of an input field indicating an information status on hover."
+      },
+      "_sapField_Selector_Hover_InformationBackgroundH": {
+        "value": "{Input.Information._sapField_InformationBackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_InformationBackgroundS": {
+        "value": "{Input.Information._sapField_InformationBackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_InformationBackgroundL": {
+        "value": "{Input.Information._sapField_InformationBackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_InformationBackgroundA": {
+        "value": "{Input.Information._sapField_InformationBackgroundA}",
+        "type": "internal"
       },
       "_sapField_InformationBackgroundH": {
         "value": "{Input.Standard._sapField_BackgroundH}",
@@ -577,6 +673,11 @@
         "type": "borderStyle",
         "description": "The border style of selector fields (e.g. Checkboxes) indicating a successful user action."
       },
+      "sapField_Selector_Hover_SuccessBackground": {
+        "value": "hsla({Input.Success._sapField_Selector_Hover_SuccessBackgroundH}, {Input.Success._sapField_Selector_Hover_SuccessBackgroundS}, {Input.Success._sapField_Selector_Hover_SuccessBackgroundL}, {Input.Success._sapField_Selector_Hover_SuccessBackgroundA})",
+        "type": "color",
+        "description": "The background color of selector fields (e.g. Checkboxes) with an success value on hover."
+      },
       "sapField_SuccessShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -611,6 +712,22 @@
         "value": "{Input.Success.sapField_SuccessShadow}",
         "type": "boxShadow",
         "description": "The shadow of an input field indicating a successful user action on hover."
+      },
+      "_sapField_Selector_Hover_SuccessBackgroundH": {
+        "value": "{Input.Success._sapField_SuccessBackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_SuccessBackgroundS": {
+        "value": "{Input.Success._sapField_SuccessBackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_SuccessBackgroundL": {
+        "value": "{Input.Success._sapField_SuccessBackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_SuccessBackgroundA": {
+        "value": "{Input.Success._sapField_SuccessBackgroundA}",
+        "type": "internal"
       },
       "_sapField_SuccessBackgroundH": {
         "value": "{Input.Standard._sapField_BackgroundH}",
@@ -651,6 +768,11 @@
         "type": "borderStyle",
         "description": "The border style of selector fields (e.g. Checkboxes) indicating a warning."
       },
+      "sapField_Selector_Hover_WarningBackground": {
+        "value": "hsla({Input.Warning._sapField_Selector_Hover_WarningBackgroundH}, {Input.Warning._sapField_Selector_Hover_WarningBackgroundS}, {Input.Warning._sapField_Selector_Hover_WarningBackgroundL}, {Input.Warning._sapField_Selector_Hover_WarningBackgroundA})",
+        "type": "color",
+        "description": "The background color of selector fields (e.g. Checkboxes) with an warning value on hover."
+      },
       "sapField_WarningShadow": {
         "value": "none",
         "type": "boxShadow",
@@ -685,6 +807,22 @@
         "value": "{Input.Warning.sapField_WarningShadow}",
         "type": "boxShadow",
         "description": "The shadow of an input field indicating a warning on hover."
+      },
+      "_sapField_Selector_Hover_WarningBackgroundH": {
+        "value": "{Input.Warning._sapField_WarningBackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_WarningBackgroundS": {
+        "value": "{Input.Warning._sapField_WarningBackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_WarningBackgroundL": {
+        "value": "{Input.Warning._sapField_WarningBackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_WarningBackgroundA": {
+        "value": "{Input.Warning._sapField_WarningBackgroundA}",
+        "type": "internal"
       },
       "_sapField_WarningBackgroundH": {
         "value": "{Input.Standard._sapField_BackgroundH}",
@@ -724,6 +862,11 @@
         "value": "solid",
         "type": "borderStyle",
         "description": "The border style of selector fields (e.g. Checkboxes) with an invalid value."
+      },
+      "sapField_Selector_Hover_InvalidBackground": {
+        "value": "sapField_InvalidBackground",
+        "type": "color",
+        "description": "The background color of selector fields (e.g. Checkboxes) with an invalid value on hover."
       },
       "sapField_InvalidShadow": {
         "value": "none",
@@ -879,6 +1022,21 @@
         "type": "borderStyle",
         "description": "The border style of selector fields (e.g. Checkboxes)."
       },
+      "sapField_Picker_BorderWidth": {
+        "value": "0.0625 * {Internal.sapContent_GridSize}",
+        "type": "borderWidth",
+        "description": "The border thickness of content pickers."
+      },
+      "sapField_Picker_BorderColor": {
+        "value": "hsla({Input.Standard._sapField_Picker_BorderColorH}, {Input.Standard._sapField_Picker_BorderColorS}, {Input.Standard._sapField_Picker_BorderColorL}, {Input.Standard._sapField_Picker_BorderColorA})",
+        "type": "color",
+        "description": "The border color of content pickers."
+      },
+      "sapField_Selector_Hover_Background": {
+        "value": "hsla({Input.Standard._sapField_Selector_Hover_BackgroundH}, {Input.Standard._sapField_Selector_Hover_BackgroundS}, {Input.Standard._sapField_Selector_Hover_BackgroundL}, {Input.Standard._sapField_Selector_Hover_BackgroundA})",
+        "type": "color",
+        "description": "The hover background color of selector fields (e.g. Checkboxes and Radio Buttons)."
+      },
       "_sapField_RequiredColorH": {
         "value": "{Accent._sapAccentColor3H}",
         "type": "internal"
@@ -1026,6 +1184,38 @@
         "value": "hsla({Input.Standard._sapField_BackgroundH}, {Input.Standard._sapField_BackgroundS}, {Input.Standard._sapField_BackgroundL}, {Input.Standard._sapField_BackgroundA})",
         "type": "color",
         "description": "The background color of input fields."
+      },
+      "_sapField_Picker_BorderColorH": {
+        "value": "{Input.Standard._sapField_BorderColorH}",
+        "type": "internal"
+      },
+      "_sapField_Picker_BorderColorS": {
+        "value": "{Input.Standard._sapField_BorderColorS}",
+        "type": "internal"
+      },
+      "_sapField_Picker_BorderColorL": {
+        "value": "{Input.Standard._sapField_BorderColorL}",
+        "type": "internal"
+      },
+      "_sapField_Picker_BorderColorA": {
+        "value": "{Input.Standard._sapField_BorderColorA}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_BackgroundH": {
+        "value": "{Input.Standard._sapField_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_BackgroundS": {
+        "value": "{Input.Standard._sapField_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_BackgroundL": {
+        "value": "{Input.Standard._sapField_BackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_BackgroundA": {
+        "value": "{Input.Standard._sapField_BackgroundA}",
+        "type": "internal"
       },
       "_sapField_Focus_HelpBackgroundH": {
         "value": "{Input.Standard._sapField_Focus_BackgroundH}",
@@ -1194,6 +1384,16 @@
       "value": "hsla({List._sapList_HighlightColorH}, {List._sapList_HighlightColorS}, {List._sapList_HighlightColorL}, {List._sapList_HighlightColorA})",
       "type": "color",
       "description": "The color of highlighted elements in lists (deprecated: not used anymore since Belize theme)."
+    },
+    "sapList_TableFixedRowBorderWidth": {
+      "value": "0.125 * {Internal.sapContent_GridSize}",
+      "type": "borderWidth",
+      "description": "The border thickness for fixed border rows."
+    },
+    "sapList_TableFixedColumnBorderWidth": {
+      "value": "{Internal.sapElement_BorderWidth}",
+      "type": "borderWidth",
+      "description": "The thickness of the vertical border of fixed columns."
     },
     "_sapList_TableFixedBorderColorH": {
       "value": "{List._sapList_BorderColorH}",
@@ -15094,6 +15294,16 @@
     }
   },
   "Tile": {
+    "sapTile_Active_ContentBackground": {
+      "value": "hsla({Tile._sapTile_Active_ContentBackgroundH}, {Tile._sapTile_Active_ContentBackgroundS}, {Tile._sapTile_Active_ContentBackgroundL}, {Tile._sapTile_Active_ContentBackgroundA})",
+      "type": "color",
+      "description": "The active background color of the content on tiles and cards."
+    },
+    "sapTile_Hover_ContentBackground": {
+      "value": "hsla({Tile._sapTile_Hover_ContentBackgroundH}, {Tile._sapTile_Hover_ContentBackgroundS}, {Tile._sapTile_Hover_ContentBackgroundL}, {Tile._sapTile_Hover_ContentBackgroundA})",
+      "type": "color",
+      "description": "The hover background color of the content on tiles and cards."
+    },
     "_sapTile_OverlayForegroundColorH": {
       "value": "{Text._sapContent_ContrastTextColorH}",
       "type": "internal"
@@ -15298,6 +15508,38 @@
       "type": "color",
       "description": "The background color of tiles and cards."
     },
+    "_sapTile_Active_ContentBackgroundH": {
+      "value": "{Tile._sapTile_Active_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapTile_Active_ContentBackgroundS": {
+      "value": "{Tile._sapTile_Active_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapTile_Active_ContentBackgroundL": {
+      "value": "{Tile._sapTile_Active_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapTile_Active_ContentBackgroundA": {
+      "value": "{Tile._sapTile_Active_BackgroundA}",
+      "type": "internal"
+    },
+    "_sapTile_Hover_ContentBackgroundH": {
+      "value": "{Tile._sapTile_Hover_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapTile_Hover_ContentBackgroundS": {
+      "value": "{Tile._sapTile_Hover_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapTile_Hover_ContentBackgroundL": {
+      "value": "{Tile._sapTile_Hover_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapTile_Hover_ContentBackgroundA": {
+      "value": "{Tile._sapTile_Hover_BackgroundA}",
+      "type": "internal"
+    },
     "_sapTile_Active_BackgroundH": {
       "value": "{Tile._sapTile_Hover_BackgroundH}",
       "type": "internal"
@@ -15332,6 +15574,11 @@
     }
   },
   "Container": {
+    "sapBlockLayer_Opacity": {
+      "value": "0.2",
+      "type": "opacity",
+      "description": "The opacity of a block layer background which is e.g. in the back of a dialog."
+    },
     "_sapBlockLayer_BackgroundH": {
       "value": "0",
       "type": "internal"
@@ -15477,6 +15724,11 @@
       "value": "hsla({Container._sapGroup_TitleBackgroundH}, {Container._sapGroup_TitleBackgroundS}, {Container._sapGroup_TitleBackgroundL}, {Container._sapGroup_TitleBackgroundA})",
       "type": "color",
       "description": "The background color of the group header area."
+    },
+    "sapGroup_TitleBorderWidth": {
+      "value": "{Internal.sapElement_BorderWidth}",
+      "type": "borderWidth",
+      "description": "The thickness of the bottom border of the group header area."
     },
     "sapContent_HeaderShadow": {
       "type": "boxShadow",
@@ -17735,7 +17987,359 @@
     }
   },
   "Button": {
+    "Standard": {
+      "sapButton_Segment_BorderCornerRadius": {
+        "value": "0",
+        "type": "borderRadius",
+        "description": "The border corner radius inside a group of buttons."
+      },
+      "sapButton_Selected_Hover_BorderColor": {
+        "value": "hsla({Button.Standard._sapButton_Selected_Hover_BorderColorH}, {Button.Standard._sapButton_Selected_Hover_BorderColorS}, {Button.Standard._sapButton_Selected_Hover_BorderColorL}, {Button.Standard._sapButton_Selected_Hover_BorderColorA})",
+        "type": "color",
+        "description": "The hover state border color of selected (toggled) buttons."
+      },
+      "_sapButton_Selected_Hover_BackgroundH": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_Hover_BackgroundS": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_Hover_BackgroundL": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundL} + 10%",
+        "type": "internal"
+      },
+      "_sapButton_Selected_Hover_BackgroundA": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundA}",
+        "type": "internal"
+      },
+      "sapButton_Selected_Hover_Background": {
+        "value": "hsla({Button.Standard._sapButton_Selected_Hover_BackgroundH}, {Button.Standard._sapButton_Selected_Hover_BackgroundS}, {Button.Standard._sapButton_Selected_Hover_BackgroundL}, {Button.Standard._sapButton_Selected_Hover_BackgroundA})",
+        "type": "color",
+        "description": "The hover state background color of selected (toggled) buttons."
+      },
+      "_sapButton_Selected_TextColorH": {
+        "value": "{Text._sapContent_ContrastTextColorH}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_TextColorS": {
+        "value": "{Text._sapContent_ContrastTextColorS}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_TextColorL": {
+        "value": "{Text._sapContent_ContrastTextColorL}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_TextColorA": {
+        "value": "{Text._sapContent_ContrastTextColorA}",
+        "type": "internal"
+      },
+      "sapButton_Selected_TextColor": {
+        "value": "hsla({Button.Standard._sapButton_Selected_TextColorH}, {Button.Standard._sapButton_Selected_TextColorS}, {Button.Standard._sapButton_Selected_TextColorL}, {Button.Standard._sapButton_Selected_TextColorA})",
+        "type": "color",
+        "description": "The selected (toggled) state text and icon color of buttons."
+      },
+      "_sapButton_Selected_BorderColorH": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_BorderColorS": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_BorderColorL": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundL} - 5%",
+        "type": "internal"
+      },
+      "_sapButton_Selected_BorderColorA": {
+        "value": "{Button.Standard._sapButton_Selected_BackgroundA}",
+        "type": "internal"
+      },
+      "sapButton_Selected_BorderColor": {
+        "value": "hsla({Button.Standard._sapButton_Selected_BorderColorH}, {Button.Standard._sapButton_Selected_BorderColorS}, {Button.Standard._sapButton_Selected_BorderColorL}, {Button.Standard._sapButton_Selected_BorderColorA})",
+        "type": "color",
+        "description": "The selected (toggled) state border color of buttons."
+      },
+      "_sapButton_Selected_BackgroundH": {
+        "value": "{Interaction._sapSelectedColorH}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_BackgroundS": {
+        "value": "{Interaction._sapSelectedColorS}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_BackgroundL": {
+        "value": "{Interaction._sapSelectedColorL} - 10%",
+        "type": "internal"
+      },
+      "_sapButton_Selected_BackgroundA": {
+        "value": "{Interaction._sapSelectedColorA}",
+        "type": "internal"
+      },
+      "sapButton_Selected_Background": {
+        "value": "hsla({Button.Standard._sapButton_Selected_BackgroundH}, {Button.Standard._sapButton_Selected_BackgroundS}, {Button.Standard._sapButton_Selected_BackgroundL}, {Button.Standard._sapButton_Selected_BackgroundA})",
+        "type": "color",
+        "description": "The selected (toggled) state background color of buttons."
+      },
+      "_sapButton_Active_TextColorH": {
+        "value": "{Text._sapContent_ContrastTextColorH}",
+        "type": "internal"
+      },
+      "_sapButton_Active_TextColorS": {
+        "value": "{Text._sapContent_ContrastTextColorS}",
+        "type": "internal"
+      },
+      "_sapButton_Active_TextColorL": {
+        "value": "{Text._sapContent_ContrastTextColorL}",
+        "type": "internal"
+      },
+      "_sapButton_Active_TextColorA": {
+        "value": "{Text._sapContent_ContrastTextColorA}",
+        "type": "internal"
+      },
+      "sapButton_Active_TextColor": {
+        "value": "hsla({Button.Standard._sapButton_Active_TextColorH}, {Button.Standard._sapButton_Active_TextColorS}, {Button.Standard._sapButton_Active_TextColorL}, {Button.Standard._sapButton_Active_TextColorA})",
+        "type": "color",
+        "description": "The active (down) state text and icon color of buttons."
+      },
+      "sapButton_Active_BorderColor": {
+        "value": "hsla({Button.Standard._sapButton_Active_BorderColorH}, {Button.Standard._sapButton_Active_BorderColorS}, {Button.Standard._sapButton_Active_BorderColorL}, {Button.Standard._sapButton_Active_BorderColorA})",
+        "type": "color",
+        "description": "The active (down) state border color of buttons."
+      },
+      "sapButton_Active_Background": {
+        "value": "hsla({Button.Standard._sapButton_Active_BackgroundH}, {Button.Standard._sapButton_Active_BackgroundS}, {Button.Standard._sapButton_Active_BackgroundL}, {Button.Standard._sapButton_Active_BackgroundA})",
+        "type": "color",
+        "description": "The active (down) state background color of buttons."
+      },
+      "sapButton_IconColor": {
+        "value": "hsla({Button.Standard._sapButton_IconColorH}, {Button.Standard._sapButton_IconColorS}, {Button.Standard._sapButton_IconColorL}, {Button.Standard._sapButton_IconColorA})",
+        "type": "color",
+        "description": "The color of icons on buttons."
+      },
+      "_sapButton_Hover_TextColorH": {
+        "value": "{Main._sapHighlightColorH}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_TextColorS": {
+        "value": "{Main._sapHighlightColorS}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_TextColorL": {
+        "value": "{Main._sapHighlightColorL} - 10%",
+        "type": "internal"
+      },
+      "_sapButton_Hover_TextColorA": {
+        "value": "{Main._sapHighlightColorA}",
+        "type": "internal"
+      },
+      "sapButton_Hover_TextColor": {
+        "value": "hsla({Button.Standard._sapButton_Hover_TextColorH}, {Button.Standard._sapButton_Hover_TextColorS}, {Button.Standard._sapButton_Hover_TextColorL}, {Button.Standard._sapButton_Hover_TextColorA})",
+        "type": "color",
+        "description": "The color of texts and icons on buttons on hover."
+      },
+      "sapButton_Hover_BorderColor": {
+        "value": "hsla({Button.Standard._sapButton_Hover_BorderColorH}, {Button.Standard._sapButton_Hover_BorderColorS}, {Button.Standard._sapButton_Hover_BorderColorL}, {Button.Standard._sapButton_Hover_BorderColorA})",
+        "type": "color",
+        "description": "The color of a button's borders on hover."
+      },
+      "_sapButton_Hover_BackgroundH": {
+        "value": "{Button.Standard._sapButton_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BackgroundS": {
+        "value": "{Button.Standard._sapButton_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BackgroundL": {
+        "value": "{Button.Standard._sapButton_BackgroundL} - 5%",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BackgroundA": {
+        "value": "{Button.Standard._sapButton_BackgroundA}",
+        "type": "internal"
+      },
+      "sapButton_Hover_Background": {
+        "value": "hsla({Button.Standard._sapButton_Hover_BackgroundH}, {Button.Standard._sapButton_Hover_BackgroundS}, {Button.Standard._sapButton_Hover_BackgroundL}, {Button.Standard._sapButton_Hover_BackgroundA})",
+        "type": "color",
+        "description": "The background color of buttons on hover."
+      },
+      "sapButton_FontFamily": {
+        "value": "{Text.sapFontFamily}",
+        "type": "fontFamilies",
+        "description": "The font family of buttons."
+      },
+      "_sapButton_TextColorH": {
+        "value": "{Main._sapHighlightColorH}",
+        "type": "internal"
+      },
+      "_sapButton_TextColorS": {
+        "value": "{Main._sapHighlightColorS}",
+        "type": "internal"
+      },
+      "_sapButton_TextColorL": {
+        "value": "{Main._sapHighlightColorL} - 10%",
+        "type": "internal"
+      },
+      "_sapButton_TextColorA": {
+        "value": "{Main._sapHighlightColorA}",
+        "type": "internal"
+      },
+      "sapButton_TextColor": {
+        "value": "hsla({Button.Standard._sapButton_TextColorH}, {Button.Standard._sapButton_TextColorS}, {Button.Standard._sapButton_TextColorL}, {Button.Standard._sapButton_TextColorA})",
+        "type": "color",
+        "description": "The color of texts on buttons."
+      },
+      "sapButton_BorderCornerRadius": {
+        "value": "0.1875 * {Internal.sapContent_GridSize}",
+        "type": "borderRadius",
+        "description": "Defines whether a button has rounded corners."
+      },
+      "sapButton_BorderWidth": {
+        "value": "{Internal.sapElement_BorderWidth}",
+        "type": "borderWidth",
+        "description": "The thickness of button borders."
+      },
+      "_sapButton_BorderColorH": {
+        "value": "{Button.Standard._sapButton_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_BorderColorS": {
+        "value": "{Button.Standard._sapButton_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_BorderColorL": {
+        "value": "{Button.Standard._sapButton_BackgroundL} - 30%",
+        "type": "internal"
+      },
+      "_sapButton_BorderColorA": {
+        "value": "{Button.Standard._sapButton_BackgroundA}",
+        "type": "internal"
+      },
+      "sapButton_BorderColor": {
+        "value": "hsla({Button.Standard._sapButton_BorderColorH}, {Button.Standard._sapButton_BorderColorS}, {Button.Standard._sapButton_BorderColorL}, {Button.Standard._sapButton_BorderColorA})",
+        "type": "color",
+        "description": "The color of a button's borders."
+      },
+      "_sapButton_BackgroundH": {
+        "value": "{Internal._sapPrimary4H}",
+        "type": "internal"
+      },
+      "_sapButton_BackgroundS": {
+        "value": "{Internal._sapPrimary4S}",
+        "type": "internal"
+      },
+      "_sapButton_BackgroundL": {
+        "value": "{Internal._sapPrimary4L} - 3%",
+        "type": "internal"
+      },
+      "_sapButton_BackgroundA": {
+        "value": "{Internal._sapPrimary4A}",
+        "type": "internal"
+      },
+      "sapButton_Background": {
+        "value": "hsla({Button.Standard._sapButton_BackgroundH}, {Button.Standard._sapButton_BackgroundS}, {Button.Standard._sapButton_BackgroundL}, {Button.Standard._sapButton_BackgroundA})",
+        "type": "color",
+        "description": "The background color of buttons."
+      },
+      "_sapButton_Selected_Hover_BorderColorH": {
+        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_Hover_BorderColorS": {
+        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_Hover_BorderColorL": {
+        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundL}",
+        "type": "internal"
+      },
+      "_sapButton_Selected_Hover_BorderColorA": {
+        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundA}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BorderColorH": {
+        "value": "{Button.Standard._sapButton_Active_BackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BorderColorS": {
+        "value": "{Button.Standard._sapButton_Active_BackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BorderColorL": {
+        "value": "{Button.Standard._sapButton_Active_BackgroundL}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BorderColorA": {
+        "value": "{Button.Standard._sapButton_Active_BackgroundA}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BackgroundH": {
+        "value": "{Interaction._sapActiveColorH}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BackgroundS": {
+        "value": "{Interaction._sapActiveColorS}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BackgroundL": {
+        "value": "{Interaction._sapActiveColorL}",
+        "type": "internal"
+      },
+      "_sapButton_Active_BackgroundA": {
+        "value": "{Interaction._sapActiveColorA}",
+        "type": "internal"
+      },
+      "_sapButton_IconColorH": {
+        "value": "{Button.Standard._sapButton_TextColorH}",
+        "type": "internal"
+      },
+      "_sapButton_IconColorS": {
+        "value": "{Button.Standard._sapButton_TextColorS}",
+        "type": "internal"
+      },
+      "_sapButton_IconColorL": {
+        "value": "{Button.Standard._sapButton_TextColorL}",
+        "type": "internal"
+      },
+      "_sapButton_IconColorA": {
+        "value": "{Button.Standard._sapButton_TextColorA}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BorderColorH": {
+        "value": "{Button.Standard._sapButton_BorderColorH}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BorderColorS": {
+        "value": "{Button.Standard._sapButton_BorderColorS}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BorderColorL": {
+        "value": "{Button.Standard._sapButton_BorderColorL}",
+        "type": "internal"
+      },
+      "_sapButton_Hover_BorderColorA": {
+        "value": "{Button.Standard._sapButton_BorderColorA}",
+        "type": "internal"
+      }
+    },
     "Token": {
+      "sapButton_ReadOnly_TokenBackground": {
+        "value": "hsla({Button.Token._sapButton_ReadOnly_TokenBackgroundH}, {Button.Token._sapButton_ReadOnly_TokenBackgroundS}, {Button.Token._sapButton_ReadOnly_TokenBackgroundL}, {Button.Token._sapButton_ReadOnly_TokenBackgroundA})",
+        "type": "color",
+        "description": "Defines the background color of a readonly a token."
+      },
+      "sapButton_Selected_TokenBorderWidth": {
+        "value": "0",
+        "type": "borderWidth",
+        "description": "Defines the thickness of the border of a token."
+      },
+      "sapButton_TokenBorderCornerRadius": {
+        "value": "0.25 * {Internal.sapContent_GridSize}",
+        "type": "borderRadius",
+        "description": "Defines the corner radius of a token."
+      },
       "_sapButton_TokenBorderColorH": {
         "value": "{Button.Standard._sapButton_BackgroundH}",
         "type": "internal"
@@ -17761,6 +18365,22 @@
         "value": "hsla({Button.Token._sapButton_TokenBackgroundH}, {Button.Token._sapButton_TokenBackgroundS}, {Button.Token._sapButton_TokenBackgroundL}, {Button.Token._sapButton_TokenBackgroundA})",
         "type": "color",
         "description": "The background color of token buttons."
+      },
+      "_sapButton_ReadOnly_TokenBackgroundH": {
+        "value": "{Button.Token._sapButton_TokenBackgroundH}",
+        "type": "internal"
+      },
+      "_sapButton_ReadOnly_TokenBackgroundS": {
+        "value": "{Button.Token._sapButton_TokenBackgroundS}",
+        "type": "internal"
+      },
+      "_sapButton_ReadOnly_TokenBackgroundL": {
+        "value": "{Button.Token._sapButton_TokenBackgroundL}",
+        "type": "internal"
+      },
+      "_sapButton_ReadOnly_TokenBackgroundA": {
+        "value": "{Button.Token._sapButton_TokenBackgroundA}",
+        "type": "internal"
       },
       "_sapButton_TokenBackgroundH": {
         "value": "{Button.Standard._sapButton_BackgroundH}",
@@ -19872,338 +20492,6 @@
         "type": "internal"
       }
     },
-    "Standard": {
-      "sapButton_Selected_Hover_BorderColor": {
-        "value": "hsla({Button.Standard._sapButton_Selected_Hover_BorderColorH}, {Button.Standard._sapButton_Selected_Hover_BorderColorS}, {Button.Standard._sapButton_Selected_Hover_BorderColorL}, {Button.Standard._sapButton_Selected_Hover_BorderColorA})",
-        "type": "color",
-        "description": "The hover state border color of selected (toggled) buttons."
-      },
-      "_sapButton_Selected_Hover_BackgroundH": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_Hover_BackgroundS": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_Hover_BackgroundL": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundL} + 10%",
-        "type": "internal"
-      },
-      "_sapButton_Selected_Hover_BackgroundA": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundA}",
-        "type": "internal"
-      },
-      "sapButton_Selected_Hover_Background": {
-        "value": "hsla({Button.Standard._sapButton_Selected_Hover_BackgroundH}, {Button.Standard._sapButton_Selected_Hover_BackgroundS}, {Button.Standard._sapButton_Selected_Hover_BackgroundL}, {Button.Standard._sapButton_Selected_Hover_BackgroundA})",
-        "type": "color",
-        "description": "The hover state background color of selected (toggled) buttons."
-      },
-      "_sapButton_Selected_TextColorH": {
-        "value": "{Text._sapContent_ContrastTextColorH}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_TextColorS": {
-        "value": "{Text._sapContent_ContrastTextColorS}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_TextColorL": {
-        "value": "{Text._sapContent_ContrastTextColorL}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_TextColorA": {
-        "value": "{Text._sapContent_ContrastTextColorA}",
-        "type": "internal"
-      },
-      "sapButton_Selected_TextColor": {
-        "value": "hsla({Button.Standard._sapButton_Selected_TextColorH}, {Button.Standard._sapButton_Selected_TextColorS}, {Button.Standard._sapButton_Selected_TextColorL}, {Button.Standard._sapButton_Selected_TextColorA})",
-        "type": "color",
-        "description": "The selected (toggled) state text and icon color of buttons."
-      },
-      "_sapButton_Selected_BorderColorH": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_BorderColorS": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_BorderColorL": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundL} - 5%",
-        "type": "internal"
-      },
-      "_sapButton_Selected_BorderColorA": {
-        "value": "{Button.Standard._sapButton_Selected_BackgroundA}",
-        "type": "internal"
-      },
-      "sapButton_Selected_BorderColor": {
-        "value": "hsla({Button.Standard._sapButton_Selected_BorderColorH}, {Button.Standard._sapButton_Selected_BorderColorS}, {Button.Standard._sapButton_Selected_BorderColorL}, {Button.Standard._sapButton_Selected_BorderColorA})",
-        "type": "color",
-        "description": "The selected (toggled) state border color of buttons."
-      },
-      "_sapButton_Selected_BackgroundH": {
-        "value": "{Interaction._sapSelectedColorH}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_BackgroundS": {
-        "value": "{Interaction._sapSelectedColorS}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_BackgroundL": {
-        "value": "{Interaction._sapSelectedColorL} - 10%",
-        "type": "internal"
-      },
-      "_sapButton_Selected_BackgroundA": {
-        "value": "{Interaction._sapSelectedColorA}",
-        "type": "internal"
-      },
-      "sapButton_Selected_Background": {
-        "value": "hsla({Button.Standard._sapButton_Selected_BackgroundH}, {Button.Standard._sapButton_Selected_BackgroundS}, {Button.Standard._sapButton_Selected_BackgroundL}, {Button.Standard._sapButton_Selected_BackgroundA})",
-        "type": "color",
-        "description": "The selected (toggled) state background color of buttons."
-      },
-      "_sapButton_Active_TextColorH": {
-        "value": "{Text._sapContent_ContrastTextColorH}",
-        "type": "internal"
-      },
-      "_sapButton_Active_TextColorS": {
-        "value": "{Text._sapContent_ContrastTextColorS}",
-        "type": "internal"
-      },
-      "_sapButton_Active_TextColorL": {
-        "value": "{Text._sapContent_ContrastTextColorL}",
-        "type": "internal"
-      },
-      "_sapButton_Active_TextColorA": {
-        "value": "{Text._sapContent_ContrastTextColorA}",
-        "type": "internal"
-      },
-      "sapButton_Active_TextColor": {
-        "value": "hsla({Button.Standard._sapButton_Active_TextColorH}, {Button.Standard._sapButton_Active_TextColorS}, {Button.Standard._sapButton_Active_TextColorL}, {Button.Standard._sapButton_Active_TextColorA})",
-        "type": "color",
-        "description": "The active (down) state text and icon color of buttons."
-      },
-      "sapButton_Active_BorderColor": {
-        "value": "hsla({Button.Standard._sapButton_Active_BorderColorH}, {Button.Standard._sapButton_Active_BorderColorS}, {Button.Standard._sapButton_Active_BorderColorL}, {Button.Standard._sapButton_Active_BorderColorA})",
-        "type": "color",
-        "description": "The active (down) state border color of buttons."
-      },
-      "sapButton_Active_Background": {
-        "value": "hsla({Button.Standard._sapButton_Active_BackgroundH}, {Button.Standard._sapButton_Active_BackgroundS}, {Button.Standard._sapButton_Active_BackgroundL}, {Button.Standard._sapButton_Active_BackgroundA})",
-        "type": "color",
-        "description": "The active (down) state background color of buttons."
-      },
-      "sapButton_IconColor": {
-        "value": "hsla({Button.Standard._sapButton_IconColorH}, {Button.Standard._sapButton_IconColorS}, {Button.Standard._sapButton_IconColorL}, {Button.Standard._sapButton_IconColorA})",
-        "type": "color",
-        "description": "The color of icons on buttons."
-      },
-      "_sapButton_Hover_TextColorH": {
-        "value": "{Main._sapHighlightColorH}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_TextColorS": {
-        "value": "{Main._sapHighlightColorS}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_TextColorL": {
-        "value": "{Main._sapHighlightColorL} - 10%",
-        "type": "internal"
-      },
-      "_sapButton_Hover_TextColorA": {
-        "value": "{Main._sapHighlightColorA}",
-        "type": "internal"
-      },
-      "sapButton_Hover_TextColor": {
-        "value": "hsla({Button.Standard._sapButton_Hover_TextColorH}, {Button.Standard._sapButton_Hover_TextColorS}, {Button.Standard._sapButton_Hover_TextColorL}, {Button.Standard._sapButton_Hover_TextColorA})",
-        "type": "color",
-        "description": "The color of texts and icons on buttons on hover."
-      },
-      "sapButton_Hover_BorderColor": {
-        "value": "hsla({Button.Standard._sapButton_Hover_BorderColorH}, {Button.Standard._sapButton_Hover_BorderColorS}, {Button.Standard._sapButton_Hover_BorderColorL}, {Button.Standard._sapButton_Hover_BorderColorA})",
-        "type": "color",
-        "description": "The color of a button's borders on hover."
-      },
-      "_sapButton_Hover_BackgroundH": {
-        "value": "{Button.Standard._sapButton_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BackgroundS": {
-        "value": "{Button.Standard._sapButton_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BackgroundL": {
-        "value": "{Button.Standard._sapButton_BackgroundL} - 5%",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BackgroundA": {
-        "value": "{Button.Standard._sapButton_BackgroundA}",
-        "type": "internal"
-      },
-      "sapButton_Hover_Background": {
-        "value": "hsla({Button.Standard._sapButton_Hover_BackgroundH}, {Button.Standard._sapButton_Hover_BackgroundS}, {Button.Standard._sapButton_Hover_BackgroundL}, {Button.Standard._sapButton_Hover_BackgroundA})",
-        "type": "color",
-        "description": "The background color of buttons on hover."
-      },
-      "sapButton_FontFamily": {
-        "value": "{Text.sapFontFamily}",
-        "type": "fontFamilies",
-        "description": "The font family of buttons."
-      },
-      "_sapButton_TextColorH": {
-        "value": "{Main._sapHighlightColorH}",
-        "type": "internal"
-      },
-      "_sapButton_TextColorS": {
-        "value": "{Main._sapHighlightColorS}",
-        "type": "internal"
-      },
-      "_sapButton_TextColorL": {
-        "value": "{Main._sapHighlightColorL} - 10%",
-        "type": "internal"
-      },
-      "_sapButton_TextColorA": {
-        "value": "{Main._sapHighlightColorA}",
-        "type": "internal"
-      },
-      "sapButton_TextColor": {
-        "value": "hsla({Button.Standard._sapButton_TextColorH}, {Button.Standard._sapButton_TextColorS}, {Button.Standard._sapButton_TextColorL}, {Button.Standard._sapButton_TextColorA})",
-        "type": "color",
-        "description": "The color of texts on buttons."
-      },
-      "sapButton_BorderCornerRadius": {
-        "value": "0.1875 * {Internal.sapContent_GridSize}",
-        "type": "borderRadius",
-        "description": "Defines whether a button has rounded corners."
-      },
-      "sapButton_BorderWidth": {
-        "value": "{Internal.sapElement_BorderWidth}",
-        "type": "borderWidth",
-        "description": "The thickness of button borders."
-      },
-      "_sapButton_BorderColorH": {
-        "value": "{Button.Standard._sapButton_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapButton_BorderColorS": {
-        "value": "{Button.Standard._sapButton_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapButton_BorderColorL": {
-        "value": "{Button.Standard._sapButton_BackgroundL} - 30%",
-        "type": "internal"
-      },
-      "_sapButton_BorderColorA": {
-        "value": "{Button.Standard._sapButton_BackgroundA}",
-        "type": "internal"
-      },
-      "sapButton_BorderColor": {
-        "value": "hsla({Button.Standard._sapButton_BorderColorH}, {Button.Standard._sapButton_BorderColorS}, {Button.Standard._sapButton_BorderColorL}, {Button.Standard._sapButton_BorderColorA})",
-        "type": "color",
-        "description": "The color of a button's borders."
-      },
-      "_sapButton_BackgroundH": {
-        "value": "{Internal._sapPrimary4H}",
-        "type": "internal"
-      },
-      "_sapButton_BackgroundS": {
-        "value": "{Internal._sapPrimary4S}",
-        "type": "internal"
-      },
-      "_sapButton_BackgroundL": {
-        "value": "{Internal._sapPrimary4L} - 3%",
-        "type": "internal"
-      },
-      "_sapButton_BackgroundA": {
-        "value": "{Internal._sapPrimary4A}",
-        "type": "internal"
-      },
-      "sapButton_Background": {
-        "value": "hsla({Button.Standard._sapButton_BackgroundH}, {Button.Standard._sapButton_BackgroundS}, {Button.Standard._sapButton_BackgroundL}, {Button.Standard._sapButton_BackgroundA})",
-        "type": "color",
-        "description": "The background color of buttons."
-      },
-      "_sapButton_Selected_Hover_BorderColorH": {
-        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_Hover_BorderColorS": {
-        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_Hover_BorderColorL": {
-        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundL}",
-        "type": "internal"
-      },
-      "_sapButton_Selected_Hover_BorderColorA": {
-        "value": "{Button.Standard._sapButton_Selected_Hover_BackgroundA}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BorderColorH": {
-        "value": "{Button.Standard._sapButton_Active_BackgroundH}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BorderColorS": {
-        "value": "{Button.Standard._sapButton_Active_BackgroundS}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BorderColorL": {
-        "value": "{Button.Standard._sapButton_Active_BackgroundL}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BorderColorA": {
-        "value": "{Button.Standard._sapButton_Active_BackgroundA}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BackgroundH": {
-        "value": "{Interaction._sapActiveColorH}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BackgroundS": {
-        "value": "{Interaction._sapActiveColorS}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BackgroundL": {
-        "value": "{Interaction._sapActiveColorL}",
-        "type": "internal"
-      },
-      "_sapButton_Active_BackgroundA": {
-        "value": "{Interaction._sapActiveColorA}",
-        "type": "internal"
-      },
-      "_sapButton_IconColorH": {
-        "value": "{Button.Standard._sapButton_TextColorH}",
-        "type": "internal"
-      },
-      "_sapButton_IconColorS": {
-        "value": "{Button.Standard._sapButton_TextColorS}",
-        "type": "internal"
-      },
-      "_sapButton_IconColorL": {
-        "value": "{Button.Standard._sapButton_TextColorL}",
-        "type": "internal"
-      },
-      "_sapButton_IconColorA": {
-        "value": "{Button.Standard._sapButton_TextColorA}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BorderColorH": {
-        "value": "{Button.Standard._sapButton_BorderColorH}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BorderColorS": {
-        "value": "{Button.Standard._sapButton_BorderColorS}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BorderColorL": {
-        "value": "{Button.Standard._sapButton_BorderColorL}",
-        "type": "internal"
-      },
-      "_sapButton_Hover_BorderColorA": {
-        "value": "{Button.Standard._sapButton_BorderColorA}",
-        "type": "internal"
-      }
-    },
     "Lite": {
       "sapButton_Lite_Active_BorderColor": {
         "value": "hsla({Button.Lite._sapButton_Lite_Active_BorderColorH}, {Button.Lite._sapButton_Lite_Active_BorderColorS}, {Button.Lite._sapButton_Lite_Active_BorderColorL}, {Button.Lite._sapButton_Lite_Active_BorderColorA})",
@@ -21195,6 +21483,69 @@
     }
   },
   "Avatar": {
+    "_sapAvatar_Hover_BorderColorH": {
+      "value": "{Input.Standard._sapField_BorderColorH}",
+      "type": "internal"
+    },
+    "_sapAvatar_Hover_BorderColorS": {
+      "value": "{Input.Standard._sapField_BorderColorS}",
+      "type": "internal"
+    },
+    "_sapAvatar_Hover_BorderColorL": {
+      "value": "{Input.Standard._sapField_BorderColorL}",
+      "type": "internal"
+    },
+    "_sapAvatar_Hover_BorderColorA": {
+      "value": "(25) / 100",
+      "type": "internal"
+    },
+    "sapAvatar_Hover_BorderColor": {
+      "value": "hsla({Avatar._sapAvatar_Hover_BorderColorH}, {Avatar._sapAvatar_Hover_BorderColorS}, {Avatar._sapAvatar_Hover_BorderColorL}, {Avatar._sapAvatar_Hover_BorderColorA})",
+      "type": "color",
+      "description": "The hover border color of the avatar."
+    },
+    "_sapAvatar_Lite_BackgroundH": {
+      "value": "0",
+      "type": "internal"
+    },
+    "_sapAvatar_Lite_BackgroundS": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapAvatar_Lite_BackgroundL": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapAvatar_Lite_BackgroundA": {
+      "value": "0",
+      "type": "internal"
+    },
+    "sapAvatar_Lite_Background": {
+      "value": "hsla({Avatar._sapAvatar_Lite_BackgroundH}, {Avatar._sapAvatar_Lite_BackgroundS}, {Avatar._sapAvatar_Lite_BackgroundL}, {Avatar._sapAvatar_Lite_BackgroundA})",
+      "type": "color",
+      "description": "The background color of transparent (lite) avatars."
+    },
+    "_sapAvatar_Lite_BorderColorH": {
+      "value": "0",
+      "type": "internal"
+    },
+    "_sapAvatar_Lite_BorderColorS": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapAvatar_Lite_BorderColorL": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapAvatar_Lite_BorderColorA": {
+      "value": "0",
+      "type": "internal"
+    },
+    "sapAvatar_Lite_BorderColor": {
+      "value": "hsla({Avatar._sapAvatar_Lite_BorderColorH}, {Avatar._sapAvatar_Lite_BorderColorS}, {Avatar._sapAvatar_Lite_BorderColorL}, {Avatar._sapAvatar_Lite_BorderColorA})",
+      "type": "color",
+      "description": "The border color of transparent (lite) avatars."
+    },
     "sapAvatar_10_Hover_Background": {
       "value": "hsla({Avatar._sapAvatar_10_Hover_BackgroundH}, {Avatar._sapAvatar_10_Hover_BackgroundS}, {Avatar._sapAvatar_10_Hover_BackgroundL}, {Avatar._sapAvatar_10_Hover_BackgroundA})",
       "type": "color",
@@ -22400,7 +22751,32 @@
       "type": "internal"
     }
   },
+  "sapShell_GroupGap_XL": {
+    "value": "3rem",
+    "type": "internal",
+    "description": "The gap between shell groups on extra large devices."
+  },
+  "sapShell_GroupGap_L": {
+    "value": "3rem",
+    "type": "internal",
+    "description": "The gap between shell groups on large devices."
+  },
   "Shell": {
+    "sapShell_GroupGap_M": {
+      "value": "3rem",
+      "type": "sizing",
+      "description": "The gap between shell groups on medium devices."
+    },
+    "sapShell_Gap_M": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The value of the small gap in a medium container."
+    },
+    "sapShell_Space_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The value of the medium shell container space."
+    },
     "Category": {
       "sapShell_Category_16_TextShadow": {
         "type": "boxShadow",
@@ -24259,6 +24635,41 @@
       "type": "internal"
     }
   },
+  "sapShell_GroupGap_S": {
+    "value": "2rem",
+    "type": "internal",
+    "description": "The gap between shell groups on small devices."
+  },
+  "sapShell_Gap_XL": {
+    "value": "1rem",
+    "type": "internal",
+    "description": "The value of the small gap in a extra large container."
+  },
+  "sapShell_Gap_L": {
+    "value": "1rem",
+    "type": "internal",
+    "description": "The value of the small gap in a large container."
+  },
+  "sapShell_Gap_S": {
+    "value": "0.5rem",
+    "type": "internal",
+    "description": "The value of the small gap in a small container."
+  },
+  "sapShell_Space_XL": {
+    "value": "3rem",
+    "type": "internal",
+    "description": "The value of the extra large shell container space."
+  },
+  "sapShell_Space_L": {
+    "value": "2rem",
+    "type": "internal",
+    "description": "The value of the large shell container space."
+  },
+  "sapShell_Space_S": {
+    "value": "0.5rem",
+    "type": "internal",
+    "description": "The value of the small shell container space."
+  },
   "Image": {
     "sapShell_Favicon": {
       "value": "none",
@@ -24705,6 +25116,244 @@
       "value": "{Internal._sapPrimary7A}",
       "type": "internal"
     }
+  },
+  "Shadow": {
+    "sapContent_Information_HeaderShadow": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0.125rem",
+          "blur": "0.125rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.05)"
+        },
+        {
+          "type": "innerShadow",
+          "x": "0",
+          "y": "-0.0625rem",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Semantic.Border.sapInformationBorderColor}"
+        }
+      ],
+      "description": "The information header shadow styling."
+    },
+    "sapContent_Error_HeaderShadow": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0.125rem",
+          "blur": "0.125rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.05)"
+        },
+        {
+          "type": "innerShadow",
+          "x": "0",
+          "y": "-0.0625rem",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Semantic.Border.sapErrorBorderColor}"
+        }
+      ],
+      "description": "The error header shadow styling."
+    },
+    "sapContent_Warning_HeaderShadow": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0.125rem",
+          "blur": "0.125rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.05)"
+        },
+        {
+          "type": "innerShadow",
+          "x": "0",
+          "y": "-0.0625rem",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Semantic.Border.sapWarningBorderColor}"
+        }
+      ],
+      "description": "The warning header shadow styling."
+    },
+    "sapContent_Success_HeaderShadow": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0.125rem",
+          "blur": "0.125rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.05)"
+        },
+        {
+          "type": "innerShadow",
+          "x": "0",
+          "y": "-0.0625rem",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Semantic.Border.sapSuccessBorderColor}"
+        }
+      ],
+      "description": "The success header shadow styling."
+    },
+    "sapContent_Lite_Shadow": {
+      "value": "None",
+      "type": "boxShadow",
+      "description": "The value of lite shadows. (With no shadows in standard themes and a visible shadow in high contrast)"
+    },
+    "sapContent_Shadow3": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "1.25rem",
+          "blur": "5rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
+        },
+        {
+          "type": "dropShadow",
+          "blur": "0",
+          "spread": "0"
+        }
+      ],
+      "description": "Shadow for dialogs."
+    },
+    "sapContent_Shadow2": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0.625rem",
+          "blur": "1.875rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
+        },
+        {
+          "type": "dropShadow",
+          "blur": "0",
+          "spread": "0"
+        }
+      ],
+      "description": "Shadow for Popovers and MessageToasts."
+    },
+    "sapContent_Shadow1": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0.125rem",
+          "blur": "0.5rem",
+          "spread": "0",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
+        },
+        {
+          "type": "dropShadow",
+          "blur": "0",
+          "spread": "0"
+        }
+      ],
+      "description": "Shadow for Dropdowns/Floating/Footer/Menu type controls."
+    },
+    "sapContent_Shadow0": {
+      "type": "boxShadow",
+      "value": [
+        {
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1px",
+          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
+        }
+      ],
+      "description": "Shadow for Card/Tile type controls."
+    },
+    "_sapContent_ContrastShadowColorH": {
+      "value": "0",
+      "type": "internal"
+    },
+    "_sapContent_ContrastShadowColorS": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapContent_ContrastShadowColorL": {
+      "value": "100%",
+      "type": "internal"
+    },
+    "_sapContent_ContrastShadowColorA": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_ContrastShadowColor": {
+      "value": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, {Shadow._sapContent_ContrastShadowColorA})",
+      "type": "color",
+      "description": "The alternative shadow color."
+    },
+    "_sapContent_ShadowColorH": {
+      "value": "0",
+      "type": "internal"
+    },
+    "_sapContent_ShadowColorS": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapContent_ShadowColorL": {
+      "value": "0%",
+      "type": "internal"
+    },
+    "_sapContent_ShadowColorA": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapContent_ShadowColor": {
+      "value": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, {Shadow._sapContent_ShadowColorA})",
+      "type": "color",
+      "description": "The shadow color."
+    }
+  },
+  "sapContent_Padding_XL": {
+    "value": "3rem",
+    "type": "internal",
+    "description": "The value of padding used on extra large devices."
+  },
+  "sapContent_Padding_L": {
+    "value": "2rem",
+    "type": "internal",
+    "description": "The value of padding used on large devices."
+  },
+  "sapContent_Padding_S": {
+    "value": "0rem",
+    "type": "internal",
+    "description": "The value of padding used on small devices."
+  },
+  "sapContent_Space_XL": {
+    "value": "3rem",
+    "type": "internal",
+    "description": "The responsive content container space on extra large devices."
+  },
+  "sapContent_Space_L": {
+    "value": "2rem",
+    "type": "internal",
+    "description": "The responsive content container space on large devices."
+  },
+  "sapContent_Space_S": {
+    "value": "1rem",
+    "type": "internal",
+    "description": "The responsive content container space on small devices."
   },
   "Illustrative": {
     "_sapContent_Illustrative_Color31H": {
@@ -25863,121 +26512,6 @@
       "value": "hsla({Icon._sapContent_IconColorH}, {Icon._sapContent_IconColorS}, {Icon._sapContent_IconColorL}, {Icon._sapContent_IconColorA})",
       "type": "color",
       "description": "The color of icons."
-    }
-  },
-  "Shadow": {
-    "sapContent_Shadow3": {
-      "type": "boxShadow",
-      "value": [
-        {
-          "type": "dropShadow",
-          "x": "0",
-          "y": "1.25rem",
-          "blur": "5rem",
-          "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
-        },
-        {
-          "type": "dropShadow",
-          "blur": "0",
-          "spread": "0"
-        }
-      ],
-      "description": "Shadow for dialogs."
-    },
-    "sapContent_Shadow2": {
-      "type": "boxShadow",
-      "value": [
-        {
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0.625rem",
-          "blur": "1.875rem",
-          "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
-        },
-        {
-          "type": "dropShadow",
-          "blur": "0",
-          "spread": "0"
-        }
-      ],
-      "description": "Shadow for Popovers and MessageToasts."
-    },
-    "sapContent_Shadow1": {
-      "type": "boxShadow",
-      "value": [
-        {
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0.125rem",
-          "blur": "0.5rem",
-          "spread": "0",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
-        },
-        {
-          "type": "dropShadow",
-          "blur": "0",
-          "spread": "0"
-        }
-      ],
-      "description": "Shadow for Dropdowns/Floating/Footer/Menu type controls."
-    },
-    "sapContent_Shadow0": {
-      "type": "boxShadow",
-      "value": [
-        {
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1px",
-          "color": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, 0.15)"
-        }
-      ],
-      "description": "Shadow for Card/Tile type controls."
-    },
-    "_sapContent_ContrastShadowColorH": {
-      "value": "0",
-      "type": "internal"
-    },
-    "_sapContent_ContrastShadowColorS": {
-      "value": "0%",
-      "type": "internal"
-    },
-    "_sapContent_ContrastShadowColorL": {
-      "value": "100%",
-      "type": "internal"
-    },
-    "_sapContent_ContrastShadowColorA": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapContent_ContrastShadowColor": {
-      "value": "hsla({Shadow._sapContent_ContrastShadowColorH}, {Shadow._sapContent_ContrastShadowColorS}, {Shadow._sapContent_ContrastShadowColorL}, {Shadow._sapContent_ContrastShadowColorA})",
-      "type": "color",
-      "description": "The alternative shadow color."
-    },
-    "_sapContent_ShadowColorH": {
-      "value": "0",
-      "type": "internal"
-    },
-    "_sapContent_ShadowColorS": {
-      "value": "0%",
-      "type": "internal"
-    },
-    "_sapContent_ShadowColorL": {
-      "value": "0%",
-      "type": "internal"
-    },
-    "_sapContent_ShadowColorA": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapContent_ShadowColor": {
-      "value": "hsla({Shadow._sapContent_ShadowColorH}, {Shadow._sapContent_ShadowColorS}, {Shadow._sapContent_ShadowColorL}, {Shadow._sapContent_ShadowColorA})",
-      "type": "color",
-      "description": "The shadow color."
     }
   },
   "Focus": {

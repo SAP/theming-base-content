@@ -6963,5 +6963,11 @@
 		"groups": ["money"],
 		"tags": ["money", "bills", "currency", "payment", "cash"],
 		"rtl": "flip"
+	},
+	"0xe2a7": {
+		"names": ["unsynchronize"],
+		"groups": ["action", "arrow"],
+		"tags": ["unsynchronize","arrow","unsync","disconnect","x"],
+		"rtl": "none"
 	}
 }

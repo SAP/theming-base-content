@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 14.0.24 */
+/* Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 14.1.4 */
 @sapBrandColor: #427cac;
 @sapHighlightColor: #427cac;
 @sapBaseColor: #eff4f9;
@@ -112,6 +112,7 @@
 @sapContent_Selected_Hover_Background: #4684b7;
 @sapContent_Selected_ForegroundColor: #427cac;
 @sapContent_ForcedColorAdjust: none;
+@sapContent_Lite_Shadow: None;
 @sapContent_Illustrative_Color1: #9b015d;
 @sapContent_Illustrative_Color2: #56bdff;
 @sapContent_Illustrative_Color3: #ff7f4c;
@@ -143,6 +144,27 @@
 @sapContent_Illustrative_Color29: #450b00;
 @sapContent_Illustrative_Color30: #340800;
 @sapContent_Illustrative_Color31: #ffab92;
+@sapContent_Space_S: 1rem;
+@sapContent_Space_M: 2rem;
+@sapContent_Space_L: 2rem;
+@sapContent_Space_XL: 3rem;
+@sapContent_Space_Tiny: 2rem;
+@sapContent_Space_Small: 1rem;
+@sapContent_Space_Medium: 2rem;
+@sapContent_Space_Large: 3rem;
+@sapContent_Margin_Tiny: 0 0 1rem;
+@sapContent_Margin_Small: 1rem;
+@sapContent_Margin_Medium: 1rem 2rem;
+@sapContent_Margin_Large: 1rem 3rem;
+@sapContent_Padding_S: 0rem;
+@sapContent_Padding_M: 2rem;
+@sapContent_Padding_L: 2rem;
+@sapContent_Padding_XL: 3rem;
+@sapContent_Gap: 1rem;
+@sapContent_Success_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #38a238;
+@sapContent_Warning_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #f9a429;
+@sapContent_Error_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #e00;
+@sapContent_Information_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #427cac;
 @sapFontLightFamily: "72-Light", "72-Lightfull", "72", "72full", Arial, Helvetica, sans-serif;
 @sapFontBoldFamily: "72-Bold", "72-Boldfull", "72", "72full", Arial, Helvetica, sans-serif;
 @sapFontSemiboldFamily: "72-Semibold", "72-Semiboldfull", "72", "72full", Arial, Helvetica, sans-serif;
@@ -262,6 +284,18 @@
 @sapShell_Category_16_BorderColor: #626b4a;
 @sapShell_Category_16_TextColor: #fff;
 @sapShell_Category_16_TextShadow: 0 0 .0625rem rgba(0,0,0,0.7);
+@sapShell_Space_S: 0.5rem;
+@sapShell_Space_M: 2rem;
+@sapShell_Space_L: 2rem;
+@sapShell_Space_XL: 3rem;
+@sapShell_Gap_S: 0.5rem;
+@sapShell_Gap_M: 1rem;
+@sapShell_Gap_L: 1rem;
+@sapShell_Gap_XL: 1rem;
+@sapShell_GroupGap_S: 2rem;
+@sapShell_GroupGap_M: 3rem;
+@sapShell_GroupGap_L: 3rem;
+@sapShell_GroupGap_XL: 3rem;
 @sapAssistant_Color1: #555cbe;
 @sapAssistant_Color2: #a100c2;
 @sapAssistant_BackgroundGradient: linear-gradient(#555cbe, #a100c2);
@@ -320,6 +354,9 @@
 @sapAvatar_10_BorderColor: #647987;
 @sapAvatar_10_TextColor: #fff;
 @sapAvatar_10_Hover_Background: #647987;
+@sapAvatar_Lite_BorderColor: transparent;
+@sapAvatar_Lite_Background: transparent;
+@sapAvatar_Hover_BorderColor: rgba(191,191,191,0.25);
 @sapButton_Background: #f7f7f7;
 @sapButton_BorderColor: #ababab;
 @sapButton_BorderWidth: .0625rem;
@@ -488,6 +525,10 @@
 @sapButton_Handle_Positive_Hover_BorderColor: #2b7c2b;
 @sapButton_TokenBackground: #f7f7f7;
 @sapButton_TokenBorderColor: #dedede;
+@sapButton_TokenBorderCornerRadius: .25rem;
+@sapButton_Selected_TokenBorderWidth: 0;
+@sapButton_ReadOnly_TokenBackground: #f7f7f7;
+@sapButton_Segment_BorderCornerRadius: 0;
 @sapField_Background: #fff;
 @sapField_BackgroundStyle: none;
 @sapField_TextColor: #000;
@@ -541,12 +582,20 @@
 @sapField_InformationBorderWidth: .125rem;
 @sapField_InformationBorderStyle: solid;
 @sapField_InformationShadow: none;
+@sapField_Selector_Hover_Background: #fff;
+@sapField_Selector_Hover_InvalidBackground: sapField_InvalidBackground;
+@sapField_Selector_Hover_WarningBackground: #fff;
+@sapField_Selector_Hover_SuccessBackground: #fff;
+@sapField_Selector_Hover_InformationBackground: #fff;
+@sapField_Picker_BorderColor: #bfbfbf;
+@sapField_Picker_BorderWidth: .0625rem;
 @sapField_Selector_BorderStyle: solid;
 @sapField_Selector_ReadOnly_BorderStyle: solid;
 @sapField_Selector_InvalidBorderStyle: solid;
 @sapField_Selector_WarningBorderStyle: solid;
 @sapField_Selector_SuccessBorderStyle: solid;
 @sapField_Selector_InformationBorderStyle: solid;
+@sapGroup_TitleBorderWidth: .0625rem;
 @sapGroup_TitleBackground: transparent;
 @sapGroup_TitleBorderColor: #ccc;
 @sapGroup_TitleTextColor: #333;
@@ -582,6 +631,8 @@
 @sapList_FooterTextColor: #333;
 @sapList_TableFooterBorder: #ccc;
 @sapList_TableFixedBorderColor: #999;
+@sapList_TableFixedColumnBorderWidth: .0625rem;
+@sapList_TableFixedRowBorderWidth: .125rem;
 @sapMessage_ErrorBorderColor: #e00;
 @sapMessage_WarningBorderColor: #f9a429;
 @sapMessage_SuccessBorderColor: #38a238;
@@ -657,6 +708,7 @@
 @sapObjectHeader_Title_FontFamily: "72", "72full", Arial, Helvetica, sans-serif;
 @sapObjectHeader_Subtitle_TextColor: #666;
 @sapBlockLayer_Background: #000;
+@sapBlockLayer_Opacity: 0.2;
 @sapTile_Background: #fff;
 @sapTile_Hover_Background: #f7f7f7;
 @sapTile_Active_Background: #f7f7f7;
@@ -669,6 +721,8 @@
 @sapTile_Interactive_BorderColor: #b3b3b3;
 @sapTile_OverlayBackground: rgba(0,0,0,0.8);
 @sapTile_OverlayForegroundColor: #fff;
+@sapTile_Hover_ContentBackground: #f7f7f7;
+@sapTile_Active_ContentBackground: #f7f7f7;
 @sapAccentColor1: #e09d00;
 @sapAccentColor2: #e6600d;
 @sapAccentColor3: #c14646;
@@ -1407,6 +1461,10 @@
 @sapFontUrl_72Mono_Bold_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold.woff');
 @sapFontUrl_72Mono_Bold_full_woff2: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff2');
 @sapFontUrl_72Mono_Bold_full_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff');
+@sapBreakpoint_S_Min: 0;
+@sapBreakpoint_M_Min: 600px;
+@sapBreakpoint_L_Min: 1024px;
+@sapBreakpoint_XL_Min: 1440px;
 @sapContrastPlus--sapHighlightColor: #91c8f6;
 @sapContrastPlus--sapBaseColor: #3f5161;
 @sapContrastPlus--sapBackgroundColor: #3f5161;
@@ -1499,6 +1557,10 @@
 @sapContrastPlus--sapContent_Illustrative_Color25: #d0c1cb;
 @sapContrastPlus--sapContent_Illustrative_Color26: #d0b863;
 @sapContrastPlus--sapContent_Illustrative_Color27: #d0cdb3;
+@sapContrastPlus--sapContent_Success_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #abe2ab;
+@sapContrastPlus--sapContent_Warning_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #fabd64;
+@sapContrastPlus--sapContent_Error_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #ff8888;
+@sapContrastPlus--sapContent_Information_HeaderShadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.05), inset 0 -0.0625rem 0 0 #91c8f6;
 @sapContrastPlus--sapLink_Hover_Color: #7ed0ff;
 @sapContrastPlus--sapLink_Active_Color: #7ed0ff;
 @sapContrastPlus--sapLink_Visited_Color: #7ed0ff;
@@ -1613,6 +1675,7 @@
 @sapContrastPlus--sapAvatar_8_TextColor: #2f3c48;
 @sapContrastPlus--sapAvatar_9_TextColor: #fafafa;
 @sapContrastPlus--sapAvatar_10_TextColor: #fafafa;
+@sapContrastPlus--sapAvatar_Hover_BorderColor: rgba(120,145,167,0.25);
 @sapContrastPlus--sapButton_Background: #435667;
 @sapContrastPlus--sapButton_BorderColor: #a0b2c1;
 @sapContrastPlus--sapButton_TextColor: #cae4fb;
@@ -1766,6 +1829,7 @@
 @sapContrastPlus--sapButton_Handle_Positive_Hover_BorderColor: #abe2ab;
 @sapContrastPlus--sapButton_TokenBackground: #435667;
 @sapContrastPlus--sapButton_TokenBorderColor: #617d95;
+@sapContrastPlus--sapButton_ReadOnly_TokenBackground: #435667;
 @sapContrastPlus--sapField_Background: #495e70;
 @sapContrastPlus--sapField_TextColor: #fff;
 @sapContrastPlus--sapField_PlaceholderTextColor: #c3d7e8;
@@ -1790,6 +1854,11 @@
 @sapContrastPlus--sapField_SuccessBackground: #495e70;
 @sapContrastPlus--sapField_InformationColor: #91c8f6;
 @sapContrastPlus--sapField_InformationBackground: #495e70;
+@sapContrastPlus--sapField_Selector_Hover_Background: #495e70;
+@sapContrastPlus--sapField_Selector_Hover_WarningBackground: #495e70;
+@sapContrastPlus--sapField_Selector_Hover_SuccessBackground: #495e70;
+@sapContrastPlus--sapField_Selector_Hover_InformationBackground: #495e70;
+@sapContrastPlus--sapField_Picker_BorderColor: #7891a7;
 @sapContrastPlus--sapGroup_TitleBorderColor: #69859d;
 @sapContrastPlus--sapGroup_TitleTextColor: #fafafa;
 @sapContrastPlus--sapGroup_ContentBackground: #3f5161;
@@ -1893,6 +1962,8 @@
 @sapContrastPlus--sapTile_SeparatorColor: #577086;
 @sapContrastPlus--sapTile_Interactive_BorderColor: #889eb1;
 @sapContrastPlus--sapTile_OverlayForegroundColor: #fafafa;
+@sapContrastPlus--sapTile_Hover_ContentBackground: #45596a;
+@sapContrastPlus--sapTile_Active_ContentBackground: #45596a;
 @sapContrastPlus--sapIndicationColor_1: #ff8888;
 @sapContrastPlus--sapIndicationColor_1_Background: #ff8888;
 @sapContrastPlus--sapIndicationColor_1_BorderColor: #ff8888;

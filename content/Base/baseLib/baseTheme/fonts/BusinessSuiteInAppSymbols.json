@@ -2976,5 +2976,11 @@
 		"groups": ["objects", "things", "documents", "folder"],
 		"tags": ["folder", "objects", "chart"],
 		"rtl": "flip"
+	},
+	"0xe188": {
+		"names": ["icon-map-navigation"],
+		"groups": ["objects", "things", "arrows"],
+		"tags": ["navigation", "arrow", "map", "direction"],
+		"rtl": "flip"
 	}
 }
