@@ -20,6 +20,11 @@
       "type": "sizing",
       "description": "Minimal width of small devices."
     },
+    "sapSapThemeId": {
+      "value": "sap_fiori_3",
+      "type": "string",
+      "description": "Technical identifier of the SAP-provided theme or of the SAP-provided theme a custom theme is based on."
+    },
     "sapSvgLib_SAPWeb-icons": {
       "value": "url(./svg/libs/SAPWeb-icons.svg)",
       "type": "file"
@@ -260,15 +265,15 @@
       "value": "url(./../baseTheme/fonts/SAP-icons.ttf)",
       "type": "file"
     },
-    "sapContent_Padding_M": {
-      "value": "2rem",
-      "type": "sizing",
-      "description": "The value of padding used on medium devices."
-    },
     "sapContent_Gap": {
       "value": "1rem",
       "type": "sizing",
       "description": "The value of the gap between content."
+    },
+    "sapContent_Padding_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The value of padding used on medium devices."
     },
     "sapContent_Margin_Large": {
       "value": "1rem 3rem",

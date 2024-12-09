@@ -2982,5 +2982,19 @@
 		"groups": ["objects", "things", "arrows"],
 		"tags": ["navigation", "arrow", "map", "direction"],
 		"rtl": "flip"
+	},
+	"0xe189": {
+		"names": ["icon-staging"],
+		"groups": ["objects", "things", "status", "transport"],
+		"tags": ["wearhouse", "stage", "staging", "products", "loading", "layer", "transport"],
+		"rtl": "flip"
+	},
+	"0xe18a": {
+		"names": ["icon-dangerous-goods"],
+		"groups": ["objects", "things", "status", "transport"],
+		"tags": ["danger", "goods", "alert", "warning", "status", "transport"],
+		"rtl": "flip"
 	}
 }
+
+

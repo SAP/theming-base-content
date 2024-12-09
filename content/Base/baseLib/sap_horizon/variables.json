@@ -1462,6 +1462,7 @@
 		"sapFontUrl_72Mono_Bold_woff": "url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold.woff')",
 		"sapFontUrl_72Mono_Bold_full_woff2": "url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff2')",
 		"sapFontUrl_72Mono_Bold_full_woff": "url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff')",
+		"sapSapThemeId": "sap_horizon",
 		"sapBreakpoint_S_Min": "0",
 		"sapBreakpoint_M_Min": "600px",
 		"sapBreakpoint_L_Min": "1024px",

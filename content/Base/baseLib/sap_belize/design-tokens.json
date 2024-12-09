@@ -58,6 +58,11 @@
       "type": "sizing",
       "description": "The height of inline elements in the content area (in em, deprecated)."
     },
+    "sapSapThemeId": {
+      "value": "sap_belize",
+      "type": "string",
+      "description": "Technical identifier of the SAP-provided theme or of the SAP-provided theme a custom theme is based on."
+    },
     "sapSvgLib_SAPWeb-icons": {
       "value": "url(./svg/libs/SAPWeb-icons.svg)",
       "type": "file"
@@ -298,15 +303,15 @@
       "value": "url(./../baseTheme/fonts/SAP-icons.ttf)",
       "type": "file"
     },
-    "sapContent_Padding_M": {
-      "value": "2rem",
-      "type": "sizing",
-      "description": "The value of padding used on medium devices."
-    },
     "sapContent_Gap": {
       "value": "1rem",
       "type": "sizing",
       "description": "The value of the gap between content."
+    },
+    "sapContent_Padding_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The value of padding used on medium devices."
     },
     "sapContent_Margin_Large": {
       "value": "1rem 3rem",
@@ -864,7 +869,7 @@
         "description": "The border style of selector fields (e.g. Checkboxes) with an invalid value."
       },
       "sapField_Selector_Hover_InvalidBackground": {
-        "value": "sapField_InvalidBackground",
+        "value": "hsla({Input.Invalid._sapField_Selector_Hover_InvalidBackgroundH}, {Input.Invalid._sapField_Selector_Hover_InvalidBackgroundS}, {Input.Invalid._sapField_Selector_Hover_InvalidBackgroundL}, {Input.Invalid._sapField_Selector_Hover_InvalidBackgroundA})",
         "type": "color",
         "description": "The background color of selector fields (e.g. Checkboxes) with an invalid value on hover."
       },
@@ -902,6 +907,22 @@
         "value": "{Input.Invalid.sapField_InvalidShadow}",
         "type": "boxShadow",
         "description": "The shadow of an input field with invalid value on hover."
+      },
+      "_sapField_Selector_Hover_InvalidBackgroundH": {
+        "value": "{Input.Invalid._sapField_InvalidBackgroundH}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_InvalidBackgroundS": {
+        "value": "{Input.Invalid._sapField_InvalidBackgroundS}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_InvalidBackgroundL": {
+        "value": "{Input.Invalid._sapField_InvalidBackgroundL}",
+        "type": "internal"
+      },
+      "_sapField_Selector_Hover_InvalidBackgroundA": {
+        "value": "{Input.Invalid._sapField_InvalidBackgroundA}",
+        "type": "internal"
       },
       "_sapField_InvalidBackgroundH": {
         "value": "{Input.Standard._sapField_BackgroundH}",

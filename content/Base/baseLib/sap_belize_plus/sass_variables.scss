@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 14.1.4 */
+/* Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 14.2.4 */
 $sapBrandColor: #427cac;
 $sapHighlightColor: #427cac;
 $sapBaseColor: #eff4f9;
@@ -583,7 +583,7 @@ $sapField_InformationBorderWidth: .125rem;
 $sapField_InformationBorderStyle: solid;
 $sapField_InformationShadow: none;
 $sapField_Selector_Hover_Background: #fff;
-$sapField_Selector_Hover_InvalidBackground: sapField_InvalidBackground;
+$sapField_Selector_Hover_InvalidBackground: #fff;
 $sapField_Selector_Hover_WarningBackground: #fff;
 $sapField_Selector_Hover_SuccessBackground: #fff;
 $sapField_Selector_Hover_InformationBackground: #fff;
@@ -1461,6 +1461,7 @@ $sapFontUrl_72Mono_Bold_woff2: url('../../../Base/baseLib/baseTheme/fonts/72Mono
 $sapFontUrl_72Mono_Bold_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold.woff');
 $sapFontUrl_72Mono_Bold_full_woff2: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff2');
 $sapFontUrl_72Mono_Bold_full_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff');
+$sapSapThemeId: sap_belize;
 $sapBreakpoint_S_Min: 0;
 $sapBreakpoint_M_Min: 600px;
 $sapBreakpoint_L_Min: 1024px;
@@ -1855,6 +1856,7 @@ $sapContrastPlus--sapField_SuccessBackground: #495e70;
 $sapContrastPlus--sapField_InformationColor: #91c8f6;
 $sapContrastPlus--sapField_InformationBackground: #495e70;
 $sapContrastPlus--sapField_Selector_Hover_Background: #495e70;
+$sapContrastPlus--sapField_Selector_Hover_InvalidBackground: #495e70;
 $sapContrastPlus--sapField_Selector_Hover_WarningBackground: #495e70;
 $sapContrastPlus--sapField_Selector_Hover_SuccessBackground: #495e70;
 $sapContrastPlus--sapField_Selector_Hover_InformationBackground: #495e70;
@@ -2270,3 +2272,4 @@ $sapContrastPlus--sapChart_Sequence_Neutral_Plus1_TextColor: #07090a;
 $sapContrastPlus--sapChart_Sequence_Neutral_TextColor: #07090a;
 $sapContrastPlus--sapChart_Sequence_Neutral_Minus1_TextColor: #07090a;
 $sapContrastPlus--sapChart_Sequence_Neutral_Minus1_TextShadow: 0 0 .125rem #fff;
+$sapContrastPlus--sapSapThemeId: sap_belize_plus;

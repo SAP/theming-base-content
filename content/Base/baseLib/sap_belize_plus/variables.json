@@ -584,7 +584,7 @@
 		"sapField_InformationBorderStyle": "solid",
 		"sapField_InformationShadow": "none",
 		"sapField_Selector_Hover_Background": "#fff",
-		"sapField_Selector_Hover_InvalidBackground": "sapField_InvalidBackground",
+		"sapField_Selector_Hover_InvalidBackground": "#fff",
 		"sapField_Selector_Hover_WarningBackground": "#fff",
 		"sapField_Selector_Hover_SuccessBackground": "#fff",
 		"sapField_Selector_Hover_InformationBackground": "#fff",
@@ -1462,6 +1462,7 @@
 		"sapFontUrl_72Mono_Bold_woff": "url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold.woff')",
 		"sapFontUrl_72Mono_Bold_full_woff2": "url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff2')",
 		"sapFontUrl_72Mono_Bold_full_woff": "url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff')",
+		"sapSapThemeId": "sap_belize",
 		"sapBreakpoint_S_Min": "0",
 		"sapBreakpoint_M_Min": "600px",
 		"sapBreakpoint_L_Min": "1024px",
@@ -1858,6 +1859,7 @@
 		"sapField_InformationColor": "#91c8f6",
 		"sapField_InformationBackground": "#495e70",
 		"sapField_Selector_Hover_Background": "#495e70",
+		"sapField_Selector_Hover_InvalidBackground": "#495e70",
 		"sapField_Selector_Hover_WarningBackground": "#495e70",
 		"sapField_Selector_Hover_SuccessBackground": "#495e70",
 		"sapField_Selector_Hover_InformationBackground": "#495e70",
@@ -2272,6 +2274,7 @@
 		"sapChart_Sequence_Neutral_Plus1_TextColor": "#07090a",
 		"sapChart_Sequence_Neutral_TextColor": "#07090a",
 		"sapChart_Sequence_Neutral_Minus1_TextColor": "#07090a",
-		"sapChart_Sequence_Neutral_Minus1_TextShadow": "0 0 .125rem #fff"
+		"sapChart_Sequence_Neutral_Minus1_TextShadow": "0 0 .125rem #fff",
+		"sapSapThemeId": "sap_belize_plus"
 	}
 }
