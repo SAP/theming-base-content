@@ -11977,6 +11977,16 @@
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 10."
     },
+    "sapIndicationColor_10b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_10b_BackgroundH}, {Indication._sapIndicationColor_10b_BackgroundS}, {Indication._sapIndicationColor_10b_BackgroundL}, {Indication._sapIndicationColor_10b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 10."
+    },
+    "sapIndicationColor_10b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_10b_TextColorH}, {Indication._sapIndicationColor_10b_TextColorS}, {Indication._sapIndicationColor_10b_TextColorL}, {Indication._sapIndicationColor_10b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 10."
+    },
     "_sapIndicationColor_10bH": {
       "value": "209.99999999999977",
       "type": "internal"
@@ -12159,6 +12169,16 @@
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 9."
     },
+    "sapIndicationColor_9b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_9b_BackgroundH}, {Indication._sapIndicationColor_9b_BackgroundS}, {Indication._sapIndicationColor_9b_BackgroundL}, {Indication._sapIndicationColor_9b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 9."
+    },
+    "sapIndicationColor_9b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_9b_TextColorH}, {Indication._sapIndicationColor_9b_TextColorS}, {Indication._sapIndicationColor_9b_TextColorL}, {Indication._sapIndicationColor_9b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 9."
+    },
     "_sapIndicationColor_9bH": {
       "value": "0",
       "type": "internal"
@@ -12324,6 +12344,16 @@
       "value": "hsla({Indication._sapIndicationColor_8b_BorderColorH}, {Indication._sapIndicationColor_8b_BorderColorS}, {Indication._sapIndicationColor_8b_BorderColorL}, {Indication._sapIndicationColor_8b_BorderColorA})",
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 8."
+    },
+    "sapIndicationColor_8b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_8b_BackgroundH}, {Indication._sapIndicationColor_8b_BackgroundS}, {Indication._sapIndicationColor_8b_BackgroundL}, {Indication._sapIndicationColor_8b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 8."
+    },
+    "sapIndicationColor_8b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_8b_TextColorH}, {Indication._sapIndicationColor_8b_TextColorS}, {Indication._sapIndicationColor_8b_TextColorL}, {Indication._sapIndicationColor_8b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 8."
     },
     "_sapIndicationColor_8bH": {
       "value": "289.7560975609756",
@@ -12491,6 +12521,16 @@
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 7."
     },
+    "sapIndicationColor_7b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_7b_BackgroundH}, {Indication._sapIndicationColor_7b_BackgroundS}, {Indication._sapIndicationColor_7b_BackgroundL}, {Indication._sapIndicationColor_7b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 7."
+    },
+    "sapIndicationColor_7b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_7b_TextColorH}, {Indication._sapIndicationColor_7b_TextColorS}, {Indication._sapIndicationColor_7b_TextColorL}, {Indication._sapIndicationColor_7b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 7."
+    },
     "_sapIndicationColor_7bH": {
       "value": "251.66666666666674",
       "type": "internal"
@@ -12656,6 +12696,16 @@
       "value": "hsla({Indication._sapIndicationColor_6b_BorderColorH}, {Indication._sapIndicationColor_6b_BorderColorS}, {Indication._sapIndicationColor_6b_BorderColorL}, {Indication._sapIndicationColor_6b_BorderColorA})",
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 6."
+    },
+    "sapIndicationColor_6b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_6b_BackgroundH}, {Indication._sapIndicationColor_6b_BackgroundS}, {Indication._sapIndicationColor_6b_BackgroundL}, {Indication._sapIndicationColor_6b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 6."
+    },
+    "sapIndicationColor_6b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_6b_TextColorH}, {Indication._sapIndicationColor_6b_TextColorS}, {Indication._sapIndicationColor_6b_TextColorL}, {Indication._sapIndicationColor_6b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 6."
     },
     "_sapIndicationColor_6bH": {
       "value": "166.5",
@@ -12823,6 +12873,16 @@
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 5."
     },
+    "sapIndicationColor_5b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_5b_BackgroundH}, {Indication._sapIndicationColor_5b_BackgroundS}, {Indication._sapIndicationColor_5b_BackgroundL}, {Indication._sapIndicationColor_5b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 5."
+    },
+    "sapIndicationColor_5b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_5b_TextColorH}, {Indication._sapIndicationColor_5b_TextColorS}, {Indication._sapIndicationColor_5b_TextColorL}, {Indication._sapIndicationColor_5b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 5."
+    },
     "_sapIndicationColor_5bH": {
       "value": "200",
       "type": "internal"
@@ -12988,6 +13048,16 @@
       "value": "hsla({Indication._sapIndicationColor_4b_BorderColorH}, {Indication._sapIndicationColor_4b_BorderColorS}, {Indication._sapIndicationColor_4b_BorderColorL}, {Indication._sapIndicationColor_4b_BorderColorA})",
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 4."
+    },
+    "sapIndicationColor_4b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_4b_BackgroundH}, {Indication._sapIndicationColor_4b_BackgroundS}, {Indication._sapIndicationColor_4b_BackgroundL}, {Indication._sapIndicationColor_4b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 4."
+    },
+    "sapIndicationColor_4b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_4b_TextColorH}, {Indication._sapIndicationColor_4b_TextColorS}, {Indication._sapIndicationColor_4b_TextColorL}, {Indication._sapIndicationColor_4b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 4."
     },
     "_sapIndicationColor_4bH": {
       "value": "122.60869565217394",
@@ -13155,6 +13225,16 @@
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 3."
     },
+    "sapIndicationColor_3b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_3b_BackgroundH}, {Indication._sapIndicationColor_3b_BackgroundS}, {Indication._sapIndicationColor_3b_BackgroundL}, {Indication._sapIndicationColor_3b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 3."
+    },
+    "sapIndicationColor_3b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_3b_TextColorH}, {Indication._sapIndicationColor_3b_TextColorS}, {Indication._sapIndicationColor_3b_TextColorL}, {Indication._sapIndicationColor_3b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 3."
+    },
     "_sapIndicationColor_3bH": {
       "value": "47.61904761904759",
       "type": "internal"
@@ -13320,6 +13400,16 @@
       "value": "hsla({Indication._sapIndicationColor_2b_BorderColorH}, {Indication._sapIndicationColor_2b_BorderColorS}, {Indication._sapIndicationColor_2b_BorderColorL}, {Indication._sapIndicationColor_2b_BorderColorA})",
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 2."
+    },
+    "sapIndicationColor_2b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_2b_BackgroundH}, {Indication._sapIndicationColor_2b_BackgroundS}, {Indication._sapIndicationColor_2b_BackgroundL}, {Indication._sapIndicationColor_2b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 2."
+    },
+    "sapIndicationColor_2b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_2b_TextColorH}, {Indication._sapIndicationColor_2b_TextColorS}, {Indication._sapIndicationColor_2b_TextColorL}, {Indication._sapIndicationColor_2b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 2."
     },
     "_sapIndicationColor_2bH": {
       "value": "0",
@@ -13487,6 +13577,16 @@
       "type": "color",
       "description": "The border color for elements showing a less prominent shade of indication 1."
     },
+    "sapIndicationColor_1b_Background": {
+      "value": "hsla({Indication._sapIndicationColor_1b_BackgroundH}, {Indication._sapIndicationColor_1b_BackgroundS}, {Indication._sapIndicationColor_1b_BackgroundL}, {Indication._sapIndicationColor_1b_BackgroundA})",
+      "type": "color",
+      "description": "The background color for elements showing a less prominent shade of indication 1."
+    },
+    "sapIndicationColor_1b_TextColor": {
+      "value": "hsla({Indication._sapIndicationColor_1b_TextColorH}, {Indication._sapIndicationColor_1b_TextColorS}, {Indication._sapIndicationColor_1b_TextColorL}, {Indication._sapIndicationColor_1b_TextColorA})",
+      "type": "color",
+      "description": "The text color for elements showing a less prominent shade of indication 1."
+    },
     "_sapIndicationColor_1bH": {
       "value": "0",
       "type": "internal"
@@ -13643,6 +13743,38 @@
       "value": "{Indication._sapIndicationColor_10bA}",
       "type": "internal"
     },
+    "_sapIndicationColor_10b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_10bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_10bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_10bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_10bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_10H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_10S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_10L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_10b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_10A}",
+      "type": "internal"
+    },
     "_sapIndicationColor_10_Selected_TextColorH": {
       "value": "{Indication._sapIndicationColor_10_Active_TextColorH}",
       "type": "internal"
@@ -13753,6 +13885,38 @@
     },
     "_sapIndicationColor_10_BackgroundA": {
       "value": "{Indication._sapIndicationColor_10A}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_9bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_9bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_9bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_9bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_9H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_9S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_9L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_9b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_9A}",
       "type": "internal"
     },
     "_sapIndicationColor_9_Selected_TextColorH": {
@@ -13883,6 +14047,38 @@
       "value": "{Indication._sapIndicationColor_8bA}",
       "type": "internal"
     },
+    "_sapIndicationColor_8b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_8bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_8bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_8bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_8bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_8H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_8S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_8L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_8b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_8A}",
+      "type": "internal"
+    },
     "_sapIndicationColor_8_Selected_TextColorH": {
       "value": "{Indication._sapIndicationColor_8_Active_TextColorH}",
       "type": "internal"
@@ -14009,6 +14205,38 @@
     },
     "_sapIndicationColor_7b_BorderColorA": {
       "value": "{Indication._sapIndicationColor_7bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_7bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_7bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_7bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_7bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_7H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_7S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_7L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_7b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_7A}",
       "type": "internal"
     },
     "_sapIndicationColor_7_Selected_TextColorH": {
@@ -14139,6 +14367,38 @@
       "value": "{Indication._sapIndicationColor_6bA}",
       "type": "internal"
     },
+    "_sapIndicationColor_6b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_6bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_6bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_6bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_6bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_6H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_6S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_6L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_6b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_6A}",
+      "type": "internal"
+    },
     "_sapIndicationColor_6_Selected_TextColorH": {
       "value": "{Indication._sapIndicationColor_6_Active_TextColorH}",
       "type": "internal"
@@ -14265,6 +14525,38 @@
     },
     "_sapIndicationColor_5b_BorderColorA": {
       "value": "{Indication._sapIndicationColor_5bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_5bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_5bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_5bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_5bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_5H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_5S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_5L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_5b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_5A}",
       "type": "internal"
     },
     "_sapIndicationColor_5_Selected_TextColorH": {
@@ -14395,6 +14687,38 @@
       "value": "{Indication._sapIndicationColor_4bA}",
       "type": "internal"
     },
+    "_sapIndicationColor_4b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_4bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_4bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_4bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_4bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_4H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_4S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_4L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_4b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_4A}",
+      "type": "internal"
+    },
     "_sapIndicationColor_4_Selected_TextColorH": {
       "value": "{Indication._sapIndicationColor_4_Active_TextColorH}",
       "type": "internal"
@@ -14521,6 +14845,38 @@
     },
     "_sapIndicationColor_3b_BorderColorA": {
       "value": "{Indication._sapIndicationColor_3bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_3bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_3bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_3bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_3bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_3H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_3S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_3L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_3b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_3A}",
       "type": "internal"
     },
     "_sapIndicationColor_3_Selected_TextColorH": {
@@ -14651,6 +15007,38 @@
       "value": "{Indication._sapIndicationColor_2bA}",
       "type": "internal"
     },
+    "_sapIndicationColor_2b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_2bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_2bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_2bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_2bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_2H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_2S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_2L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_2b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_2A}",
+      "type": "internal"
+    },
     "_sapIndicationColor_2_Selected_TextColorH": {
       "value": "{Indication._sapIndicationColor_2_Active_TextColorH}",
       "type": "internal"
@@ -14777,6 +15165,38 @@
     },
     "_sapIndicationColor_1b_BorderColorA": {
       "value": "{Indication._sapIndicationColor_1bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_BackgroundH": {
+      "value": "{Indication._sapIndicationColor_1bH}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_BackgroundS": {
+      "value": "{Indication._sapIndicationColor_1bS}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_BackgroundL": {
+      "value": "{Indication._sapIndicationColor_1bL}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_BackgroundA": {
+      "value": "{Indication._sapIndicationColor_1bA}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_TextColorH": {
+      "value": "{Indication._sapIndicationColor_1H}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_TextColorS": {
+      "value": "{Indication._sapIndicationColor_1S}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_TextColorL": {
+      "value": "{Indication._sapIndicationColor_1L}",
+      "type": "internal"
+    },
+    "_sapIndicationColor_1b_TextColorA": {
+      "value": "{Indication._sapIndicationColor_1A}",
       "type": "internal"
     },
     "_sapIndicationColor_1_Selected_TextColorH": {
@@ -15591,6 +16011,544 @@
     },
     "_sapTile_BackgroundA": {
       "value": "{Internal._sapPrimary4A}",
+      "type": "internal"
+    }
+  },
+  "Tab": {
+    "Critical": {
+      "sapTab_Critical_Selected_Background": {
+        "value": "hsla({Tab.Critical._sapTab_Critical_Selected_BackgroundH}, {Tab.Critical._sapTab_Critical_Selected_BackgroundS}, {Tab.Critical._sapTab_Critical_Selected_BackgroundL}, {Tab.Critical._sapTab_Critical_Selected_BackgroundA})",
+        "type": "color",
+        "description": "The background color of selected tabs indicating a critical state."
+      },
+      "_sapTab_Critical_Selected_IconColorH": {
+        "value": "{Icon._sapContent_ContrastIconColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_IconColorS": {
+        "value": "{Icon._sapContent_ContrastIconColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_IconColorL": {
+        "value": "{Icon._sapContent_ContrastIconColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_IconColorA": {
+        "value": "{Icon._sapContent_ContrastIconColorA}",
+        "type": "internal"
+      },
+      "sapTab_Critical_Selected_IconColor": {
+        "value": "hsla({Tab.Critical._sapTab_Critical_Selected_IconColorH}, {Tab.Critical._sapTab_Critical_Selected_IconColorS}, {Tab.Critical._sapTab_Critical_Selected_IconColorL}, {Tab.Critical._sapTab_Critical_Selected_IconColorA})",
+        "type": "color",
+        "description": "The icon color of selected tabs indicating a critical state."
+      },
+      "sapTab_Critical_Selected_TextColor": {
+        "value": "hsla({Tab.Critical._sapTab_Critical_Selected_TextColorH}, {Tab.Critical._sapTab_Critical_Selected_TextColorS}, {Tab.Critical._sapTab_Critical_Selected_TextColorL}, {Tab.Critical._sapTab_Critical_Selected_TextColorA})",
+        "type": "color",
+        "description": "The text color of selected tabs indicating a critical state."
+      },
+      "_sapTab_Critical_IconColorH": {
+        "value": "{Semantic.Element._sapCriticalElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_IconColorS": {
+        "value": "{Semantic.Element._sapCriticalElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_IconColorL": {
+        "value": "{Semantic.Element._sapCriticalElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_IconColorA": {
+        "value": "{Semantic.Element._sapCriticalElementColorA}",
+        "type": "internal"
+      },
+      "sapTab_Critical_IconColor": {
+        "value": "hsla({Tab.Critical._sapTab_Critical_IconColorH}, {Tab.Critical._sapTab_Critical_IconColorS}, {Tab.Critical._sapTab_Critical_IconColorL}, {Tab.Critical._sapTab_Critical_IconColorA})",
+        "type": "color",
+        "description": "The icon color of tabs indicating a critical state."
+      },
+      "sapTab_Critical_ForegroundColor": {
+        "value": "hsla({Tab.Critical._sapTab_Critical_ForegroundColorH}, {Tab.Critical._sapTab_Critical_ForegroundColorS}, {Tab.Critical._sapTab_Critical_ForegroundColorL}, {Tab.Critical._sapTab_Critical_ForegroundColorA})",
+        "type": "color",
+        "description": "The color of foreground elements of tabs indicating a critical state, e.g. buttons or selection bars."
+      },
+      "sapTab_Critical_TextColor": {
+        "value": "hsla({Tab.Critical._sapTab_Critical_TextColorH}, {Tab.Critical._sapTab_Critical_TextColorS}, {Tab.Critical._sapTab_Critical_TextColorL}, {Tab.Critical._sapTab_Critical_TextColorA})",
+        "type": "color",
+        "description": "The text color of tabs indicating a critical state."
+      },
+      "_sapTab_Critical_Selected_BackgroundH": {
+        "value": "{Semantic.Element._sapCriticalElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_BackgroundS": {
+        "value": "{Semantic.Element._sapCriticalElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_BackgroundL": {
+        "value": "{Semantic.Element._sapCriticalElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_BackgroundA": {
+        "value": "{Semantic.Element._sapCriticalElementColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_TextColorH": {
+        "value": "{Semantic.Text._sapCriticalTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_TextColorS": {
+        "value": "{Semantic.Text._sapCriticalTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_TextColorL": {
+        "value": "{Semantic.Text._sapCriticalTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_Selected_TextColorA": {
+        "value": "{Semantic.Text._sapCriticalTextColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_ForegroundColorH": {
+        "value": "{Semantic.Element._sapCriticalElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_ForegroundColorS": {
+        "value": "{Semantic.Element._sapCriticalElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_ForegroundColorL": {
+        "value": "{Semantic.Element._sapCriticalElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_ForegroundColorA": {
+        "value": "{Semantic.Element._sapCriticalElementColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_TextColorH": {
+        "value": "{Semantic.Text._sapCriticalTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_TextColorS": {
+        "value": "{Semantic.Text._sapCriticalTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_TextColorL": {
+        "value": "{Semantic.Text._sapCriticalTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Critical_TextColorA": {
+        "value": "{Semantic.Text._sapCriticalTextColorA}",
+        "type": "internal"
+      }
+    },
+    "Negative": {
+      "sapTab_Negative_Selected_Background": {
+        "value": "hsla({Tab.Negative._sapTab_Negative_Selected_BackgroundH}, {Tab.Negative._sapTab_Negative_Selected_BackgroundS}, {Tab.Negative._sapTab_Negative_Selected_BackgroundL}, {Tab.Negative._sapTab_Negative_Selected_BackgroundA})",
+        "type": "color",
+        "description": "The background color of selected tabs indicating a negative state."
+      },
+      "_sapTab_Negative_Selected_IconColorH": {
+        "value": "{Icon._sapContent_ContrastIconColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_IconColorS": {
+        "value": "{Icon._sapContent_ContrastIconColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_IconColorL": {
+        "value": "{Icon._sapContent_ContrastIconColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_IconColorA": {
+        "value": "{Icon._sapContent_ContrastIconColorA}",
+        "type": "internal"
+      },
+      "sapTab_Negative_Selected_IconColor": {
+        "value": "hsla({Tab.Negative._sapTab_Negative_Selected_IconColorH}, {Tab.Negative._sapTab_Negative_Selected_IconColorS}, {Tab.Negative._sapTab_Negative_Selected_IconColorL}, {Tab.Negative._sapTab_Negative_Selected_IconColorA})",
+        "type": "color",
+        "description": "The icon color of selected tabs indicating a negative state."
+      },
+      "sapTab_Negative_Selected_TextColor": {
+        "value": "hsla({Tab.Negative._sapTab_Negative_Selected_TextColorH}, {Tab.Negative._sapTab_Negative_Selected_TextColorS}, {Tab.Negative._sapTab_Negative_Selected_TextColorL}, {Tab.Negative._sapTab_Negative_Selected_TextColorA})",
+        "type": "color",
+        "description": "The text color of selected tabs indicating a negative state."
+      },
+      "_sapTab_Negative_IconColorH": {
+        "value": "{Icon._sapContent_ContrastIconColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_IconColorS": {
+        "value": "{Icon._sapContent_ContrastIconColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_IconColorL": {
+        "value": "{Icon._sapContent_ContrastIconColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_IconColorA": {
+        "value": "{Icon._sapContent_ContrastIconColorA}",
+        "type": "internal"
+      },
+      "sapTab_Negative_IconColor": {
+        "value": "hsla({Tab.Negative._sapTab_Negative_IconColorH}, {Tab.Negative._sapTab_Negative_IconColorS}, {Tab.Negative._sapTab_Negative_IconColorL}, {Tab.Negative._sapTab_Negative_IconColorA})",
+        "type": "color",
+        "description": "The icon color of tabs indicating a negative state."
+      },
+      "sapTab_Negative_ForegroundColor": {
+        "value": "hsla({Tab.Negative._sapTab_Negative_ForegroundColorH}, {Tab.Negative._sapTab_Negative_ForegroundColorS}, {Tab.Negative._sapTab_Negative_ForegroundColorL}, {Tab.Negative._sapTab_Negative_ForegroundColorA})",
+        "type": "color",
+        "description": "The color of foreground elements of tabs indicating a negative state, e.g. buttons or selection bars."
+      },
+      "sapTab_Negative_TextColor": {
+        "value": "hsla({Tab.Negative._sapTab_Negative_TextColorH}, {Tab.Negative._sapTab_Negative_TextColorS}, {Tab.Negative._sapTab_Negative_TextColorL}, {Tab.Negative._sapTab_Negative_TextColorA})",
+        "type": "color",
+        "description": "The text color of tabs indicating a negative state."
+      },
+      "_sapTab_Negative_Selected_BackgroundH": {
+        "value": "{Semantic.Element._sapNegativeElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_BackgroundS": {
+        "value": "{Semantic.Element._sapNegativeElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_BackgroundL": {
+        "value": "{Semantic.Element._sapNegativeElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_BackgroundA": {
+        "value": "{Semantic.Element._sapNegativeElementColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_TextColorH": {
+        "value": "{Semantic.Text._sapNegativeTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_TextColorS": {
+        "value": "{Semantic.Text._sapNegativeTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_TextColorL": {
+        "value": "{Semantic.Text._sapNegativeTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_Selected_TextColorA": {
+        "value": "{Semantic.Text._sapNegativeTextColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_ForegroundColorH": {
+        "value": "{Semantic.Element._sapNegativeElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_ForegroundColorS": {
+        "value": "{Semantic.Element._sapNegativeElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_ForegroundColorL": {
+        "value": "{Semantic.Element._sapNegativeElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_ForegroundColorA": {
+        "value": "{Semantic.Element._sapNegativeElementColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_TextColorH": {
+        "value": "{Semantic.Text._sapNegativeTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_TextColorS": {
+        "value": "{Semantic.Text._sapNegativeTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_TextColorL": {
+        "value": "{Semantic.Text._sapNegativeTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Negative_TextColorA": {
+        "value": "{Semantic.Text._sapNegativeTextColorA}",
+        "type": "internal"
+      }
+    },
+    "Positive": {
+      "sapTab_Positive_Selected_Background": {
+        "value": "hsla({Tab.Positive._sapTab_Positive_Selected_BackgroundH}, {Tab.Positive._sapTab_Positive_Selected_BackgroundS}, {Tab.Positive._sapTab_Positive_Selected_BackgroundL}, {Tab.Positive._sapTab_Positive_Selected_BackgroundA})",
+        "type": "color",
+        "description": "The background color of selected tabs indicating a positive state."
+      },
+      "_sapTab_Positive_Selected_IconColorH": {
+        "value": "{Icon._sapContent_ContrastIconColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_IconColorS": {
+        "value": "{Icon._sapContent_ContrastIconColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_IconColorL": {
+        "value": "{Icon._sapContent_ContrastIconColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_IconColorA": {
+        "value": "{Icon._sapContent_ContrastIconColorA}",
+        "type": "internal"
+      },
+      "sapTab_Positive_Selected_IconColor": {
+        "value": "hsla({Tab.Positive._sapTab_Positive_Selected_IconColorH}, {Tab.Positive._sapTab_Positive_Selected_IconColorS}, {Tab.Positive._sapTab_Positive_Selected_IconColorL}, {Tab.Positive._sapTab_Positive_Selected_IconColorA})",
+        "type": "color",
+        "description": "The icon color of selected tabs indicating a positive state."
+      },
+      "sapTab_Positive_Selected_TextColor": {
+        "value": "hsla({Tab.Positive._sapTab_Positive_Selected_TextColorH}, {Tab.Positive._sapTab_Positive_Selected_TextColorS}, {Tab.Positive._sapTab_Positive_Selected_TextColorL}, {Tab.Positive._sapTab_Positive_Selected_TextColorA})",
+        "type": "color",
+        "description": "The text color of selected tabs indicating a positive state."
+      },
+      "_sapTab_Positive_IconColorH": {
+        "value": "{Semantic.Element._sapPositiveElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_IconColorS": {
+        "value": "{Semantic.Element._sapPositiveElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_IconColorL": {
+        "value": "{Semantic.Element._sapPositiveElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_IconColorA": {
+        "value": "{Semantic.Element._sapPositiveElementColorA}",
+        "type": "internal"
+      },
+      "sapTab_Positive_IconColor": {
+        "value": "hsla({Tab.Positive._sapTab_Positive_IconColorH}, {Tab.Positive._sapTab_Positive_IconColorS}, {Tab.Positive._sapTab_Positive_IconColorL}, {Tab.Positive._sapTab_Positive_IconColorA})",
+        "type": "color",
+        "description": "The icon color of tabs indicating a positive state."
+      },
+      "sapTab_Positive_ForegroundColor": {
+        "value": "hsla({Tab.Positive._sapTab_Positive_ForegroundColorH}, {Tab.Positive._sapTab_Positive_ForegroundColorS}, {Tab.Positive._sapTab_Positive_ForegroundColorL}, {Tab.Positive._sapTab_Positive_ForegroundColorA})",
+        "type": "color",
+        "description": "The color of foreground elements of tabs indicating a positive state, e.g. buttons or selection bars."
+      },
+      "sapTab_Positive_TextColor": {
+        "value": "hsla({Tab.Positive._sapTab_Positive_TextColorH}, {Tab.Positive._sapTab_Positive_TextColorS}, {Tab.Positive._sapTab_Positive_TextColorL}, {Tab.Positive._sapTab_Positive_TextColorA})",
+        "type": "color",
+        "description": "The text color of tabs indicating a positive state."
+      },
+      "_sapTab_Positive_Selected_BackgroundH": {
+        "value": "{Semantic.Element._sapPositiveElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_BackgroundS": {
+        "value": "{Semantic.Element._sapPositiveElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_BackgroundL": {
+        "value": "{Semantic.Element._sapPositiveElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_BackgroundA": {
+        "value": "{Semantic.Element._sapPositiveElementColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_TextColorH": {
+        "value": "{Semantic.Text._sapPositiveTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_TextColorS": {
+        "value": "{Semantic.Text._sapPositiveTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_TextColorL": {
+        "value": "{Semantic.Text._sapPositiveTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_Selected_TextColorA": {
+        "value": "{Semantic.Text._sapPositiveTextColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_ForegroundColorH": {
+        "value": "{Semantic.Element._sapPositiveElementColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_ForegroundColorS": {
+        "value": "{Semantic.Element._sapPositiveElementColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_ForegroundColorL": {
+        "value": "{Semantic.Element._sapPositiveElementColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_ForegroundColorA": {
+        "value": "{Semantic.Element._sapPositiveElementColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_TextColorH": {
+        "value": "{Semantic.Text._sapPositiveTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_TextColorS": {
+        "value": "{Semantic.Text._sapPositiveTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_TextColorL": {
+        "value": "{Semantic.Text._sapPositiveTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Positive_TextColorA": {
+        "value": "{Semantic.Text._sapPositiveTextColorA}",
+        "type": "internal"
+      }
+    },
+    "sapTab_Selected_Indicator_Dimension": {
+      "value": "0.1875 * {Internal.sapContent_GridSize}",
+      "type": "dimension",
+      "description": "The width, or in the case of vertical tabs the height, of indicators, e.g. bars, of selected tabs."
+    },
+    "sapTab_Selected_Background": {
+      "value": "hsla({Tab._sapTab_Selected_BackgroundH}, {Tab._sapTab_Selected_BackgroundS}, {Tab._sapTab_Selected_BackgroundL}, {Tab._sapTab_Selected_BackgroundA})",
+      "type": "color",
+      "description": "The background color of selected tabs."
+    },
+    "_sapTab_Selected_IconColorH": {
+      "value": "{Icon._sapContent_ContrastIconColorH}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_IconColorS": {
+      "value": "{Icon._sapContent_ContrastIconColorS}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_IconColorL": {
+      "value": "{Icon._sapContent_ContrastIconColorL}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_IconColorA": {
+      "value": "{Icon._sapContent_ContrastIconColorA}",
+      "type": "internal"
+    },
+    "sapTab_Selected_IconColor": {
+      "value": "hsla({Tab._sapTab_Selected_IconColorH}, {Tab._sapTab_Selected_IconColorS}, {Tab._sapTab_Selected_IconColorL}, {Tab._sapTab_Selected_IconColorA})",
+      "type": "color",
+      "description": "The icon color of selected tabs."
+    },
+    "sapTab_Selected_TextColor": {
+      "value": "hsla({Tab._sapTab_Selected_TextColorH}, {Tab._sapTab_Selected_TextColorS}, {Tab._sapTab_Selected_TextColorL}, {Tab._sapTab_Selected_TextColorA})",
+      "type": "color",
+      "description": "The text color of selected tabs."
+    },
+    "sapTab_Background": {
+      "value": "hsla({Tab._sapTab_BackgroundH}, {Tab._sapTab_BackgroundS}, {Tab._sapTab_BackgroundL}, {Tab._sapTab_BackgroundA})",
+      "type": "color",
+      "description": "The background color of tabs."
+    },
+    "_sapTab_IconColorH": {
+      "value": "{Main._sapHighlightColorH}",
+      "type": "internal"
+    },
+    "_sapTab_IconColorS": {
+      "value": "{Main._sapHighlightColorS}",
+      "type": "internal"
+    },
+    "_sapTab_IconColorL": {
+      "value": "{Main._sapHighlightColorL}",
+      "type": "internal"
+    },
+    "_sapTab_IconColorA": {
+      "value": "{Main._sapHighlightColorA}",
+      "type": "internal"
+    },
+    "sapTab_IconColor": {
+      "value": "hsla({Tab._sapTab_IconColorH}, {Tab._sapTab_IconColorS}, {Tab._sapTab_IconColorL}, {Tab._sapTab_IconColorA})",
+      "type": "color",
+      "description": "The icon color of tabs."
+    },
+    "sapTab_ForegroundColor": {
+      "value": "hsla({Tab._sapTab_ForegroundColorH}, {Tab._sapTab_ForegroundColorS}, {Tab._sapTab_ForegroundColorL}, {Tab._sapTab_ForegroundColorA})",
+      "type": "color",
+      "description": "The color of foreground elements of tabs, e.g. buttons or selection bars."
+    },
+    "sapTab_TextColor": {
+      "value": "hsla({Tab._sapTab_TextColorH}, {Tab._sapTab_TextColorS}, {Tab._sapTab_TextColorL}, {Tab._sapTab_TextColorA})",
+      "type": "color",
+      "description": "The text color of tabs."
+    },
+    "_sapTab_Selected_BackgroundH": {
+      "value": "{Interaction._sapSelectedColorH}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_BackgroundS": {
+      "value": "{Interaction._sapSelectedColorS}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_BackgroundL": {
+      "value": "{Interaction._sapSelectedColorL}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_BackgroundA": {
+      "value": "{Interaction._sapSelectedColorA}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_TextColorH": {
+      "value": "{Interaction._sapContent_Selected_ForegroundColorH}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_TextColorS": {
+      "value": "{Interaction._sapContent_Selected_ForegroundColorS}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_TextColorL": {
+      "value": "{Interaction._sapContent_Selected_ForegroundColorL}",
+      "type": "internal"
+    },
+    "_sapTab_Selected_TextColorA": {
+      "value": "{Interaction._sapContent_Selected_ForegroundColorA}",
+      "type": "internal"
+    },
+    "_sapTab_BackgroundH": {
+      "value": "{ObjectHeader._sapObjectHeader_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapTab_BackgroundS": {
+      "value": "{ObjectHeader._sapObjectHeader_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapTab_BackgroundL": {
+      "value": "{ObjectHeader._sapObjectHeader_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapTab_BackgroundA": {
+      "value": "{ObjectHeader._sapObjectHeader_BackgroundA}",
+      "type": "internal"
+    },
+    "_sapTab_ForegroundColorH": {
+      "value": "{Main._sapHighlightColorH}",
+      "type": "internal"
+    },
+    "_sapTab_ForegroundColorS": {
+      "value": "{Main._sapHighlightColorS}",
+      "type": "internal"
+    },
+    "_sapTab_ForegroundColorL": {
+      "value": "{Main._sapHighlightColorL}",
+      "type": "internal"
+    },
+    "_sapTab_ForegroundColorA": {
+      "value": "{Main._sapHighlightColorA}",
+      "type": "internal"
+    },
+    "_sapTab_TextColorH": {
+      "value": "{Text._sapContent_LabelColorH}",
+      "type": "internal"
+    },
+    "_sapTab_TextColorS": {
+      "value": "{Text._sapContent_LabelColorS}",
+      "type": "internal"
+    },
+    "_sapTab_TextColorL": {
+      "value": "{Text._sapContent_LabelColorL}",
+      "type": "internal"
+    },
+    "_sapTab_TextColorA": {
+      "value": "{Text._sapContent_LabelColorA}",
       "type": "internal"
     }
   },
@@ -17273,6 +18231,34 @@
         "value": "{Input.Standard._sapField_BackgroundA}",
         "type": "internal"
       }
+    }
+  },
+  "Message": {
+    "_sapMessage_Button_Hover_BackgroundH": {
+      "value": "{Button.Lite._sapButton_Lite_Hover_BackgroundH}",
+      "type": "internal"
+    },
+    "_sapMessage_Button_Hover_BackgroundS": {
+      "value": "{Button.Lite._sapButton_Lite_Hover_BackgroundS}",
+      "type": "internal"
+    },
+    "_sapMessage_Button_Hover_BackgroundL": {
+      "value": "{Button.Lite._sapButton_Lite_Hover_BackgroundL}",
+      "type": "internal"
+    },
+    "_sapMessage_Button_Hover_BackgroundA": {
+      "value": "(20) / 100",
+      "type": "internal"
+    },
+    "sapMessage_Button_Hover_Background": {
+      "value": "hsla({Message._sapMessage_Button_Hover_BackgroundH}, {Message._sapMessage_Button_Hover_BackgroundS}, {Message._sapMessage_Button_Hover_BackgroundL}, {Message._sapMessage_Button_Hover_BackgroundA})",
+      "type": "color",
+      "description": "The background of hovered buttons in message controls."
+    },
+    "sapMessage_BorderWidth": {
+      "value": "{Internal.sapElement_BorderWidth}",
+      "type": "color",
+      "description": "The border width of message controls."
     }
   },
   "Semantic": {

@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 14.2.4
-* data:{"sModified":"2024-11-22T06:10:28Z"}
+* Theming Engine 14.2.8
+* data:{"sModified":"2024-12-12T10:42:39Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.23.0) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.24.0) *******************/
 
 
 // [Label "Brand Color"]
@@ -5276,6 +5276,14 @@
 // [Type "borderWidth"]
 @sapList_TableFixedRowBorderWidth: @sapDefault_Dimension;
 
+// [Label "Message Border Width"]
+// [Description "The border width of message controls."]
+// [Tags "Base", "Message", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Message"]
+// [Type "color"]
+@sapMessage_BorderWidth: @sapDefault_Dimension;
+
 // [Label "Message Error Border Color"]
 // [Description "The error border color of message controls."]
 // [Tags "Base", "Message", "Semantic", "Color", "Protected"]
@@ -5308,6 +5316,14 @@
 // [Category "Semantic", "Message"]
 // [Type "color"]
 @sapMessage_InformationBorderColor: @sapDefault_Color;
+
+// [Label "Message Button Hover Background"]
+// [Description "The background of hovered buttons in message controls."]
+// [Tags "Base", "Message", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Message"]
+// [Type "color"]
+@sapMessage_Button_Hover_Background: @sapDefault_Color;
 
 // [Label "Popover Border Corner Radius"]
 // [Description "The border radius of popovers."]
@@ -5669,6 +5685,14 @@
 // [Type "color"]
 @sapSlider_Selected_BorderColor: @sapDefault_Color;
 
+// [Label "Slider Selected Dimension"]
+// [Description "The dimension of the selected part of the slider; usually the width, for vertical sliders the height."]
+// [Tags "Base", "Slider", "Dimension", "Protected"]
+// [Protected "true"]
+// [Category "Slider"]
+// [Type "dimension"]
+@sapSlider_Selected_Dimension: @sapDefault_Dimension;
+
 // [Label "Slider Handle Background"]
 // [Description "The background color of the slider handle."]
 // [Tags "Base", "Slider", "Color", "Protected"]
@@ -5921,6 +5945,214 @@
 // [Category "Container"]
 // [Type "opacity"]
 @sapBlockLayer_Opacity: @sapDefault_Dimension;
+
+// [Label "Tab Text Color"]
+// [Description "The text color of tabs."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_TextColor: @sapDefault_Color;
+
+// [Label "Tab Foreground Color"]
+// [Description "The color of foreground elements of tabs, e.g. buttons or selection bars."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_ForegroundColor: @sapDefault_Color;
+
+// [Label "Tab Icon Color"]
+// [Description "The icon color of tabs."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_IconColor: @sapDefault_Color;
+
+// [Label "Tab Background Color"]
+// [Description "The background color of tabs."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_Background: @sapDefault_Color;
+
+// [Label "Tab Selected Text Color"]
+// [Description "The text color of selected tabs."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Tab Selected Icon Color"]
+// [Description "The icon color of selected tabs."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_Selected_IconColor: @sapDefault_Color;
+
+// [Label "Tab Selected Background Color"]
+// [Description "The background color of selected tabs."]
+// [Tags "Base", "Tab", "Color", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "color"]
+@sapTab_Selected_Background: @sapDefault_Color;
+
+// [Label "Tab Selected Indicator Dimension"]
+// [Description "The width, or in the case of vertical tabs the height, of indicators, e.g. bars, of selected tabs."]
+// [Tags "Base", "Tab", "Dimension", "Protected"]
+// [Protected "true"]
+// [Category "Tab"]
+// [Type "dimension"]
+@sapTab_Selected_Indicator_Dimension: @sapDefault_Dimension;
+
+// [Label "Tab Positive Text Color"]
+// [Description "The text color of tabs indicating a positive state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Positive"]
+// [Type "color"]
+@sapTab_Positive_TextColor: @sapDefault_Color;
+
+// [Label "Tab Positive Foreground Color"]
+// [Description "The color of foreground elements of tabs indicating a positive state, e.g. buttons or selection bars."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Positive"]
+// [Type "color"]
+@sapTab_Positive_ForegroundColor: @sapDefault_Color;
+
+// [Label "Tab Positive Icon Color"]
+// [Description "The icon color of tabs indicating a positive state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Positive"]
+// [Type "color"]
+@sapTab_Positive_IconColor: @sapDefault_Color;
+
+// [Label "Tab Positive Selected Text Color"]
+// [Description "The text color of selected tabs indicating a positive state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Positive"]
+// [Type "color"]
+@sapTab_Positive_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Tab Positive Selected Icon Color"]
+// [Description "The icon color of selected tabs indicating a positive state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Positive"]
+// [Type "color"]
+@sapTab_Positive_Selected_IconColor: @sapDefault_Color;
+
+// [Label "Tab Positive Selected Background Color"]
+// [Description "The background color of selected tabs indicating a positive state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Positive"]
+// [Type "color"]
+@sapTab_Positive_Selected_Background: @sapDefault_Color;
+
+// [Label "Tab Negative Text Color"]
+// [Description "The text color of tabs indicating a negative state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Negative"]
+// [Type "color"]
+@sapTab_Negative_TextColor: @sapDefault_Color;
+
+// [Label "Tab Negative Foreground Color"]
+// [Description "The color of foreground elements of tabs indicating a negative state, e.g. buttons or selection bars."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Negative"]
+// [Type "color"]
+@sapTab_Negative_ForegroundColor: @sapDefault_Color;
+
+// [Label "Tab Negative Icon Color"]
+// [Description "The icon color of tabs indicating a negative state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Negative"]
+// [Type "color"]
+@sapTab_Negative_IconColor: @sapDefault_Color;
+
+// [Label "Tab Negative Selected Text Color"]
+// [Description "The text color of selected tabs indicating a negative state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Negative"]
+// [Type "color"]
+@sapTab_Negative_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Tab Negative Selected Icon Color"]
+// [Description "The icon color of selected tabs indicating a negative state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Negative"]
+// [Type "color"]
+@sapTab_Negative_Selected_IconColor: @sapDefault_Color;
+
+// [Label "Tab Negative Selected Background Color"]
+// [Description "The background color of selected tabs indicating a negative state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Negative"]
+// [Type "color"]
+@sapTab_Negative_Selected_Background: @sapDefault_Color;
+
+// [Label "Tab Critical Text Color"]
+// [Description "The text color of tabs indicating a critical state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Critical"]
+// [Type "color"]
+@sapTab_Critical_TextColor: @sapDefault_Color;
+
+// [Label "Tab Critical Foreground Color"]
+// [Description "The color of foreground elements of tabs indicating a critical state, e.g. buttons or selection bars."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Critical"]
+// [Type "color"]
+@sapTab_Critical_ForegroundColor: @sapDefault_Color;
+
+// [Label "Tab Critical Icon Color"]
+// [Description "The icon color of tabs indicating a critical state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Critical"]
+// [Type "color"]
+@sapTab_Critical_IconColor: @sapDefault_Color;
+
+// [Label "Tab Critical Selected Text Color"]
+// [Description "The text color of selected tabs indicating a critical state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Critical"]
+// [Type "color"]
+@sapTab_Critical_Selected_TextColor: @sapDefault_Color;
+
+// [Label "Tab Critical Selected Icon Color"]
+// [Description "The icon color of selected tabs indicating a critical state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Critical"]
+// [Type "color"]
+@sapTab_Critical_Selected_IconColor: @sapDefault_Color;
+
+// [Label "Tab Critical Selected Background Color"]
+// [Description "The background color of selected tabs indicating a critical state."]
+// [Tags "Base", "Tab", "Color", "Semantic", "Protected"]
+// [Protected "true"]
+// [Category "Tab", "Critical"]
+// [Type "color"]
+@sapTab_Critical_Selected_Background: @sapDefault_Color;
 
 // [Label "Tile Background Color"]
 // [Description "The background color of tiles and cards."]
@@ -6300,6 +6532,24 @@
 // [Type "color"]
 @sapIndicationColor_1b: @sapDefault_Color;
 
+// [Label "Indication Color 1b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 1."]
+// [TranslationKey "sapIndication1bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_1b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 1b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 1."]
+// [TranslationKey "sapIndication1bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_1b_Background: @sapDefault_Color;
+
 // [Label "Indication Color 1b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 1."]
 // [TranslationKey "sapIndication1bBrd"]
@@ -6423,6 +6673,24 @@
 // [Category "Indication"]
 // [Type "color"]
 @sapIndicationColor_2b: @sapDefault_Color;
+
+// [Label "Indication Color 2b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 2."]
+// [TranslationKey "sapIndication2bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_2b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 2b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 2."]
+// [TranslationKey "sapIndication2bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_2b_Background: @sapDefault_Color;
 
 // [Label "Indication Color 2b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 2."]
@@ -6548,6 +6816,24 @@
 // [Type "color"]
 @sapIndicationColor_3b: @sapDefault_Color;
 
+// [Label "Indication Color 3b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 3."]
+// [TranslationKey "sapIndication3bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_3b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 3b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 3."]
+// [TranslationKey "sapIndication3bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_3b_Background: @sapDefault_Color;
+
 // [Label "Indication Color 3b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 3."]
 // [TranslationKey "sapIndication3bBrd"]
@@ -6671,6 +6957,24 @@
 // [Category "Indication"]
 // [Type "color"]
 @sapIndicationColor_4b: @sapDefault_Color;
+
+// [Label "Indication Color 4b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 4."]
+// [TranslationKey "sapIndication4bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_4b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 4b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 4."]
+// [TranslationKey "sapIndication4bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_4b_Background: @sapDefault_Color;
 
 // [Label "Indication Color 4b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 4."]
@@ -6796,6 +7100,24 @@
 // [Type "color"]
 @sapIndicationColor_5b: @sapDefault_Color;
 
+// [Label "Indication Color 5b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 5."]
+// [TranslationKey "sapIndication5bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_5b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 5b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 5."]
+// [TranslationKey "sapIndication5bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_5b_Background: @sapDefault_Color;
+
 // [Label "Indication Color 5b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 5."]
 // [TranslationKey "sapIndication5bBrd"]
@@ -6919,6 +7241,24 @@
 // [Category "Indication"]
 // [Type "color"]
 @sapIndicationColor_6b: @sapDefault_Color;
+
+// [Label "Indication Color 6b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 6."]
+// [TranslationKey "sapIndication6bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_6b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 6b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 6."]
+// [TranslationKey "sapIndication6bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_6b_Background: @sapDefault_Color;
 
 // [Label "Indication Color 6b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 6."]
@@ -7044,6 +7384,24 @@
 // [Type "color"]
 @sapIndicationColor_7b: @sapDefault_Color;
 
+// [Label "Indication Color 7b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 7."]
+// [TranslationKey "sapIndication7bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_7b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 7b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 7."]
+// [TranslationKey "sapIndication7bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_7b_Background: @sapDefault_Color;
+
 // [Label "Indication Color 7b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 7."]
 // [TranslationKey "sapIndication7bBrd"]
@@ -7167,6 +7525,24 @@
 // [Category "Indication"]
 // [Type "color"]
 @sapIndicationColor_8b: @sapDefault_Color;
+
+// [Label "Indication Color 8b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 8."]
+// [TranslationKey "sapIndication8bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_8b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 8b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 8."]
+// [TranslationKey "sapIndication8bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_8b_Background: @sapDefault_Color;
 
 // [Label "Indication Color 8b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 8."]
@@ -7292,6 +7668,24 @@
 // [Type "color"]
 @sapIndicationColor_9b: @sapDefault_Color;
 
+// [Label "Indication Color 9b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 9."]
+// [TranslationKey "sapIndication9bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_9b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 9b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 9."]
+// [TranslationKey "sapIndication9bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_9b_Background: @sapDefault_Color;
+
 // [Label "Indication Color 9b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 9."]
 // [TranslationKey "sapIndication9bBrd"]
@@ -7415,6 +7809,24 @@
 // [Category "Indication"]
 // [Type "color"]
 @sapIndicationColor_10b: @sapDefault_Color;
+
+// [Label "Indication Color 10b Text Color"]
+// [Description "The text color for elements showing a less prominent shade of indication 10."]
+// [TranslationKey "sapIndication10bTxt"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_10b_TextColor: @sapDefault_Color;
+
+// [Label "Indication Color 10b Background"]
+// [Description "The background color for elements showing a less prominent shade of indication 10."]
+// [TranslationKey "sapIndication10bBg"]
+// [Tags "Base", "Color", "Indication", "Protected"]
+// [Protected "true"]
+// [Category "Indication"]
+// [Type "color"]
+@sapIndicationColor_10b_Background: @sapDefault_Color;
 
 // [Label "Indication Color 10b Border Color"]
 // [Description "The border color for elements showing a less prominent shade of indication 10."]
