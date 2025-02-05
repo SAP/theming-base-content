@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 14.2.8
-* data:{"sModified":"2024-12-12T10:42:39Z"}
+* Theming Engine 14.2.19
+* data:{"sModified":"2025-01-24T08:31:34Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_belize_hcw/base.less (Version 11.24.0) *******************/
+/******************* FILE /Base/baseLib/sap_belize_hcw/base.less (Version 11.25.1) *******************/
 
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
@@ -2797,6 +2797,12 @@
 // [Tags "!Protected"]
 // [Protected "!true"]
 @sapTab_Critical_Selected_Background: @sapSelectedColor;
+@sapTab_Neutral_TextColor: @sapTextColor;
+@sapTab_Neutral_ForegroundColor: @sapHC_StandardForeground;
+@sapTab_Neutral_IconColor: contrast(@sapTab_Background, @sapHC_StandardForeground, @sapContent_ContrastIconColor, @sapContent_ContrastTextThreshold);
+@sapTab_Neutral_Selected_TextColor: @sapContent_Selected_ForegroundColor;
+@sapTab_Neutral_Selected_IconColor: contrast(@sapTab_Neutral_Selected_Background, @sapTextColor, @sapContent_ContrastIconColor, @sapContent_ContrastTextThreshold);
+@sapTab_Neutral_Selected_Background: @sapSelectedColor;
 
 // [Tags "!Protected"]
 // [Protected "!true"]

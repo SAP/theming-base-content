@@ -18489,6 +18489,134 @@
     }
   },
   "Tab": {
+    "Neutral": {
+      "sapTab_Neutral_Selected_Background": {
+        "value": "hsla({Tab.Neutral._sapTab_Neutral_Selected_BackgroundH}, {Tab.Neutral._sapTab_Neutral_Selected_BackgroundS}, {Tab.Neutral._sapTab_Neutral_Selected_BackgroundL}, {Tab.Neutral._sapTab_Neutral_Selected_BackgroundA})",
+        "type": "color",
+        "description": "The background color of selected tabs indicating a neutral state."
+      },
+      "_sapTab_Neutral_Selected_IconColorH": {
+        "value": "{Text._sapTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_IconColorS": {
+        "value": "{Text._sapTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_IconColorL": {
+        "value": "{Text._sapTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_IconColorA": {
+        "value": "{Text._sapTextColorA}",
+        "type": "internal"
+      },
+      "sapTab_Neutral_Selected_IconColor": {
+        "value": "hsla({Tab.Neutral._sapTab_Neutral_Selected_IconColorH}, {Tab.Neutral._sapTab_Neutral_Selected_IconColorS}, {Tab.Neutral._sapTab_Neutral_Selected_IconColorL}, {Tab.Neutral._sapTab_Neutral_Selected_IconColorA})",
+        "type": "color",
+        "description": "The icon color of selected tabs indicating a neutral state."
+      },
+      "sapTab_Neutral_Selected_TextColor": {
+        "value": "hsla({Tab.Neutral._sapTab_Neutral_Selected_TextColorH}, {Tab.Neutral._sapTab_Neutral_Selected_TextColorS}, {Tab.Neutral._sapTab_Neutral_Selected_TextColorL}, {Tab.Neutral._sapTab_Neutral_Selected_TextColorA})",
+        "type": "color",
+        "description": "The text color of selected tabs indicating a neutral state."
+      },
+      "_sapTab_Neutral_IconColorH": {
+        "value": "{HighContrast._sapHC_StandardForegroundH}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_IconColorS": {
+        "value": "{HighContrast._sapHC_StandardForegroundS}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_IconColorL": {
+        "value": "{HighContrast._sapHC_StandardForegroundL}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_IconColorA": {
+        "value": "{HighContrast._sapHC_StandardForegroundA}",
+        "type": "internal"
+      },
+      "sapTab_Neutral_IconColor": {
+        "value": "hsla({Tab.Neutral._sapTab_Neutral_IconColorH}, {Tab.Neutral._sapTab_Neutral_IconColorS}, {Tab.Neutral._sapTab_Neutral_IconColorL}, {Tab.Neutral._sapTab_Neutral_IconColorA})",
+        "type": "color",
+        "description": "The icon color of tabs indicating a neutral state."
+      },
+      "sapTab_Neutral_ForegroundColor": {
+        "value": "hsla({Tab.Neutral._sapTab_Neutral_ForegroundColorH}, {Tab.Neutral._sapTab_Neutral_ForegroundColorS}, {Tab.Neutral._sapTab_Neutral_ForegroundColorL}, {Tab.Neutral._sapTab_Neutral_ForegroundColorA})",
+        "type": "color",
+        "description": "The color of foreground elements of tabs indicating a neutral state, e.g. buttons or selection bars."
+      },
+      "sapTab_Neutral_TextColor": {
+        "value": "hsla({Tab.Neutral._sapTab_Neutral_TextColorH}, {Tab.Neutral._sapTab_Neutral_TextColorS}, {Tab.Neutral._sapTab_Neutral_TextColorL}, {Tab.Neutral._sapTab_Neutral_TextColorA})",
+        "type": "color",
+        "description": "The text color of tabs indicating a neutral state."
+      },
+      "_sapTab_Neutral_Selected_BackgroundH": {
+        "value": "{Interaction._sapSelectedColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_BackgroundS": {
+        "value": "{Interaction._sapSelectedColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_BackgroundL": {
+        "value": "{Interaction._sapSelectedColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_BackgroundA": {
+        "value": "{Interaction._sapSelectedColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_TextColorH": {
+        "value": "{Interaction._sapContent_Selected_ForegroundColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_TextColorS": {
+        "value": "{Interaction._sapContent_Selected_ForegroundColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_TextColorL": {
+        "value": "{Interaction._sapContent_Selected_ForegroundColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_Selected_TextColorA": {
+        "value": "{Interaction._sapContent_Selected_ForegroundColorA}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_ForegroundColorH": {
+        "value": "{HighContrast._sapHC_StandardForegroundH}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_ForegroundColorS": {
+        "value": "{HighContrast._sapHC_StandardForegroundS}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_ForegroundColorL": {
+        "value": "{HighContrast._sapHC_StandardForegroundL}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_ForegroundColorA": {
+        "value": "{HighContrast._sapHC_StandardForegroundA}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_TextColorH": {
+        "value": "{Text._sapTextColorH}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_TextColorS": {
+        "value": "{Text._sapTextColorS}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_TextColorL": {
+        "value": "{Text._sapTextColorL}",
+        "type": "internal"
+      },
+      "_sapTab_Neutral_TextColorA": {
+        "value": "{Text._sapTextColorA}",
+        "type": "internal"
+      }
+    },
     "Critical": {
       "sapTab_Critical_Selected_Background": {
         "value": "hsla({Tab.Critical._sapTab_Critical_Selected_BackgroundH}, {Tab.Critical._sapTab_Critical_Selected_BackgroundS}, {Tab.Critical._sapTab_Critical_Selected_BackgroundL}, {Tab.Critical._sapTab_Critical_Selected_BackgroundA})",

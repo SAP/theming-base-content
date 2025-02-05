@@ -2994,6 +2994,18 @@
 		"groups": ["objects", "things", "status", "transport"],
 		"tags": ["danger", "goods", "alert", "warning", "status", "transport"],
 		"rtl": "flip"
+	},
+	"0xe18b": {
+		"names": ["icon-configurable-product"],
+		"groups": ["objects", "things", "status", "actions"],
+		"tags": ["product", "settings", "configure", "configurable"],
+		"rtl": "flip"
+	},
+	"0xe18c": {
+		"names": ["icon-entry-configurable-product"],
+		"groups": ["objects", "things", "status", "actions"],
+		"tags": ["product", "arrows", "configure", "configurable", "entry"],
+		"rtl": "flip"
 	}
 }
 

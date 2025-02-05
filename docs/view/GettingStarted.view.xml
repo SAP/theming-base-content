@@ -30,7 +30,7 @@
         
         <Title wrapping="true" titleStyle="H3" class="sapUiSmallMarginTop sapUiTinyMarginBottom" text="#2: React on the sap-theme URL parameter"/>
         <Text wrapping="true" text="If you use a UI framework like SAPUI5, UI5 Web Components or Unified Rendering, you already have access to the parameters. Only if you have an application built on a different technology stack, you have to react on the sap-theme URL parameter yourselves:"/>
-        <ce:CodeEditor type="js" editable="false" lineNumbers="false" height="80px" class="sapUiTinyMarginTop sapUiTinyMarginBottom" value="const [themeid, themeroot = 'https://unpkg.com/@sap-theming/theming-base-content/content'] = (new URLSearchParams(location.search).get('sap-theme') || 'sap_horizon').split('@');&#10;const styleref = document.createElement('style');&#10;styleref.rel = 'stylesheet';&#10;styleref.href = `$\{themeroot.replace(/\/$/, '')}/Base/baseLib/$\{themeid}/css_variables.css`;&#10;document.head.appendChild(styleref);"/>
+        <ce:CodeEditor type="js" editable="false" lineNumbers="false" height="80px" class="sapUiTinyMarginTop sapUiTinyMarginBottom" value="const [themeid, themeroot = 'https://unpkg.com/@sap-theming/theming-base-content/content'] = (new URLSearchParams(location.search).get('sap-theme') || 'sap_horizon').split('@');&#10;const linkref = document.createElement('link');&#10;linkref.rel = 'stylesheet';&#10;linkref.href = `$\{themeroot.replace(/\/$/, '')}/Base/baseLib/$\{themeid}/css_variables.css`;&#10;document.head.appendChild(linkref);"/>
       </VBox>
     </f:content>
   </f:DynamicPage>
