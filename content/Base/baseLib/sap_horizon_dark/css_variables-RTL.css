@@ -1,12 +1,12 @@
 /**
 * Copyright (c) 2012-2024 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 *
-* Theming Engine 14.2.19
-* data:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_horizon", "Engine": {"Name": "theming-engine", "Version": "14.2.19"}, "Version": { "Build": "11.25.1.20250124083143", "Source": "11.25.1"}}
+* Theming Engine 14.2.25
+* data:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_horizon", "Engine": {"Name": "theming-engine", "Version": "14.2.25"}, "Version": { "Build": "11.26.0.20250203135245", "Source": "11.26.0"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_horizon", "Engine": {"Name": "theming-engine", "Version": "14.2.19"}, "Version": { "Build": "11.25.1.20250124083143", "Source": "11.25.1"}}');}
-:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_horizon", "Engine": {"Name": "theming-engine", "Version": "14.2.19"}, "Version": { "Build": "11.25.1.20250124083143", "Source": "11.25.1"}};}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_horizon", "Engine": {"Name": "theming-engine", "Version": "14.2.25"}, "Version": { "Build": "11.26.0.20250203135245", "Source": "11.26.0"}}');}
+:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_horizon", "Engine": {"Name": "theming-engine", "Version": "14.2.25"}, "Version": { "Build": "11.26.0.20250203135245", "Source": "11.26.0"}};}
 :root {
   --sapBrandColor: #0070f2;
   --sapHighlightColor: #4db1ff;
