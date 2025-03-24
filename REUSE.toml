@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "Theming Base Content"
+SPDX-PackageSupplier = "Dominik Schreiber <dominik.schreiber@sap.com>"
+SPDX-PackageDownloadLocation = "https://github.com/SAP/theming-base-content"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2012-2022 SAP SE or an SAP affiliate company and Theming Base Content contributors"
+SPDX-License-Identifier = "Apache-2.0"
