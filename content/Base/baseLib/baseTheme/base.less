@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 15.0.8
-* data:{"sModified":"2025-04-17T07:08:28Z"}
+* Theming Engine 16.0.3
+* data:{"sModified":"2025-05-22T09:19:32Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.29.3) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.30.1) *******************/
 
 
 // [Label "Brand Color"]
@@ -1254,7 +1254,7 @@
 @sapContent_Space_Large: @sapDefault_Dimension;
 
 // [Label "Content Margin Tiny"]
-// [Description "The tiny value of the four-sided margin used for content."]
+// [Description "Will be deprecated. Use instead: sapContent_Space_Tiny for a constant margin, sapContent_Margin_S for a responsive margin."]
 // [Tags "Base", "Content", "Dimension", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
@@ -1262,7 +1262,7 @@
 @sapContent_Margin_Tiny: @sapDefault_Dimension;
 
 // [Label "Content Margin Small"]
-// [Description "The small value of the four-sided margin used for content."]
+// [Description "Will be deprecated. Use instead: sapContent_Space_Small for a constant margin, sapContent_Margin_M for a responsive margin."]
 // [Tags "Base", "Content", "Dimension", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
@@ -1270,7 +1270,7 @@
 @sapContent_Margin_Small: @sapDefault_Dimension;
 
 // [Label "Content Margin Medium"]
-// [Description "The medium value of the four-sided margin used for content."]
+// [Description "Will be deprecated. Use instead: sapContent_Space_Medium for a constant margin, sapContent_Margin_L for a responsive margin."]
 // [Tags "Base", "Content", "Dimension", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
@@ -1278,12 +1278,44 @@
 @sapContent_Margin_Medium: @sapDefault_Dimension;
 
 // [Label "Content Margin Large"]
-// [Description "The large value of the four-sided margin used for content."]
+// [Description "Will be deprecated. Use instead: sapContent_Space_Large for a constant margin, sapContent_Margin_XL for a responsive margin."]
 // [Tags "Base", "Content", "Dimension", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
 // [Type "sizing"]
 @sapContent_Margin_Large: @sapDefault_Dimension;
+
+// [Label "Content Margin S"]
+// [Description "The responsive container margin on small devices."]
+// [Tags "Base", "Content", "Dimension", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapContent_Margin_S: @sapDefault_Dimension;
+
+// [Label "Content Margin M"]
+// [Description "The responsive container margin on medium devices."]
+// [Tags "Base", "Content", "Dimension", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapContent_Margin_M: @sapDefault_Dimension;
+
+// [Label "Content Margin L"]
+// [Description "The responsive container margin on large devices."]
+// [Tags "Base", "Content", "Dimension", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapContent_Margin_L: @sapDefault_Dimension;
+
+// [Label "Content Margin XL"]
+// [Description "The responsive container margin on extra large devices."]
+// [Tags "Base", "Content", "Dimension", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapContent_Margin_XL: @sapDefault_Dimension;
 
 // [Label "Content Padding S"]
 // [Description "The value of padding used on small devices."]

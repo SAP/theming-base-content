@@ -285,25 +285,30 @@
       "type": "sizing",
       "description": "The value of padding used on medium devices."
     },
-    "sapContent_Margin_Large": {
-      "value": "1rem 3rem",
-      "type": "sizing",
-      "description": "The large value of the four-sided margin used for content."
-    },
-    "sapContent_Margin_Medium": {
-      "value": "1rem 2rem",
-      "type": "sizing",
-      "description": "The medium value of the four-sided margin used for content."
-    },
-    "sapContent_Margin_Small": {
+    "sapContent_Margin_M": {
       "value": "1rem",
       "type": "sizing",
-      "description": "The small value of the four-sided margin used for content."
+      "description": "The responsive container margin on medium devices."
+    },
+    "sapContent_Margin_Large": {
+      "value": "{sapContent_Margin_XL}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Large for a constant margin, sapContent_Margin_XL for a responsive margin."
+    },
+    "sapContent_Margin_Medium": {
+      "value": "{sapContent_Margin_L}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Medium for a constant margin, sapContent_Margin_L for a responsive margin."
+    },
+    "sapContent_Margin_Small": {
+      "value": "{Internal.sapContent_Margin_M}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Small for a constant margin, sapContent_Margin_M for a responsive margin."
     },
     "sapContent_Margin_Tiny": {
-      "value": "0 0 1rem",
+      "value": "{sapContent_Margin_S}",
       "type": "sizing",
-      "description": "The tiny value of the four-sided margin used for content."
+      "description": "Will be deprecated. Use instead: sapContent_Space_Tiny for a constant margin, sapContent_Margin_S for a responsive margin."
     },
     "sapContent_Space_Large": {
       "value": "3rem",
@@ -19813,6 +19818,11 @@
       "type": "color",
       "description": "The background color of the slider handle."
     },
+    "sapSlider_Selected_Dimension": {
+      "value": "0.25 * {Internal.sapContent_GridSize}",
+      "type": "dimension",
+      "description": "The dimension of the selected part of the slider; usually the width, for vertical sliders the height."
+    },
     "sapSlider_Selected_BorderColor": {
       "value": "hsla({Slider._sapSlider_Selected_BorderColorH}, {Slider._sapSlider_Selected_BorderColorS}, {Slider._sapSlider_Selected_BorderColorL}, {Slider._sapSlider_Selected_BorderColorA})",
       "type": "color",
@@ -29641,6 +29651,21 @@
     "value": "0rem",
     "type": "internal",
     "description": "The value of padding used on small devices."
+  },
+  "sapContent_Margin_XL": {
+    "value": "1rem 3rem",
+    "type": "internal",
+    "description": "The responsive container margin on extra large devices."
+  },
+  "sapContent_Margin_L": {
+    "value": "1rem 2rem",
+    "type": "internal",
+    "description": "The responsive container margin on large devices."
+  },
+  "sapContent_Margin_S": {
+    "value": "0 0 1rem",
+    "type": "internal",
+    "description": "The responsive container margin on small devices."
   },
   "sapContent_Space_XL": {
     "value": "3rem",
