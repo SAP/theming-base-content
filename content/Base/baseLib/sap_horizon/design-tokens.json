@@ -2146,6 +2146,22 @@
       "type": "color",
       "description": "The color of texts in the shell."
     },
+    "_sapShell_BorderColorH": {
+      "value": "{Shell._sapShellColorH}",
+      "type": "internal"
+    },
+    "_sapShell_BorderColorS": {
+      "value": "{Shell._sapShellColorS}",
+      "type": "internal"
+    },
+    "_sapShell_BorderColorL": {
+      "value": "{Shell._sapShellColorL} - 15%",
+      "type": "internal"
+    },
+    "_sapShell_BorderColorA": {
+      "value": "{Shell._sapShellColorA}",
+      "type": "internal"
+    },
     "sapShell_BorderColor": {
       "value": "hsla({Shell._sapShell_BorderColorH}, {Shell._sapShell_BorderColorS}, {Shell._sapShell_BorderColorL}, {Shell._sapShell_BorderColorA})",
       "type": "color",
@@ -2372,22 +2388,6 @@
     },
     "_sapShell_InteractiveBackgroundA": {
       "value": "{Shell._sapShell_BackgroundA}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorH": {
-      "value": "{Shell._sapShellColorH}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorS": {
-      "value": "{Shell._sapShellColorS}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorL": {
-      "value": "{Shell._sapShellColorL}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorA": {
-      "value": "{Shell._sapShellColorA}",
       "type": "internal"
     },
     "_sapShellColorH": {
@@ -10509,11 +10509,11 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus5S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} - 7%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus5L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 32%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 36%",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus5A": {
@@ -10565,11 +10565,11 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus4S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} - 7%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus4L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 27%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 32%",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus4A": {
@@ -10621,7 +10621,7 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus3S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} - 8%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus3L": {
@@ -10677,11 +10677,11 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus2S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} - 6%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus2L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 7%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 16%",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus2A": {
@@ -10733,11 +10733,11 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus1S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} - 6%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus1L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 7%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1L} - 10%",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Minus1A": {
@@ -10748,6 +10748,22 @@
         "value": "hsla({Chart.Sequence._sapChart_Sequence_1_Minus1H}, {Chart.Sequence._sapChart_Sequence_1_Minus1S}, {Chart.Sequence._sapChart_Sequence_1_Minus1L}, {Chart.Sequence._sapChart_Sequence_1_Minus1A})",
         "type": "color",
         "description": "This color is a 1 level more intensive chart color of the sequence 1."
+      },
+      "_sapChart_Sequence_1_BorderColorH": {
+        "value": "{Chart.Sequence._sapChart_Sequence_1_Minus1H}",
+        "type": "internal"
+      },
+      "_sapChart_Sequence_1_BorderColorS": {
+        "value": "{Chart.Sequence._sapChart_Sequence_1_Minus1S}",
+        "type": "internal"
+      },
+      "_sapChart_Sequence_1_BorderColorL": {
+        "value": "{Chart.Sequence._sapChart_Sequence_1_Minus1L}",
+        "type": "internal"
+      },
+      "_sapChart_Sequence_1_BorderColorA": {
+        "value": "{Chart.Sequence._sapChart_Sequence_1_Minus1A}",
+        "type": "internal"
       },
       "sapChart_Sequence_1_BorderColor": {
         "value": "hsla({Chart.Sequence._sapChart_Sequence_1_BorderColorH}, {Chart.Sequence._sapChart_Sequence_1_BorderColorS}, {Chart.Sequence._sapChart_Sequence_1_BorderColorL}, {Chart.Sequence._sapChart_Sequence_1_BorderColorA})",
@@ -10834,7 +10850,7 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus1S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} + 12%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus1L": {
@@ -10890,11 +10906,11 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus2S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} - 1%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus2L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L} + 7%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1L} + 15%",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus2A": {
@@ -10946,11 +10962,11 @@
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus3S": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S} + 14%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus3L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L} + 25%",
+        "value": "{Chart.Sequence._sapChart_Sequence_1L} + 23%",
         "type": "internal"
       },
       "_sapChart_Sequence_1_Plus3A": {
@@ -11392,22 +11408,6 @@
       },
       "_sapChart_Sequence_2A": {
         "value": "{Chart.Ordered._sapChart_OrderedColor_2A}",
-        "type": "internal"
-      },
-      "_sapChart_Sequence_1_BorderColorH": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1H}",
-        "type": "internal"
-      },
-      "_sapChart_Sequence_1_BorderColorS": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1S}",
-        "type": "internal"
-      },
-      "_sapChart_Sequence_1_BorderColorL": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1L}",
-        "type": "internal"
-      },
-      "_sapChart_Sequence_1_BorderColorA": {
-        "value": "{Chart.Sequence._sapChart_Sequence_1A}",
         "type": "internal"
       },
       "_sapChart_Sequence_1H": {
@@ -17897,7 +17897,7 @@
     "sapObjectHeader_Title_FontFamily": {
       "value": "{Text.sapFontBlackFamily}",
       "type": "fontFamilies",
-      "description": "The font family of object header titles."
+      "description": "A prioritized list of preferred font family names for object header titles."
     },
     "sapObjectHeader_Title_SnappedFontSize": {
       "value": "{Text.sapFontHeader4Size}",
@@ -21222,7 +21222,7 @@
       "sapButton_FontFamily": {
         "value": "{Text.sapFontSemiboldDuplexFamily}",
         "type": "fontFamilies",
-        "description": "The font family of buttons."
+        "description": "A prioritized list of preferred font family names for buttons."
       },
       "_sapButton_TextColorH": {
         "value": "{Main._sapHighlightColorH}",
@@ -24448,7 +24448,7 @@
       "sapButton_Emphasized_FontFamily": {
         "value": "{Text.sapFontBoldFamily}",
         "type": "fontFamilies",
-        "description": "The font family of emphasized buttons."
+        "description": "A prioritized list of preferred font family names for emphasized buttons."
       },
       "_sapButton_Emphasized_TextColorH": {
         "value": "{Text._sapContent_ContrastTextColorH}",
@@ -26095,32 +26095,32 @@
     "sapFontHeaderFamily": {
       "value": "{Text.sapFontBoldFamily}",
       "type": "fontFamilies",
-      "description": "The preferred font family of headers."
+      "description": "A prioritized list of preferred font family names for headers."
     },
     "sapFontBlackFamily": {
       "value": "\"72Black\", \"72Blackfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred black font family of headers."
+      "description": "A prioritized list of preferred black font family names."
     },
     "sapFontSemiboldDuplexFamily": {
       "value": "\"72-SemiboldDuplex\", \"72-SemiboldDuplexfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred semi bold duplex font family (with the same widths as @sapFontFamily)."
+      "description": "A prioritized list of preferred semi bold duplex font family names."
     },
     "sapFontSemiboldFamily": {
       "value": "\"72-Semibold\", \"72-Semiboldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred semi bold font family."
+      "description": "A prioritized list of preferred semi bold font family names."
     },
     "sapFontBoldFamily": {
       "value": "\"72-Bold\", \"72-Boldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred bold font family of headers."
+      "description": "A prioritized list of preferred bold font family names."
     },
     "sapFontLightFamily": {
       "value": "\"72-Light\", \"72-Lightfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred light font family."
+      "description": "A prioritized list of preferred light font family names."
     },
     "_sapContent_ForegroundTextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -26172,12 +26172,12 @@
     "sapContent_MonospaceBoldFontFamily": {
       "value": "\"72Mono-Bold\", \"72Mono-Boldfull\", lucida console, monospace",
       "type": "fontFamilies",
-      "description": "Defines which monospaced bold font is used for specific texts in the content area."
+      "description": "A prioritized list of preferred monospace bold font family names."
     },
     "sapContent_MonospaceFontFamily": {
       "value": "\"72Mono\", \"72Monofull\", lucida console, monospace",
       "type": "fontFamilies",
-      "description": "Defines which monospaced font is used for specific texts in the content area."
+      "description": "A prioritized list of preferred monospace font family names."
     },
     "sapContent_LabelColor": {
       "value": "hsla({Text._sapContent_LabelColorH}, {Text._sapContent_LabelColorS}, {Text._sapContent_LabelColorL}, {Text._sapContent_LabelColorA})",
@@ -26251,7 +26251,7 @@
     "sapFontFamily": {
       "value": "\"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred font family."
+      "description": "A prioritized list of preferred font family names."
     },
     "_sapContent_ContrastTextColorH": {
       "value": "{Internal._sapPrimary3H}",
@@ -26408,7 +26408,7 @@
       "description": "The success header shadow styling."
     },
     "sapContent_Lite_Shadow": {
-      "value": "None",
+      "value": "none",
       "type": "boxShadow",
       "description": "The value of lite shadows. (With no shadows in standard themes and a visible shadow in high contrast)"
     },
@@ -27594,7 +27594,7 @@
     "sapContent_IconFontFamily": {
       "value": "\"SAP-icons\"",
       "type": "fontFamilies",
-      "description": "Defines which font is used to display the font icons."
+      "description": "A prioritized list of preferred font family names for SAP-icons."
     },
     "sapContent_UnratedColor": {
       "value": "hsla({Icon._sapContent_UnratedColorH}, {Icon._sapContent_UnratedColorS}, {Icon._sapContent_UnratedColorL}, {Icon._sapContent_UnratedColorA})",

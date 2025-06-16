@@ -1,10 +1,11 @@
 'use strict';
 
 sap.ui.define([
+  'sap/ui/VersionInfo',
   'sap/ui/core/Theming',
   'sap/ui/model/json/JSONModel',
   'tc/util/parametersGet'
-], (Theming, JSONModel, parametersGet) => {
+], (VersionInfo, Theming, JSONModel, parametersGet) => {
   /** @param {Object<string, {url: string, format: 'woff2'|'woff'|'ttf'}[]>} fontFaces */
   function updateFontFaceDefinitions(fontFaces) {
     let style = document.getElementById('tc-font-faces');
@@ -19,7 +20,7 @@ sap.ui.define([
   src: ${srcs.map(({url, format}) => `${url} format('${format}')`).join(', ')}
 }`).join('\n\n');
   }
-  
+
   /**
    * @example
    * await getAnnotatedThemingParameters() // =>
@@ -32,9 +33,18 @@ sap.ui.define([
    * // }
    * @return {Promise<Object<string, Object<string, string|string[]>>>}
    */
-  async function getAnnotatedThemingParameters() {
-    const base = Theming.getThemeRoot()?.replace(/\/UI5\/?$/, '/Base/baseLib/baseTheme/base.less')
-      || document.getElementById('sap-ui-bootstrap').getAttribute('src').replace(/\/sap-ui-core\.js$/, '/sap/ui/core/themes/base/base.less');
+  async function getAnnotatedThemingParameters() { // NOSONAR
+    const themeRoot = Theming.getThemeRoot();
+    let base;
+    if (themeRoot) {
+      base = themeRoot.replace(/\/UI5\/?$/, '/Base/baseLib/baseTheme/base.less')
+    } else {
+      const {version} = await VersionInfo.load();
+      const bootstrapSrc = document.getElementById('sap-ui-bootstrap').getAttribute('src');
+      base = bootstrapSrc
+        .replace(new RegExp(version.split('.').slice(0, 2).join('\\.')), version)
+        .replace(/\/sap-ui-core\.js$/, '/sap/ui/core/themes/base/base.less');
+    }
 
     const res = await fetch(base);
     const less = await res.text();
@@ -182,7 +192,7 @@ sap.ui.define([
       const values = Object.values(parameters);
       const types = Object.keys(Object.groupBy(values, ({Type}) => Type));
       const categories = Object.keys(Object.groupBy(values, ({Category}) => (Category ? (typeof Category === 'string' ? [Category] : Category) : ['Internal'])[0]));
-      
+
       parametersModel.setData({
         Parameters: Object.entries(parameters).map(([Parameter, annotations]) => ({...annotations, Parameter})),
         Types: types.map(Type => ({Type})),

@@ -2002,6 +2002,22 @@
       "type": "color",
       "description": "The color of texts in the shell."
     },
+    "_sapShell_BorderColorH": {
+      "value": "{Shell._sapShellColorH}",
+      "type": "internal"
+    },
+    "_sapShell_BorderColorS": {
+      "value": "{Shell._sapShellColorS}",
+      "type": "internal"
+    },
+    "_sapShell_BorderColorL": {
+      "value": "{Shell._sapShellColorL} + 8%",
+      "type": "internal"
+    },
+    "_sapShell_BorderColorA": {
+      "value": "{Shell._sapShellColorA}",
+      "type": "internal"
+    },
     "sapShell_BorderColor": {
       "value": "hsla({Shell._sapShell_BorderColorH}, {Shell._sapShell_BorderColorS}, {Shell._sapShell_BorderColorL}, {Shell._sapShell_BorderColorA})",
       "type": "color",
@@ -2212,22 +2228,6 @@
     },
     "_sapShell_InteractiveBackgroundA": {
       "value": "{Shell._sapShell_BackgroundA}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorH": {
-      "value": "{Shell._sapShellColorH}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorS": {
-      "value": "{Shell._sapShellColorS}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorL": {
-      "value": "{Shell._sapShellColorL}",
-      "type": "internal"
-    },
-    "_sapShell_BorderColorA": {
-      "value": "{Shell._sapShellColorA}",
       "type": "internal"
     },
     "_sapShell_BackgroundH": {
@@ -17762,7 +17762,7 @@
     "sapObjectHeader_Title_FontFamily": {
       "value": "{Text.sapFontBlackFamily}",
       "type": "fontFamilies",
-      "description": "The font family of object header titles."
+      "description": "A prioritized list of preferred font family names for object header titles."
     },
     "sapObjectHeader_Title_SnappedFontSize": {
       "value": "{Text.sapFontHeader4Size}",
@@ -21071,7 +21071,7 @@
       "sapButton_FontFamily": {
         "value": "{Text.sapFontSemiboldDuplexFamily}",
         "type": "fontFamilies",
-        "description": "The font family of buttons."
+        "description": "A prioritized list of preferred font family names for buttons."
       },
       "_sapButton_TextColorH": {
         "value": "{Main._sapHighlightColorH}",
@@ -24313,7 +24313,7 @@
       "sapButton_Emphasized_FontFamily": {
         "value": "{Text.sapFontBoldFamily}",
         "type": "fontFamilies",
-        "description": "The font family of emphasized buttons."
+        "description": "A prioritized list of preferred font family names for emphasized buttons."
       },
       "_sapButton_Emphasized_TextColorH": {
         "value": "{Text._sapTextColorH}",
@@ -25960,32 +25960,32 @@
     "sapFontHeaderFamily": {
       "value": "{Text.sapFontBoldFamily}",
       "type": "fontFamilies",
-      "description": "The preferred font family of headers."
+      "description": "A prioritized list of preferred font family names for headers."
     },
     "sapFontBlackFamily": {
       "value": "\"72Black\", \"72Blackfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred black font family of headers."
+      "description": "A prioritized list of preferred black font family names."
     },
     "sapFontSemiboldDuplexFamily": {
       "value": "\"72-SemiboldDuplex\", \"72-SemiboldDuplexfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred semi bold duplex font family (with the same widths as @sapFontFamily)."
+      "description": "A prioritized list of preferred semi bold duplex font family names."
     },
     "sapFontSemiboldFamily": {
       "value": "\"72-Semibold\", \"72-Semiboldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred semi bold font family."
+      "description": "A prioritized list of preferred semi bold font family names."
     },
     "sapFontBoldFamily": {
       "value": "\"72-Bold\", \"72-Boldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred bold font family of headers."
+      "description": "A prioritized list of preferred bold font family names."
     },
     "sapFontLightFamily": {
       "value": "\"72-Light\", \"72-Lightfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred light font family."
+      "description": "A prioritized list of preferred light font family names."
     },
     "_sapContent_ForegroundTextColorH": {
       "value": "{Text._sapTextColorH}",
@@ -26037,12 +26037,12 @@
     "sapContent_MonospaceBoldFontFamily": {
       "value": "\"72Mono-Bold\", \"72Mono-Boldfull\", lucida console, monospace",
       "type": "fontFamilies",
-      "description": "Defines which monospaced bold font is used for specific texts in the content area."
+      "description": "A prioritized list of preferred monospace bold font family names."
     },
     "sapContent_MonospaceFontFamily": {
       "value": "\"72Mono\", \"72Monofull\", lucida console, monospace",
       "type": "fontFamilies",
-      "description": "Defines which monospaced font is used for specific texts in the content area."
+      "description": "A prioritized list of preferred monospace font family names."
     },
     "sapContent_LabelColor": {
       "value": "hsla({Text._sapContent_LabelColorH}, {Text._sapContent_LabelColorS}, {Text._sapContent_LabelColorL}, {Text._sapContent_LabelColorA})",
@@ -26107,7 +26107,7 @@
     "sapFontFamily": {
       "value": "\"72\", \"72full\", Arial, Helvetica, sans-serif",
       "type": "fontFamilies",
-      "description": "The preferred font family."
+      "description": "A prioritized list of preferred font family names."
     },
     "_sapContent_ContrastTextColorH": {
       "value": "{Internal._sapPrimary3H}",
@@ -27450,7 +27450,7 @@
     "sapContent_IconFontFamily": {
       "value": "\"SAP-icons\"",
       "type": "fontFamilies",
-      "description": "Defines which font is used to display the font icons."
+      "description": "A prioritized list of preferred font family names for SAP-icons."
     },
     "sapContent_UnratedColor": {
       "value": "hsla({Icon._sapContent_UnratedColorH}, {Icon._sapContent_UnratedColorS}, {Icon._sapContent_UnratedColorL}, {Icon._sapContent_UnratedColorA})",
