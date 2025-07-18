@@ -27,7 +27,7 @@ sap.ui.define([
         if (p.startsWith('sapFontUrl_SAP-icons-Business-Suite_')) {
           values[p] = val.replace('sap/ui/core', 'sap/ushell')
             .replace('/baseTheme/', '/base/')
-            .replace('/sap_horizon/fonts/', '/base/fonts/horizon/');
+            .replace('/sap_horizon/fonts/', '/base/fonts/');
         }
       }
     }

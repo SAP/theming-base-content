@@ -105,7 +105,10 @@ sap.ui.define([
           config: {path: {'^sap_horizon.*': 'sap/tnt/themes/base/fonts/horizon'}},
           icons: Object.fromEntries(METADATA['SAP-icons-TNT'].Icons.map(({Glyph, Name}) => [Name, Glyph]))
         },
-        '/sap/ushell/themes/base/fonts/BusinessSuiteInAppSymbols.json': Object.fromEntries(METADATA['SAP-icons-Business-Suite'].Icons.map(({Glyph, Name}) => [Name, Glyph])),
+        '/sap/ushell/themes/base/fonts/BusinessSuiteInAppSymbols.json': {
+          config: {},
+          icons: Object.fromEntries(METADATA['SAP-icons-Business-Suite'].Icons.map(({ Glyph, Name }) => [Name, Glyph]))
+        },
         '/SAP-icons/groups.json': groupsFromMetadata('SAP-icons'),
         '/SAP-icons/tags.json': tagsFromMetadata('SAP-icons'),
         '/SAP-icons-TNT/groups.json': groupsFromMetadata('SAP-icons-TNT'),

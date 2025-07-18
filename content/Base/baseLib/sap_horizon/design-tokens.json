@@ -5535,7 +5535,7 @@
         "type": "internal"
       },
       "_sapChart_Sequence_11_Minus5L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_11L} - 24%",
+        "value": "{Chart.Sequence._sapChart_Sequence_11L} - 42%",
         "type": "internal"
       },
       "_sapChart_Sequence_11_Minus5A": {
@@ -10060,7 +10060,7 @@
         "type": "internal"
       },
       "_sapChart_Sequence_2_Minus4L": {
-        "value": "{Chart.Sequence._sapChart_Sequence_2L} - 20%",
+        "value": "{Chart.Sequence._sapChart_Sequence_2L} - 25%",
         "type": "internal"
       },
       "_sapChart_Sequence_2_Minus4A": {

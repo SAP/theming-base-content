@@ -5,11 +5,12 @@
 /** @typedef {Object<string, {tags: string[]}>} Tags maps icon ids to tags */
 
 sap.ui.define([
+  'sap/ui/VersionInfo',
   'sap/ui/core/IconPool',
   'sap/ui/core/Theming',
   'sap/ui/model/json/JSONModel',
   'tc/util/uniq'
-], (IconPool, Theming, JSONModel, uniq) => {
+], (VersionInfo, IconPool, Theming, JSONModel, uniq) => {
   /**
    * @example
    * await getIcons() // =>
@@ -44,7 +45,10 @@ sap.ui.define([
       };
     } else {
       // legacy icons
-      const ui5Root = document.getElementById('sap-ui-bootstrap').getAttribute('src').replace(/\/resources\/sap-ui-core\.js$/, '');
+      const {version} = await VersionInfo.load();
+      const ui5Root = document.getElementById('sap-ui-bootstrap').getAttribute('src')
+        .replace(new RegExp(version.split('.').slice(0, 2).join('\\.')), version)
+        .replace(/\/resources\/sap-ui-core\.js$/, '');
       const [tnt, bs, iconsGroups, iconsTags, tntGroups, tntTags, bsGroups, bsTags] =
       /** @type {[{config: {path: Object<string,string>}, icons: IconMapping}, IconMapping, Groups, Tags, Groups, Tags, Groups, Tags]} */ (await Promise.all([
         'resources/sap/tnt/themes/base/fonts/SAP-icons-TNT.json',
@@ -74,7 +78,7 @@ sap.ui.define([
           tags: tntTags[name]?.tags || tntTags[name.toLowerCase()]?.tags || [],
           rtl: 'flip'
         }])),
-        'SAP-icons-Business-Suite': Object.fromEntries(Object.entries(bs).map(([name, glyph]) => [glyph, {
+        'SAP-icons-Business-Suite': Object.fromEntries(Object.entries(bs.icons).map(([name, glyph]) => [glyph, {
           names: [name],
           groups: bsGroups.groups.filter(({icons}) => icons.map(({name}) => name).includes(name)).map(({name}) => name),
           tags: bsTags[name]?.tags || bsTags[name.toLowerCase()]?.tags || [],
