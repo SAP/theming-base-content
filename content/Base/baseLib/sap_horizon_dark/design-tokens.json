@@ -11623,6 +11623,92 @@
         "description": "This color is used as an ordered color of a sequence of 12 chart colors. It has a defined contrast to its predecessor and successor."
       }
     },
+    "IBCS": {
+      "_sapChart_IBCS_BadH": {
+        "value": "{Chart.Sequence._sapChart_Sequence_BadH}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_BadS": {
+        "value": "{Chart.Sequence._sapChart_Sequence_BadS}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_BadL": {
+        "value": "{Chart.Sequence._sapChart_Sequence_BadL}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_BadA": {
+        "value": "{Chart.Sequence._sapChart_Sequence_BadA}",
+        "type": "internal"
+      },
+      "sapChart_IBCS_Bad": {
+        "value": "hsla({Chart.IBCS._sapChart_IBCS_BadH}, {Chart.IBCS._sapChart_IBCS_BadS}, {Chart.IBCS._sapChart_IBCS_BadL}, {Chart.IBCS._sapChart_IBCS_BadA})",
+        "type": "color",
+        "description": "Color of bad values in International Business Communication Standards (IBCS) charts."
+      },
+      "_sapChart_IBCS_GoodH": {
+        "value": "{Chart.Sequence._sapChart_Sequence_GoodH}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_GoodS": {
+        "value": "{Chart.Sequence._sapChart_Sequence_GoodS}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_GoodL": {
+        "value": "{Chart.Sequence._sapChart_Sequence_GoodL}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_GoodA": {
+        "value": "{Chart.Sequence._sapChart_Sequence_GoodA}",
+        "type": "internal"
+      },
+      "sapChart_IBCS_Good": {
+        "value": "hsla({Chart.IBCS._sapChart_IBCS_GoodH}, {Chart.IBCS._sapChart_IBCS_GoodS}, {Chart.IBCS._sapChart_IBCS_GoodL}, {Chart.IBCS._sapChart_IBCS_GoodA})",
+        "type": "color",
+        "description": "Color of good values in International Business Communication Standards (IBCS) charts."
+      },
+      "_sapChart_IBCS_PreviousH": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Minus1H}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_PreviousS": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Minus1S}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_PreviousL": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Minus1L}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_PreviousA": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Minus1A}",
+        "type": "internal"
+      },
+      "sapChart_IBCS_Previous": {
+        "value": "hsla({Chart.IBCS._sapChart_IBCS_PreviousH}, {Chart.IBCS._sapChart_IBCS_PreviousS}, {Chart.IBCS._sapChart_IBCS_PreviousL}, {Chart.IBCS._sapChart_IBCS_PreviousA})",
+        "type": "color",
+        "description": "Color of values of the previous period in International Business Communication Standards (IBCS) charts."
+      },
+      "_sapChart_IBCS_ActualH": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Plus3H}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_ActualS": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Plus3S}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_ActualL": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Plus3L}",
+        "type": "internal"
+      },
+      "_sapChart_IBCS_ActualA": {
+        "value": "{Chart.Sequence._sapChart_Sequence_Neutral_Plus3A}",
+        "type": "internal"
+      },
+      "sapChart_IBCS_Actual": {
+        "value": "hsla({Chart.IBCS._sapChart_IBCS_ActualH}, {Chart.IBCS._sapChart_IBCS_ActualS}, {Chart.IBCS._sapChart_IBCS_ActualL}, {Chart.IBCS._sapChart_IBCS_ActualA})",
+        "type": "color",
+        "description": "Color of values of the actual period in International Business Communication Standards (IBCS) charts."
+      }
+    },
     "Data": {
       "sapChart_Data_Active_Background": {
         "value": "hsla({Chart.Data._sapChart_Data_Active_BackgroundH}, {Chart.Data._sapChart_Data_Active_BackgroundS}, {Chart.Data._sapChart_Data_Active_BackgroundL}, {Chart.Data._sapChart_Data_Active_BackgroundA})",
@@ -16665,19 +16751,19 @@
       "description": "The interactive hover and active state border color of tiles and cards."
     },
     "_sapTile_SeparatorColorH": {
-      "value": "{Tile._sapTile_BackgroundH}",
+      "value": "0",
       "type": "internal"
     },
     "_sapTile_SeparatorColorS": {
-      "value": "{Tile._sapTile_BackgroundS}",
+      "value": "0%",
       "type": "internal"
     },
     "_sapTile_SeparatorColorL": {
-      "value": "{Tile._sapTile_BackgroundL} + 20%",
+      "value": "0%",
       "type": "internal"
     },
     "_sapTile_SeparatorColorA": {
-      "value": "{Tile._sapTile_BackgroundA}",
+      "value": "0",
       "type": "internal"
     },
     "sapTile_SeparatorColor": {
