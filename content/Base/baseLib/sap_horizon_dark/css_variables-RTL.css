@@ -1,15 +1,15 @@
 /**
 * Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 *
-* Theming Engine 16.0.24
-* data:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_fiori_3_dark", "Engine": {"Name": "theming-engine", "Version": "16.0.24"}, "Version": { "Build": "11.32.1.20250821083050", "Source": "11.32.1"}}
+* Theming Engine 16.1.10
+* data:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_fiori_3_dark", "Engine": {"Name": "theming-engine", "Version": "16.1.10"}, "Version": { "Build": "11.32.2.20251030081249", "Source": "11.32.2"}}
 */
 
-.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_fiori_3_dark", "Engine": {"Name": "theming-engine", "Version": "16.0.24"}, "Version": { "Build": "11.32.1.20250821083050", "Source": "11.32.1"}}');}
-:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_fiori_3_dark", "Engine": {"Name": "theming-engine", "Version": "16.0.24"}, "Version": { "Build": "11.32.1.20250821083050", "Source": "11.32.1"}};}
+.sapThemeMetaData-Base-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_fiori_3_dark", "Engine": {"Name": "theming-engine", "Version": "16.1.10"}, "Version": { "Build": "11.32.2.20251030081249", "Source": "11.32.2"}}');}
+:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon_dark.css_variables", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_horizon","baseTheme"], "Tags": ["Fiori_3","DarkColorScheme"], "FallbackThemeId": "sap_fiori_3_dark", "Engine": {"Name": "theming-engine", "Version": "16.1.10"}, "Version": { "Build": "11.32.2.20251030081249", "Source": "11.32.2"}};}
 
 /**
-* Base.baseLib.baseTheme.base (Version 11.32.1)
+* Base.baseLib.baseTheme.base (Version 11.32.2)
 */
 
 /*!SAP_POSTPROCESS_REDUCE_START*/
@@ -239,7 +239,7 @@
 /*!SAP_POSTPROCESS_REDUCE_END*/
 
 /**
-* Base.baseLib.baseTheme.skeleton (Version 11.32.1)
+* Base.baseLib.baseTheme.skeleton (Version 11.32.2)
 */
 
 /*!SAP_POSTPROCESS_REDUCE_START*/
@@ -1788,26 +1788,26 @@
 /*!SAP_POSTPROCESS_REDUCE_END*/
 
 /**
-* Base.baseLib.baseTheme.css_variables (Version 11.32.1)
+* Base.baseLib.baseTheme.css_variables (Version 11.32.2)
 */
 
 
 /**
-* Base.baseLib.sap_horizon.base (Version 11.32.1)
+* Base.baseLib.sap_horizon.base (Version 11.32.2)
 */
 
 
 /**
-* Base.baseLib.sap_horizon.css_variables (Version 11.32.1)
+* Base.baseLib.sap_horizon.css_variables (Version 11.32.2)
 */
 
 
 /**
-* Base.baseLib.sap_horizon_dark.base (Version 11.32.1)
+* Base.baseLib.sap_horizon_dark.base (Version 11.32.2)
 */
 
 
 /**
-* Base.baseLib.sap_horizon_dark.css_variables (Version 11.32.1)
+* Base.baseLib.sap_horizon_dark.css_variables (Version 11.32.2)
 */
 

@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 16.0.24
-* data:{"sModified":"2025-08-21T08:30:44Z"}
+* Theming Engine 16.1.10
+* data:{"sModified":"2025-10-30T08:12:43Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_fiori_3_hcb/base.less (Version 11.32.1) *******************/
+/******************* FILE /Base/baseLib/sap_fiori_3_hcb/base.less (Version 11.32.2) *******************/
 
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
@@ -41,7 +41,7 @@
 // [Tags "Base", "Content", "Color", "HighContrast"]
 // [Category "HighContrast"]
 // [Type "color"]
-@sapHC_HighlightAltBackground: #0f5d94;
+@sapHC_HighlightAltBackground: #0f5c93;
 
 // [Label "High-Contrast Reduced Background"]
 // [Description "The high-contrast reference background color used for read-only and disabled items."]
@@ -69,7 +69,7 @@
 // [Tags "Base", "Content", "Color", "HighContrast"]
 // [Category "HighContrast"]
 // [Type "color"]
-@sapHC_EnhancedForeground: #03b803;
+@sapHC_EnhancedForeground: #03ae03;
 
 // [Label "High-Contrast Reduced Foreground"]
 // [Description "The high-contrast reference foreground color for elements such as disabled text, icons, and borders."]
@@ -344,9 +344,6 @@
 // [Tags "!Protected"]
 // [Protected "!true"]
 @sapContent_LineHeight: 1.4;
-
-// [Tags "!Protected"]
-// [Protected "!true"]
 @sapContent_IconHeight: @sapContent_GridSize;
 
 // [Tags "!Protected"]
@@ -519,7 +516,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapContent_ContrastTextThreshold: 0.65;
+@sapContent_ContrastTextThreshold: 0.5;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -839,7 +836,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapShell_TextColor: @sapTextColor;
+@sapShell_TextColor: contrast(@sapShellColor, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -2253,7 +2250,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapGroup_TitleTextColor: contrast(@sapBackgroundColor, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
+@sapGroup_TitleTextColor: contrast(@sapGroup_TitleBackground, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -2353,7 +2350,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapList_GroupHeaderTextColor: @sapList_TextColor;
+@sapList_GroupHeaderTextColor: contrast(@sapList_GroupHeaderBackground, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -2841,7 +2838,7 @@
 
 // [Tags "!Protected"]
 // [Protected "!true"]
-@sapTile_Hover_Background: @sapHighlightColor;
+@sapTile_Hover_Background: @sapHoverColor;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
