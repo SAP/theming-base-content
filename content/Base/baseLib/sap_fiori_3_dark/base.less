@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 16.1.10
-* data:{"sModified":"2025-10-30T08:12:43Z"}
+* Theming Engine 16.1.14
+* data:{"sModified":"2025-12-12T06:08:33Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_fiori_3_dark/base.less (Version 11.32.2) *******************/
+/******************* FILE /Base/baseLib/sap_fiori_3_dark/base.less (Version 11.32.3) *******************/
 
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
@@ -55,14 +55,6 @@
 // [Category "Internal"]
 // [Type "color"]
 @sapPrimary7: #d3d7d9;
-
-// [Label "Shell Background Pattern Color"]
-// [Description "The background pattern color of the shell. To turn off the pattern set the value to 'transparent'."]
-// [Tags "ThemeSpecific", "Base", "Shell", "Color", "!Protected"]
-// [Protected "!true"]
-// [Category "Resource"]
-// [Type "color"]
-@sapShell_BackgroundPatternColor: transparent;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -123,6 +115,9 @@
 // [Tags "!Protected"]
 // [Protected "!true"]
 @sapSelectedColor: @sapHighlightColor;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
 @sapHoverColor: lighten(@sapBackgroundColor, 3);
 
 // [Tags "!Protected"]
@@ -4054,6 +4049,9 @@
 @sapChart_Sequence_Good_Minus5: darken(@sapChart_Sequence_Good, 28);
 @sapChart_Sequence_Good_Minus5_TextColor: contrast(@sapChart_Sequence_Good_Minus5, @sapChart_Data_TextColor, @sapChart_Data_ContrastTextColor, .45);
 @sapChart_Sequence_Good_Minus5_TextShadow: 0 0 .125rem contrast(@sapChart_Sequence_Good_Minus5_TextColor, @sapContent_ShadowColor, @sapChart_ContrastShadowColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
 @sapChart_Sequence_Neutral_Plus3: lighten(saturate(@sapChart_Sequence_Neutral, 1), 30);
 @sapChart_Sequence_Neutral_Plus3_TextColor: contrast(@sapChart_Sequence_Neutral_Plus3, @sapChart_Data_TextColor, @sapChart_Data_ContrastTextColor, .45);
 @sapChart_Sequence_Neutral_Plus3_TextShadow: 0 0 .125rem contrast(@sapChart_Sequence_Neutral_Plus3_TextColor, @sapContent_ShadowColor, @sapChart_ContrastShadowColor, @sapContent_ContrastTextThreshold);
@@ -4070,6 +4068,9 @@
 @sapChart_Sequence_Neutral_TextColor: contrast(@sapChart_Sequence_Neutral, @sapChart_Data_TextColor, @sapChart_Data_ContrastTextColor, .45);
 @sapChart_Sequence_Neutral_TextShadow: 0 0 .125rem contrast(@sapChart_Sequence_Neutral_TextColor, @sapContent_ShadowColor, @sapChart_ContrastShadowColor, @sapContent_ContrastTextThreshold);
 @sapChart_Sequence_Neutral_BorderColor: @sapChart_Sequence_Neutral;
+
+// [Tags "!Protected"]
+// [Protected "!true"]
 @sapChart_Sequence_Neutral_Minus1: darken(saturate(@sapChart_Sequence_Neutral, 1), 10);
 @sapChart_Sequence_Neutral_Minus1_TextColor: contrast(@sapChart_Sequence_Neutral_Minus1, @sapChart_Data_TextColor, @sapChart_Data_ContrastTextColor, .45);
 @sapChart_Sequence_Neutral_Minus1_TextShadow: 0 0 .125rem contrast(@sapChart_Sequence_Neutral_Minus1_TextColor, @sapContent_ShadowColor, @sapChart_ContrastShadowColor, @sapContent_ContrastTextThreshold);
@@ -4082,6 +4083,9 @@
 @sapChart_Sequence_Neutral_Minus4: darken(@sapChart_Sequence_Neutral, 34);
 @sapChart_Sequence_Neutral_Minus4_TextColor: contrast(@sapChart_Sequence_Neutral_Minus4, @sapChart_Data_TextColor, @sapChart_Data_ContrastTextColor, .45);
 @sapChart_Sequence_Neutral_Minus4_TextShadow: 0 0 .125rem contrast(@sapChart_Sequence_Neutral_Minus4_TextColor, @sapContent_ShadowColor, @sapChart_ContrastShadowColor, @sapContent_ContrastTextThreshold);
+
+// [Tags "!Protected"]
+// [Protected "!true"]
 @sapChart_Sequence_Neutral_Minus5: darken(@sapChart_Sequence_Neutral, 40);
 @sapChart_Sequence_Neutral_Minus5_TextColor: contrast(@sapChart_Sequence_Neutral_Minus5, @sapChart_Data_TextColor, @sapChart_Data_ContrastTextColor, .45);
 @sapChart_Sequence_Neutral_Minus5_TextShadow: 0 0 .125rem contrast(@sapChart_Sequence_Neutral_Minus5_TextColor, @sapContent_ShadowColor, @sapChart_ContrastShadowColor, @sapContent_ContrastTextThreshold);
@@ -4153,3 +4157,12 @@
 @sapBreakpoint_M_Min: 600px;
 @sapBreakpoint_L_Min: 1024px;
 @sapBreakpoint_XL_Min: 1440px;
+
+// [Label "Shell Background Pattern Color"]
+// [Description "This parameter is deprecated and has no effect. There is no background pattern."]
+// [Tags "ThemeSpecific", "Base", "Shell", "Color", "Protected", "Deprecated"]
+// [Protected "true"]
+// [Deprecated "true"]
+// [Category "Resource"]
+// [Type "color"]
+@sapShell_BackgroundPatternColor: transparent;
