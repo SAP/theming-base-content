@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 16.1.14 */
+/* Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 16.1.17 */
 $sapBrandColor: #427cac;
 $sapHighlightColor: #427cac;
 $sapBaseColor: #eff4f9;
@@ -16,7 +16,6 @@ $sapBackgroundImageRepeat: false;
 $sapSelectedColor: #427cac;
 $sapHoverColor: #f0f0f0;
 $sapActiveColor: #427cac;
-$sapHighlightTextColor: #fff;
 $sapTitleColor: #333;
 $sapNegativeColor: #bb0000;
 $sapCriticalColor: #e78c07;
@@ -387,7 +386,6 @@ $sapButton_Emphasized_Active_Background: #427cac;
 $sapButton_Emphasized_Active_BorderColor: #427cac;
 $sapButton_Emphasized_Active_TextColor: #fff;
 $sapButton_Emphasized_TextShadow: rgba(0,0,0,0.5);
-$sapButton_Emphasized_FontWeight: regular;
 $sapButton_Reject_Background: #f7f7f7;
 $sapButton_Reject_BorderColor: #bb0000;
 $sapButton_Reject_TextColor: #b00;
@@ -1526,6 +1524,9 @@ $sapFontUrl_72Mono_Bold_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-
 $sapFontUrl_72Mono_Bold_full_woff2: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff2');
 $sapFontUrl_72Mono_Bold_full_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff');
 $sapSapThemeId: sap_belize;
+$sapHighlightTextColor: #fff;
+$sapButton_Emphasized_FontWeight: regular;
+$sapShell_BackgroundGradient: linear-gradient(to bottom, #acc4dc, #e8ecf0);
 $sapBreakpoint_S_Min: 0;
 $sapBreakpoint_M_Min: 600px;
 $sapBreakpoint_L_Min: 1024px;
@@ -1538,7 +1539,6 @@ $sapContrast--sapLinkColor: #7ed0ff;
 $sapContrast--sapSelectedColor: #91c8f6;
 $sapContrast--sapHoverColor: #45596a;
 $sapContrast--sapActiveColor: #91c8f6;
-$sapContrast--sapHighlightTextColor: #2f3c48;
 $sapContrast--sapTitleColor: #fafafa;
 $sapContrast--sapNegativeColor: #ff8888;
 $sapContrast--sapCriticalColor: #fabd64;
@@ -2391,3 +2391,5 @@ $sapContrast--sapChart_Sequence_Neutral_TextColor: #07090a;
 $sapContrast--sapChart_Sequence_Neutral_Minus1_TextColor: #07090a;
 $sapContrast--sapChart_Sequence_Neutral_Minus1_TextShadow: 0 0 .125rem #fff;
 $sapContrast--sapSapThemeId: sap_belize_plus;
+$sapContrast--sapHighlightTextColor: #2f3c48;
+$sapContrast--sapShell_BackgroundGradient: linear-gradient(to bottom, #2b4863, #9ebfde);

@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 16.1.14
-* data:{"sModified":"2025-12-12T06:08:33Z"}
+* Theming Engine 16.1.17
+* data:{"sModified":"2026-01-20T14:33:00Z"}
 */
 
 
-/******************* FILE /Base/baseLib/sap_fiori_3_hcb/base.less (Version 11.32.3) *******************/
+/******************* FILE /Base/baseLib/sap_fiori_3_hcb/base.less (Version 11.33.0) *******************/
 
 
 // [Tags "SapInternal", "Base", "Dimension", "Protected"]
@@ -179,10 +179,6 @@
 // [Tags "!Protected"]
 // [Protected "!true"]
 @sapActiveColor: @sapHighlightColor;
-
-// [Tags "!Protected"]
-// [Protected "!true"]
-@sapHighlightTextColor: contrast(@sapHighlightColor, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -1408,10 +1404,6 @@
 // [Tags "!Protected"]
 // [Protected "!true"]
 @sapButton_Emphasized_TextShadow: transparent;
-
-// [Tags "!Protected"]
-// [Protected "!true"]
-@sapButton_Emphasized_FontWeight: bold;
 
 // [Tags "!Protected"]
 // [Protected "!true"]
@@ -4203,8 +4195,10 @@
 @sapSvgLib_SAPGUI-icons: url(./../sap_fiori_3/svg/libs/SAPGUI-icons.svg);
 @sapSvgLib_SAPWeb-icons: url(./../sap_fiori_3/svg/libs/SAPWeb-icons.svg);
 @sapSapThemeId: sap_fiori_3_hcb;
+@sapHighlightTextColor: contrast(@sapHighlightColor, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);
 @sapBackgroundColorDefault: @sapBackgroundColor;
 @sapList_HighlightColor: @sapHighlightColor;
+@sapButton_Emphasized_FontWeight: bold;
 @sapBreakpoint_S_Min: 0;
 @sapBreakpoint_M_Min: 600px;
 @sapBreakpoint_L_Min: 1024px;

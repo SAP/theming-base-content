@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 16.1.14 */
+/* Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt..  Theming Engine 16.1.17 */
 $sapBrandColor: #0070f2;
 $sapHighlightColor: #0064d9;
 $sapBaseColor: #fff;
@@ -16,7 +16,6 @@ $sapBackgroundImageRepeat: false;
 $sapSelectedColor: #0064d9;
 $sapHoverColor: #eaecee;
 $sapActiveColor: #dee2e5;
-$sapHighlightTextColor: #fff;
 $sapTitleColor: #131e29;
 $sapNegativeColor: #aa0808;
 $sapCriticalColor: #e76500;
@@ -387,7 +386,6 @@ $sapButton_Emphasized_Active_Background: #fff;
 $sapButton_Emphasized_Active_BorderColor: #0064d9;
 $sapButton_Emphasized_Active_TextColor: #0064d9;
 $sapButton_Emphasized_TextShadow: transparent;
-$sapButton_Emphasized_FontWeight: bold;
 $sapButton_Reject_Background: #ffd6e9;
 $sapButton_Reject_BorderColor: #ffc2de;
 $sapButton_Reject_TextColor: #aa0808;
@@ -1526,6 +1524,9 @@ $sapFontUrl_72Mono_Bold_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-
 $sapFontUrl_72Mono_Bold_full_woff2: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff2');
 $sapFontUrl_72Mono_Bold_full_woff: url('../../../Base/baseLib/baseTheme/fonts/72Mono-Bold-full.woff');
 $sapSapThemeId: sap_horizon;
+$sapHighlightTextColor: #fff;
+$sapButton_Emphasized_FontWeight: bold;
+$sapShell_BackgroundGradient: linear-gradient(to bottom, #eff1f2, #eff1f2);
 $sapBreakpoint_S_Min: 0;
 $sapBreakpoint_M_Min: 600px;
 $sapBreakpoint_L_Min: 1024px;
