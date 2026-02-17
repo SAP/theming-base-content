@@ -63,18 +63,6 @@
       "type": "string",
       "description": "Technical identifier of the SAP-provided theme or of the SAP-provided theme a custom theme is based on."
     },
-    "sapSvgLib_SAPWeb-icons": {
-      "value": "url(./svg/libs/SAPWeb-icons.svg)",
-      "type": "file"
-    },
-    "sapSvgLib_SAPGUI-icons": {
-      "value": "url(./svg/libs/SAPGUI-icons.svg)",
-      "type": "file"
-    },
-    "sapSvgLib_SAP-icons": {
-      "value": "none",
-      "type": "asset"
-    },
     "sapFontUrl_72Mono_Bold_full_woff": {
       "value": "url(./../baseTheme/fonts/72Mono-Bold-full.woff)",
       "type": "file"
@@ -1979,7 +1967,7 @@
       "sapButton_Selected_TokenBorderWidth": {
         "value": "0",
         "type": "borderWidth",
-        "description": "Defines the thickness of the border of a token."
+        "description": "Defines the additional thickness of the bottom border of selected tokens."
       },
       "sapButton_TokenBorderCornerRadius": {
         "value": "0.25 * {Internal.sapContent_GridSize}",

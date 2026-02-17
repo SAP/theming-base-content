@@ -1,11 +1,11 @@
 /**
 * Copyright (c) 2012-2025 SAP SE or an SAP affiliate company and Theming Base Content contributors. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
-* Theming Engine 16.1.17
-* data:{"sModified":"2026-01-20T14:33:00Z"}
+* Theming Engine 17.0.0
+* data:{"sModified":"2026-02-10T08:50:44Z"}
 */
 
 
-/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.33.0) *******************/
+/******************* FILE /Base/baseLib/baseTheme/base.less (Version 11.34.0) *******************/
 
 
 // [Label "Brand Color"]
@@ -4427,8 +4427,8 @@
 // [TranslationKey "sapButton_TokenBrdRd"]
 @sapButton_TokenBorderCornerRadius: @sapDefault_BorderStyle;
 
-// [Label "Token Border Border Thickness"]
-// [Description "Defines the thickness of the border of a token."]
+// [Label "Selected Token Bottom Border Thickness"]
+// [Description "Defines the additional thickness of the bottom border of selected tokens."]
 // [Tags "Base", "Button", "Protected"]
 // [Protected "true"]
 // [Category "Button", "Token"]
@@ -12430,6 +12430,38 @@
 // [TranslationKey "sapChart_Seq_Neut_M5_TxtShadow"]
 @sapChart_Sequence_Neutral_Minus5_TextShadow: @sapDefault_Shadow;
 
+// [Label "Breakpoint S Minimum"]
+// [Description "Minimal width of small devices."]
+// [Tags "Base", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapBreakpoint_S_Min: @sapDefault_Dimension;
+
+// [Label "Breakpoint M Minimum"]
+// [Description "Minimal width of medium devices."]
+// [Tags "Base", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapBreakpoint_M_Min: @sapDefault_Dimension;
+
+// [Label "Breakpoint L Minimum"]
+// [Description "Minimal width of large devices."]
+// [Tags "Base", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapBreakpoint_L_Min: @sapDefault_Dimension;
+
+// [Label "Breakpoint XL Minimum"]
+// [Description "Minimal width of extra large devices."]
+// [Tags "Base", "Protected"]
+// [Protected "true"]
+// [Category "Internal"]
+// [Type "sizing"]
+@sapBreakpoint_XL_Min: @sapDefault_Dimension;
+
 // [Tags "SapInternal", "Base", "URI", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
@@ -12772,24 +12804,6 @@
 // [Type "asset"]
 @sapFontUrl_72Mono_Bold_full_woff: none;
 
-// [Tags "SapInternal", "Base", "URI", "Protected"]
-// [Protected "true"]
-// [Category "Internal"]
-// [Type "asset"]
-@sapSvgLib_SAP-icons: none;
-
-// [Tags "SapInternal", "Base", "URI", "Protected"]
-// [Protected "true"]
-// [Category "Internal"]
-// [Type "asset"]
-@sapSvgLib_SAPGUI-icons: none;
-
-// [Tags "SapInternal", "Base", "URI", "Protected"]
-// [Protected "true"]
-// [Category "Internal"]
-// [Type "asset"]
-@sapSvgLib_SAPWeb-icons: none;
-
 // [Label "SAP Theme Id"]
 // [Description "Technical identifier of the SAP-provided theme or of the SAP-provided theme a custom theme is based on."]
 // [Tags "SapInternal", "Base", "Protected"]
@@ -12925,6 +12939,31 @@
 // [Type "image"]
 @sapShell_BackgroundGradient: @sapShell_BackgroundImage;
 
+// [Tags "SapInternal", "Base", "URI", "Protected", "Deprecated"]
+// [Protected "true"]
+// [Deprecated "true"]
+// [Category "Internal"]
+// [Type "asset"]
+@sapSvgLib_SAP-icons: none;
+
+// [Tags "SapInternal", "Base", "URI", "Protected", "Deprecated"]
+// [Protected "true"]
+// [Deprecated "true"]
+// [Category "Internal"]
+// [Type "asset"]
+@sapSvgLib_SAPGUI-icons: none;
+
+// [Tags "SapInternal", "Base", "URI", "Protected", "Deprecated"]
+// [Protected "true"]
+// [Deprecated "true"]
+// [Category "Internal"]
+// [Type "asset"]
+@sapSvgLib_SAPWeb-icons: none;
+@sapCss_SvgIconBase: false;
+@sapCss_SvgIconCritical: false;
+@sapCss_SvgIconPositive: false;
+@sapCss_SvgIconNegative: false;
+
 // [Tags "SapInternal", "Base", "Color", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
@@ -12997,37 +13036,11 @@
 // [Type "string"]
 @sapToBeDefined: ~"To Be Defined";
 
-// [Label "Breakpoint S Minimum"]
-// [Description "Minimal width of small devices."]
-// [Tags "Base", "Protected"]
+// [Tags "SapInternal", "Base", "Protected"]
 // [Protected "true"]
 // [Category "Internal"]
-// [Type "sizing"]
-@sapBreakpoint_S_Min: @sapDefault_Dimension;
-
-// [Label "Breakpoint M Minimum"]
-// [Description "Minimal width of medium devices."]
-// [Tags "Base", "Protected"]
-// [Protected "true"]
-// [Category "Internal"]
-// [Type "sizing"]
-@sapBreakpoint_M_Min: @sapDefault_Dimension;
-
-// [Label "Breakpoint L Minimum"]
-// [Description "Minimal width of large devices."]
-// [Tags "Base", "Protected"]
-// [Protected "true"]
-// [Category "Internal"]
-// [Type "sizing"]
-@sapBreakpoint_L_Min: @sapDefault_Dimension;
-
-// [Label "Breakpoint XL Minimum"]
-// [Description "Minimal width of extra large devices."]
-// [Tags "Base", "Protected"]
-// [Protected "true"]
-// [Category "Internal"]
-// [Type "sizing"]
-@sapBreakpoint_XL_Min: @sapDefault_Dimension;
+// [Type "string"]
+@sapAt: ~"@";
 @sapCss_SAP-icons: true;
 @sapCss_SAP-icons-TNT: false;
 @sapCss_SAP-icons-Business-Suite: false;
@@ -13055,10 +13068,6 @@
 @sapCss_72Monofull: @sapCss_72Mono;
 @sapCss_72MonoBold: @sapCss_72Mono;
 @sapCss_72MonoBoldfull: @sapCss_72MonoBold;
-@sapCss_SvgIconBase: true;
-@sapCss_SvgIconCritical: @sapCss_SvgIconBase;
-@sapCss_SvgIconPositive: @sapCss_SvgIconBase;
-@sapCss_SvgIconNegative: @sapCss_SvgIconBase;
 /*!SAP_POSTPROCESS_REDUCE_START*/
 /*<SAP_FREETEXT_LESS>*/
 .sapCss_SAP-icons() when (@sapCss_SAP-icons) {
@@ -13365,28 +13374,4 @@ src: @sapFontUrl_72Mono_Bold_full_woff2 format('woff2'), @sapFontUrl_72Mono_Bold
 }
 }
 .sapCss_72MonoBoldfull();
-.sapCss_SvgIconNegative() when (@sapCss_SvgIconNegative) {
-.sapSvgIconNegative {
-fill: @sapNegativeElementColor !important;
-}
-}
-.sapCss_SvgIconNegative();
-.sapCss_SvgIconCritical() when (@sapCss_SvgIconCritical) {
-.sapSvgIconCritical {
-fill: @sapCriticalElementColor !important;
-}
-}
-.sapCss_SvgIconCritical();
-.sapCss_SvgIconPositive() when (@sapCss_SvgIconPositive) {
-.sapSvgIconPositive {
-fill: @sapPositiveElementColor !important;
-}
-}
-.sapCss_SvgIconPositive();
-.sapCss_SvgIconBase() when (@sapCss_SvgIconBase) {
-.sapSvgIconBase {
-fill: @sapBaseColor !important;
-}
-}
-.sapCss_SvgIconBase();
 /*</SAP_FREETEXT_LESS>*//*!SAP_POSTPROCESS_REDUCE_END*/
