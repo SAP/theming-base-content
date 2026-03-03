@@ -1,25 +1,5 @@
 {
   "Internal": {
-    "sapBreakpoint_XL_Min": {
-      "value": "1440px",
-      "type": "sizing",
-      "description": "Minimal width of extra large devices."
-    },
-    "sapBreakpoint_L_Min": {
-      "value": "1024px",
-      "type": "sizing",
-      "description": "Minimal width of large devices."
-    },
-    "sapBreakpoint_M_Min": {
-      "value": "600px",
-      "type": "sizing",
-      "description": "Minimal width of medium devices."
-    },
-    "sapBreakpoint_S_Min": {
-      "value": "0",
-      "type": "sizing",
-      "description": "Minimal width of small devices."
-    },
     "sapContent_ElementHeight_PX": {
       "value": "22px",
       "type": "sizing",
@@ -262,6 +242,26 @@
     "sapFontUrl_SAP-icons_ttf": {
       "value": "url(./../baseTheme/fonts/SAP-icons.ttf)",
       "type": "file"
+    },
+    "sapBreakpoint_XL_Min": {
+      "value": "1440px",
+      "type": "sizing",
+      "description": "Minimal width of extra large devices."
+    },
+    "sapBreakpoint_L_Min": {
+      "value": "1024px",
+      "type": "sizing",
+      "description": "Minimal width of large devices."
+    },
+    "sapBreakpoint_M_Min": {
+      "value": "600px",
+      "type": "sizing",
+      "description": "Minimal width of medium devices."
+    },
+    "sapBreakpoint_S_Min": {
+      "value": "0",
+      "type": "sizing",
+      "description": "Minimal width of small devices."
     },
     "sapContent_Gap": {
       "value": "1rem",

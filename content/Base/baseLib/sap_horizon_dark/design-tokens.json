@@ -95,515 +95,6 @@
       "description": "The threshold to switch to alternative text color to keep contrast for texts."
     }
   },
-  "Internal": {
-    "sapBreakpoint_XL_Min": {
-      "value": "1440px",
-      "type": "sizing",
-      "description": "Minimal width of extra large devices."
-    },
-    "sapBreakpoint_L_Min": {
-      "value": "1024px",
-      "type": "sizing",
-      "description": "Minimal width of large devices."
-    },
-    "sapBreakpoint_M_Min": {
-      "value": "600px",
-      "type": "sizing",
-      "description": "Minimal width of medium devices."
-    },
-    "sapBreakpoint_S_Min": {
-      "value": "0",
-      "type": "sizing",
-      "description": "Minimal width of small devices."
-    },
-    "sapSapThemeId": {
-      "value": "sap_horizon_dark",
-      "type": "string",
-      "description": "Technical identifier of the SAP-provided theme or of the SAP-provided theme a custom theme is based on."
-    },
-    "sapFontUrl_72Mono_Bold_full_woff": {
-      "value": "url(./../baseTheme/fonts/72Mono-Bold-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Bold_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72Mono-Bold-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Bold_woff": {
-      "value": "url(./../baseTheme/fonts/72Mono-Bold.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Bold_woff2": {
-      "value": "url(./../baseTheme/fonts/72Mono-Bold.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Regular_full_woff": {
-      "value": "url(./../baseTheme/fonts/72Mono-Regular-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Regular_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72Mono-Regular-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Regular_woff": {
-      "value": "url(./../baseTheme/fonts/72Mono-Regular.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72Mono_Regular_woff2": {
-      "value": "url(./../baseTheme/fonts/72Mono-Regular.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Italic_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Italic-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Italic_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Italic-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Italic_woff": {
-      "value": "url(./../baseTheme/fonts/72-Italic.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Italic_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Italic.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_CondensedBold_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-CondensedBold-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_CondensedBold_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-CondensedBold-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_CondensedBold_woff": {
-      "value": "url(./../baseTheme/fonts/72-CondensedBold.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_CondensedBold_woff2": {
-      "value": "url(./../baseTheme/fonts/72-CondensedBold.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Condensed_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Condensed-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Condensed_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Condensed-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Condensed_woff": {
-      "value": "url(./../baseTheme/fonts/72-Condensed.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Condensed_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Condensed.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_BoldItalic_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-BoldItalic-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_BoldItalic_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-BoldItalic-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_BoldItalic_woff": {
-      "value": "url(./../baseTheme/fonts/72-BoldItalic.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_BoldItalic_woff2": {
-      "value": "url(./../baseTheme/fonts/72-BoldItalic.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Black_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Black-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Black_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Black-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Black_woff": {
-      "value": "url(./../baseTheme/fonts/72-Black.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Black_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Black.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Light_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Light-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Light_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Light-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Light_woff": {
-      "value": "url(./../baseTheme/fonts/72-Light.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Light_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Light.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_SemiboldDuplex_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_SemiboldDuplex_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_SemiboldDuplex_woff": {
-      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_SemiboldDuplex_woff2": {
-      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Semibold_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Semibold-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Semibold_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Semibold-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Semibold_woff": {
-      "value": "url(./../baseTheme/fonts/72-Semibold.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Semibold_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Semibold.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Bold_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Bold-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Bold_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Bold-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Bold_woff": {
-      "value": "url(./../baseTheme/fonts/72-Bold.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Bold_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Bold.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Regular_full_woff": {
-      "value": "url(./../baseTheme/fonts/72-Regular-full.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Regular_full_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Regular-full.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Regular_woff": {
-      "value": "url(./../baseTheme/fonts/72-Regular.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_72_Regular_woff2": {
-      "value": "url(./../baseTheme/fonts/72-Regular.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons-Business-Suite_woff2": {
-      "value": "url(./../sap_horizon/fonts/BusinessSuiteInAppSymbols.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons-Business-Suite_woff": {
-      "value": "url(./../sap_horizon/fonts/BusinessSuiteInAppSymbols.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons-Business-Suite_ttf": {
-      "value": "url(./../sap_horizon/fonts/BusinessSuiteInAppSymbols.ttf)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons-TNT_woff2": {
-      "value": "url(./../sap_horizon/fonts/SAP-icons-TNT.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons-TNT_woff": {
-      "value": "url(./../sap_horizon/fonts/SAP-icons-TNT.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons-TNT_ttf": {
-      "value": "url(./../sap_horizon/fonts/SAP-icons-TNT.ttf)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons_woff2": {
-      "value": "url(./../sap_horizon/fonts/SAP-icons.woff2)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons_woff": {
-      "value": "url(./../sap_horizon/fonts/SAP-icons.woff)",
-      "type": "file"
-    },
-    "sapFontUrl_SAP-icons_ttf": {
-      "value": "url(./../sap_horizon/fonts/SAP-icons.ttf)",
-      "type": "file"
-    },
-    "sapContent_Gap": {
-      "value": "1rem",
-      "type": "sizing",
-      "description": "The value of the gap between content."
-    },
-    "sapContent_Padding_M": {
-      "value": "2rem",
-      "type": "sizing",
-      "description": "The value of padding used on medium devices."
-    },
-    "sapContent_Margin_M": {
-      "value": "1rem",
-      "type": "sizing",
-      "description": "The responsive container margin on medium devices."
-    },
-    "sapContent_Margin_Large": {
-      "value": "{sapContent_Margin_XL}",
-      "type": "sizing",
-      "description": "Will be deprecated. Use instead: sapContent_Space_Large for a constant margin, sapContent_Margin_XL for a responsive margin."
-    },
-    "sapContent_Margin_Medium": {
-      "value": "{sapContent_Margin_L}",
-      "type": "sizing",
-      "description": "Will be deprecated. Use instead: sapContent_Space_Medium for a constant margin, sapContent_Margin_L for a responsive margin."
-    },
-    "sapContent_Margin_Small": {
-      "value": "{Internal.sapContent_Margin_M}",
-      "type": "sizing",
-      "description": "Will be deprecated. Use instead: sapContent_Space_Small for a constant margin, sapContent_Margin_M for a responsive margin."
-    },
-    "sapContent_Margin_Tiny": {
-      "value": "{sapContent_Margin_S}",
-      "type": "sizing",
-      "description": "Will be deprecated. Use instead: sapContent_Space_Tiny for a constant margin, sapContent_Margin_S for a responsive margin."
-    },
-    "sapContent_Space_Large": {
-      "value": "3rem",
-      "type": "sizing",
-      "description": "The large value of space used for content."
-    },
-    "sapContent_Space_Medium": {
-      "value": "2rem",
-      "type": "sizing",
-      "description": "The medium value of space used for content."
-    },
-    "sapContent_Space_Small": {
-      "value": "1rem",
-      "type": "sizing",
-      "description": "The small value of space used for content."
-    },
-    "sapContent_Space_Tiny": {
-      "value": "0.5rem",
-      "type": "sizing",
-      "description": "The tiny value of space used for content."
-    },
-    "sapContent_Space_M": {
-      "value": "2rem",
-      "type": "sizing",
-      "description": "The responsive content container space on medium devices."
-    },
-    "sapContent_DisabledOpacity": {
-      "value": "0.4",
-      "type": "opacity",
-      "description": "The opacity value of disabled screen elements in the content area."
-    },
-    "sapContent_IconHeight": {
-      "value": "{Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The height of inline icons in the content area."
-    },
-    "sapContent_LineHeight": {
-      "value": "1.5",
-      "type": "lineHeight",
-      "description": "The height of lines in the content area (in em). Basically this is used as the CSS line-height property."
-    },
-    "sapElement_Condensed_Height": {
-      "value": "1.375 * {Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The condensed height of inline elements in the content area."
-    },
-    "sapElement_Condensed_LineHeight": {
-      "value": "1.5 * {Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The condensed height of the line box surrounding the inline elements in the content area."
-    },
-    "sapElement_Compact_Height": {
-      "value": "1.625 * {Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The compact height of inline elements in the content area."
-    },
-    "sapElement_Compact_LineHeight": {
-      "value": "2 * {Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The compact height of the line box surrounding the inline elements in the content area."
-    },
-    "sapElement_BorderWidth": {
-      "value": "0.0625 * {Internal.sapContent_GridSize}",
-      "type": "borderWidth",
-      "description": "The standard thickness of element borders."
-    },
-    "sapElement_Height": {
-      "value": "2.25 * {Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The height of inline elements in the content area."
-    },
-    "sapElement_LineHeight": {
-      "value": "2.75 * {Internal.sapContent_GridSize}",
-      "type": "sizing",
-      "description": "The height of the line box surrounding the inline elements in the content area."
-    },
-    "_sapPrimary7H": {
-      "value": "209.18918918918916",
-      "type": "internal"
-    },
-    "_sapPrimary7S": {
-      "value": "17.535545023696685%",
-      "type": "internal"
-    },
-    "_sapPrimary7L": {
-      "value": "58.62745098039215%",
-      "type": "internal"
-    },
-    "_sapPrimary7A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary7": {
-      "value": "hsla({Internal._sapPrimary7H}, {Internal._sapPrimary7S}, {Internal._sapPrimary7L}, {Internal._sapPrimary7A})",
-      "type": "color"
-    },
-    "_sapPrimary6H": {
-      "value": "210",
-      "type": "internal"
-    },
-    "_sapPrimary6S": {
-      "value": "11.111111111111075%",
-      "type": "internal"
-    },
-    "_sapPrimary6L": {
-      "value": "96.47058823529412%",
-      "type": "internal"
-    },
-    "_sapPrimary6A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary6": {
-      "value": "hsla({Internal._sapPrimary6H}, {Internal._sapPrimary6S}, {Internal._sapPrimary6L}, {Internal._sapPrimary6A})",
-      "type": "color"
-    },
-    "_sapPrimary5H": {
-      "value": "208.57142857142856",
-      "type": "internal"
-    },
-    "_sapPrimary5S": {
-      "value": "13.907284768211925%",
-      "type": "internal"
-    },
-    "_sapPrimary5L": {
-      "value": "70.3921568627451%",
-      "type": "internal"
-    },
-    "_sapPrimary5A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary5": {
-      "value": "hsla({Internal._sapPrimary5H}, {Internal._sapPrimary5S}, {Internal._sapPrimary5L}, {Internal._sapPrimary5A})",
-      "type": "color"
-    },
-    "_sapPrimary4H": {
-      "value": "210",
-      "type": "internal"
-    },
-    "_sapPrimary4S": {
-      "value": "21.739130434782606%",
-      "type": "internal"
-    },
-    "_sapPrimary4L": {
-      "value": "9.019607843137255%",
-      "type": "internal"
-    },
-    "_sapPrimary4A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary4": {
-      "value": "hsla({Internal._sapPrimary4H}, {Internal._sapPrimary4S}, {Internal._sapPrimary4L}, {Internal._sapPrimary4A})",
-      "type": "color"
-    },
-    "_sapPrimary3H": {
-      "value": "212.30769230769226",
-      "type": "internal"
-    },
-    "_sapPrimary3S": {
-      "value": "18.309859154929576%",
-      "type": "internal"
-    },
-    "_sapPrimary3L": {
-      "value": "13.92156862745098%",
-      "type": "internal"
-    },
-    "_sapPrimary3A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary3": {
-      "value": "hsla({Internal._sapPrimary3H}, {Internal._sapPrimary3S}, {Internal._sapPrimary3L}, {Internal._sapPrimary3A})",
-      "type": "color"
-    },
-    "_sapPrimary2H": {
-      "value": "206.29213483146066",
-      "type": "internal"
-    },
-    "_sapPrimary2S": {
-      "value": "100%",
-      "type": "internal"
-    },
-    "_sapPrimary2L": {
-      "value": "65.09803921568627%",
-      "type": "internal"
-    },
-    "_sapPrimary2A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary2": {
-      "value": "hsla({Internal._sapPrimary2H}, {Internal._sapPrimary2S}, {Internal._sapPrimary2L}, {Internal._sapPrimary2A})",
-      "type": "color"
-    },
-    "_sapPrimary1H": {
-      "value": "210.90909090909088",
-      "type": "internal"
-    },
-    "_sapPrimary1S": {
-      "value": "36.26373626373625%",
-      "type": "internal"
-    },
-    "_sapPrimary1L": {
-      "value": "17.84313725490196%",
-      "type": "internal"
-    },
-    "_sapPrimary1A": {
-      "value": "1",
-      "type": "internal"
-    },
-    "sapPrimary1": {
-      "value": "hsla({Internal._sapPrimary1H}, {Internal._sapPrimary1S}, {Internal._sapPrimary1L}, {Internal._sapPrimary1A})",
-      "type": "color"
-    },
-    "sapContent_GridSize": {
-      "value": "1rem",
-      "type": "dimension"
-    }
-  },
   "Shell": {
     "sapShell_BackgroundGradient": {
       "value": "linear-gradient(to bottom, {Shell.sapShell_Background}, {Shell.sapShell_Background})",
@@ -6362,6 +5853,515 @@
     "_sapList_HeaderBorderColorA": {
       "value": "{Container._sapGroup_TitleBorderColorA}",
       "type": "internal"
+    }
+  },
+  "Internal": {
+    "sapSapThemeId": {
+      "value": "sap_horizon_dark",
+      "type": "string",
+      "description": "Technical identifier of the SAP-provided theme or of the SAP-provided theme a custom theme is based on."
+    },
+    "sapFontUrl_72Mono_Bold_full_woff": {
+      "value": "url(./../baseTheme/fonts/72Mono-Bold-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Bold_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72Mono-Bold-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Bold_woff": {
+      "value": "url(./../baseTheme/fonts/72Mono-Bold.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Bold_woff2": {
+      "value": "url(./../baseTheme/fonts/72Mono-Bold.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Regular_full_woff": {
+      "value": "url(./../baseTheme/fonts/72Mono-Regular-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Regular_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72Mono-Regular-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Regular_woff": {
+      "value": "url(./../baseTheme/fonts/72Mono-Regular.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72Mono_Regular_woff2": {
+      "value": "url(./../baseTheme/fonts/72Mono-Regular.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Italic_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Italic-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Italic_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Italic-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Italic_woff": {
+      "value": "url(./../baseTheme/fonts/72-Italic.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Italic_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Italic.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_CondensedBold_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-CondensedBold-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_CondensedBold_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-CondensedBold-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_CondensedBold_woff": {
+      "value": "url(./../baseTheme/fonts/72-CondensedBold.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_CondensedBold_woff2": {
+      "value": "url(./../baseTheme/fonts/72-CondensedBold.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Condensed_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Condensed-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Condensed_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Condensed-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Condensed_woff": {
+      "value": "url(./../baseTheme/fonts/72-Condensed.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Condensed_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Condensed.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_BoldItalic_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-BoldItalic-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_BoldItalic_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-BoldItalic-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_BoldItalic_woff": {
+      "value": "url(./../baseTheme/fonts/72-BoldItalic.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_BoldItalic_woff2": {
+      "value": "url(./../baseTheme/fonts/72-BoldItalic.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Black_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Black-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Black_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Black-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Black_woff": {
+      "value": "url(./../baseTheme/fonts/72-Black.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Black_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Black.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Light_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Light-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Light_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Light-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Light_woff": {
+      "value": "url(./../baseTheme/fonts/72-Light.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Light_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Light.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_SemiboldDuplex_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_SemiboldDuplex_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_SemiboldDuplex_woff": {
+      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_SemiboldDuplex_woff2": {
+      "value": "url(./../baseTheme/fonts/72-SemiboldDuplex.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Semibold_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Semibold-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Semibold_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Semibold-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Semibold_woff": {
+      "value": "url(./../baseTheme/fonts/72-Semibold.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Semibold_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Semibold.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Bold_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Bold-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Bold_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Bold-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Bold_woff": {
+      "value": "url(./../baseTheme/fonts/72-Bold.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Bold_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Bold.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Regular_full_woff": {
+      "value": "url(./../baseTheme/fonts/72-Regular-full.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Regular_full_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Regular-full.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Regular_woff": {
+      "value": "url(./../baseTheme/fonts/72-Regular.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_72_Regular_woff2": {
+      "value": "url(./../baseTheme/fonts/72-Regular.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons-Business-Suite_woff2": {
+      "value": "url(./../sap_horizon/fonts/BusinessSuiteInAppSymbols.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons-Business-Suite_woff": {
+      "value": "url(./../sap_horizon/fonts/BusinessSuiteInAppSymbols.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons-Business-Suite_ttf": {
+      "value": "url(./../sap_horizon/fonts/BusinessSuiteInAppSymbols.ttf)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons-TNT_woff2": {
+      "value": "url(./../sap_horizon/fonts/SAP-icons-TNT.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons-TNT_woff": {
+      "value": "url(./../sap_horizon/fonts/SAP-icons-TNT.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons-TNT_ttf": {
+      "value": "url(./../sap_horizon/fonts/SAP-icons-TNT.ttf)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons_woff2": {
+      "value": "url(./../sap_horizon/fonts/SAP-icons.woff2)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons_woff": {
+      "value": "url(./../sap_horizon/fonts/SAP-icons.woff)",
+      "type": "file"
+    },
+    "sapFontUrl_SAP-icons_ttf": {
+      "value": "url(./../sap_horizon/fonts/SAP-icons.ttf)",
+      "type": "file"
+    },
+    "sapBreakpoint_XL_Min": {
+      "value": "1440px",
+      "type": "sizing",
+      "description": "Minimal width of extra large devices."
+    },
+    "sapBreakpoint_L_Min": {
+      "value": "1024px",
+      "type": "sizing",
+      "description": "Minimal width of large devices."
+    },
+    "sapBreakpoint_M_Min": {
+      "value": "600px",
+      "type": "sizing",
+      "description": "Minimal width of medium devices."
+    },
+    "sapBreakpoint_S_Min": {
+      "value": "0",
+      "type": "sizing",
+      "description": "Minimal width of small devices."
+    },
+    "sapContent_Gap": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The value of the gap between content."
+    },
+    "sapContent_Padding_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The value of padding used on medium devices."
+    },
+    "sapContent_Margin_M": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The responsive container margin on medium devices."
+    },
+    "sapContent_Margin_Large": {
+      "value": "{sapContent_Margin_XL}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Large for a constant margin, sapContent_Margin_XL for a responsive margin."
+    },
+    "sapContent_Margin_Medium": {
+      "value": "{sapContent_Margin_L}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Medium for a constant margin, sapContent_Margin_L for a responsive margin."
+    },
+    "sapContent_Margin_Small": {
+      "value": "{Internal.sapContent_Margin_M}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Small for a constant margin, sapContent_Margin_M for a responsive margin."
+    },
+    "sapContent_Margin_Tiny": {
+      "value": "{sapContent_Margin_S}",
+      "type": "sizing",
+      "description": "Will be deprecated. Use instead: sapContent_Space_Tiny for a constant margin, sapContent_Margin_S for a responsive margin."
+    },
+    "sapContent_Space_Large": {
+      "value": "3rem",
+      "type": "sizing",
+      "description": "The large value of space used for content."
+    },
+    "sapContent_Space_Medium": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The medium value of space used for content."
+    },
+    "sapContent_Space_Small": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "The small value of space used for content."
+    },
+    "sapContent_Space_Tiny": {
+      "value": "0.5rem",
+      "type": "sizing",
+      "description": "The tiny value of space used for content."
+    },
+    "sapContent_Space_M": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "The responsive content container space on medium devices."
+    },
+    "sapContent_DisabledOpacity": {
+      "value": "0.4",
+      "type": "opacity",
+      "description": "The opacity value of disabled screen elements in the content area."
+    },
+    "sapContent_IconHeight": {
+      "value": "{Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The height of inline icons in the content area."
+    },
+    "sapContent_LineHeight": {
+      "value": "1.5",
+      "type": "lineHeight",
+      "description": "The height of lines in the content area (in em). Basically this is used as the CSS line-height property."
+    },
+    "sapElement_Condensed_Height": {
+      "value": "1.375 * {Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The condensed height of inline elements in the content area."
+    },
+    "sapElement_Condensed_LineHeight": {
+      "value": "1.5 * {Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The condensed height of the line box surrounding the inline elements in the content area."
+    },
+    "sapElement_Compact_Height": {
+      "value": "1.625 * {Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The compact height of inline elements in the content area."
+    },
+    "sapElement_Compact_LineHeight": {
+      "value": "2 * {Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The compact height of the line box surrounding the inline elements in the content area."
+    },
+    "sapElement_BorderWidth": {
+      "value": "0.0625 * {Internal.sapContent_GridSize}",
+      "type": "borderWidth",
+      "description": "The standard thickness of element borders."
+    },
+    "sapElement_Height": {
+      "value": "2.25 * {Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The height of inline elements in the content area."
+    },
+    "sapElement_LineHeight": {
+      "value": "2.75 * {Internal.sapContent_GridSize}",
+      "type": "sizing",
+      "description": "The height of the line box surrounding the inline elements in the content area."
+    },
+    "_sapPrimary7H": {
+      "value": "209.18918918918916",
+      "type": "internal"
+    },
+    "_sapPrimary7S": {
+      "value": "17.535545023696685%",
+      "type": "internal"
+    },
+    "_sapPrimary7L": {
+      "value": "58.62745098039215%",
+      "type": "internal"
+    },
+    "_sapPrimary7A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary7": {
+      "value": "hsla({Internal._sapPrimary7H}, {Internal._sapPrimary7S}, {Internal._sapPrimary7L}, {Internal._sapPrimary7A})",
+      "type": "color"
+    },
+    "_sapPrimary6H": {
+      "value": "210",
+      "type": "internal"
+    },
+    "_sapPrimary6S": {
+      "value": "11.111111111111075%",
+      "type": "internal"
+    },
+    "_sapPrimary6L": {
+      "value": "96.47058823529412%",
+      "type": "internal"
+    },
+    "_sapPrimary6A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary6": {
+      "value": "hsla({Internal._sapPrimary6H}, {Internal._sapPrimary6S}, {Internal._sapPrimary6L}, {Internal._sapPrimary6A})",
+      "type": "color"
+    },
+    "_sapPrimary5H": {
+      "value": "208.57142857142856",
+      "type": "internal"
+    },
+    "_sapPrimary5S": {
+      "value": "13.907284768211925%",
+      "type": "internal"
+    },
+    "_sapPrimary5L": {
+      "value": "70.3921568627451%",
+      "type": "internal"
+    },
+    "_sapPrimary5A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary5": {
+      "value": "hsla({Internal._sapPrimary5H}, {Internal._sapPrimary5S}, {Internal._sapPrimary5L}, {Internal._sapPrimary5A})",
+      "type": "color"
+    },
+    "_sapPrimary4H": {
+      "value": "210",
+      "type": "internal"
+    },
+    "_sapPrimary4S": {
+      "value": "21.739130434782606%",
+      "type": "internal"
+    },
+    "_sapPrimary4L": {
+      "value": "9.019607843137255%",
+      "type": "internal"
+    },
+    "_sapPrimary4A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary4": {
+      "value": "hsla({Internal._sapPrimary4H}, {Internal._sapPrimary4S}, {Internal._sapPrimary4L}, {Internal._sapPrimary4A})",
+      "type": "color"
+    },
+    "_sapPrimary3H": {
+      "value": "212.30769230769226",
+      "type": "internal"
+    },
+    "_sapPrimary3S": {
+      "value": "18.309859154929576%",
+      "type": "internal"
+    },
+    "_sapPrimary3L": {
+      "value": "13.92156862745098%",
+      "type": "internal"
+    },
+    "_sapPrimary3A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary3": {
+      "value": "hsla({Internal._sapPrimary3H}, {Internal._sapPrimary3S}, {Internal._sapPrimary3L}, {Internal._sapPrimary3A})",
+      "type": "color"
+    },
+    "_sapPrimary2H": {
+      "value": "206.29213483146066",
+      "type": "internal"
+    },
+    "_sapPrimary2S": {
+      "value": "100%",
+      "type": "internal"
+    },
+    "_sapPrimary2L": {
+      "value": "65.09803921568627%",
+      "type": "internal"
+    },
+    "_sapPrimary2A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary2": {
+      "value": "hsla({Internal._sapPrimary2H}, {Internal._sapPrimary2S}, {Internal._sapPrimary2L}, {Internal._sapPrimary2A})",
+      "type": "color"
+    },
+    "_sapPrimary1H": {
+      "value": "210.90909090909088",
+      "type": "internal"
+    },
+    "_sapPrimary1S": {
+      "value": "36.26373626373625%",
+      "type": "internal"
+    },
+    "_sapPrimary1L": {
+      "value": "17.84313725490196%",
+      "type": "internal"
+    },
+    "_sapPrimary1A": {
+      "value": "1",
+      "type": "internal"
+    },
+    "sapPrimary1": {
+      "value": "hsla({Internal._sapPrimary1H}, {Internal._sapPrimary1S}, {Internal._sapPrimary1L}, {Internal._sapPrimary1A})",
+      "type": "color"
+    },
+    "sapContent_GridSize": {
+      "value": "1rem",
+      "type": "dimension"
     }
   },
   "Chart": {

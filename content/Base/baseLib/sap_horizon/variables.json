@@ -67,7 +67,7 @@
 		"sapContent_Placeholderloading_Background": "#ccc",
 		"sapContent_Placeholderloading_Gradient": "linear-gradient(to right, #ccc 0%, #ccc 20%, #999 50%, #ccc 80%, #ccc 100%)",
 		"sapContent_ImagePlaceholderBackground": "#eaecee",
-		"sapContent_ImagePlaceholderForegroundColor": "#5b738b",
+		"sapContent_ImagePlaceholderForegroundColor": "#556b82",
 		"sapContent_RatedColor": "#d27700",
 		"sapContent_UnratedColor": "#758ca4",
 		"sapContent_BusyColor": "#0064d9",
